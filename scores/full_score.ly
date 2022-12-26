@@ -4,24 +4,20 @@
 \include "score_settings/full-score.ly"
 
 \book {
-  \part "part_one" "1" "Del Ballo la parte prima"
+  % \part "part_one" "1" "Del Ballo la parte prima"
   \bookpart {
     \section "1·1" "Larghetto"
     \addTocEntry
-    \paper { indent = 3\cm }
+    \paper {
+      indent = 3\cm
+      systems-per-page = #2
+    }
     \score {
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "Flauto"
-            \new Staff {
-              \set Staff.instrumentName = "I"
-              \AOneFlautoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "II"
-              \AOneFlautoII
-            }
+          \new Staff <<
+            \set Staff.instrumentName = "Flauto I, II"
+            \partCombine #'(0 . 10) \AOneFlautoI \AOneFlautoII
           >>
         >>
         \new StaffGroup <<
@@ -57,7 +53,7 @@
         \new FiguredBass { \AOneBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 80 }
     }
   }
 }
