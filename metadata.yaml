@@ -1,0 +1,22 @@
+composer:
+  last: Haydn
+  first: Johann Michael
+title: Hermann
+subtitle: Ballet pantomime in four parts
+id: MH 148
+genre: ballet
+scoring: 4 T (solo), T, B (coro), 2 fl, 2 ob, 2 piff, 2 fag, 2 cor, tbe, tam velato, tamb, tri, man, 2 vl, vla, b
+license: cc-by-nc-sa-4.0
+sources:
+  B1:
+    siglum: F-Pn
+    shelfmark: D-5674
+    date: 1771-08-01
+    rism: 840016698
+    url: https://gallica.bnf.fr/ark:/12148/btv1b100703412
+    license: custom (free for non-commercial purposes)
+    principal: true
+    notes: authentic copy by Werigand Rettensteiner, with corrections in Haydn’s hand
+imslp:
+parts:
+  cor12: Corno I, II in C
