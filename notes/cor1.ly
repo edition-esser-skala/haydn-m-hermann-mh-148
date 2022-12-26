@@ -26,3 +26,50 @@ AOneCornoI = {
     g2 r4\fermata \bar ":|." %20 finis
   }
 }
+
+ATwoCornoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoATwo
+    c'4\f c c
+    c r r
+    c r r
+    g' r r
+    f r f %5
+    g r r
+    f r f
+    g r r
+    r g g
+    g r r %10
+    r g8.[ fis16 g8. fis16]
+    g4 r r
+    r g8.[ fis16 g8. fis16] \noBreak
+    g4 g, r \bar ":|.|:"
+    g'2. \noBreak %15
+    R
+    g
+    R
+    c,
+    R %20
+    c
+    R
+    g2.~\p
+    g~
+    g~\cresc %25
+    g
+    c,\f
+    R
+    c'
+    R %30
+    f4 r f
+    g r r
+    r r g
+    g r r
+    r r g %35
+    g r r
+    r r g
+    g r g
+    g r g
+    \pa c,8. g16 c4 \pd r\fermata \bar ":|." %40 finis
+  }
+}

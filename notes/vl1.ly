@@ -26,3 +26,50 @@ AOneViolinoI = {
     \appoggiatura d2 c2.\fermata \bar ":|."
   }
 }
+
+ATwoViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 3/4 \tempoATwo
+    \mvTr es'8.\f-\senzaSord es16 es8 es es es
+    \appoggiatura f16 es8 d16 es c8 c c c
+    \appoggiatura d16 c8 h16 c g8 g g g
+    \appoggiatura f16 es8 d16 es c8 c c c
+    \kneeBeam h8. as''16 as8 as as as %5
+    g16 f es d c b! as g f es d c
+    \kneeBeam h8. as''16 as8 as as as
+    g16 f es d c b! as g f es d c
+    h4 f'' es
+    d8.[ g16 g8. as16 g8. as16] %10
+    g8.[ g,16 g8. fis16 g8. fis16]
+    g8.[ g'16 g8. as16 g8. as16]
+    g8.[ g,16 g8. fis16 g8. fis16] \noBreak
+    g4 g, r \bar ":|.|:"
+    es'2.\ff \noBreak %15
+    b'16(\p c des8) des[-! c]-! des-! r
+    des,2.\f
+    b'16(\p c des8) des[-! c]-! b-! r
+    c,2.\f
+    f'16(\p g as8) as[-! g]-! as-! r %20
+    es,!2.\f
+    c'16(\p d es8) es[-! d]-! es r
+    g,16\pp g g g as as as as g g g g
+    as as as as c c c c h h h h
+    c\cresc c c c es es es es d d d d %25
+    es es es es fis fis fis fis g g g g
+    fis,8.\ff es'16 es8 es es es
+    \appoggiatura f16 es8 d16 es c8 c c c
+    g8. es'16 es8 es es es
+    \appoggiatura f16 es8 d16 es c8 c c c %30
+    h8. as'16 as8 as as as
+    c,8. c'16 c8 c c c
+    \appoggiatura b!16 as8 g16 f \appoggiatura f es8 d16 c g'8 g,
+    c8.[ c'16 c8. des16 c8. h16]
+    c8.[ as,16 g8. f16 es8. d16] %35
+    \kneeBeam c8.[ c''16 c8. des16 c8. h16]
+    c8.[ as,16 g8. f16 es8. d16]
+    c8.[ es'16 d8. c16 h8. d16]
+    c8.[ as16 g8. f16 es8. d16]
+    c8. g16 c4 r\fermata \bar ":|." %40 finis
+  }
+}

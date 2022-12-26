@@ -2,7 +2,7 @@
 
 AOneViola = {
   \relative c' {
-    \clef treble
+    \clef alto
     \twotwotime \key c \major \time 2/2 \tempoAOne
     \partial 4 r4 r \mvTr c\fE-\pizz r c
     r c r c
@@ -24,5 +24,52 @@ AOneViola = {
     r c r h
     c a' g g,
     g2 r4\fermata \bar ":|." %20 finis
+  }
+}
+
+ATwoViola = {
+  \relative c' {
+    \clef alto
+    \key c \minor \time 3/4 \tempoATwo
+    \mvTr es8.\f-\arco es16 es8 es es es
+    \appoggiatura f16 es8 d16 es c8 c c c
+    \appoggiatura d16 c8 h16 c g8 g' g g
+    \appoggiatura f16 es8 d16 es c8 c c c
+    f f f f f f %5
+    es es es es es es
+    f f f f f f
+    es es es es es es
+    d4 g g
+    g r r %10
+    r <d h> <es c>
+    <h d> r r
+    r <h d> <c es> \noBreak
+    <h d> g r \bar ":|.|:"
+    b2.\ff \noBreak %15
+    \parOn es4\p-\parenthesize-! b-! \parOff g-\parenthesize-!
+    g2.\f
+    g'4-!\p e-! g-!
+    f,2.\f
+    f'4-!\p c-! as-! %20
+    a2.\f
+    c4\p a fis
+    g\pp r r
+    g r r
+    g\pocoF r r %25
+    g\piuF r r
+    as16\ff as as as as as as as as as as as
+    as as as as as as as as as as as as
+    g g g g g g g g g g g g
+    g g g g g g g g g g g g %30
+    f f f f f f f f f f f f
+    es es es es es es es es es es es es
+    f8 f g g g g
+    c,4 <es' g> <f as>
+    <es g>8.[ as16 g8. f16 es8. d16] %35
+    c4 <es g> <f as>
+    <es g>8.[ as16 g8. f16 es8. d16]
+    c8.[ es'16 d8. c16 h8. d16]
+    c8.[ as16 g8. f16 es8. d16]
+    c8. g16 c4 r\fermata \bar ":|."
   }
 }
