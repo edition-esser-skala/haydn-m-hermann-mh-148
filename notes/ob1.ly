@@ -41,3 +41,31 @@ ATwoOboeI = {
     c8. g16 c4 r\fermata \bar ":|." %40 finis
   }
 }
+
+AThreeOboeI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key f \major \time 2/4 \tempoAThree
+    \partial 8 r8 R2*5 %5
+    g''2~-\mezzaVoce
+    g8 e f d
+    \pao c r g' r
+    f r f r
+    e r e r %10
+    d r c h \noBreak
+    c4 r8 \bar ":|.|:" r \noBreak
+    c2~ \noBreak
+    c
+    b~ %25
+    b
+    a8 r r b'
+    a4( g8) r
+    R2*6 %24
+    r8 b, a g %25
+    \pao f r c' r
+    b r e r
+    f r f r
+    d r r g,
+    \pa \appoggiatura g f4 \pd r8\fermata \bar ":|." %30 finis
+  }
+}

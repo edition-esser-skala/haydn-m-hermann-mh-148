@@ -73,3 +73,40 @@ ATwoViola = {
     c8. g16 c4 r\fermata \bar ":|."
   }
 }
+
+AThreeViola = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key f \major \time 2/4 \tempoAThree
+    \partial 8 r8 c4.-\mezzaVoce d8
+    c4. e,8
+    f f g a
+    b( c) c r
+    c4. a'8 %5
+    g4. f8
+    e a f g
+    c, r e r
+    f r g r
+    a r e r %10
+    f r g g, \noBreak
+    c c' r \bar ":|.|:" a, \noBreak
+    a16( g f g) a( g a b) \noBreak
+    c( d c b) a8[ r16 f]
+    g( f e f) g( f g a) %15
+    a( b a b) c,8 c'
+    c a b g
+    c c' r4
+    c,4. d8
+    c4. e,8 %20
+    f f g a
+    b( c) c r
+    f,4. d'8
+    c4. b8
+    a b c c %25
+    f, r a r
+    b r c r
+    d r a r
+    b r c c
+    f[ c f,]\fermata \bar ":|." %30 finis
+  }
+}

@@ -5,8 +5,13 @@
 \include "ees.ly"
 \include "ees_articulate.ly"
 
+
+mezzaVoce = \markup \remark "mezza voce"
+
+
 tempoAOne = \tempoMarkup "Larghetto"
 tempoATwo = \tempoMarkup "Allegro"
+tempoAThree = \tempoMarkup "Andante"
 
 
 \include "notes/fl1.ly"

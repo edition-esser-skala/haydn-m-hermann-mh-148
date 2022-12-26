@@ -73,3 +73,40 @@ ATwoViolinoI = {
     c8. g16 c4 r\fermata \bar ":|." %40 finis
   }
 }
+
+AThreeViolinoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key f \major \time 2/4 \tempoAThree
+    \partial 8 f8-\mezzaVoce b4( a8) g
+    f4( e8) d
+    c f e f
+    g8.( a32 b) a8 f
+    b4( a8) d %5
+    c4( h8) d16. g,32
+    g'16[ r e16. c32] f16[ r d16. h32]
+    c16[ r e-! g]-! c,-! e,-! c'-! e-!
+    d f, d' f h, g, h' d
+    c a, c' e c e, c' e %10
+    d f, d' f e g g,, h' \noBreak
+    c,8 c' r \bar ":|.|:" c \noBreak
+    c16( b! a b) c( b c d) \noBreak
+    e( f e f) c8[ r16 c]
+    b( a g a) b( a b c) %15
+    cis( d cis d) g,8[ r16 b]
+    a( c) f a d,( fis) g b
+    \appoggiatura a4 g4. f,8
+    b4( a8) g
+    f4( e8) d %20
+    c f e f
+    g8.( a32 b) a8 f
+    es'4( d8) g
+    f4( e8) f16. d32
+    c16[ r d16. b32] a16[ r b16. g32] %25
+    f16[ r a-! c]-! f,[-! a,-! f'-! a]-!
+    g-! b,-! g''-! b-! e,-! c,-! e' g
+    f d, f' a f a,-! c-! es-!
+    d \parOn g,-\parenthesize-! b-! \parOff d-\parenthesize-! c f,-! e-! g-!
+    \appoggiatura g8 f4 r8\fermata \bar ":|." %30 finis
+  }
+}

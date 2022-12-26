@@ -139,3 +139,73 @@ ATwoBassFigures = \figuremode {
   r
   r %40 finis
 }
+
+AThreeBassoContinuo = {
+  \relative c {
+    \clef bass
+    \twofourtime \key f \major \time 2/4 \tempoAThree
+    \partial 8 a'8^\mezzaVoce g c, f b,
+    c c, r b'
+    a a' g f
+    e c f a
+    g c, f d %5
+    g g, r f'
+    e a f g
+    c, r e r
+    f r g r
+    a r e r %10
+    f r g g, \noBreak
+    c c' r \bar ":|.|:" r \noBreak
+    c,4 r \noBreak
+    r8 c f a
+    c,4 r %15
+    r8 c e c
+    f a, b g
+    c c' r a
+    g c, f b,
+    c c, r b' %20
+    a a' g f
+    e c f d'
+    c f, b g
+    c c, r b
+    a b c c %25
+    f, r a r
+    b r c r
+    d r a r
+    b r c c
+    f[ c f,]\fermata \bar ":|." %30 finis
+  }
+}
+
+AThreeBassFigures = \figuremode {
+  <6>8 q <\t>4 <6>8
+  <6 4>4 <5 3>8 <4 3>
+  <6>4 q
+  <6 5>4. <6>8
+  q <\t>4. %5
+  <6 4>4 <5 _!>8 <\t \t>
+  <6>4 q8 <_!>
+  r4 <6>
+  q <7 _!>
+  <5> <6> %10
+  q <6 4>8 <5 _!>
+  r2
+  <8 6>
+  r8 <_ _>4 \once \bassFigureExtendersOn q8
+  <7 5>2 %15
+  r8 <_ _>4 \once \bassFigureExtendersOn q8
+  r8 <6>4.
+  <6 4>4 <5 3>8 <6>
+  q <\t>4 <6>8
+  <6 4>4 <5 3>8 <4 3> %20
+  <6>4 q
+  <6 5>4. <3>8
+  <6 _-> <\t \t>4.
+  <6 4>4 <5 _!>
+  <6>8 q <6 4> <5 3> %25
+  r4 <6>
+  q <7>
+  <5> <6>
+  q <6 4>8 <5 3>
+  <9 4> <6 4> <\t \t> %30 finis
+}

@@ -73,3 +73,40 @@ ATwoViolinoII = {
     c8. g16 c4 r\fermata \bar ":|." %40 finis
   }
 }
+
+AThreeViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key f \major \time 2/4 \tempoAThree
+    \partial 8 c8-\mezzaVoce e4( f8) d
+    a4( g8) g
+    a c b a
+    g( e') f-! c
+    e4( f8) f-! %5
+    e4( d8) h'16. g32
+    c16[ r c16. e,32] a16[ r f16. d32]
+    c16[ r e'-! g-!] c,-! e,-! c'-! e-!
+    d f, d' f h, g, h' d
+    c a, c' e c e, c' e %10
+    d f, d' f c e g,, d' \noBreak
+    c8 c' r \bar ":|.|:" c, \noBreak
+    c16( b! a b) c( b c d) \noBreak
+    e( f e f) c8[ r16 c]
+    b( a g a) b( a b c) %15
+    cis( d cis d) g,8[ r16 e']
+    f( a) c f f,( a) b g'
+    \appoggiatura f4 e4. c,8
+    e4( f8) d
+    a4( g8) g %20
+    a c b a
+    g( e') f f
+    a4( b8) b
+    a4( g8) f'16. d32
+    c16[ r b16. g32] f16[ r g16. e32] %25
+    f16[ r a-! c]-! f,[-! a,-! f'-! a]-!
+    g-! b,-! g''-! b-! e,-! c,-! e' g
+    f d, f' a f a,-! c-! es-!
+    d d,-! g-! b-! a a,-! g-! b-!
+    \appoggiatura b8 a4 r8\fermata \bar ":|." %30 finis
+  }
+}
