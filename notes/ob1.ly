@@ -142,3 +142,30 @@ ASixOboeI = {
     \appoggiatura g4 fis2\fermata \bar ":|." %18 finis
   }
 }
+
+AEightOboeI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key d \major \time 2/4 \tempoAEight
+    \repeat volta 2 {
+      d'4\fE cis
+      d r8 a'
+      h,4 h'
+      cis, g
+      fis r8 cis' %5
+      d4 r8 a'
+      g4 cis,
+    }
+    \alternative { { d r } { d r } }
+    \repeat volta 2 {
+      a8[ a] h r %10
+      h[ h] cis r
+      d d d d
+      d[ h] a r
+      d4 cis
+      d r8 a' %15
+      g4 cis,
+    }
+    \alternative { { d r } { d r\fermata } } \bar "|." %18 finis
+  }
+}

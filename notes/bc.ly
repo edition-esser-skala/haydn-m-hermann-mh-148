@@ -397,3 +397,51 @@ ASevenBassFigures = \figuremode {
   r <6 4> <5 _+> %15
   r4. %16 finis
 }
+
+AEightBassoContinuo = {
+  \relative c {
+    \clef bass
+    \twofourtime \key d \major \time 2/4 \tempoAEight
+    \repeat volta 2 {
+      d8\fE fis a g
+      fis e fis d
+      g g, g' e
+      a a, r cis
+      d fis a g %5
+      fis e fis d
+      g, g' a a,
+    }
+    \alternative { { d4 d'16 a fis a } { d,4 d16 cis d e } }
+    \repeat volta 2 {
+      fis8[ d] g r %10
+      g[ e] a r
+      fis d g a
+      h[ g] a r
+      d, fis a g
+      fis e fis d %15
+      g, g' a a,
+    }
+    \alternative { { d4 d16 cis d e } { d fis a fis d'4\fermata } } \bar "|." %18 finis
+  }
+}
+
+AEightBassFigures = \figuremode {
+  r4. <2>8
+  <6> q q4
+  r2
+  r4. <6>8
+  r4. <2>8 %5
+  <6> q q4
+  r <7>
+  r2
+  r
+  r %10
+  r
+  <6>4. <6 4>8
+  <6>2
+  r4. <2>8
+  <6> q q4 %15
+  r <7>
+  r2
+  r %18 finis
+}

@@ -212,3 +212,30 @@ ASevenViolinoII = {
     d8\fermata r r \bar ":|." %16 finis
   }
 }
+
+AEightViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key d \major \time 2/4 \tempoAEight
+    \repeat volta 2 {
+      d'16(\fE cis) d-! e-! \appoggiatura d cis8 h16 a
+      d( a') a-! a-! a4^\tenuto
+      h,8 cis16 d e fis g e
+      cis d e cis a g fis e
+      d' cis d e \appoggiatura d cis8 h16 a %5
+      d( a') a-! a-! a4^\tenutoE
+      h16 g fis e g e d cis
+    }
+    \alternative { { d a fis a d,8 r } { d'16 a fis a d,8 r } }
+    \repeat volta 2 {
+      d16( e) fis-! d-! h( cis) d-! h-! %10
+      e fis g e \appoggiatura d cis8 h16 a
+      d' e fis a, h cis d fis,
+      g a h d, \appoggiatura d cis8 h16 a
+      d' cis d e \appoggiatura d cis8 h16 a
+      d( d') d d d4^\tenutoE %15
+      h16 g e d g e d cis
+    }
+    \alternative { { d a fis a d,8 r } { d'16 a fis a d,8 r\fermata } } \bar "|." %18 finis
+  }
+}

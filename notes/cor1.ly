@@ -119,3 +119,30 @@ ASixCornoI = {
     g2\fermata \bar ":|." %18 finis
   }
 }
+
+AEightCornoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoAEight
+    \repeat volta 2 {
+      e'4\fE d
+      c r8 c
+      c4 r8 f
+      d r d d
+      c4 d %5
+      c r8 g'
+      f4 d
+    }
+    \alternative { { c8 c16 c c8 c } { c8 c16 c c8 c } }
+    \repeat volta 2 {
+      c r \pa c c \pd %10
+      f r d d
+      c r c c
+      c f d d
+      e4 d
+      c r8 g' %15
+      f4 r8 d
+    }
+    \alternative { { c c16 c c8 c } { c c16 c c8 r\fermata } } \bar "|." %18 finis
+  }
+}

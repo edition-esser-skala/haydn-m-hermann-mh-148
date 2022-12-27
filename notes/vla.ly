@@ -212,3 +212,30 @@ ASevenViola = {
     a\fermata r r \bar ":|." %16 finis
   }
 }
+
+AEightViola = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key d \major \time 2/4 \tempoAEight
+    \repeat volta 2 {
+      fis8\fE a e cis
+      d cis d fis
+      g4 r8 h
+      e, a, cis e
+      fis a e cis %5
+      d cis d fis
+      g h a a,
+    }
+    \alternative { { d4 d'16 a fis a } { d,4 d16 cis d e } }
+    \repeat volta 2 {
+      a,8[ a] d, r %10
+      h'[ h] e, r
+      a d h a
+      g[ g'] e r
+      fis a e cis
+      a' g a fis %15
+      g h a a,
+    }
+    \alternative { { d4 d16 cis d e } { d fis, a fis d4\fermata } } \bar "|." %18 finis
+  }
+}

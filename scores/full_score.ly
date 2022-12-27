@@ -295,40 +295,90 @@
   %     \midi { \tempo 4 = 80 }
   %   }
   % }
+  % \bookpart {
+  %   \section "1·7" "Andantino"
+  %   \addTocEntry
+  %   \paper { page-count = #1 }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \ASevenViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \ASevenViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \ASevenViola
+  %         }
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \ASevenBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \ASevenBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 8 = 80 }
+  %   }
+  % }
   \bookpart {
-    \section "1·7" "Andantino"
+    \section "1·8" "Allegretto"
     \addTocEntry
-    \paper { page-count = #1 }
+    \paper { systems-per-page = #2 }
     \score {
       <<
+        \new StaffGroup <<
+          \new Staff <<
+            \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+            \partCombine #'(0 . 10) \AEightOboeI \AEightOboeII
+          >>
+        >>
+        \new StaffGroup <<
+          \new Staff <<
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "D" "" "1, 2" }
+            % \transpose c d
+            \partCombine #'(0 . 10) \AEightCornoI \AEightCornoII
+          >>
+        >>
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \ASevenViolinoI
+              \AEightViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \ASevenViolinoII
+              \AEightViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \ASevenViola
+            \AEightViola
           }
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \ASevenBassoContinuo
+            \AEightBassoContinuo
           }
         >>
-        \new FiguredBass { \ASevenBassFigures }
+        \new FiguredBass { \AEightBassFigures }
       >>
       \layout { }
-      \midi { \tempo 8 = 80 }
+      \midi { \tempo 4 = 90 }
     }
+    \markup \null
   }
 }
