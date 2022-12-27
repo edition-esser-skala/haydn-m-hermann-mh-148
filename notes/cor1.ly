@@ -89,7 +89,7 @@ AFourCornoI = {
     c4 r8 c4 r8
     g'2. %10
     g
-    f4 d8 c4 \bar ":|." \key b \major \tempoAFourB r8
+    f4 d8 c4\fermata \bar ":|." \key b \major \tempoAFourB r8
     R2.*7 %19
     r4 r8 r4 \bar ":|." %20 finis
   }

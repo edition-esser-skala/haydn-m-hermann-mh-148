@@ -150,23 +150,70 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \section "1·4" "Maggiore · Minore"
+  %   \addTocEntry
+  %   \paper { systems-per-page = #2 }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+  %           \partCombine #'(0 . 10) \AFourOboeI \AFourOboeII
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "F" "" "1, 2" }
+  %           % \transpose c f
+  %           \partCombine #'(0 . 10) \AFourCornoI \AFourCornoII
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \AFourViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \AFourViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \AFourViola
+  %         }
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \AFourBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \AFourBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4. = 72 }
+  %   }
+  % }
   \bookpart {
-    \section "1·4" "Maggiore · Minore"
+    \section "1·5" "Andante"
     \addTocEntry
-    \paper { systems-per-page = #2 }
-    \score {
+    \paper {
+      system-system-spacing.basic-distance = #30
+      system-system-spacing.minimum-distance = #30
+      systems-per-page = #2
+      page-count = #2
+    }
+    \score { 
       <<
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
-            \partCombine #'(0 . 10) \AFourOboeI \AFourOboeII
-          >>
-        >>
-        \new StaffGroup <<
-          \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "F" "" "1, 2" }
-            % \transpose c f
-            \partCombine #'(0 . 10) \AFourCornoI \AFourCornoII
+            \partCombine #'(0 . 10) \AFiveOboeI \AFiveOboeII
           >>
         >>
         \new StaffGroup <<
@@ -174,29 +221,29 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \AFourViolinoI
+              \AFiveViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \AFourViolinoII
+              \AFiveViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \AFourViola
+            \AFiveViola
           }
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \AFourBassoContinuo
+            \AFiveBassoContinuo
           }
         >>
-        \new FiguredBass { \AFourBassFigures }
+        \new FiguredBass { \AFiveBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4. = 72 }
+      \midi { \tempo 4 = 90 }
     }
   }
 }

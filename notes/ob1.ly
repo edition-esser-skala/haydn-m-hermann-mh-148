@@ -85,8 +85,35 @@ AFourOboeI = {
     f f f f g a \pd
     b4. a8[ r f] %10
     b4. a8[ r f]
-    \pa d g e \pd f4 \bar ":|." \key b \major \tempoAFourB r8
+    \pa d g e \pd f4\fermata \bar ":|." \key b \major \tempoAFourB r8
     R2.*7 %19
     r4 r8 r4 \bar ":|." %20 finis
+  }
+}
+
+AFiveOboeI = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \tempoAFive
+    a'2.\fE
+    h4 a r
+    h\p a r
+    g fis r
+    fis2.\f %5
+    d'
+    cis4\p d h \noBreak
+    \pao a r r \bar ":|.|:"
+    c2.\f \noBreak
+    h4 dis r %10
+    e2\p d4
+    cis cis2\f
+    \tuplet 3/2 4 { \pa d8 fis, d } a'4 \pd r
+    \tuplet 3/2 4 { \pa d,8 fis d } a'4 \pd r
+    R2. %15
+    r4 r g\pE
+    \tuplet 3/2 4 { fis8\fE a c } h4 h
+    g2 e'4\p
+    fis g e
+    \pao d\fermata r r \bar ":|." %20 finis
   }
 }

@@ -126,7 +126,7 @@ AFourViolinoI = {
     f-! f-! f-! f-! e-! d-!
     c4( b'8) a[ r f] %10
     c4( b'8) a[ r f]
-    d g e f4 \bar ":|." \key b \major \tempoAFourB f8-\sempreP
+    d g e f4\fermata \bar ":|." \key b \major \tempoAFourB f8-\sempreP
     \appoggiatura es d4 d8 d-! es-! c-!
     \appoggiatura c b4 b8 b-! c-! d-!
     \appoggiatura d c4 c8 c es a, %15
@@ -135,5 +135,32 @@ AFourViolinoI = {
     b( g) es \appoggiatura es d4 f8
     fis( g) c, d( es) a,
     \appoggiatura c b4 b8 b r \markMaggioreDaCapo \bar ":|." %20 finis
+  }
+}
+
+AFiveViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \tempoAFive
+    \tuplet 3/2 4 { d'8\f d d d d d d d d }
+    \tuplet 3/2 4 { h g h } a4 r8. d16\p
+    \tuplet 3/2 4 { h8 g h } a4 r8. fis16
+    \tuplet 3/2 4 { g8 e g } fis4 r
+    \tuplet 3/2 4 { d8\f d d d d d d d d } %5
+    \tuplet 3/2 4 { d fis' fis } fis4 r8. d16\p
+    \tuplet 3/2 4 { cis8 d e } \appoggiatura e d4 r8. gis,16 \noBreak
+    \tuplet 3/2 4 { a8 h gis } a4 r \bar ":|.|:"
+    \tuplet 3/2 4 { c8\f c c c c c c c c } \noBreak
+    \tuplet 3/2 4 { h e dis } dis4 r8. dis16\p %10
+    \tuplet 3/2 4 { e8 g h } h4 r8. d,16
+    \tuplet 3/2 4 { cis8 gis a } a4 r
+    \tuplet 3/2 4 { d,8\f fis d } cis4 r8. cis16
+    \tuplet 3/2 4 { d8 fis a } g4 r8. cis,16\p
+    \tuplet 3/2 4 { d8 fis d cis cis cis cis cis cis } %15
+    \tuplet 3/2 4 { d fis a } g4 r8. g16\f
+    \tuplet 3/2 4 { fis8 a c h e g h g e }
+    \tuplet 3/2 4 { cis e g } g4 r8. g,16\p
+    \tuplet 3/2 4 { fis8 g a } \appoggiatura a g4 r8. cis,16
+    \tuplet 3/2 4 { d8 e cis } d4\fermata r \bar ":|." %20 finis
   }
 }

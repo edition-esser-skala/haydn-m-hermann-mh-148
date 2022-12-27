@@ -225,7 +225,7 @@ AFourBassoContinuo = {
     f, f' g a g f
     e d c f g a %10
     e d c f g a
-    b g c f,4 \bar ":|." \key b \major \tempoAFourB r8
+    b g c f,4\fermata \bar ":|." \key b \major \tempoAFourB r8
     b,4-\sempreP r8 f'4 r8
     g4 r8 d4 r8
     es4 r8 f4 r8 %15
@@ -258,4 +258,54 @@ AFourBassFigures = \figuremode {
   <5>4 <6>8 <7> <6>4
   <6>4. <6 3>8 <7 \t>4
   <9 4>8 <8 3>2 %20 finis
+}
+
+AFiveBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key d \major \time 3/4 \tempoAFive
+    d4\f fis d
+    g fis d\p
+    g fis d
+    cis d cis
+    h\f h' a! %5
+    gis e gis\p
+    a d, e \noBreak
+    a, \tuplet 3/2 4 { a'8\f h a g! fis e } \bar ":|.|:"
+    d4 fis d \noBreak
+    g fis h,\p %10
+    e g gis
+    a \tuplet 3/2 4 { a8\f h a g a g }
+    fis4 e a,
+    fis' e a,
+    fis' \p e a, %15
+    fis' e a,
+    d\f g e
+    a a, cis\p
+    d g, a
+    d,4\fermata \tuplet 3/2 4 { d'8 fis\f a g fis e } \bar ":|." %20 finis
+  }
+}
+
+AFiveBassFigures = \figuremode {
+  r4 <6>2
+  r4 q2
+  r4 q2
+  <6 5> <6\\>4
+  r2 <\t>4 %5
+  <7> <\t> <6 5>
+  r <6> <7 _+>
+  r2.
+  <7!>2 \once \bassFigureExtendersOn q4
+  r <6\\> <7 _+> %10
+  r <6> <5!>
+  r2 <2>4
+  <6> q <7>
+  <6> q <7>
+  <6> q <7> %15
+  <6> q <7>
+  <7!>2 <6>4
+  <7 _+>2 <6 5>4
+  r <6> <7>
+  r2. %20 finis
 }

@@ -126,7 +126,7 @@ AFourViolinoII = {
     \parOn f-\parenthesize-! f-! \parOff f-\parenthesize-! f'-! e-! d-!
     c4( g'8) f[ r f] %10
     c4( g'8) f[ r f]
-    d b g f4 \bar ":|." \key b \major \tempoAFourB f8-\sempreP
+    d b g f4\fermata \bar ":|." \key b \major \tempoAFourB f8-\sempreP
     \appoggiatura es d4 d8 d-! es-! c-!
     \appoggiatura c b4 b8 b-! c-! d-!
     \appoggiatura d c4 c8 c es a, %15
@@ -135,5 +135,32 @@ AFourViolinoII = {
     b( g) es \appoggiatura es d4 f8
     fis( g) c, d( es) a,
     \appoggiatura c b4 b8 b r \markMaggioreDaCapo \bar ":|." %20 finis
+  }
+}
+
+AFiveViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \tempoAFive
+    \tuplet 3/2 4 { fis8\f fis fis a a a fis fis fis
+    d d d d d d d\p d d
+    d d d d d d d d d
+    e e e a, a a ais ais ais
+    h\f h h h h h h h h
+    h d' d d d d h\p h h
+    a h cis h h h d, d d \noBreak
+    cis d h } cis4 r \bar ":|.|:"
+    \tuplet 3/2 4 { fis8\f fis fis d d d fis fis fis \noBreak
+    g g g a a a a\p a a
+    g g g e e e e e e
+    e e e cis\f cis cis cis cis cis
+    a a a a a a a a a
+    a a a a a a a a a
+    a\p a a a a a a a a
+    a a a a a a cis cis cis
+    d\f d d h' h h g g g
+    e e e cis cis cis e\p e e
+    d e fis e e e a, a a }
+    a2\fermata r4 \bar ":|."
   }
 }

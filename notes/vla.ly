@@ -119,21 +119,48 @@ AFourViola = {
     g f e a b c
     g f e a b c
     b g c f,4 \bar ":|.|:" r8
-    c c c c4 r8
+    c c c c4 r8 %5
     c c c c4 r8
     es es es es4 r8
     f es d c4 r8
     a a' b c b a
+    g f e a b c %10
     g f e a b c
-    g f e a b c
-    b g c f,4 \bar ":|." \key b \major \tempoAFourB r8
+    b g c f,4\fermata \bar ":|." \key b \major \tempoAFourB r8
     f4-\sempreP r8 a,4 r8
     b4 r8 f4 r8
-    g4 r8 a c es
+    g4 r8 a c es %15
     \appoggiatura es d4 d8 d4 \bar ":|.|:" r8
     <b d>4. <a c>
     <g b> <f a>
     <es g> << { a8 c es } \\ { f,4. } >>
-    << { \appoggiatura es'8 d4 } \\ { b } >> d8 d4 \bar ":|."
+    << { \appoggiatura es'8 d4 } \\ { b } >> d8 d4 \bar ":|." %20 finis
+  }
+}
+
+AFiveViola = {
+  \relative c' {
+    \clef alto
+    \key d \major \time 3/4 \tempoAFive
+    \tuplet 3/2 4 { d8\f d d d d d d d d
+    g, g g d d d fis\p fis fis
+    g g g d d d a' a a
+    a a a d, d d e e e
+    fis\f fis fis fis fis fis fis fis fis %5
+    h h h h h h e\p e e
+    e e e fis fis fis e e e \noBreak
+    e e e e\f h' a g! fis e } \bar ":|.|:"
+    \tuplet 3/2 4 { d a a a a a a a a
+    g g g h h h fis'\p fis fis %10
+    h, h h g g g h h h
+    a a a e'\f e e e e e
+    d a fis g g g g g g
+    a d fis cis cis cis cis cis cis
+    d\p a fis g g g g e g %15
+    a d fis cis cis cis e e e
+    a,\f a a g g g h' h h
+    g g g e e e a,\p a a
+    a a a h h h g g g
+    fis g e fis\fermata fis'\f a g fis e } \bar ":|." %20 finis
   }
 }
