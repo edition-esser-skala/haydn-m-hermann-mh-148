@@ -574,3 +574,41 @@ ATenBassFigures = \figuremode {
   q
   q \bassFigureExtendersOff %35 finis
 }
+
+AElevenBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoAEleven
+    f4\fE f f
+    e r r
+    e e e
+    h r r
+    h h h %5
+    c c c
+    c c c
+    c c c
+    f f fis
+    g h, c %10
+    g' h, c
+    g' h, c
+    g' g, g
+    g2.\fermata \bar "|." %14 finis
+  }
+}
+
+AElevenBassFigures = \figuremode {
+  <2>2.
+  <6>2.
+  <6>2 <\t>8 <6\\>
+  <6>2.
+  <6 5> %5
+  r
+  <6 4>
+  <7- 5>
+  r4 <6> <6 5>
+  r <6 5>2 %10
+  r4 q2
+  r4 q2
+  <6 4>4 <5 3>2
+  r2. %14 finis
+}

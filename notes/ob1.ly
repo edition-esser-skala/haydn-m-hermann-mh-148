@@ -236,3 +236,22 @@ ATenOboeI = {
     g4 r8 r4 r8\fermata \bar "|." %35 finis
   }
 }
+
+AElevenOboeI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoAEleven
+    h'4\fE h h
+    c r r
+    c c c8( cis)
+    d4 r r
+    f f f %5
+    e g, g
+    a a a
+    b b b
+    a \pao a' c,
+    \appoggiatura c16 h4 r r %10
+    R2.*3
+    R2.\fermata \bar "|." %14 finis
+  }
+}

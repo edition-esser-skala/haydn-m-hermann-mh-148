@@ -311,3 +311,24 @@ ATenViolinoII = {
     q4 r8 r4 r8\fermata \bar "|." %35 finis
   }
 }
+
+AElevenViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoAEleven
+    d8\fE d4 d d8
+    c4 r r
+    g'8 g4 g g8
+    g4 r r
+    d'8 d4 d d8 %5
+    c e,4 e e8
+    f a4 a a8
+    b <b e,>4 q q8
+    a a4 a a8
+    g16-! g( fis g) f-! f( e f) e-! e( d e) %10
+    d-! g( fis g) f-! f( e f) e-! e( d e)
+    d-! g( fis g) f-! f( e f) e-! e( d e)
+    e4\trill d d
+    d2.\fermata \bar "|." %14 finis
+  }
+}

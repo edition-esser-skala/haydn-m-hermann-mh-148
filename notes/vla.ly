@@ -311,3 +311,24 @@ ATenViola = {
     g,4 r8 r4 r8\fermata \bar "|." %35 finis
   }
 }
+
+AElevenViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 3/4 \tempoAEleven
+    g8\fE g4 g g8
+    g4 r r
+    c8 c4 c e8
+    h4 r r
+    g'8 g4 g g8 %5
+    g g,4 g c8
+    c f4 f f8
+    g g4 g g8
+    f d4 d d8
+    d4 d16-! d( cis d) c-! c( h c) %10
+    h-! h( a h) d-! d( cis d) c-! c( h c)
+    h-! h( a h) d-! d( cis d) c-! c( h c)
+    c4\trill h h
+    h2.\fermata \bar "|." %14 finis
+  }
+}

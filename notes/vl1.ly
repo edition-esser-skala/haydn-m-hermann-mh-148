@@ -311,3 +311,24 @@ ATenViolinoI = {
     q4 r8 r4 r8\fermata \bar "|." %35 finis
   }
 }
+
+AElevenViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoAEleven
+    h'8\fE h4 h h8
+    c16 g(\p fis g) a( g fis g) f( e d c)
+    c'8\f c4 c cis8
+    d16 g,(\p fis g) a( g fis g) d( h a g)
+    f''8\f f4 f f8 %5
+    e16( c h c) d( c h c) g'( e) c( g)
+    a( c h c) d( c h c) a'( f) c( a)
+    g( c h! c) d( c h! c) \slurDashed g'( e) c( g) \slurSolid
+    a-! a'( gis a) a-! d,( cis d) a'-! c,( h c)
+    \appoggiatura c h8 a16 g g4 r8 g' %10
+    g8.(\trill fis32 g) g,4 r8 g'
+    g8.(\trill fis32 g) g,4 r8 g
+    g8.(\trill fis32 g) g,4 g
+    g2.\fermata \bar "|." %14 finis
+  }
+}
