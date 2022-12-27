@@ -164,3 +164,28 @@ AFiveViolinoII = {
     a2\fermata r4 \bar ":|."
   }
 }
+
+ASixViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key d \major \time 2/4 \tempoASix
+    d'8.\f a16 d8 fis
+    a, d fis, a
+    d8. a16 d8 fis
+    a, d fis, a
+    d,8. a16 d8 fis %5
+    gis,4 r8. d''16
+    \appoggiatura d cis8[ r16 a] \appoggiatura a h8[ r16 d,] \noBreak
+    \appoggiatura d4 cis2 \bar ":|.|:"
+    a'2:32 \noBreak
+    a: %10
+    a:
+    a4:32 ais:
+    h8-! d-! g,-! h-!
+    e,8. h16 e8 fis
+    g h e, g %15
+    a,4 r8. a'16
+    a8[ r16 g] \appoggiatura g fis8[ r16 e]
+    \appoggiatura e4 d2\fermata \bar ":|." %18 finis
+  }
+}

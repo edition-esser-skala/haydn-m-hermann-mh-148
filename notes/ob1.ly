@@ -117,3 +117,28 @@ AFiveOboeI = {
     \pao d\fermata r r \bar ":|." %20 finis
   }
 }
+
+ASixOboeI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key d \major \time 2/4 \tempoASix
+    d'4\f d
+    d r
+    d d
+    d r
+    fis,2 %5
+    d'4 r8. fis16
+    \appoggiatura fis e8[ r16 cis] \appoggiatura cis d8[ r16 h] \noBreak
+    \pa \appoggiatura h4 a2 \pd \bar ":|.|:"
+    g'4. e8 \noBreak
+    fis4. a16 fis %10
+    g4. e8
+    fis2
+    R
+    e4. fis8
+    g4 h %15
+    cis, r
+    r8. h16 \appoggiatura h a8[ r16 g]
+    \appoggiatura g4 fis2\fermata \bar ":|." %18 finis
+  }
+}

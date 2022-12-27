@@ -164,3 +164,28 @@ AFiveViola = {
     fis g e fis\fermata fis'\f a g fis e } \bar ":|." %20 finis
   }
 }
+
+ASixViola = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key d \major \time 2/4 \tempoASix
+    <fis a,>4\f q
+    q r
+    q q
+    q r
+    d8. a16 d8 fis %5
+    gis,4 r8. gis16
+    a8[ r16 a] gis8[ r16 h] \noBreak
+    \appoggiatura h4 a2 \bar ":|.|:"
+    e'8-! cis-! e-! cis-! \noBreak
+    a'-! fis-! a-! fis-! %10
+    e a, cis e
+    d a fis' d
+    h4 h
+    h r
+    h h %15
+    e r8. e16
+    d8[ r16 d] a8[ r16 g]
+    \appoggiatura g4 fis2\fermata \bar ":|."
+  }
+}

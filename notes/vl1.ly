@@ -164,3 +164,28 @@ AFiveViolinoI = {
     \tuplet 3/2 4 { d8 e cis } d4\fermata r \bar ":|." %20 finis
   }
 }
+
+ASixViolinoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key d \major \time 2/4 \tempoASix
+    d'8.\f a16 d8 fis
+    a, d fis, a
+    d8. a16 d8 fis
+    a, d fis, a
+    d,8. a16 d8 fis %5
+    gis,4 r8. fis''16
+    \appoggiatura fis e8[ r16 cis] \appoggiatura cis d8[ r16 gis,] \noBreak
+    \appoggiatura gis4 a2 \bar ":|.|:"
+    a'2:32 \noBreak
+    a: %10
+    a:
+    a4:32 ais:
+    h8-! d-! g,-! h-!
+    e,8. h16 e8 fis
+    g h e, g %15
+    <a, e cis>4 r8. cis16
+    \appoggiatura cis d8[ r16 h] \appoggiatura h a8[ r16 cis,]
+    \appoggiatura cis4 d2\fermata \bar ":|." %18 finis
+  }
+}

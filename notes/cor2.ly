@@ -94,3 +94,28 @@ AFourCornoII = {
     r4 r8 r4 \bar ":|." %20 finis
   }
 }
+
+ASixCornoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoASix
+    c4\f c
+    c r
+    c c
+    c r
+    c8. g16 c8 e %5
+    c4 r
+    g'8 r c r \noBreak
+    g2 \bar ":|.|:"
+    g4 r8 g \noBreak
+    c,4 r8 c %10
+    g' g16 g g8 g
+    c,4 r
+    R2
+    d'4 r
+    d d %15
+    g, r
+    r g
+    c,2\fermata \bar ":|." %18 finis
+  }
+}

@@ -309,3 +309,49 @@ AFiveBassFigures = \figuremode {
   r <6> <7>
   r2. %20 finis
 }
+
+ASixBassoContinuo = {
+  \relative c {
+    \clef bass
+    \twofourtime \key d \major \time 2/4 \tempoASix
+    d4\f d
+    d r
+    d d
+    d r
+    d8. a16 d8 fis %5
+    gis,4 r8. gis16
+    a8[ r16 a] e'8[ r16 e] \noBreak
+    a,8 e' a4 \bar ":|.|:"
+    cis,8-! e-! a,-! g'!-! \noBreak
+    fis-! a-! d,-! d'-! %10
+    cis e a,, g'
+    fis a d, fis
+    g4 g
+    g r
+    g, g %15
+    g r8. g16
+    fis8[ r16 g] a8[ r16 a]
+    d,2\fermata \bar ":|." %18 finis
+  }
+}
+
+ASixBassFigures = \figuremode {
+  r2
+  r
+  r
+  r
+  r %5
+  <6 5>4.. <7>16
+  <6 4> <5 3>8. <7 _+>4
+  <\t \t> <5 3>
+  <6 5>4. \once \bassFigureExtendersOn q8
+  <6>2 %10
+  <6 5>4. \once \bassFigureExtendersOn q8
+  <6>4 <5+>8 <\t>
+  r2
+  <6>
+  <\t> %15
+  <2>
+  <6>4 <6 4>8. <7 3>16
+  <\t \t>4 <5 3> %18 finis
+}
