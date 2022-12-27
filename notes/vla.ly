@@ -4,7 +4,7 @@ AOneViola = {
   \relative c' {
     \clef alto
     \twotwotime \key c \major \time 2/2 \tempoAOne
-    \partial 4 r4 r \mvTr c\fE-\pizz r c
+    \partial 4 r4 r \mvTr c\p-\pizz r c
     r c r c
     r h r h
     r c r e
@@ -330,5 +330,42 @@ AElevenViola = {
     h-! h( a h) d-! d( cis d) c-! c( h c)
     c4\trill h h
     h2.\fermata \bar "|." %14 finis
+  }
+}
+
+ATwelveViola = {
+  \relative c' {
+    \clef alto
+    \twotwotime \key c \major \time 2/2 \tempoATwelve
+    \partial 4 g4\p c( e) r e
+    e( g) r g
+    g~ g8. a16 d,4 f
+    \appoggiatura g16 f8 e16 f e4 r g,
+    fis2 f %5
+    e4 g'2( gis4)
+    a16( gis a gis) a( gis a gis) a( h) c-! h-! a( g) f-! e-! \noBreak
+    e2( d4) \bar ":|.|:" g \noBreak
+    h( d) r f, \noBreak
+    e( g) r \appoggiatura d16 c8 h16 a %10
+    \appoggiatura g4 fis2 r4 c''8(\p fis,)
+    \appoggiatura fis4 g2 r4 g\f
+    g2 c,,
+    c c''
+    g, d'\trill %15
+    c4 r r f16( d) h f
+    e4( g) r f'16( d) h f
+    e4( g) r g'
+    g16( a) h-! c-! h( a) g f e g e g f d f d
+    \appoggiatura d2 c2. \bar ":|." r4 %20
+    c4-\pizz r g' r
+    c, r r r8. a16
+    g4 r d' r
+    c r r r8. a16
+    g4 r f r %25
+    e r r r8. <c c'>16
+    q2-\critnote r4 r8. q16
+    q2-\critnote r4 r8. q16
+    q4 r q r
+    << { \oneVoice q\breve*1/2\fermata } \\ { \override Hairpin.minimum-length = #10 \mvTrr s4\ff-\arco\> s s s\pp } >> \bar "|." %30 finis
   }
 }

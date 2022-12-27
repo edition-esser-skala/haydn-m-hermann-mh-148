@@ -4,7 +4,7 @@ AOneViolinoII = {
   \relative c' {
     \clef treble
     \twotwotime \key c \major \time 2/2 \tempoAOne
-    \partial 4 r4 \mvTr c16(\fE-\conSord e g e) c( g) c( g) c( e g e) c( g) c( g)
+    \partial 4 r4 \mvTr c16(\p-\conSord e g e) c( g) c( g) c( e g e) c( g) c( g)
     c( e g e) c( g) c( g) c( e g e) c( g) c( g)
     d'( f g f) d( g,) d'( g,) d'( f g f) d( g,) d'( g,)
     c( e g e) c( g) c( g) c( e g e) c( g) c( g)
@@ -330,5 +330,42 @@ AElevenViolinoII = {
     d-! g( fis g) f-! f( e f) e-! e( d e)
     e4\trill d d
     d2.\fermata \bar "|." %14 finis
+  }
+}
+
+ATwelveViolinoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoATwelve
+    \partial 4 r4 \mvTr c16(\p-\conSord e g e) c( g) c( g) c( e g e) c( g) c( g)
+    c( e g e) c( g) c( g) c( e g e) c( g) c( g)
+    d'( f g f) d( g,) d'( g,) d'( f g f) d( g,) d'( g,)
+    c( e g e) c( g) c( g) c( e g e) c( g) c( g)
+    a( c d c) a( c d c) g( h d h) g( h d h) %5
+    g( c e c) g( c e c) g( c e c) e( c e c)
+    f( e f e) f( e f e) f( g) a-! g-! f( e) d-! c-! \noBreak
+    c2( h4) \bar ":|.|:" r \noBreak
+    d16( g h g) d( h) d( h) g'( h d h) g( d) g( d) \noBreak
+    e( g c g) e( c) e( c) c( e g e) c( g) c( g) %10
+    c( d a' d,) c( a) c( a) c(\p d a' d,) c( a) c( a)
+    d( g h g) d( h) d( h) d(\f g h g) d( h) d( h)
+    c( e g e) c( g) c( g) c( g' c g) c,( g) c( g)
+    c( f a f) c( f a f) e( a c a) e( a c a)
+    e( g c g) e( g c g) f( h,) f'( h,) f'( h,) f'( h,) %15
+    c( e g e) c( g) c( g) d'( f g f) d( g,) d'( g,)
+    c( e g e) c( g) c( g) d'( f g f) d( g,) d'( g,)
+    c( e g e) c( g) c( g) d'( f g f) d( g,) d'( g,)
+    e'( f) g-! a-! g( f) e-! d-! c e c e d h d h
+    \appoggiatura h2 c2. \bar ":|." r8. c16-\pizz %20
+    c4 r e r
+    f r r r8. c16-\senzaSord
+    h4 r h r
+    c r r r8. d16
+    c4 r h r %25
+    c r r r8. <e g,>16
+    q2 r4 r8. q16
+    q2 r4 r8. q16
+    q4 r q r
+    << { \oneVoice q\breve*1/2\fermata } \\ { \override Hairpin.minimum-length = #10 \mvTrr s4\ff-\arco\> s s s\pp } >> \bar "|." %30 finis
   }
 }

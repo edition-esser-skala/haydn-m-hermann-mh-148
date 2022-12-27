@@ -4,7 +4,7 @@ AOneCornoI = {
   \relative c' {
     \clef treble
     \twotwotime \key c \major \time 2/2 \tempoAOne
-    \partial 4 r4 r g''2\fE g4
+    \partial 4 r4 r g''2\p g4
     r g2 g4
     r g2 g4
     r g2 g4
@@ -193,5 +193,35 @@ ATenCornoI = {
     c c' g c, c' g
     c, e' c c, e' c
     c,4 r8 r4 r8\fermata \bar "|." %35 finis
+  }
+}
+
+ATwelveCornoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoATwelve
+    \partial 4 r4 r g''2\p g4
+    r g2 g4
+    r g2 g4
+    r g2 g4
+    r \pao d r d %5
+    r c r c
+    c2 r \noBreak
+    r4 \pa g g \pd \bar ":|.|:" r \noBreak
+    r g'2 g4 \noBreak
+    r g2 g4 %10
+    r \pa d2 d4\pE \pd
+    r d2 d4\fE
+    r c2 c4
+    r c2 c4
+    \pao g2 r %15
+    \pao c d
+    \pao c d
+    \pao c d
+    \pao c4 r r \pao g
+    g2 r4 \bar ":|." r4 %20
+    R1*8 %28
+    r4 c,\pp r c
+    << { c\breve*1/2\fermata } \\ { \override Hairpin.minimum-length = #10 s4\ff\> s s s\pp } >> \bar "|." %30 finis
   }
 }

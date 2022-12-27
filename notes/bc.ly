@@ -4,7 +4,7 @@ AOneBassoContinuo = {
   \relative c {
     \clef bass
     \twotwotime \key c \major \time 2/2 \tempoAOne
-    \partial 4 r4 \mvTr c4\fE-\pizz r c r
+    \partial 4 r4 \mvTr c4\p-\pizz r c r
     c r c r
     h r h r
     c r e r
@@ -611,4 +611,74 @@ AElevenBassFigures = \figuremode {
   r4 q2
   <6 4>4 <5 3>2
   r2. %14 finis
+}
+
+ATwelveBassoContinuo = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \major \time 2/2 \tempoATwelve
+    \partial 4 r4 \mvTr c4\p-\pizz r c r
+    c r c r
+    h r h r
+    c r e r
+    d r g, r %5
+    c r c' r
+    f, r f, r \noBreak
+    g g' g, \bar ":|.|:" r \noBreak
+    g' r h, r \noBreak
+    c r e r %10
+    d r d\p r
+    g, r f!\f r
+    e r e' r
+    f r fis r
+    g r g, r %15
+    c r h r
+    c r h r
+    c r h r
+    c f g g,
+    c g c, \bar ":|." r %20
+    e' r c r
+    f r r r8. f16
+    g4 r g, r
+    a r r r8. f16
+    g4 r g r %25
+    c r r r8. c16
+    c2 r4 r8. c16
+    c2 r4 r8. c16
+    c4 r c r
+    << { \oneVoice c\breve*1/2\fermata } \\ { \override Hairpin.minimum-length = #10 s4\ff-\arco\> s s s\pp } >> \bar "|." %30 finis
+  }
+}
+
+ATwelveBassFigures = \figuremode {
+  r4 r1
+  r
+  <6 5>
+  r2 <6>
+  <7 _+> <7!> %5
+  r <5>4 <5\+>
+  r1
+  <6 4>2 <5 3>
+  r <6 5>
+  r <6> %10
+  <7 4>4 <\t _+>2.
+  r2 <2>
+  <6> <6 5->
+  r <7>
+  <6 4> <7 3> %15
+  r <6 5>
+  r q
+  r q
+  r4 <6> <6 4> <7 3>
+  <9 4>2 <8 3> %20
+  <6>1
+  r
+  r
+  <5>2... <6>16
+  <6 4>2 <7 3> %25
+  r1
+  r
+  r
+  r
+  r %30 finis
 }

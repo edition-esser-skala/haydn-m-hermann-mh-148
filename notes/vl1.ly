@@ -4,7 +4,7 @@ AOneViolinoI = {
   \relative c' {
     \clef treble
     \twotwotime \key c \major \time 2/2 \tempoAOne
-    \partial 4 \mvTr g'4\fE-\conSord c( e) r e
+    \partial 4 \mvTr g'4\p-\conSord c( e) r e
     e( g) r g
     g~ g8. a16 d,4 f
     \appoggiatura g16 f8 e16 f e4 r g,
@@ -18,12 +18,12 @@ AOneViolinoI = {
     \appoggiatura fis4 g2 r4 g\f
     g2 b,,
     a c''
-    g,, d''\trill
+    g,, d''\trill %15
     c4 r r f16( d) h f
     e4( g) r f'16( d) h f
     e4( g) r g'
     g16( a) h-! c-! h( a) g f e g e g f d f d
-    \appoggiatura d2 c2.\fermata \bar ":|."
+    \appoggiatura d2 c2.\fermata \bar ":|." %20 finis
   }
 }
 
@@ -330,5 +330,42 @@ AElevenViolinoI = {
     g8.(\trill fis32 g) g,4 r8 g
     g8.(\trill fis32 g) g,4 g
     g2.\fermata \bar "|." %14 finis
+  }
+}
+
+ATwelveViolinoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoATwelve
+    \partial 4 \mvTr g'4\p-\conSord c( e) r e
+    e( g) r g
+    g~ g8. a16 d,4 f
+    \appoggiatura g16 f8 e16 f e4 r g,
+    fis2 f %5
+    e4 g'2( gis4)
+    a16( gis a gis) a( gis a gis) a( h) c-! h-! a( g) f-! e-! \noBreak
+    e2( d4) \bar ":|.|:" g \noBreak
+    h( d) r f, \noBreak
+    e( g) r \appoggiatura d16 c8 h16 a %10
+    \appoggiatura g4 fis2 r4 c''8(\p fis,)
+    \appoggiatura fis4 g2 r4 g\f
+    g2 b,,
+    a c''
+    g,, d''\trill %15
+    c4 r r f16( d) h f
+    e4( g) r f'16( d) h f
+    e4( g) r g'
+    g16( a) h-! c-! h( a) g f e g e g f d f d
+    \appoggiatura d2 c2. \bar ":|." r8. g16-\pizz %20
+    g4 r c r
+    a r r r8. a16-\senzaSord
+    d,4 r g r
+    e r r r8. f16
+    e4 r d r %25
+    c r r r8. <e g,>16
+    q2 r4 r8. q16
+    q2 r4 r8. q16
+    q4 r q r
+    << { \oneVoice q\breve*1/2\fermata } \\ { \override Hairpin.minimum-length = #10 \mvTrr s4\ff-\arco\> s s s\pp } >> \bar "|." %30 finis
   }
 }
