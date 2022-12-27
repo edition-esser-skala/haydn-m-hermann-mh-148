@@ -239,3 +239,26 @@ AEightViolinoI = {
     \alternative { { d a fis a d,8 r } { d'16 a fis a d,8 r\fermata } } \bar "|." %18 finis
   }
 }
+
+ANineViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/8 \tempoANine
+    g'8-!-\sottoVoce a-! h-!
+    h16.( c32) a8 r
+    a-! h-! c-!
+    c16.( d32) h8 r
+    h c d %5
+    e16.[ g32 d8]-! d
+    e16.[ g32 d8] e32( c) e( c) \noBreak
+    h4( a8) \bar ":|.|:"
+    g'16([ d)] h h h h \noBreak
+    e([ c)] a a a a %10
+    d([ h)] g g g g
+    fis16. a32 c8 r
+    h-! c-! d-!
+    e16.[ g32 e8]-! c
+    h16.[ d32 h8] fis\trill %15
+    g\fermata r r \bar ":|." %16 finis
+  }
+}

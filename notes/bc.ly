@@ -445,3 +445,45 @@ AEightBassFigures = \figuremode {
   r2
   r %18 finis
 }
+
+ANineBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key g \major \time 3/8 \tempoANine
+    g8-\sottoVoce r r
+    d' d d
+    d r r
+    g g g
+    g r r %5
+    g r r
+    g r c, \noBreak
+    d d' r \bar ":|.|:"
+    g,, r g'
+    c, r c' %10
+    h r h
+    a fis d
+    g r g,
+    c r c
+    d r d %15
+    g\fermata d h \bar ":|." %16 finis
+  }
+}
+
+ANineBassFigures = \figuremode {
+  r4.
+  <6 4>8 <5 3>4
+  r4.
+  <9 4>8 <8 3>4
+  r4. %5
+  <6 4>8 <5 3>4
+  <6 4>8 <5 3> <6>
+  <6 4>4 <5 3>8
+  r4.
+  <6>4 <\t>8 %10
+  <6>4 <\t>8
+  <6>4 \once \bassFigureExtendersOn q8
+  r4.
+  r4 <6>8
+  <6 4>4 <7 3>8 %15
+  r4. %16 finis
+}

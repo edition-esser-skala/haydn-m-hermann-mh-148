@@ -8,6 +8,7 @@
 
 mezzaVoce = \markup \remark "mezza voce"
 sempreP = \markup \remark \whiteout \pad-markup #0.5 \concat { "sempre " \bold \fontsize #2 "p" }
+sottoVoce = \markup \remark \whiteout "sotto voce"
 markMaggioreDaCapo = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
   \mark \markup \remark "Maggiore da capo"
@@ -23,6 +24,7 @@ tempoAFive = \tempoMarkup "Andante"
 tempoASix = \tempoMarkup "Allegro moderato"
 tempoASeven = \tempoMarkup "Andantino"
 tempoAEight = \tempoMarkup "Allegretto"
+tempoANine = \tempoMarkup "Andante"
 
 
 \include "notes/fl1.ly"

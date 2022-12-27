@@ -239,3 +239,26 @@ AEightViola = {
     \alternative { { d4 d16 cis d e } { d fis, a fis d4\fermata } } \bar "|." %18 finis
   }
 }
+
+ANineViola = {
+  \relative c' {
+    \clef alto
+    \key g \major \time 3/8 \tempoANine
+    d8-!-\sottoVoce d-! d-!
+    d r r
+    d d d
+    d r r
+    g g g %5
+    g g g
+    g g c, \noBreak
+    d d, r \bar ":|.|:"
+    d' r d \noBreak
+    c r e %10
+    d r d
+    c a fis
+    g g'-! g-!
+    g-! g-! e
+    d d c %15
+    h\fermata r r \bar ":|." %16 finis
+  }
+}

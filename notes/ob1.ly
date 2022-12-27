@@ -169,3 +169,24 @@ AEightOboeI = {
     \alternative { { d r } { d r\fermata } } \bar "|." %18 finis
   }
 }
+
+ANineOboeI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/8 \tempoANine
+    r8-\sottoVoce r h'~
+    h a a
+    a r c~
+    c h h
+    h r g' %5
+    g4.~
+    g4 e16 c \noBreak
+    h4( a8) \bar ":|.|:"
+    R4.*3 %11
+    c4.
+    h8 c d
+    e4 c8
+    h4 a8 %15
+    \pao g\fermata r r \bar ":|." %16 finis
+  }
+}
