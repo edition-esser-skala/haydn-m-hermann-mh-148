@@ -355,3 +355,45 @@ ASixBassFigures = \figuremode {
   <6>4 <6 4>8. <7 3>16
   <\t \t>4 <5 3> %18 finis
 }
+
+ASevenBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key d \minor \time 3/8 \tempoASeven
+    d8-\sempreP d d
+    cis r cis
+    d d d
+    f r fis
+    g g g %5
+    g r g,
+    f r b \noBreak
+    a r r \bar ":|.|:"
+    d r d
+    a' r r %10
+    d, r d
+    a r r
+    d r d
+    a' r a,
+    d a' a, %15
+    d\fermata r r \bar ":|." %16 finis
+  }
+}
+
+ASevenBassFigures = \figuremode {
+  r4.
+  <6>
+  r
+  q4 <5!>8
+  r4. %5
+  <4+ 2>4 <\t \t>8
+  <6>4 <6\\>8
+  <_+>4.
+  r
+  <_+> %10
+  r
+  q
+  r
+  q4 <\t>8
+  r <6 4> <5 _+> %15
+  r4. %16 finis
+}

@@ -189,3 +189,26 @@ ASixViolinoI = {
     \appoggiatura cis4 d2\fermata \bar ":|." %18 finis
   }
 }
+
+ASevenViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 3/8 \tempoASeven
+    d16-\sempreP a f' a, d a
+    a' b a g f e
+    d a f' d a' f
+    d' es d c! b a
+    b a b g e d %5
+    cis e a e d cis
+    d e f e f gis, \noBreak
+    a a' a a a a \bar ":|.|:"
+    f' a, d a f' d \noBreak
+    e4( a8) %10
+    f16 a, d a f' d
+    e4( a,8)
+    f'16 a, d a f' d
+    e4( a8)
+    f16 a, d f e cis %15
+    d\fermata d, d d d d \bar ":|." %16 finis
+  }
+}

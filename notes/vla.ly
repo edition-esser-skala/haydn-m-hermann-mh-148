@@ -189,3 +189,26 @@ ASixViola = {
     \appoggiatura g4 fis2\fermata \bar ":|."
   }
 }
+
+ASevenViola = {
+  \relative c' {
+    \clef alto
+    \key d \minor \time 3/8 \tempoASeven
+    d8-\sempreP d d
+    a r a
+    d d d
+    d r d,
+    g g b %5
+    a r a
+    a r d, \noBreak
+    e r r \bar ":|.|:"
+    d r a' \noBreak
+    a cis a %10
+    d r a
+    a cis a
+    d, r a'
+    a cis a
+    d,16 f a8[ a] %15
+    a\fermata r r \bar ":|." %16 finis
+  }
+}

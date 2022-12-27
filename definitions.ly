@@ -21,6 +21,7 @@ tempoAFour = \tempoMarkup "Maggiore"
   tempoAFourB = \tempoMarkup "Minore"
 tempoAFive = \tempoMarkup "Andante"
 tempoASix = \tempoMarkup "Allegro moderato"
+tempoASeven = \tempoMarkup "Andantino"
 
 
 \include "notes/fl1.ly"
