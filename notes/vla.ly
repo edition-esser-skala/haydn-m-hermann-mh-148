@@ -78,7 +78,7 @@ AThreeViola = {
   \relative c' {
     \clef alto
     \twofourtime \key f \major \time 2/4 \tempoAThree
-    \partial 8 r8 c4.-\mezzaVoce d8
+    \partial 8 r8-\mezzaVoce c4. d8
     c4. e,8
     f f g a
     b( c) c r
@@ -108,5 +108,32 @@ AThreeViola = {
     d r a r
     b r c c
     f[ c f,]\fermata \bar ":|." %30 finis
+  }
+}
+
+AFourViola = {
+  \relative c' {
+    \clef alto
+    \key f \major \time 6/8 \tempoAFour
+    \partial 8 r8 a\fE a' b c b a
+    g f e a b c
+    g f e a b c
+    b g c f,4 \bar ":|.|:" r8
+    c c c c4 r8
+    c c c c4 r8
+    es es es es4 r8
+    f es d c4 r8
+    a a' b c b a
+    g f e a b c
+    g f e a b c
+    b g c f,4 \bar ":|." \key b \major \tempoAFourB r8
+    f4-\sempreP r8 a,4 r8
+    b4 r8 f4 r8
+    g4 r8 a c es
+    \appoggiatura es d4 d8 d4 \bar ":|.|:" r8
+    <b d>4. <a c>
+    <g b> <f a>
+    <es g> << { a8 c es } \\ { f,4. } >>
+    << { \appoggiatura es'8 d4 } \\ { b } >> d8 d4 \bar ":|."
   }
 }

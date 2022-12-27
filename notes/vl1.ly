@@ -110,3 +110,30 @@ AThreeViolinoI = {
     \appoggiatura g8 f4 r8\fermata \bar ":|." %30 finis
   }
 }
+
+AFourViolinoI = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 6/8 \tempoAFour
+    \partial 8 c'8\fE f4 f8 f-! e-! d-!
+    c4( b'8) a[ r f]
+    c4( b'8) a[ r f]
+    d g e f4 \bar ":|.|:" c,8
+    f f f f( c) f %5
+    g g g g( c,) g'
+    a a a a( f) a
+    b c d \appoggiatura f, e!4 c'8
+    f-! f-! f-! f-! e-! d-!
+    c4( b'8) a[ r f] %10
+    c4( b'8) a[ r f]
+    d g e f4 \bar ":|." \key b \major \tempoAFourB f8-\sempreP
+    \appoggiatura es d4 d8 d-! es-! c-!
+    \appoggiatura c b4 b8 b-! c-! d-!
+    \appoggiatura d c4 c8 c es a, %15
+    \appoggiatura c b4 b8 b r \bar ":|.|:" f'
+    f-! g-! f-! f-! g-! a-!
+    b( g) es \appoggiatura es d4 f8
+    fis( g) c, d( es) a,
+    \appoggiatura c b4 b8 b r \markMaggioreDaCapo \bar ":|." %20 finis
+  }
+}

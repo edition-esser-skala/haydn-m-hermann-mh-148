@@ -209,3 +209,53 @@ AThreeBassFigures = \figuremode {
   q <6 4>8 <5 3>
   <9 4> <6 4> <\t \t> %30 finis
 }
+
+AFourBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key f \major \time 6/8 \tempoAFour
+    \partial 8 r8 f,\fE f' g a g f
+    e d c f g a
+    e d c f g a
+    b g c f,4 \bar ":|.|:" r8
+    f f f f4 r8 %5
+    e e e e4 r8
+    es es es es4 es8
+    d c b c4 r8
+    f, f' g a g f
+    e d c f g a %10
+    e d c f g a
+    b g c f,4 \bar ":|." \key b \major \tempoAFourB r8
+    b,4-\sempreP r8 f'4 r8
+    g4 r8 d4 r8
+    es4 r8 f4 r8 %15
+    b,4 r8 r4 \bar ":|.|:" r8
+    b'4 r8 a4 r8
+    g4 r8 f4 r8
+    es4 r8 f4 r8
+    b,4 r8 r4 \markMaggioreDaCapo \bar ":|." %20 finis
+  }
+}
+
+AFourBassFigures = \figuremode {
+  r8 r4. <6>
+  <6>4 <7>2
+  <6>4 <7>2
+  <6>2.
+  r %5
+  <6>
+  <2>
+  <6>8 <6 _->4 <6 4>8 <5 _!>4
+  r4. <6>
+  <6>4 <7>2 %10
+  <6>4 <7>2
+  <6>2.
+  <4>8 <3>4 <6 4>8 <7 5>4
+  <4>8 <3>4 <6>4.
+  <7>8 <6>4 <7>4. %15
+  <9 4>8 <8 3> r2
+  r4. <6>
+  <5>4 <6>8 <7> <6>4
+  <6>4. <6 3>8 <7 \t>4
+  <9 4>8 <8 3>2 %20 finis
+}

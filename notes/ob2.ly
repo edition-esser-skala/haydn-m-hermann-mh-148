@@ -69,3 +69,24 @@ AThreeOboeII = {
     \appoggiatura e f4 r8\fermata \bar ":|." %30 finis
   }
 }
+
+AFourOboeII = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 6/8 \tempoAFour
+    \partial 8 r8 R2.
+    g''4.\fE f8[ r c]
+    g'4. f8[ r c]
+    d b g f4 \bar ":|.|:" r8
+    f f f f4 r8 %5
+    c c c c4 r8
+    f f f f4 r8
+    b c d c,4 c'8
+    f f f f e f
+    g4. f8[ r c] %10
+    g'4. f8[ r c]
+    d b g f4 \bar ":|." \key b \major \tempoAFourB r8
+    R2.*7 %19
+    r4 r8 r4 \bar ":|." %20 finis
+  }
+}

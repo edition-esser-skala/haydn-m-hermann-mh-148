@@ -73,3 +73,24 @@ ATwoCornoI = {
     \pa c,8. g16 c4 \pd r\fermata \bar ":|." %40 finis
   }
 }
+
+AFourCornoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 6/8 \tempoAFour
+    \partial 8 r8 c'4\fE r8 c4 r8
+    g'2.
+    g
+    f4 d8 c4 \bar ":|.|:" r8
+    c c c c4 r8 %5
+    d d d d4 r8
+    c c c c4 r8
+    c c c \pao g4 r8
+    c4 r8 c4 r8
+    g'2. %10
+    g
+    f4 d8 c4 \bar ":|." \key b \major \tempoAFourB r8
+    R2.*7 %19
+    r4 r8 r4 \bar ":|." %20 finis
+  }
+}
