@@ -146,3 +146,52 @@ AEightCornoII = {
     \alternative { { c, c16 c c8 c } { c c16 c c8 r\fermata } } \bar "|." %18 finis
   }
 }
+
+ATenCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 6/8 \tempoATen
+    \repeat volta 2 {
+      \partial 8 r8 c2.\fE
+      c
+      e4. g
+      c8 c c c4 r8
+      d d d d4 r8 %5
+      g,4 r8 r4 r8
+      R2.
+      g8 g g g4
+    }
+    \repeat volta 2 {
+      r8
+      R2.
+      g %10
+      c,4 r8 r4 r8
+      g' g g g4 r8
+      c4. g
+      c g
+      c4 r8 r4 g8 %15
+    }
+    \alternative {
+      { \set Timing.measureLength = #(ly:make-moment 5/8) e e e e4 }
+      { \set Timing.measureLength = #(ly:make-moment 6/8) c2. }
+    }
+    g'
+    c,8 c c c c c
+    g' g g g g g %20
+    c,4 r8 c[ r c']
+    e,4 g8 e c c'
+    e, c g' e c c'
+    d4 f8 d g, f'
+    d g, f' d g, d' %25
+    e4 g8 e, c g''
+    e c g' e, c c'
+    c4. g
+    c,4 r8 r4 r8
+    c' c c g g g %30
+    e4 r8 r4 r8
+    c g' e c g' e
+    c c' g c, c' g
+    c, e' c c, e' c
+    c,4 r8 r4 r8\fermata \bar "|." %35 finis
+  }
+}

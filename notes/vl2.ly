@@ -262,3 +262,52 @@ ANineViolinoII = {
     g\fermata r r \bar ":|." %16 finis
   }
 }
+
+ATenViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 6/8 \tempoATen
+    \repeat volta 2 {
+      \partial 8 g'8\fE h,4 d8 h g g'
+      h,4 d8 h g d''
+      g d h' a d,, a'
+      <g g,>16 q q q q q q q q q q q
+      <a e> q q q q q q q q q q q %5
+      <a d,> q q q q q <d d,> q q q q q
+      <g, h> q q q q q <e a> q q q q q
+      <fis a>8 q q q4
+    }
+    \repeat volta 2 {
+      r8
+      <c d> q q q q q
+      q q q q q q %10
+      <g g'> g''16( fis e d) e8 c16( h a g)
+      fis8 \once \slurDashed a16( g fis e) d4 r8
+      <d d'>16 q q q q q q q q q q q
+      q q q q q q q q q q q q
+      h'8 d h, c e' fis, %15
+    }
+    \alternative {
+      { \set Timing.measureLength = #(ly:make-moment 5/8) g g' g g4 }
+      { \set Timing.measureLength = #(ly:make-moment 6/8) <h, d,>16 q q q q q q q q q q q }
+    }
+    <a d,> q q q q q q q q q q q
+    <h d,> q q q q q q q q q q q
+    <a d,> q q q q q q q q q q q %20
+    <h d,> q q q q q q q q q q q
+    h,4 d8 h g g'
+    h, g d' h g g'
+    a4 c8 fis, d a'
+    fis d c' fis, d a' %25
+    h4 d8 h, g d''
+    h g d' h, g g''
+    h,16 g' h, g' h, g' a, fis' a, fis' a, fis'
+    h, g' h, g' h, g' h, g' h, g' h, g'
+    h, g' h, g' h, g' a, fis' a, fis' a, fis' %30
+    g8 d h g d h
+    g4 r8 <g g'> q q
+    q4 r8 <g d' h'> q q
+    q4 r8 <d' h' g'>8 q q
+    q4 r8 r4 r8\fermata \bar "|." %35 finis
+  }
+}

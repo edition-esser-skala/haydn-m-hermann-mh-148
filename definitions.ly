@@ -14,6 +14,10 @@ markMaggioreDaCapo = {
   \mark \markup \remark "Maggiore da capo"
 }
 
+\layout {
+  \set Score.doubleRepeatBarType = #":|.|:"
+}
+
 
 tempoAOne = \tempoMarkup "Larghetto"
 tempoATwo = \tempoMarkup "Allegro"
@@ -25,6 +29,7 @@ tempoASix = \tempoMarkup "Allegro moderato"
 tempoASeven = \tempoMarkup "Andantino"
 tempoAEight = \tempoMarkup "Allegretto"
 tempoANine = \tempoMarkup "Andante"
+tempoATen = \tempoMarkup "Allegro molto"
 
 
 \include "notes/fl1.ly"

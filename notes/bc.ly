@@ -487,3 +487,90 @@ ANineBassFigures = \figuremode {
   <6 4>4 <7 3>8 %15
   r4. %16 finis
 }
+
+ATenBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key g \major \time 6/8 \tempoATen
+    \repeat volta 2 {
+      \partial 8 \mvTr g'8\fE-\unisonoE h,4 d8 h g g'
+      h,4 d8 h g d''
+      g,4 r8 fis4 r8
+      g g g g g g
+      g g g g g g %5
+      fis fis fis fis fis fis
+      g g g a a a
+      d, d' d d4
+    }
+    \repeat volta 2 {
+      r8
+      a4. fis
+      d fis %10
+      g8 a h c d e
+      d a16( g fis e) d8 d'16( c h a)
+      g8 g g fis fis fis
+      g g g fis fis fis
+      g[ r h,] c[ r d] %15
+    }
+    \alternative {
+      { \set Timing.measureLength = #(ly:make-moment 5/8) g g, g g4 }
+      { \set Timing.measureLength = #(ly:make-moment 6/8) g'8 g g g g g }
+    }
+    g g g g g g
+    g g g g g g
+    g g g g g g %20
+    g r r g[ r g]
+    h,4-\unisonoE d8 h g g'
+    h, g d' h g g'
+    a4 c8 fis, d a'
+    fis d c' fis, d a' %25
+    h4 d8 h, g d''
+    h g d' h, g e'
+    d d d d d d
+    g fis e e d cis
+    d d d d d d %30
+    g,4 r8 r4 r8
+    g d' h g d' h
+    g g' d g, g' d
+    g, h' g g, h' g
+    g,4 r8 r4 r8\fermata \bar "|." %35 finis
+  }
+}
+
+ATenBassFigures = \figuremode {
+  r8 r2.
+  r
+  <5 3>4. <6 5>
+  r2.
+  <4+ 2> %5
+  <6>
+  r4. <7 _+>
+  r2.
+  <6 _!> \bassFigureExtendersOn
+  q4. q \bassFigureExtendersOff %10
+  r2.
+  r
+  r4. <6 5>
+  r q
+  r4 <6>2 %15
+  r4. r4
+  r2.
+  <7 2>
+  <8 3>
+  <7 2> %20
+  <8 3>
+  r
+  r
+  r
+  r %25
+  r
+  r
+  <6 4>4. <5 3>
+  <8 3>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
+  <6 4>4. <5 3> %30
+  r2.
+  <5 3> \bassFigureExtendersOn
+  q
+  q
+  q \bassFigureExtendersOff %35 finis
+}

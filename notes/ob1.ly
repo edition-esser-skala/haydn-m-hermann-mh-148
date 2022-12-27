@@ -190,3 +190,49 @@ ANineOboeI = {
     \pao g\fermata r r \bar ":|." %16 finis
   }
 }
+
+ATenOboeI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 6/8 \tempoATen
+    \repeat volta 2 {
+      \partial 8 r8 g''2.\fE
+      g
+      h4. a4 c,8
+      h2.
+      cis %5
+      d4. a'
+      g e
+      d4 d8 d4
+    }
+    \repeat volta 2 {
+      r8
+      R2.
+      c %10
+      h4 r8 r4 r8
+      d d d d4 r8
+      h4 g'8 a4 c,8
+      h4 g'8 a4 c,8
+      h4 d8 c4 a8 %15
+    }
+    \alternative {
+      { \set Timing.measureLength = #(ly:make-moment 5/8) \pa g g' g \pd g4 }
+      { \set Timing.measureLength = #(ly:make-moment 6/8) g2. }
+    }
+    c
+    h
+    c, %20
+    h
+    R2.*4 %25
+    g'2.
+    g
+    g4. fis
+    g2.
+    g4. fis %30
+    g4 r8 r4 r8
+    h,2.
+    d
+    g4. g
+    g4 r8 r4 r8\fermata \bar "|." %35 finis
+  }
+}

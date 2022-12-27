@@ -262,3 +262,52 @@ ANineViola = {
     h\fermata r r \bar ":|." %16 finis
   }
 }
+
+ATenViola = {
+  \relative c' {
+    \clef alto
+    \key g \major \time 6/8 \tempoATen
+    \repeat volta 2 {
+      \partial 8 g'8\fE h,4 d8 h g g'
+      h,4 d8 h g d''
+      g,4 r8 fis4 r8
+      d d d d d d
+      g g g g g g %5
+      fis fis fis fis fis fis
+      g g g a a a
+      d, d d d4
+    }
+    \repeat volta 2 {
+      r8
+      a a a a a a
+      a a a a a a %10
+      h a g e' d c
+      d a'16( g fis e) d8 d'16( c h a)
+      g4 h8(\trill c) d, a'
+      g4 h8(\trill c) d, a'
+      g[ r h,] c[ r d] %15
+    }
+    \alternative {
+      { \set Timing.measureLength = #(ly:make-moment 5/8) g g, g g4 }
+      { \set Timing.measureLength = #(ly:make-moment 6/8) g'8 g g g g g }
+    }
+    a fis fis fis fis fis
+    g g g g g g
+    a fis fis fis fis fis %20
+    g r r g[ r g]
+    h,4 d8 h g g'
+    h, g d' h g g'
+    a4 c8 fis, d a'
+    fis d c' fis, d a' %25
+    h4 d8 h, g d''
+    h g d' h, g e'
+    d d d d d d
+    g fis e e d cis
+    d d d d d d %30
+    g,4 r8 r4 r8
+    g d' h g d' h
+    g g' d g, g' d
+    g, h' g g, h' g
+    g,4 r8 r4 r8\fermata \bar "|." %35 finis
+  }
+}
