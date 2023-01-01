@@ -369,3 +369,212 @@ ATwelveViolinoII = {
     << { \oneVoice q\breve*1/2\fermata } \\ { \override Hairpin.minimum-length = #10 \mvTrr s4\ff-\arco\> s s s\pp } >> \bar "|." %30 finis
   }
 }
+
+BZeroViolinoII = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 3/4 \tempoBZero
+    \partial 4 r4 gis'-!\p e-! gis-!
+    fis dis fis
+    e cis e
+    dis h d
+    cis a cis %5
+    h gis h
+    cis a' dis,!
+    e r r
+    gis'16\f gis gis gis e,4:16 gis':
+    fis: dis,: fis': %10
+    e: cis,: e':
+    dis: h,: d':
+    cis: a,: cis':
+    h: h,: h':
+    h: a: gis16 gis gis gis %15
+    gis4 fis r
+    dis-!\p fis-! e-!
+    dis dis fis
+    h r dis,
+    e r r %20
+    cis e dis
+    cis ais cis
+    e r cis
+    h r r
+    dis'8\f fis, h fis dis' fis, %25
+    cis' fis, ais fis cis' fis,
+    h gis e' gis, h gis
+    ais fis ais fis dis fis
+    gis e cis' e, gis e
+    fis h, dis fis h dis %30
+    e h gis h e, h'
+    fis' h, a! h fis h
+    e, gis h gis e' gis,
+    fis ais cis ais fis' ais,
+    fis h dis h fis' h, %35
+    fis cis' e cis fis cis
+    \tuplet 3/2 4 { dis h h h h h dis h h
+    e h h fis' h, h gis' h, h
+    fis' h, h h h h dis h h
+    e h h fis' h, h gis' h, h %40
+    fis' h, h h h h dis h h
+    h' h, h ais' h, h gis' h, h
+    fis' gis fis h ais gis fis e dis
+    gis fis e dis cis h ais h cis }
+    h4 r h,\p %45
+    gis'2( cis,4)
+    ais2( cis4)
+    fis2( a,4)
+    gis2( h4)
+    e2( ais,4) %50
+    h2( gis'4)
+    \scriptOut fis2-!( e4)\trill
+    dis r8 h( ais h)
+    gis'-! gis-! gis-! gis-! h,-! h-!
+    ais ais ais ais cis cis %55
+    fis fis fis fis a, a
+    gis gis gis gis h h
+    e e e e ais, ais
+    fis' fis fis fis h h
+    cis, cis cis cis ais' ais %60
+    \tuplet 3/2 4 { h\f h h h h h dis h h
+    e h h fis' h, h gis' h, h
+    fis' h, h h h h dis h h
+    e h h fis' h, h gis' h, h
+    fis' h, h h h h dis h h %65
+    h' h, h ais' h, h gis' h, h
+    fis' gis fis h ais gis fis e dis
+    gis fis e dis cis h ais h cis
+    h cis h h' ais gis fis e dis
+    gis fis e dis cis h ais h cis } %70
+    h4 fis8 fis fis fis
+    h4 fis8 fis fis fis \noBreak
+    h,4 r \bar ":|.|:" r \noBreak
+    R2. \noBreak
+    r4 r e\p %75
+    e e e
+    e e eis
+    fis2.
+    r4 r fis
+    fis fis fis %80
+    fis fis fisis
+    gis2.\f
+    r4 r gis
+    gis gis gis
+    gis gis gis %85
+    <cis e>8 q q q q q
+    q2.:8
+    <cis fis>:
+    q:
+    <h fis'>: %90
+    q:
+    <h e>:
+    q:
+    <a e'>:
+    q: %95
+    <a dis>:
+    q:
+    <gis dis'>:
+    q:
+    cis16 gis gis gis gis gis gis gis gis gis gis gis %100
+    gis2.:16
+    a:
+    a:
+    ais:
+    ais: %105
+    ais:
+    ais:
+    h:
+    h:
+    h: %110
+    h:
+    h:
+    h:
+    a:
+    a: %115
+    fis':
+    fis:
+    e:
+    e:
+    e: %120
+    e:
+    e,:
+    e:
+    cis':
+    cis: %125
+    <h fis>:
+    q:
+    <h e,>:
+    <cis e,>:
+    <h dis,>: %130
+    q4 r r
+    gis-!\p h-! a-!
+    gis gis h
+    e r gis,
+    a r r %135
+    fis a gis
+    fis dis fis
+    a r fis
+    e r r
+    gis8-!\f h-! e-! h-! gis-! h-! %140
+    a dis fis dis h a
+    gis h e h gis h
+    a dis, a' fis h, fis'
+    e gis h gis e gis
+    e gis h gis e gis %145
+    e a cis a e a
+    e h' d h e, h'
+    e, cis' e cis e, cis'
+    h, dis! fis dis h fis'
+    h, e gis e h gis' %150
+    h, fis' a fis h, a'
+    \tuplet 3/2 4 { e'8 e, e e e e gis e e
+    a e e h' e, e cis' e, e
+    h' e, e e e e gis e e
+    a e e h' e, e cis' e, e %155
+    h' e, e e e e gis e e
+    e' e, e dis' e, e cis' e, e
+    h'' h, h a' h, h gis' h, h
+    fis' gis a gis fis e dis e fis }
+    e4 r e,\p %160
+    cis'2( e,4)
+    \scriptOut dis2(-! fis4)
+    h2( d,4)
+    \scriptOut cis2(-! e4)
+    a2( dis,!4) %165
+    e2( gis4)
+    \once \slurDashed h,2( a4)\trill
+    gis r8 e'( dis e)
+    cis' cis cis cis e, e
+    dis dis dis dis fis fis %170
+    h h h h d, d
+    cis cis cis cis e e
+    a a a a dis,! dis
+    h' h h h e e
+    fis, fis fis fis dis' dis %175
+    \tuplet 3/2 4 { e\f e e e e e gis e e
+    a e e h' e, e cis' e, e
+    h' e, e e e e gis e e
+    a e e h' e, e cis' e, e
+    h' e, e e e e gis e e %180
+    e' e, e dis' e, e cis' e, e
+    h' e, e a e e gis e e
+    fis gis a gis fis e dis e fis
+    e gis fis e dis cis h a gis
+    cis h a gis fis e dis e fis %185
+    e gis' fis e dis cis h a gis
+    cis h a gis fis e dis e fis }
+    e4 r r
+    gis-!\p e-! gis-!
+    fis dis fis %190
+    e cis e
+    dis h d
+    cis a cis
+    h gis h
+    cis a' dis,! %195
+    r e h
+    cis a' dis,
+    e h'8\f h h h
+    e4 h8 h h h
+    e,4 h8 h h h %200
+    e4 h8 h h h
+    e4 r\fermata \bar ":|." %202 finis
+  }
+}

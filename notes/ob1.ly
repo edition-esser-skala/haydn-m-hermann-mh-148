@@ -255,3 +255,151 @@ AElevenOboeI = {
     R2.\fermata \bar "|." %14 finis
   }
 }
+
+BZeroOboeI = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 3/4 \tempoBZero
+    \partial 4 r4 R2.*7 %7
+    h'4(\p e gis)
+    h2.\f
+    h %10
+    r4 a a
+    r gis gis
+    r fis fis
+    r e e
+    r cis' e, %15
+    e dis r
+    R2.*7 %23
+    fis,4\p h dis
+    fis2.\f %25
+    fis
+    r4 e e
+    e8( dis) dis2
+    r4 cis cis
+    cis8( h) h4 dis %30
+    e2.
+    fis
+    gis
+    ais
+    h %35
+    e,
+    dis
+    e4 fis gis
+    fis2 dis4
+    e fis gis %40
+    fis2 ais4
+    h ais gis
+    fis2 fis4
+    e dis cis
+    \pao h r r %45
+    R2.*15 %60
+    dis2.\fE
+    e4 fis gis
+    fis dis2
+    e4 fis gis
+    fis dis2 %65
+    h'4 ais gis
+    fis2 fis4
+    e dis cis
+    fis2 fis4
+    e dis cis %70
+    \pa h fis8 fis fis fis
+    h4 fis8 fis fis fis \noBreak
+    h4 \pd r \bar ":|.|:" r \noBreak
+    R2.*8 %81
+    dis2.\fE
+    e4 dis cis
+    fis2.
+    e %85
+    gis~
+    gis
+    a~
+    a
+    a %90
+    h2 a4
+    gis2.~
+    gis
+    gis
+    a2 gis4 %95
+    fis2.~
+    fis
+    fis
+    gis2 fis4
+    e2.~ %100
+    e
+    e~
+    e
+    e~
+    e %105
+    e~
+    e
+    dis~
+    dis
+    d~ %110
+    d
+    d~
+    d
+    cis~
+    cis %115
+    a'~
+    a
+    gis~
+    gis
+    g~ %120
+    g
+    g~
+    g
+    g
+    e %125
+    dis
+    a
+    gis!
+    ais
+    h4 fis fis %130
+    fis r r
+    R2.*7 %138
+    h4\p e gis
+    h\f r h, %140
+    a2.
+    gis4 r h
+    a2 a'4
+    gis2.
+    h, %145
+    a
+    d
+    cis
+    dis!
+    e %150
+    a
+    gis2 gis,4
+    a h cis
+    h2 gis4
+    a h cis %155
+    h2 dis4
+    e2.
+    e4 a gis
+    fis e dis
+    e r r %160
+    R2.*15 %175
+    gis,2.\fE
+    a4 h cis
+    h gis2
+    a4 h cis
+    h gis2 %180
+    e'2.
+    e4 fis gis
+    a gis fis
+    \pao e h2
+    a4 gis fis %185
+    h2.
+    a4 gis fis
+    \pao e r r
+    R2.*9 %197
+    r4 gis'\fE gis
+    gis e e
+    e r r %200
+    e r r
+    e r\fermata \bar ":|." %202 finis
+  }
+}

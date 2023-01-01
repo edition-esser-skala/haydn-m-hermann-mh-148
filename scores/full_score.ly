@@ -523,26 +523,76 @@
   %   }
   %   \markup \null
   % }
+  % \bookpart {
+  %   \section "1·12" "Larghetto"
+  %   \addTocEntry
+  %   \paper { systems-per-page = #2 }
+  %   \score {
+  %     <<
+  %       \new StaffGroup \with { \smallGroupDistance } <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { "fl" "1, 2" }
+  %           \partCombine #'(0 . 10) \ATwelveFlautoI \ATwelveFlautoII
+  %         >>
+  %         \new Staff {
+  %             \set Staff.instrumentName = "fag"
+  %             \ATwelveFagotto
+  %           }
+  %       >>
+  %       \new StaffGroup \with { \smallGroupDistance } <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "C" "" "1, 2" }
+  %           \partCombine #'(0 . 10) \ATwelveCornoI \ATwelveCornoII
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \ATwelveViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \ATwelveViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \ATwelveViola
+  %         }
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \ATwelveBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \ATwelveBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 80 }
+  %   }
+  % }
+  % \part "part_two" "2" "Del Ballo la parte seconda"
   \bookpart {
-    \section "1·12" "Larghetto"
+    \section "2·0" "Sinfonia"
     \addTocEntry
     \paper { systems-per-page = #2 }
-    \score {
+    \score { 
       <<
-        \new StaffGroup \with { \smallGroupDistance } <<
+        \new StaffGroup <<
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { "fl" "1, 2" }
-            \partCombine #'(0 . 10) \ATwelveFlautoI \ATwelveFlautoII
+            \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+            \partCombine #'(0 . 10) \BZeroOboeI \BZeroOboeII
           >>
-          \new Staff {
-              \set Staff.instrumentName = "fag"
-              \ATwelveFagotto
-            }
         >>
-        \new StaffGroup \with { \smallGroupDistance } <<
+        \new StaffGroup <<
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "C" "" "1, 2" }
-            \partCombine #'(0 . 10) \ATwelveCornoI \ATwelveCornoII
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "E" "" "1, 2" }
+            % \transpose c e
+            \partCombine #'(0 . 10) \BZeroCornoI \BZeroCornoII
           >>
         >>
         \new StaffGroup <<
@@ -550,29 +600,29 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \ATwelveViolinoI
+              \BZeroViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \ATwelveViolinoII
+              \BZeroViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \ATwelveViola
+            \BZeroViola
           }
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \ATwelveBassoContinuo
+            \BZeroBassoContinuo
           }
         >>
-        \new FiguredBass { \ATwelveBassFigures }
+        \new FiguredBass { \BZeroBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 80 }
+      \midi { \tempo 4 = 120 }
     }
   }
 }

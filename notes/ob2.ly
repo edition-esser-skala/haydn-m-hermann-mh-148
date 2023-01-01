@@ -255,3 +255,151 @@ AElevenOboeII = {
     R2.\fermata \bar "|." %14 finis
   }
 }
+
+BZeroOboeII = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 3/4 \tempoBZero
+    \partial 4 r4 R2.*7 %7
+    gis'4\p( h e)
+    gis2.\f
+    fis %10
+    r4 e e
+    r dis d
+    r a cis
+    r gis h
+    r a gis %15
+    gis fis r
+    R2.*7 %23
+    dis4\p fis h
+    dis2.\f %25
+    cis4 ais cis
+    r gis h
+    ais fis ais
+    r e gis
+    fis dis h' %30
+    h2.
+    h
+    h
+    cis
+    h %35
+    cis
+    h
+    h
+    h
+    h %40
+    h
+    h
+    h2 dis4
+    cis h ais
+    h r r %45
+    R2.*15 %60
+    h2.\fE
+    h
+    h2 h4
+    h2.
+    h2 h4 %65
+    h2.
+    h2 dis4
+    cis h ais
+    h2 dis4
+    cis h ais %70
+    h fis8 fis fis fis
+    h4 fis8 fis fis fis \noBreak
+    h4 r \bar ":|.|:" r \noBreak
+    R2.*8 %81
+    gis2.\fE
+    gis
+    his
+    cis %85
+    e~
+    e
+    fis~
+    fis
+    fis~ %90
+    fis
+    e~
+    e
+    e~
+    e %95
+    dis~
+    dis
+    dis~
+    dis
+    cis~ %100
+    cis
+    cis~
+    cis
+    cis~
+    cis %105
+    cis~
+    cis
+    h~
+    h
+    h~ %110
+    h
+    h~
+    h
+    a~
+    a %115
+    fis'~
+    fis
+    e~
+    e
+    e~ %120
+    e
+    e~
+    e
+    e
+    g, %125
+    fis
+    fis
+    e
+    e
+    dis4 dis dis %130
+    dis r r
+    R2.*7 %138
+    gis4\p h e
+    gis\f r gis, %140
+    fis2.
+    e4 r gis
+    fis2 fis'4
+    e2.
+    gis, %145
+    e
+    h'
+    a
+    fis
+    h %150
+    fis'
+    e2 e,4
+    e2.
+    e
+    e %155
+    e2 h'4
+    e dis cis
+    h dis e
+    cis h a
+    gis r r %160
+    R2.*15 %175
+    e2.\fE
+    e
+    e2 e4
+    e2.
+    e2 e4 %180
+    e' dis cis
+    h dis e
+    fis e dis
+    e e, gis
+    fis e dis %185
+    e2 gis4
+    fis e dis
+    e r r
+    R2.*9 %197
+    r4 e'\fE e
+    e gis, gis
+    gis r r %200
+    gis r r
+    gis r\fermata \bar ":|." %202 finis
+  }
+}

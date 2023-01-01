@@ -369,3 +369,212 @@ ATwelveViola = {
     << { \oneVoice q\breve*1/2\fermata } \\ { \override Hairpin.minimum-length = #10 \mvTrr s4\ff-\arco\> s s s\pp } >> \bar "|." %30 finis
   }
 }
+
+BZeroViola = {
+  \relative c' {
+    \clef alto
+    \key e \major \time 3/4 \tempoBZero
+    \partial 4 r4 e-!\p gis-! e-!
+    dis h' dis,
+    cis e cis
+    h gis' h,
+    a cis a %5
+    gis h e
+    cis2 a4
+    gis r r
+    e'8\f e gis gis e e
+    dis dis h' h dis, dis %10
+    cis cis e e cis cis
+    h h gis' gis h, h
+    a a cis cis a a
+    gis gis h h e e
+    a, a a a cis cis %15
+    h4 h r
+    \parOn h'-\parenthesize-!\p dis-! \parOff cis-\parenthesize-!
+    h fis dis
+    h dis h
+    cis e cis %20
+    ais cis' h
+    ais fis cis
+    ais fis' ais
+    h fis dis
+    h\f dis h %25
+    ais fis' ais,
+    gis h' gis
+    fis dis' fis,
+    e gis e
+    dis h' a! %30
+    gis8 gis gis gis gis gis
+    dis dis dis dis dis dis
+    e e e e e e
+    e e e e e e
+    dis dis dis dis dis dis %35
+    ais ais ais ais ais ais
+    h4 dis fis
+    h dis, e
+    fis dis fis
+    h dis, e %40
+    fis dis fis
+    e fis gis8. e16
+    h'4 r h
+    gis fis e
+    dis r dis\p %45
+    e r gis
+    cis, r ais
+    h r dis,
+    e r fis
+    e r cis %50
+    fis r dis'
+    cis r ais
+    h r fis'
+    h, r gis'
+    cis, r ais %55
+    h r dis,
+    e r fis
+    ais r cis
+    h r dis
+    gis r cis, %60
+    h\f dis fis
+    h dis, e
+    fis dis fis
+    h dis, e
+    fis dis fis %65
+    e fis gis8. e16
+    h'4 r h
+    gis fis fis
+    fis r h
+    gis fis e %70
+    dis fis8 fis fis fis
+    h4 fis8 fis fis fis \noBreak
+    h,4 r \bar ":|.|:" r \noBreak
+    gis4\p a! h \noBreak
+    cis h a %75
+    gis h gis
+    a a h
+    cis h cis
+    dis cis h
+    ais cis ais %80
+    h h cis
+    dis\f cis dis
+    e fis gis
+    his, dis his
+    gis gis' e %85
+    cis8 cis cis cis cis cis
+    cis2.:8
+    fis,:
+    fis:
+    h: %90
+    h:
+    e,:
+    e:
+    a:
+    a: %95
+    dis,:
+    dis:
+    gis:
+    gis:
+    cis16 cis cis cis cis cis cis cis cis cis cis cis %100
+    cis2.:16
+    a:
+    a:
+    g:
+    g: %105
+    fis:
+    fis:
+    fis:
+    fis:
+    eis: %110
+    eis:
+    e:
+    e:
+    e:
+    e: %115
+    dis!:
+    dis:
+    e:
+    e:
+    e: %120
+    e:
+    c':
+    c:
+    ais:
+    ais: %125
+    h4: dis2:
+    dis4: a'2:
+    gis!2.:
+    ais,4: fis'2:
+    fis4: h,2: %130
+    h4 r r
+    \parOn e-\parenthesize-!\p gis-! \parOff fis-\parenthesize-!
+    e h gis
+    e r e'
+    fis r r %135
+    dis fis e
+    dis h fis
+    dis r h'
+    h r r
+    e\f gis e %140
+    fis h, dis
+    e gis e
+    fis h, h
+    h8 e e e e e
+    d d d d d d %145
+    cis cis cis cis cis cis
+    gis gis gis gis gis gis
+    a a a a a a
+    a' a a a a a
+    gis gis gis gis gis gis %150
+    dis! dis dis dis dis dis
+    e4 gis,-! h-!
+    e-! gis,-! a-!
+    h gis h
+    e gis, a %155
+    h gis h
+    a h cis8. dis16
+    e4 fis gis
+    a h h,
+    e r gis,\p %160
+    a r cis
+    fis, r dis'
+    e r gis,
+    a r h
+    a r fis' %165
+    h, r h
+    fis r dis
+    e r h'
+    e, r cis'
+    fis, r dis' %170
+    e r h
+    e, r h'
+    a r fis
+    gis r gis
+    cis a' fis %175
+    e\f gis h
+    e gis, a
+    h gis h
+    e gis, a
+    h gis, h %180
+    a h cis8. dis16
+    e4 h h'
+    cis h h,
+    h r e
+    cis h h
+    h r e
+    cis h a
+    gis r r
+    e'-!\p gis-! e-!
+    dis h' dis,
+    cis e cis
+    h gis' h,
+    a cis a
+    gis h e
+    cis2 h4
+    h r e
+    cis2 a4
+    gis r r
+    R2.
+    r4 h8\f h h h
+    e4 h8 h h h
+    e4 r\fermata \bar ":|."
+  }
+}

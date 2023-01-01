@@ -225,3 +225,133 @@ ATwelveCornoII = {
     << { c\breve*1/2\fermata } \\ { \override Hairpin.minimum-length = #10 s4\ff\> s s s\pp } >> \bar "|." %30 finis
   }
 }
+
+BZeroCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoBZero
+    \partial 4 r4 R2.*8 %8
+    c2.\fE
+    g' %10
+    c4 r r
+    R2.*2
+    r4 r c,
+    c r c %15
+    g' g r
+    R2.*8 %24
+    g2.\fE %25
+    d'
+    g,4 r r
+    R2.*3 %30
+    g4 r g
+    g r g
+    c r c
+    d r d
+    g, r g %35
+    d' r d
+    g,2.
+    g4 g g
+    g2.
+    g4 g g %40
+    g2.
+    g4 g g
+    g2 r4
+    r r d'
+    g, r r %45
+    R2.*15 %60
+    g2.\fE
+    g4 g g
+    g2.
+    g4 g g
+    g2. %65
+    g4 g g
+    g2 r4
+    r r d'
+    g, r r
+    r r d' %70
+    g, d'8 d d d
+    g4 d8 d d d \noBreak
+    g,4 r \bar ":|.|:" r \noBreak
+    R2.*8 %81
+    e4\fE r r
+    e r e
+    e e e
+    e e e %85
+    e2 r4
+    R2.*3
+    g4 g g %90
+    g g g
+    c r r
+    R2.
+    c4 c c
+    c c c %95
+    d r r
+    R2.
+    e,4 e e
+    e e e
+    e r r %100
+    R2.*11 %111
+    c2.
+    c4 c c
+    c2.
+    R %115
+    g'
+    g4 g g
+    c2.
+    c,4 c c
+    c2. %120
+    c4 c c
+    c2.
+    c4 c c
+    c2.
+    c4 c c %125
+    g'2.
+    g4 g g
+    g2.
+    g4 g g
+    g g, g %130
+    g r r
+    R2.*8 %139
+    c2.\fE %140
+    r4 r g'
+    c,2.
+    r4 r g'
+    c, r c
+    c r c %145
+    c r c8 c
+    c4 r c8 c
+    c4 r c'
+    g r g
+    c, r c'8 c %150
+    g4 r g
+    c,2.
+    c4 c c
+    c2.
+    c4 c c %155
+    c2.
+    c4 c c
+    c r e'
+    d c g
+    e r r %160
+    R2.*15 %175
+    c2.\fE
+    c4 c c
+    c2.
+    c4 c8 c c c
+    c2. %180
+    c4 c c
+    c r e'
+    d c g
+    c, r e'
+    d c g %185
+    c, r e'
+    d c g
+    e r r
+    R2.*9 %197
+    r4 c'\fE c
+    c c c
+    c g8 g g g %200
+    c4 g8 g g g
+    c4 r\fermata \bar ":|." %202 finis
+  }
+}
