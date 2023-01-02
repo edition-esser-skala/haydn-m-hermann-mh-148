@@ -545,3 +545,28 @@ BSevenOboeII = {
     es r r\fermata \bar ":|." %18 finis
   }
 }
+
+BEightOboeII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key es \major \time 2/4 \tempoBEight
+    g'2~\fE
+    g8[ b] g r
+    g2~
+    g8[ b] g r
+    g2 %5
+    f
+    f4 es \noBreak
+    d r \bar ":|.|:"
+    es2 \noBreak
+    f %10
+    b
+    a
+    f8 f4 es8
+    f f4 es8
+    as4 f \noBreak %15
+    es r\fermata \bar ":|.|:"
+    \key b \major \tempoBEightB R2*4 \bar ":|.|:" %20
+    R2*4 \markMaggioreDaCapo \bar ":|.|:" %24 finis
+  }
+}

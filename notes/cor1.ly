@@ -423,3 +423,25 @@ BSixCornoI = {
     R2.*4 \markMaggioreDaCapo \bar ":|." %24 finis
   }
 }
+
+BEightCornoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoBEight
+    c'8\fE e g e
+    \pa c g16 e c'8 g16 e \pd
+    c'8 e g e
+    \pa c g16 e c'8 g16 e \pd
+    c'4 r %5
+    \pao d r
+    g r8 \pao d \noBreak
+    d4 r \bar ":|.|:"
+    R2*4 %12
+    d4 r8 c
+    d4 r8 e
+    f f d d \noBreak %15
+    c c16 c c4\fermata \bar ":|.|:"
+    \tempoBEightB R2*4 \bar ":|.|:" %20
+    R2*4 \markMaggioreDaCapo \bar ":|.|:" %24 finis
+  }
+}

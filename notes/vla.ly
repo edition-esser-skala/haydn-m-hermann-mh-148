@@ -757,3 +757,39 @@ BSevenViola = {
     g r r\fermata \bar ":|." %18 finis
   }
 }
+
+BEightViola = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key es \major \time 2/4 \tempoBEight
+    g8-!\fE b-! g-! b-!
+    g-! es-! g-! b-!
+    g b g b
+    g es g b
+    g es r g %5
+    c f, r c'
+    f b g c, \noBreak
+    b d16 f b8 r \bar ":|.|:"
+    <ges b,>2 \noBreak
+    <f as,> %10
+    <ges b,>
+    <es c>
+    << {
+      f8 f4( es8)
+      as f4( es8)
+    } \\ {
+      b2
+      b
+    } >>
+    as8 as b b \noBreak %15
+    es,[ es'] es, r\fermata \bar ":|.|:"
+    \key b \major \tempoBEightB b''2-\sempreP \noBreak
+    es,
+    f \noBreak
+    b, \bar ":|.|:" %20
+    c \noBreak
+    b
+    f
+    f4^\critnote r \markMaggioreDaCapo \bar ":|." %24 finis
+  }
+}

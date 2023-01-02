@@ -757,3 +757,34 @@ BSevenViolinoII = {
     <b es> r r\fermata \bar ":|." %18 finis
   }
 }
+
+BEightViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key es \major \time 2/4 \tempoBEight
+    es8\fE b16 g es'8 b16 g
+    es'8-! g-! b-! g-!
+    es b16 g es'8 b16 g
+    es'8 g b g
+    es es'16 d \appoggiatura d c8 c16 b %5
+    \appoggiatura b a8 a16 g \appoggiatura g f8 f16 es
+    d8 f' g a, \noBreak
+    b f16 d b8 r \bar ":|.|:"
+    ges'8 ges \appoggiatura as16 ges8 f16 es \noBreak
+    d8 d d4 %10
+    es8 es \appoggiatura f16 es8 d16 es
+    a8 a a4
+    b8 as,!4( g!8)
+    b' as,4( g8)
+    c as'16 f \appoggiatura es d8 c16 d \noBreak %15
+    es8 b16 g es'8 r\fermata \bar ":|.|:"
+    \key b \major \tempoBEightB b'16(-\sempreP c) d-! d-! d8 r \noBreak
+    es16( f) g-! g-! g8 r
+    a,16( b) c-! c-! \appoggiatura d c8 b16 a \noBreak
+    \appoggiatura a8 b4 d,8 r \bar ":|.|:" %20
+    a16( c) es-! es-! es es es es \noBreak
+    f( d) b-! b-! b b b b
+    \appoggiatura d c8 b16 a \appoggiatura d c8 b16 a
+    \appoggiatura a8 b4 b8 r \markMaggioreDaCapo \bar ":|." %24 finis
+  }
+}

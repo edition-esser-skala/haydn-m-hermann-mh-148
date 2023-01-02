@@ -1426,3 +1426,61 @@ BSevenBassFigures = \figuremode {
   <6! 4>2 <7 3>4
   r2. %18 finis
 }
+
+BEightBassoContinuo = {
+  \relative c {
+    \clef bass
+    \twofourtime \key es \major \time 2/4 \tempoBEight
+    es8-!\fE g-! b-! g-!
+    es4 r8 b
+    es g b g
+    es4 r8 b
+    es g c es, %5
+    f c' es a,
+    b d, es f \noBreak
+    b, d16 f b8 r \bar ":|.|:"
+    es,4 r \noBreak
+    ces'8 ces \appoggiatura des16 ces8^\critnote b16 as %10
+    ges8 ges ges4
+    ges8 ges \appoggiatura as16 ges8 f16 es
+    d8 d es4
+    d8 d es4
+    as,8 as b b \noBreak %15
+    es,[ es'] es, r\fermata \bar ":|.|:"
+    \key b \major \tempoBEightB r8-\sempreP b'' b b \noBreak
+    r es, es es
+    r f f f \noBreak
+    b, b' d b \bar ":|.|:" %20
+    r f f f \noBreak
+    r f f f
+    r f f f
+    b, b' d b \markMaggioreDaCapo \bar ":|." %24 finis
+  }
+}
+
+BEightBassFigures = \figuremode {
+  r2
+  r
+  r
+  r
+  r4. <6>8 %5
+  <7 _!>4. \once \bassFigureExtendersOn q8
+  r <6> q <7 _!>8
+  r2
+  <_->
+  <6 4 2>4.. \once \bassFigureExtendersOn q16 %10
+  <6>2
+  <6 4 2!>4.. \once \bassFigureExtendersOn q16
+  <6>8 <5-> <9 4> <8 _!>
+  <6 5>4 <9 4>8 <8 3>
+  <6>2 %15
+  r
+  r
+  r
+  r8 <7>4.
+  <9 4>8 <8 3>4. %20
+  r8 <7>4.
+  r8 <6 4>4.
+  r8 <7>4.
+  <9 4>8 <8 3>4. %24 finis
+}
