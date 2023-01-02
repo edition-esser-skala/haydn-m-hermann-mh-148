@@ -653,3 +653,28 @@ BThreeViola = {
     e4 r r\fermata \bar "|." %14 finis
   }
 }
+
+BFourViola = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key a \minor \time 2/4 \tempoBFour
+    \partial 4 r4-\sempreP c8 r h r
+    c r r4
+    c8-! c-! h-! h-!
+    c r r c
+    d e r c %5
+    d e r a,
+    e' r e r \noBreak
+    e r \bar ":|.|:" r4 \noBreak
+    g,!8 g g g \noBreak
+    f4 r %10
+    a8 a a a
+    g4 r
+    h8 h h h
+    a4 r8 a'
+    a r e r %15
+    f r r c
+    d d e e
+    a, r\fermata \bar ":|." %18 finis
+  }
+}

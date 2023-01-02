@@ -1234,3 +1234,49 @@ BThreeBassFigures = \figuremode {
   <8 3>2.
   r %14 finis
 }
+
+BFourBassoContinuo = {
+  \relative c {
+    \clef bass
+    \twofourtime \key a \minor \time 2/4 \tempoBFour
+    \partial 4 r4-\sempreP a'8 r gis r
+    a r r4
+    a8 a gis gis
+    a r r a,
+    d c r a %5
+    d c r c
+    h r a r \noBreak
+    e' r \bar ":|.|:" r4 \noBreak
+    e8 e e e \noBreak
+    f4 r %10
+    fis8 fis fis fis
+    g4 r
+    gis8 gis gis gis
+    a4 r8 c,
+    d r e r %15
+    f r r c
+    d d e e
+    a, r\fermata \bar ":|." %18 finis
+  }
+}
+
+BFourBassFigures = \figuremode {
+  r4 r <7>
+  r2
+  r4 <7>
+  r2
+  <6->8 <6>4. %5
+  <6->8 <6>4.
+  <6\\>2
+  <_+>
+  <6 5- _!>
+  r %10
+  <6 5>
+  <_!>
+  <6 5>
+  r4. <6>8
+  r4 <7 _+> %15
+  <5>4. <6>8
+  r4 <_+>
+  r %18 finis
+}

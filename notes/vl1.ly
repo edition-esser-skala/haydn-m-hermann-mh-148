@@ -653,3 +653,28 @@ BThreeViolinoI = {
     h4 r r\fermata \bar "|." %14 finis
   }
 }
+
+BFourViolinoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key a \minor \time 2/4 \tempoBFour
+    \partial 4 e'16(-\sempreP c) a-! e-! e8 r f r
+    e r e'16( c) a e
+    e8-! e-! f-! f-!
+    e r e16 gis a c
+    b8\trill a e16 gis a c %5
+    b8\trill a e16 gis a e' \noBreak
+    \appoggiatura e d8 c16 h \appoggiatura d c8 h16 a \noBreak
+    h8 r \bar ":|.|:" c16 h c d \noBreak
+    c8 c, c c
+    c r d'16 cis d e %10
+    d8 d, d d
+    d r e'16 dis e f
+    e8 e, e e
+    e r e'16 a gis a
+    \appoggiatura g f8 e16 d c h a gis %15
+    a gis a h a a' gis a
+    \appoggiatura g f8 e16 d c h a gis
+    a8 r\fermata \bar ":|." %18 finis
+  }
+}

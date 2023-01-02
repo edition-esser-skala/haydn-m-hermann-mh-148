@@ -653,3 +653,28 @@ BThreeViolinoII = {
     gis4 r r\fermata \bar "|." %14 finis
   }
 }
+
+BFourViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key a \minor \time 2/4 \tempoBFour
+    \partial 4 r4-\sempreP c8 r d r
+    c r r4
+    c8-! c-! d-! d-!
+    c r r e
+    f e r e %5
+    f e r e
+    gis r a r \noBreak
+    gis r \bar ":|.|:" r4 \noBreak
+    b,8 b b b \noBreak
+    a4 r %10
+    c8 c c c
+    h!4 r
+    d8 d d d
+    c4 r8 e
+    d r d r %15
+    c r r e
+    d-! f-! e16 d c h
+    a8 r\fermata \bar ":|." %18 finis
+  }
+}
