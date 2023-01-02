@@ -671,8 +671,57 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2·2" "Allegretto"
+  %   \addTocEntry
+  %   \paper { systems-per-page = #2 page-count = #1 }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+  %           \partCombine #'(0 . 10) \BTwoOboeI \BTwoOboeII
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "A" "" "1, 2" }
+  %           % \transpose c a,
+  %           \partCombine #'(0 . 10) \BTwoCornoI \BTwoCornoII
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \BTwoViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \BTwoViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \BTwoViola
+  %         }
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \BTwoBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \BTwoBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 90 }
+  %   }
+  % }
   \bookpart {
-    \section "2·2" "Allegretto"
+    \section "2·3" "Presto"
     \addTocEntry
     \paper { systems-per-page = #2 page-count = #1 }
     \score {
@@ -680,14 +729,14 @@
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
-            \partCombine #'(0 . 10) \BTwoOboeI \BTwoOboeII
+            \partCombine #'(0 . 10) \BThreeOboeI \BThreeOboeII
           >>
         >>
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "A" "" "1, 2" }
             % \transpose c a,
-            \partCombine #'(0 . 10) \BTwoCornoI \BTwoCornoII
+            \partCombine #'(0 . 10) \BThreeCornoI \BThreeCornoII
           >>
         >>
         \new StaffGroup <<
@@ -695,29 +744,29 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \BTwoViolinoI
+              \BThreeViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \BTwoViolinoII
+              \BThreeViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \BTwoViola
+            \BThreeViola
           }
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
-            % \transpose c c,
-            \BTwoBassoContinuo
+            \transpose c c,
+            \BThreeBassoContinuo
           }
         >>
-        \new FiguredBass { \BTwoBassFigures }
+        \new FiguredBass { \BThreeBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 130 }
     }
   }
 }

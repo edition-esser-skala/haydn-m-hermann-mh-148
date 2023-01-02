@@ -377,3 +377,24 @@ BTwoCornoI = {
     \pa c g \pd e4\fermata \bar ":|." %16 finis
   }
 }
+
+BThreeCornoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoBThree
+    c'8\fE c c c c c
+    c4 c c
+    \pa g8 g g g g g
+    g4 \pd g g
+    g8 c c c c c %5
+    c4 c c
+    c r r
+    c r r
+    \pa g8 g g g g g
+    g g g g g g \pd %10
+    g g g g g g
+    g g g g g c
+    g4 r r
+    g r r\fermata \bar "|." %14 finis
+  }
+}

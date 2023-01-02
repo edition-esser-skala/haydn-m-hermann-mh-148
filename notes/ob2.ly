@@ -452,3 +452,24 @@ BTwoOboeII = {
     a4 r\fermata \bar ":|." %16 finis
   }
 }
+
+BThreeOboeII = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 3/4 \tempoBThree
+    a'4\fE a a
+    a r r
+    h h h
+    h r r
+    a a a %5
+    a r r
+    a a a
+    fis2.
+    e4 gis2
+    e4 a2 %10
+    gis4 h2
+    a gis8 fis
+    e4 r r
+    R2.\fermata \bar "|." %14 finis
+  }
+}

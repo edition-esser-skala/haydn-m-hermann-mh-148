@@ -632,3 +632,24 @@ BTwoViolinoII = {
     a8[ e] a, r\fermata \bar ":|." %16 finis
   }
 }
+
+BThreeViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 3/4 \tempoBThree
+    <a' a'>16\fE q q q q q q q q q q q
+    cis'8-! e,-! cis-! a-! e-! cis-!
+    h2.:16
+    h''8-! gis-! \parOn d-\parenthesize-! h-! gis-! \parOff d-\parenthesize-!
+    a2.: %5
+    \parOn a''8-\parenthesize-! e-! cis-! a-! e-! \parOff cis-\parenthesize-!
+    a2.:
+    a:
+    gis8 e'-! d'-! h-! gis-! h-!
+    a a' e cis a cis %10
+    h h' gis d gis, h
+    e, cis e cis h a
+    gis16 gis gis gis gis gis gis gis gis gis gis gis
+    gis4 r r\fermata \bar "|." %14 finis
+  }
+}

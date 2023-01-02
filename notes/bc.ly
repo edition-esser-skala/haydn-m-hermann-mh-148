@@ -1196,3 +1196,41 @@ BTwoBassFigures = \figuremode {
   <6>8 <6 4>16 <\t \t> <6 4>8 <7 3> %15
   r2 %16 finis
 }
+
+BThreeBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key a \major \time 3/4 \tempoBThree
+    a16\fE a a a a a a a a a a a
+    a4 r r
+    gis2.:16
+    gis4 r r
+    a2.: %5
+    a4 r r
+    d2.:
+    dis:
+    e:
+    e: %10
+    e:
+    e:
+    e4 r r
+    R2.\fermata \bar "|." %14 finis
+  }
+}
+
+BThreeBassFigures = \figuremode {
+  r2.
+  r
+  <6 5>
+  <\t \t>
+  r %5
+  r
+  <6 5>
+  <\t \t>
+  <5 3>
+  <6 4> %10
+  <7 5>
+  <6 4>2 <5 3>8 <7\\ 2>
+  <8 3>2.
+  r %14 finis
+}

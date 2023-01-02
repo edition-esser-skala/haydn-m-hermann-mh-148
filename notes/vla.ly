@@ -632,3 +632,24 @@ BTwoViola = {
     cis4 r\fermata \bar ":|." %16 finis
   }
 }
+
+BThreeViola = {
+  \relative c' {
+    \clef alto
+    \key a \major \time 3/4 \tempoBThree
+    e16\fE e e e e e e e e e e e
+    e4 r r
+    e,2.:16
+    e4 r r
+    e2.: %5
+    e4 r r
+    fis2.:
+    fis:
+    e:
+    e: %10
+    e:
+    e:
+    e16 e e e e e e e e e e e
+    e4 r r\fermata \bar "|." %14 finis
+  }
+}
