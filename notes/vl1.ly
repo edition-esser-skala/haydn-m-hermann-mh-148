@@ -578,3 +578,34 @@ BZeroViolinoI = {
     e4 r\fermata \bar ":|." %202 finis
   }
 }
+
+BOneViolinoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key a \major \time 2/4 \tempoBOne
+    e8.\mf a16 gis8. h16
+    h4( a8[) r16 a]
+    h8. cis16 d8. e16
+    d4( cis8[) r16 cis]
+    dis,8. fis16 e8[ r16 h] %5
+    dis8. fis16 e8[ r16 h']
+    \appoggiatura h a8 a4 fis8 \noBreak
+    e4 r8. e16 \bar ":|.|:"
+    e'4 g,
+    fis8(-. e)-. d(-. cis-.) %10
+    h4 \appoggiatura e'16 d8 cis16 h
+    a4( gis8[) r16 e']
+    e4 e
+    e a16( gis fis e)
+    e8(-. e-.) e(-. e-.) %15
+    e4 a16( gis fis e)
+    e4( eis)
+    fis16( gis a gis a fis e d)
+    \after 8 \turn cis8. d16 h4\trill
+    a r8. e'16 %20
+    gis,8. h16 a8[ r16 e]
+    gis8. h16 a8[ r16 e']
+    \appoggiatura e d8 d4 h8\trill
+    a4 r8.\fermata e16 \bar ":|." %24 finis
+  }
+}

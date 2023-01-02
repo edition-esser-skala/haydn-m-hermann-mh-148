@@ -578,3 +578,34 @@ BZeroViolinoII = {
     e4 r\fermata \bar ":|." %202 finis
   }
 }
+
+BOneViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key a \major \time 2/4 \tempoBOne
+    r16 e\mf e e r <e h> q q
+    r <e gis,> q q r <e a,> q q
+    r e e e r <e h'> q q
+    r q q q <e a> q q q
+    r fis fis fis r e e e %5
+    r fis fis fis r e e e
+    r fis fis fis r dis dis dis \noBreak
+    r <e gis,> q q q q q q \bar ":|.|:"
+    r e e e r e e e \noBreak
+    r fis fis fis fis fis fis fis %10
+    r fis fis fis r fis fis fis
+    r e e e e e d d
+    r cis cis cis r d d d
+    r cis cis cis cis cis cis cis
+    r cis cis cis r d d d %15
+    r cis cis cis cis cis cis cis
+    r e e e r a a a
+    r a a a a a a a
+    r a a a r gis gis gis
+    r a a a a a a a %20
+    r h h h r a a a
+    r h h h r a a a
+    r fis fis fis r <e d> q q
+    r <e cis> q q q\fermata q q q \bar ":|." %24 finis
+  }
+}

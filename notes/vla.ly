@@ -578,3 +578,34 @@ BZeroViola = {
     e4 r\fermata \bar ":|."
   }
 }
+
+BOneViola = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key a \major \time 2/4 \tempoBOne
+    r16 cis\mf cis cis r d d d
+    r d d d cis cis cis cis
+    r gis gis gis r gis gis gis
+    r gis gis gis a a a a
+    r h h h r h h h %5
+    r h h h r h h h
+    r cis cis cis r h h h \noBreak
+    r h h h h h h h \bar ":|.|:"
+    r a a a r cis cis cis \noBreak
+    r a a a ais ais ais ais %10
+    r h h h r d d d
+    r cis cis cis h h h h
+    r a a a r h h h
+    r a a a a a a a
+    r a a a r h h h %15
+    r a a a a a a a
+    r a a a r a a a
+    r d d d fis fis fis fis
+    r e e e r d d d
+    r cis cis cis cis cis cis cis %20
+    r e e e r e e e
+    r e e e r e e e
+    r h h h r gis gis gis
+    r a a a a\fermata a a a \bar ":|." %24 finis
+  }
+}

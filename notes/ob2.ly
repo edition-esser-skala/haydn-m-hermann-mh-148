@@ -403,3 +403,29 @@ BZeroOboeII = {
     gis r\fermata \bar ":|." %202 finis
   }
 }
+
+BOneOboeII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key a \major \time 2/4 \tempoBOne
+    e2~\p
+    e~
+    e~
+    e
+    R %5
+    r4 e
+    fis dis \noBreak
+    e r \bar ":|.|:"
+    R2*4 %12
+    a4 h
+    a r
+    a h %15
+    a r
+    R2*3
+    e2~ %20
+    e~
+    e4 a
+    h gis
+    a r \bar ":|." %24 finis
+  }
+}

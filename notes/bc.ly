@@ -1096,3 +1096,61 @@ BZeroBassFigures = \figuremode {
   r
   r2 %202 finis
 }
+
+BOneBassoContinuo = {
+  \relative c {
+    \clef bass
+    \twofourtime \key a \major \time 2/4 \tempoBOne
+    a'4\mf e
+    a, r
+    e' e,
+    a r
+    a gis %5
+    a gis
+    a h \noBreak
+    e, r \bar ":|.|:"
+    cis' a \noBreak
+    d r %10
+    d h
+    e r
+    a gis
+    a r
+    a gis %15
+    a r
+    cis, cis
+    d r
+    e e,
+    a r %20
+    d cis
+    d cis
+    d e
+    a, r\fermata \bar ":|." %24 finis
+  }
+}
+
+BOneBassFigures = \figuremode {
+  r4 <7>
+  <7 2> <8 3>
+  r4 <7>
+  <9 4>4 <8 3>
+  <4\+ 2> <6> %5
+  <4\+ 2> <6>
+  q <7 _+>
+  r2
+  r4 <6 5!>
+  r2 %10
+  <6>
+  <6 4>4 <5 3>
+  r <6 5>
+  r2
+  r4 <6 5> %15
+  r2
+  <6 3>4 <\t _+>
+  r2
+  <6 4>4 <7 3>
+  r2 %20
+  <2>4 <6>
+  <2> <6>
+  q <7>
+  r2 %24 finis
+}
