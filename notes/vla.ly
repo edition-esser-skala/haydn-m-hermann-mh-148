@@ -793,3 +793,26 @@ BEightViola = {
     f4^\critnote r \markMaggioreDaCapo \bar ":|." %24 finis
   }
 }
+
+BNineViola = {
+  \relative c' {
+    \clef alto
+    \key g \minor \time 3/4 \tempoBNine
+    es'8\fE es16 d \appoggiatura d c8 c16 b \appoggiatura b a8 a16 g
+    fis8 a\p b( a) b( a)
+    d\f d16 c h8 h16 as g8 g16 f
+    e8 g\p as( g) as( g)
+    es\f g\p as( g) as( g) %5
+    d\f c'16 b a8 a16 g fis8 fis16 e
+    d8 fis4 c' a8
+    d, g4 d' b8
+    fis fis4 fis c'8
+    b g4 g g8~ %10
+    g g4 g g8(
+    e) e4 e e8
+    a, a' a( b) a( b)
+    a fis, fis( g) fis( g)
+    g2.( %15
+    fis4) r r\fermata \bar "|." %16 finis
+  }
+}

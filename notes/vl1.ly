@@ -788,3 +788,26 @@ BEightViolinoI = {
     \appoggiatura c8 d4 b8 r \markMaggioreDaCapo \bar ":|." %24 finis
   }
 }
+
+BNineViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 3/4 \tempoBNine
+    es'8\fE es16 d \appoggiatura d c8 c16 b \appoggiatura b a8 a16 g
+    fis8 d'\p cis( d) cis( d)
+    d\f d16 c h8 h16 as g8 g16 f
+    e8 c'\p h( c) h( c)
+    es,\f c'\p h( c) h( c) %5
+    d,\f c'16 b a8 a16 g fis8 fis16 e
+    d8 a''4 fis c8
+    b b'4 g d8
+    c c'4 a fis8
+    g g4 g g8 %10
+    b g4 g g8
+    b g fis( g) fis( g)
+    fis d d( cis) d( cis)
+    d d, d( cis) \once \slurDashed d( cis)
+    cis2.( %15
+    d4) r r\fermata \bar "|." %16 finis
+  }
+}

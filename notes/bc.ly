@@ -1484,3 +1484,45 @@ BEightBassFigures = \figuremode {
   r8 <7>4.
   <9 4>8 <8 3>4. %24 finis
 }
+
+BNineBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 3/4 \tempoBNine
+    \mvTr es'8\fE-\unisonoE es16 d \appoggiatura d c8 c16 b \appoggiatura b a8 a16 g
+    fis4 r r
+    d'8 d16 c h8 h16 as g8 g16 f
+    e4 r r
+    es r r %5
+    d8 c'16 b a8 a16 g fis8 fis16 e
+    d8 d cis( d) cis( d)
+    r d cis( d) cis( d)
+    r d cis( d) cis( d)
+    r g fis( g) fis( g) %10
+    r es d( es) d( es)
+    cis cis cis cis cis cis
+    d4 r r
+    d r r
+    d d, d %15
+    d r r\fermata \bar "|." %16 finis
+  }
+}
+
+BNineBassFigures = \figuremode {
+  r2.
+  r
+  r
+  r
+  r %5
+  r
+  <7 _+>2 \bassFigureExtendersOn q8 q
+  <6 4>2 q8 q
+  <7 _+>2 q8 q
+  <8 3>2. %10
+  q2 q8 q
+  <7 _!>2 q8 q \bassFigureExtendersOff
+  <_+>2.
+  q
+  <7\\ 6 4>2 \once \bassFigureExtendersOn q4 %15
+  <8 _+>2. %16 finis
+}

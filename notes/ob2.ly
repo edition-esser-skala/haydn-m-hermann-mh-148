@@ -570,3 +570,26 @@ BEightOboeII = {
     R2*4 \markMaggioreDaCapo \bar ":|.|:" %24 finis
   }
 }
+
+BNineOboeII = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 3/4 \tempoBNine
+    es'8\fE es16 d \appoggiatura d c8 c16 b \appoggiatura b a8 a16 g
+    fis4 r r
+    d'8 d16 c h8 h16 as g8 g16 f
+    e4 r r
+    es r r %5
+    d8 c'16 b a8 a16 g fis8 fis16 e
+    d4 fis2
+    d4 g2
+    d4 a'2
+    g4 b2 %10
+    g4 b2
+    R2.
+    d,4 \slurDashed fis8( g) fis( g)
+    fis4 fis8( g) fis( g) \slurSolid
+    g2.( %15
+    fis4) r r\fermata \bar "|." %16 finis
+  }
+}
