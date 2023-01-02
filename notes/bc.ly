@@ -1280,3 +1280,45 @@ BFourBassFigures = \figuremode {
   r4 <_+>
   r %18 finis
 }
+
+BFiveBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key f \major \time 3/4 \tempoBFive
+    \partial 4. r8 r4 f,\fE r8 f' g a
+    b4 r8 g a b
+    a4 r8 f g a
+    g4 r8 e f g
+    f f f f f f %5
+    f f e e e e
+    f f g g g, g \noBreak
+    c[ c' c,] \bar ":|.|:" r r4 \noBreak
+    c8 c' c c c c \noBreak
+    c, c' c c c e, %10
+    f a b fis g b
+    c c, r c' c, b
+    a4 r8 f' c b
+    a4 r8 f' c b
+    a a' d b c c, %15
+    f[ c] f,\fermata \bar ":|." %16 finis
+  }
+}
+
+BFiveBassFigures = \figuremode {
+  r4. r2 <7>8 <6>
+  r4. <7>8 <6>4
+  <6>2 <7>8 <6>
+  q4. q4 q8
+  r2 <6>4 %5
+  <4!> <6>2
+  q4 <6 4> <7 _!>
+  r2.
+  <7->
+  <\t>2 r8 <6 5> %10
+  r <6>4 q q8
+  <6 4>4 <5 3>2
+  <6>2. \bassFigureExtendersOn
+  q2 q8 q \bassFigureExtendersOff
+  q4 q8 q <6 4> <5 3> %15
+  r4. %16 finis
+}

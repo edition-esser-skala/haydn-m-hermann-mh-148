@@ -678,3 +678,26 @@ BFourViolinoI = {
     a8 r\fermata \bar ":|." %18 finis
   }
 }
+
+BFiveViolinoI = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 3/4 \tempoBFive
+    \partial 4. f8-!\fE a-! c-! f \tuplet 3/2 8 { f,16 f f } f8 a b c
+    d \tuplet 3/2 8 { f,16 f f } f8 b c d
+    c \tuplet 3/2 8 { f,16 f f } f8 a b c
+    b \tuplet 3/2 8 { c,16 c c } c8 g' a b
+    a b16 c d e f g a f d c %5
+    \appoggiatura c h8 a16 g g'-! f-! e-! d-! c h a g
+    a f e d e c' c c d, h' h h \noBreak
+    c,4 r8 \bar ":|.|:" c'-! e-! g-! \noBreak
+    b! b16 g e8 g16 e b8 e16 b \noBreak
+    g8 b16 g e8 g16 e c8 b %10
+    a c' b, d' c16( b) a( g)
+    f4( e8) c'-! c,-! b-!
+    \kneeBeam a \tuplet 3/2 8 { f''16 f f } f8 f, c b
+    \kneeBeam a \tuplet 3/2 8 { c''16 c c } \kneeBeam c8 f,, c b
+    a c' b, d' c, e' %15
+    <f a, f>4 r8\fermata \bar ":|." %16 finis
+  }
+}

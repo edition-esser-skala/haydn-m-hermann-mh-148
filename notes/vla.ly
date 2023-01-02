@@ -678,3 +678,26 @@ BFourViola = {
     a, r\fermata \bar ":|." %18 finis
   }
 }
+
+BFiveViola = {
+  \relative c' {
+    \clef alto
+    \key f \major \time 3/4 \tempoBFive
+    \partial 4. r8 r4 c\fE r8 f g a
+    b4 r8 g a b
+    a4 r8 f g a
+    g4 r8 e f g
+    f f a a a a %5
+    d, d c c g' c
+    f, a g g f f \noBreak
+    e[ c' c,] \bar ":|.|:" r r4 \noBreak
+    c8 c16 c c8 c16 c c8 c16 c \noBreak
+    c8 c16 c c8 c16 c c8 c16 c %10
+    c8 f d a b d
+    c c, r c'' c, b
+    a4 r8 f' c b
+    a4 r8 f' c b
+    a f' b g c c, %15
+    c4 r8\fermata \bar ":|." %16 finis
+  }
+}

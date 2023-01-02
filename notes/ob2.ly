@@ -473,3 +473,26 @@ BThreeOboeII = {
     R2.\fermata \bar "|." %14 finis
   }
 }
+
+BFiveOboeII = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 3/4 \tempoBFive
+    \partial 4. r8 r4 f2.\fE
+    f
+    f
+    b4. g8 f e
+    f4 f'2 %5
+    g,2 c8 e
+    d4 c h \noBreak
+    c r8 \bar ":|.|:" r r4 \noBreak
+    g' e b \noBreak
+    g e c %10
+    r r8 a' b a16 g
+    f4( e8) r r4
+    a2.
+    c
+    f8( a) r g f e %15
+    f4 r8\fermata \bar ":|." %16 finis
+  }
+}
