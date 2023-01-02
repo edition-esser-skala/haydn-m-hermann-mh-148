@@ -701,3 +701,34 @@ BFiveViola = {
     c4 r8\fermata \bar ":|." %16 finis
   }
 }
+
+BSixViola = {
+  \relative c' {
+    \clef alto
+    \key b \major \time 6/8 \tempoBSix
+    f4\fE r8 f4 r8
+    f d es f a, b
+    f'4 r8 f4 r8
+    c es d c b a
+    b4 r8 f'4 r8 %5
+    b d, es f es d
+    es4 r8 f4 r8 \noBreak
+    b, d f b f d \bar ":|.|:"
+    b'4 r8 a4 r8 \noBreak
+    b4 r8 f4 r8 %10
+    b f d g es c
+    f d b es c a
+    b4 r8 f'4 r8
+    b d, es f es d
+    es4 r8 f4 r8 \noBreak %15
+    b, d f b\fermata f d \bar ":|.|:"
+    \tempoBSixB g4.(-\sempreP g,) \noBreak
+    d'( g)
+    c,( d) \noBreak
+    d r4 r8 \bar ":|.|:" %20
+    a4.( es') \noBreak
+    d( c)
+    b( a)
+    g r4 r8 \markMaggioreDaCapo \bar ":|." %24 finis
+  }
+}

@@ -496,3 +496,28 @@ BFiveOboeII = {
     f4 r8\fermata \bar ":|." %16 finis
   }
 }
+
+BSixOboeII = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 6/8 \tempoBSix
+    b'4.\fE a
+    b2.
+    a4. b
+    c2.
+    b4. c %5
+    b2.
+    es4. a, \noBreak
+    b4 r8 r4 r8 \bar ":|.|:"
+    b4. a \noBreak
+    b a %10
+    b r4 r8
+    R2.
+    d4. c
+    b2.
+    es4. a, \noBreak %15
+    b4 r8\fermata r4 r8 \bar ":|.|:"
+    \tempoBSixB R2.*4 \bar ":|.|:" %20
+    R2.*4 \markMaggioreDaCapo \bar ":|." %24 finis
+  }
+}

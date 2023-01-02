@@ -1322,3 +1322,61 @@ BFiveBassFigures = \figuremode {
   q4 q8 q <6 4> <5 3> %15
   r4. %16 finis
 }
+
+BSixBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key b \major \time 6/8 \tempoBSix
+    b4\fE r8 f'4 r8
+    b, b' c d c b
+    f4 r8 b4 r8
+    a c b a g f
+    b4 r8 f4 r8 %5
+    d b' c d c b
+    es,4 r8 f4 r8 \noBreak
+    b,8 d f b f d \bar ":|.|:"
+    b4 r8 es'4 r8 \noBreak
+    d4 r8 c4 r8 %10
+    b-\unisonoE f d g es c
+    f d b es c a
+    b4 r8 c4 r8
+    d b' c d c b
+    es,4 r8 f4 r8 \noBreak %15
+    b, d f b\fermata f d \bar ":|.|:"
+    \tempoBSixB g-\sempreP fis g g fis g \noBreak
+    g fis g g fis g
+    g fis g g fis g \noBreak
+    g4 r8 r4 r8 \bar ":|.|:" %20
+    d cis d d cis d \noBreak
+    d cis d d cis d
+    d cis d d cis d
+    g,4 r8 r4 r8 \markMaggioreDaCapo \bar ":|." %24 finis
+  }
+}
+
+BSixBassFigures = \figuremode {
+  r2.
+  r
+  r
+  <6 5>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
+  r4. <7> %5
+  <6>2 \once \bassFigureExtendersOn q8 <5\+>
+  <6>4. <7>
+  r2.
+  r4. <4 3>
+  <6> q %10
+  r2.
+  r
+  <5>4. <6>
+  <6>2 \once \bassFigureExtendersOn q8 <5\+>
+  <6>4. <7> %15
+  r2.
+  r
+  r4. <_!>
+  <6 4> <7 2>
+  <8 3>2. %20
+  <8 5 _+>4. <9 7 \t>
+  <6 4> <9 7 _+>
+  <6 4> <7 _+>
+  r2. %24 finis
+}

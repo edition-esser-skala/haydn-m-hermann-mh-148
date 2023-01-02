@@ -398,3 +398,28 @@ BThreeCornoI = {
     g r r\fermata \bar "|." %14 finis
   }
 }
+
+BSixCornoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 6/8 \tempoBSix
+    c'8\fE c c \pa g g g \pd
+    c4. r4 r8
+    \pa g g g g g g
+    g4. \pd r4 r8
+    c c c \pa g g g \pd %5
+    c4. r4 r8
+    r4 r8 d4. \noBreak
+    c8 c c c4 r8 \bar ":|.|:"
+    c4. r4 r8 \noBreak
+    c4. \pao g %10
+    c r4 r8
+    R2.
+    c8 c c \pa g g g \pd
+    c4. r4 r8
+    r4 r8 d4. \noBreak %15
+    c8 c c c4\fermata r8 \bar ":|.|:"
+    \tempoBSixB R2.*4 \bar ":|.|:" %20
+    R2.*4 \markMaggioreDaCapo \bar ":|." %24 finis
+  }
+}

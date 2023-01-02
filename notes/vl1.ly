@@ -701,3 +701,34 @@ BFiveViolinoI = {
     <f a, f>4 r8\fermata \bar ":|." %16 finis
   }
 }
+
+BSixViolinoI = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 6/8 \tempoBSix
+    b'8\fE f d c' a f
+    d' d d d4.
+    c8 a f d' b f
+    es' es es es4.
+    d8 b f es' c a %5
+    f' f f f4( fis8)
+    g es c es c a \noBreak
+    b b b b r r \bar ":|.|:"
+    b' f d g es c \noBreak
+    f d b es c a %10
+    b f d g es c
+    f d b es c a
+    d' b f es' c a
+    f' f f f4( fis8)
+    g es c es c a \noBreak %15
+    b b b b\fermata r r \bar ":|.|:"
+    \tempoBSixB d4.(-\sempreP b') \noBreak
+    g( d)
+    es( c) \noBreak
+    b8( a g) b( a g) \bar ":|.|:" %20
+    a4.( fis') \noBreak
+    g( es)
+    d( fis,)
+    g8( fis g) g( fis g) \markMaggioreDaCapo \bar ":|." %24 finis
+  }
+}
