@@ -1154,3 +1154,45 @@ BOneBassFigures = \figuremode {
   q <7>
   r2 %24 finis
 }
+
+BTwoBassoContinuo = {
+  \relative c {
+    \clef bass
+    \twofourtime \key a \major \time 2/4 \tempoBTwo
+    r8 a'\fE cis a
+    r a cis a
+    r h e, gis
+    a d cis a
+    r fis h, dis %5
+    e a gis a
+    gis cis16 a h8 h, \noBreak
+    e h e,4 \bar ":|.|:"
+    r8 e' gis e \noBreak
+    a dis e e, %10
+    r e gis e
+    a dis e e,
+    r a a a
+    r d, d d
+    cis fis16 d e8 e %15
+    a e a,4\fermata \bar ":|.|:" %16 finis
+  }
+}
+
+BTwoBassFigures = \figuremode {
+  r2
+  r
+  r8 <6>4 \once \bassFigureExtendersOn q8
+  r <2> <6>4
+  r < _+>8 <\t \t> %5
+  r <4+> <6>4
+  <6>8 <6 4>16 <\t \t> <6 4>8 <7 _+>
+  r <_+>4.
+  r4. <7!>8
+  <9 4> <7> <5>4 %10
+  r4. <7>8
+  <9 4> <7> <5>4
+  r2
+  r8 <6> <4 3>4
+  <6>8 <6 4>16 <\t \t> <6 4>8 <7 3> %15
+  r2 %16 finis
+}

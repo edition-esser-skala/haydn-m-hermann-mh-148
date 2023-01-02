@@ -581,7 +581,7 @@ BZeroViola = {
 
 BOneViola = {
   \relative c' {
-    \clef treble
+    \clef alto
     \twofourtime \key a \major \time 2/4 \tempoBOne
     r16 cis\mf cis cis r d d d
     r d d d cis cis cis cis
@@ -607,5 +607,28 @@ BOneViola = {
     r e e e r e e e
     r h h h r gis gis gis
     r a a a a\fermata a a a \bar ":|." %24 finis
+  }
+}
+
+BTwoViola = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key a \major \time 2/4 \tempoBTwo
+    <a e' a>4\fE r
+    q r
+    gis r8 e'
+    e e e cis
+    r cis dis h %5
+    e h r e
+    e cis h a \noBreak
+    gis[ h] e r \bar ":|.|:"
+    e,4 r8 gis' \noBreak
+    a([ a,)] e' r %10
+    e,4 r8 gis'
+    a([ a,)] e' r
+    a,4 r8 a
+    d4 r8 d
+    e fis e d %15
+    cis4 r\fermata \bar ":|." %16 finis
   }
 }

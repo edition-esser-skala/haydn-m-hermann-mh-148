@@ -609,3 +609,26 @@ BOneViolinoII = {
     r <e cis> q q q\fermata q q q \bar ":|." %24 finis
   }
 }
+
+BTwoViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key a \major \time 2/4 \tempoBTwo
+    cis16\fE e a e a8 r
+    cis,16 e a e a8 r
+    d4 e16 cis d h
+    cis a h gis a8 r
+    a'4 h16 gis a fis %5
+    gis e fis dis e h cis a
+    h gis a fis gis e fis dis \noBreak
+    e8[ h] gis r \bar ":|.|:"
+    gis( h) e-! h'-! \noBreak
+    \appoggiatura h a4 gis8 r %10
+    gis,( h) e-! h'-!
+    \appoggiatura h a4 gis8 r
+    cis,16 e a e a8[ r16 cis,]
+    d e fis d gis,8[ r16 gis']
+    a e' d h cis a h gis %15
+    a8[ e] a, r\fermata \bar ":|." %16 finis
+  }
+}

@@ -355,3 +355,25 @@ BZeroCornoI = {
     c4 \pd r\fermata \bar ":|." %202 finis
   }
 }
+
+BTwoCornoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoBTwo
+    c'4\fE r
+    c r
+    \pao g r8 d'
+    c4 r
+    R2*2 %6
+    r4 r8 \pao d \noBreak
+    d4 r \bar ":|.|:"
+    g,2 \noBreak
+    R %10
+    g
+    R
+    c4 r
+    R2
+    r8 f e d %15
+    \pa c g \pd e4\fermata \bar ":|." %16 finis
+  }
+}

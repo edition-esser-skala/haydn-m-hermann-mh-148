@@ -429,3 +429,26 @@ BOneOboeI = {
     \pao a r\fermata \bar ":|." %24 finis
   }
 }
+
+BTwoOboeI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key a \major \time 2/4 \tempoBTwo
+    cis'2\fE
+    e
+    d
+    cis8[ h] \pao a r
+    a'2 %5
+    gis8[ fis] \pao e r
+    r a, gis fis \noBreak
+    \pao e4 r \bar ":|.|:"
+    r r8 d' \noBreak
+    \appoggiatura d cis4 h8 r %10
+    r4 r8 d
+    \appoggiatura d cis4 h8 r
+    cis4. e8
+    fis4. h,8
+    e d cis h %15
+    \pao a4 r \bar ":|." %16 finis
+  }
+}
