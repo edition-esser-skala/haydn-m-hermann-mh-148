@@ -732,3 +732,28 @@ BSixViola = {
     g r4 r8 \markMaggioreDaCapo \bar ":|." %24 finis
   }
 }
+
+BSevenViola = {
+  \relative c' {
+    \clef alto
+    \key es \major \time 3/4 \tempoBSeven
+    es,2.\fE
+    es
+    f4 d b'
+    es r r
+    as2.\p %5
+    g
+    f4^\critnote b, b \noBreak
+    b2. \bar ":|.|:"
+    b2.\f \noBreak
+    b %10
+    as4( c) b
+    b2.
+    b'8. b16 c4 r
+    ces8. ces16 b4 r
+    as,2\p ges4 %15
+    f!2-! r4
+    g!2(\pp as4)
+    g r r\fermata \bar ":|." %18 finis
+  }
+}

@@ -732,3 +732,28 @@ BSixViolinoI = {
     g8( fis g) g( fis g) \markMaggioreDaCapo \bar ":|." %24 finis
   }
 }
+
+BSevenViolinoI = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 3/4 \tempoBSeven
+    b'8(\fE es) b( g) es( g)
+    b( es) b( g) es( g)
+    b( as) f( d) b( as)
+    g( b) es( g) b( h)
+    c(\p d es c es, c') %5
+    b( d es b g es)
+    d( b') b( as) as( g) \noBreak
+    g2( f8) r \bar ":|.|:"
+    f2\f g4 \noBreak
+    as( d,) es %10
+    c'2 d4
+    es( d,) es
+    b''8. b16 a4 r
+    as8. as16 ges4 r
+    fes,2\p es4 %15
+    d2-! r4
+    es2\pp( \grace g!16 f4)
+    es r r\fermata \bar ":|." %18 finis
+  }
+}

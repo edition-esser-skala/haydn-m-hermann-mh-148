@@ -521,3 +521,27 @@ BSixOboeII = {
     R2.*4 \markMaggioreDaCapo \bar ":|." %24 finis
   }
 }
+
+BSevenOboeII = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 3/4 \tempoBSeven
+    es2.\fE
+    es
+    d2 f4
+    es2 r4
+    es2.\p %5
+    es
+    r4 f es \noBreak
+    es2( d8) r \bar ":|.|:"
+    f2\f es4 \noBreak
+    d2 es4 %10
+    es2 f4
+    es d es
+    b' a r
+    as ges r
+    R2.*2 %16
+    es2(\pp d4)
+    es r r\fermata \bar ":|." %18 finis
+  }
+}

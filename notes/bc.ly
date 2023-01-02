@@ -1380,3 +1380,49 @@ BSixBassFigures = \figuremode {
   <6 4> <7 _+>
   r2. %24 finis
 }
+
+BSevenBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key es \major \time 3/4 \tempoBSeven
+    es4\fE g r
+    es g r
+    f b, d
+    es g r
+    as2.\p %5
+    g
+    f4 d es \noBreak
+    b b' r \bar ":|.|:"
+    b,\f d es \noBreak
+    f( as) g %10
+    r as, as'
+    g( f) es
+    ges8. ges16 f4 r
+    d8. d16 es4 r
+    as,2\p b4 %15
+    ces2-\parenthesize-! r4
+    b2.\pp
+    es,4 r r\fermata \bar ":|." %18 finis
+  }
+}
+
+BSevenBassFigures = \figuremode {
+  r4 <6>2
+  r4 q2
+  q \once \bassFigureExtendersOn q4
+  r q2
+  r2. %5
+  q
+  q4 q8 <5> <4> <3>
+  <6 4>2 <5 3>4
+  <7> <6 5>2
+  <6>4 <2> <6> %10
+  r2 <2>4
+  <6> q2
+  <6>4 <7 _!>2
+  <7- 5->4 <_->2
+  <6- _-> <6- 4>4 %15
+  <6 4! 2>2.
+  <6! 4>2 <7 3>4
+  r2. %18 finis
+}
