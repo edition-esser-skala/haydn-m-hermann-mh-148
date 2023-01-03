@@ -816,3 +816,26 @@ BNineViola = {
     fis4) r r\fermata \bar "|." %16 finis
   }
 }
+
+BTenViola = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key g \major \time 2/4 \tempoBTen
+    \partial 8. r16 d8\mf d4 r8 d
+    g,4 r8 e'
+    a,4 r8 d
+    d( e) fis d,
+    d r h' r %5
+    e cis r a
+    a d16. h32 a8 g \noBreak
+    fis a d16 \bar ":|.|:" r16 r8
+    r16 a'\p fis16. a32 d,4
+    r16 a' fis16. a32 c!4 %10
+    r16 a fis16. a32 d,16. fis32 g16. a32
+    d,16. e32 d16. cis32 d8 r
+    r16 g\f fis16. g32 e16. e32 d16. e32
+    c16. c'32 h16. c32 a16. a32 g16. a32
+    fis16. a32 g16. e32 d8 c %15
+    h[ d] g,16 \bar ":|." %16 finis
+  }
+}

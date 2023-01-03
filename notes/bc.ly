@@ -1526,3 +1526,45 @@ BNineBassFigures = \figuremode {
   <7\\ 6 4>2 \once \bassFigureExtendersOn q4 %15
   <8 _+>2. %16 finis
 }
+
+BTenBassoContinuo = {
+  \relative c {
+    \clef bass
+    \twofourtime \key g \major \time 2/4 \tempoBTen
+    \partial 8. r16 fis8\mf g4 r8 h,
+    c4 r8 cis
+    d e fis d
+    g cis, d fis
+    g r e r %5
+    cis a r cis
+    d h'16. g32 a8 a, \noBreak
+    d[ a] d,16 \bar ":|.|:" r r8 \noBreak
+    r16 a''\p fis16. a32 d,4 \noBreak
+    r16 a' fis16. a32 c!4 %10
+    r16 a fis16. a32 d,16. d32 e16. fis32
+    g16. e'32 d16. cis32 d8 r
+    r16 g,\f fis16. g32 e16. e32 d16. e32
+    c16. c'32 h16. c32 a16. a32 g16. a32
+    fis16. d32 g16. c,32 d8 d %15
+    g[ d] g,16\fermata \bar ":|." %16 finis
+  }
+}
+
+BTenBassFigures = \figuremode {
+  r16 <6>8 r4. q8
+  r4. q8
+  r4 q
+  <9 4>8 <7> <5> <6>
+  r2 %5
+  <6>8 <_+>4 <6>8
+  r8.. <6>32 <6 4>8 <7 _+>
+  r2
+  r16 <6 4>8. \once \bassFigureExtendersOn q4
+  r16 <6 _!>8. \once \bassFigureExtendersOn q4 %10
+  r16 <6 _!>8. \once \bassFigureExtendersOn q16. <9 7>32 <7>16. <5>32
+  <9 4>8 <6 4> <5 3>4
+  r2
+  r
+  <6>8.. q32 <6 4>8 <7 3> %15
+  r4 r16 %16 finis
+}
