@@ -923,3 +923,69 @@ BElevenViolinoI = {
     h2.\fermata \bar "|." %9 finis
   }
 }
+
+BTwelveViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 6/8 \tempoBTwelve
+    \partial 8 e8\fE a cis e a4 a8
+    a( gis) a-! ais( h) d,-!
+    d( cis) d-! dis( e) a,-!
+    h-! d-! h-! \appoggiatura a gis4 e8
+    a cis e a-! a-! a-! %5
+    a( gis) a-! ais( h) d,-!
+    d( cis) d-\parenthesize-! dis( e) a,-\parenthesize-! \noBreak
+    fis h gis a4 \bar ":|.|:" cis8\trill \noBreak
+    d( h) a-! gis( h) d,-! \noBreak
+    cis( e) a,-\parenthesize-! gis( h) d-! %10
+    cis( e) a-! gis( h) d-!
+    d4( cis8) h4 cis8(\trill\pocoP
+    d) h-! a-! gis-! h-! d,-!
+    cis-! e-! a,-! gis-! h-! d-!
+    cis-! e-! a-! gis-! h-! d-! %15
+    d4( cis8) h4 e,8\f
+    a cis e a a a
+    a( gis) a-! ais( h) d,-!
+    d( cis) d-! dis( e) a,-! \noBreak
+    fis h gis a4\fermata \bar ":|." e8\p \noBreak %20
+    cis' cis cis cis cis cis \noBreak
+    dis dis dis dis dis dis
+    e e e cis cis cis
+    gis( a) fis-\parenthesize-! e r e
+    cis' cis cis cis cis cis %25
+    dis dis dis dis dis dis
+    e e e cis cis cis
+    gis( a) fis e r e\f
+    a cis e a a a
+    a( gis) a-\parenthesize-! ais( h) d,-! %30
+    d( cis) d! dis( e) a,-! \noBreak
+    fis h gis a4 \bar ".|:" \key a \minor e'8\p \noBreak
+    e( f) e-! e( a) e-! \noBreak
+    e( f) e-! e( a) e-!
+    f( g) f-! f( e) dis-! \noBreak %35
+    dis4.( e4) \bar ":|.|:" e8 \noBreak
+    e( d) d-! d( c) c-! \noBreak
+    c( b) b-! b( a) a-!
+    h-! c-! d-! gis,-! a-! h-! \noBreak
+    h4.( a4) \markDaCapoSASF \bar ":|." \key a \major \tempoBTwelveB g'8\fE \noBreak %40
+    fis4.:16 gis: \noBreak
+    a: e:
+    fis: gis,:
+    a: g':
+    fis: d': %45
+    cis: e,:
+    fis: gis,:
+    a8 a' a a a a
+    a a a gis gis gis
+    a4.:16 a: %50
+    a: gis:
+    a8 a, a a a a
+    <a e cis>4 r8 q4 r8
+    q cis cis cis cis cis
+    <cis e, a,>4 r8 q4 r8 %55
+    <cis e,> <cis a'> q q q q
+    <e, cis' a'>4 r8 q4 r8
+    q4 r8 <cis e a>4 r8
+    q4 r8 r4 r8\fermata \bar "|." %59 finis
+  }
+}

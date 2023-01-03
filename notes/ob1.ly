@@ -662,3 +662,55 @@ BElevenOboeI = {
     R2.\fermata \bar "|." %79 finis
   }
 }
+
+BTwelveOboeI = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 6/8 \tempoBTwelve
+    \partial 8 r8 e'2.\fE
+    d
+    d8( cis) h \pao a4 e'8
+    d fis d \appoggiatura cis h4 r8
+    e2. %5
+    d
+    d8( cis) h \pao a4 e'8 \noBreak
+    fis d h \pao a4 \bar ":|.|:" r8 \noBreak
+    h2. \noBreak
+    cis4( e8) d4( h8) %10
+    e4( cis8) d4( h8)
+    h4( cis8) h4 r8
+    R2.*4 %16
+    e2.\fE
+    d
+    d8( cis) h \pa a cis e \pd \noBreak
+    fis d h \pao a4\fermata \bar ":|." r8 \noBreak %20
+    R2.*8 %28
+    e'2.\fE
+    d %30
+    d8( cis) h \pao a4 e'8 \noBreak
+    fis d h \pao a4 \bar ".|:" \key a \minor r8 \noBreak
+    R2.*3 \noBreak %35
+    r4 r8 r4 \bar ":|.|:" r8 \noBreak
+    R2.*3 \noBreak
+    r4 r8 r4 \markDaCapoSASF \bar ":|." \key a \major \tempoBTwelveB g'8\fE \noBreak %40
+    fis4. gis \noBreak
+    a e
+    fis h,
+    cis g'
+    fis gis %45
+    a e
+    fis h,
+    cis8 r r a' r r
+    a r r gis r r
+    a2. %50
+    a4. gis
+    a4 r8 r4 r8
+    a,2.
+    a4 r8 r4 r8
+    cis2. %55
+    cis4 r8 r4 r8
+    a'2.
+    a4 r8 a4 r8
+    a4 r8 r4 r8\fermata \bar "|." %%9 finis
+  }
+}

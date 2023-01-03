@@ -9,9 +9,14 @@
 mezzaVoce = \markup \remark "mezza voce"
 sempreP = \markup \remark \whiteout \pad-markup #0.5 \concat { "sempre " \bold \fontsize #2 "p" }
 sottoVoce = \markup \remark \whiteout "sotto voce"
+
 markMaggioreDaCapo = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
   \mark \markup \remark "Maggiore da capo"
+}
+markDaCapoSASF = {
+  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \mark \markup \remark \concat { "Da capo sino al segno " \musicglyph "scripts.ufermata" }
 }
 
 \layout {
@@ -47,6 +52,8 @@ tempoBEight = \tempoMarkup "Maggiore · Allegro non troppo"
 tempoBNine = \tempoMarkup "Allegro moderato"
 tempoBTen = \tempoMarkup "Allegretto"
 tempoBEleven = \tempoMarkup "Allegro molto"
+tempoBTwelve = \tempoMarkup "Allegro"
+  tempoBTwelveB = \tempoMarkup "Coda"
 
 
 \include "notes/fl1.ly"

@@ -498,3 +498,58 @@ BElevenCornoI = {
     R2.\fermata \bar "|." %79 finis
   }
 }
+
+BTwelveCornoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 6/8 \tempoBTwelve
+    \partial 8 r8 c'4\fE c8 c c c
+    \pao g4 r8 r4 \pao g8
+    g4 r8 r4 r8
+    R2.
+    c4 c8 c c c %5
+    \pao g4 r8 r4 \pao g8
+    g4 r8 r4 g'8 \noBreak
+    f4 d8 c4 \bar ":|.|:" r8 \noBreak
+    g2.~ \noBreak
+    g %10
+    g~
+    g
+    g~\p
+    g
+    g~ %15
+    g
+    c8\fE c c c c c
+    \pao g4 r8 r4 \pao g8
+    g4 r8 r4 g'8 \noBreak
+    f4 d8 c4\fermata \bar ":|." r8 \noBreak %20
+    R2.*8 %28
+    c8\fE c c c c c
+    \pao g4. r8 r \pao g %30
+    g4. r8 r g' \noBreak
+    f4 d8 c4 \bar ".|:" r8 \noBreak
+    R2.*3 \noBreak %35
+    r4 r8 r4 \bar ":|.|:" r8 \noBreak
+    R2.*3 \noBreak
+    r4 r8 r4 \markDaCapoSASF \bar ":|." \tempoBTwelveB r8 \noBreak %40
+    c2.\fE \noBreak
+    c4. r4 r8
+    f4. d
+    c r4 r8
+    c c c c c c %45
+    c4. r4 g'8
+    f4. d
+    c4 r8 e4 r8
+    f4 r8 d4 r8
+    c c c e e e %50
+    f f f d d d
+    c4 r8 r4 r8
+    c g' e \pa c g e
+    c4 \pd r8 r4 r8
+    c'g' e \pa c g e %55
+    c4 \pd r8 r4 r8
+    c' g' e \pa c g e
+    c4 \pd r8 c'4 r8
+    c4 r8 r4 r8\fermata \bar "|." %59 finis
+  }
+}

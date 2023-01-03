@@ -928,3 +928,69 @@ BElevenViola = {
     e2.\fermata \bar "|."
   }
 }
+
+BTwelveViola = {
+  \relative c' {
+    \clef alto
+    \key a \major \time 6/8 \tempoBTwelve
+    \partial 8 r8 cis\fE cis cis cis cis cis
+    d d d h h h
+    e e e e e e
+    fis fis fis \appoggiatura cis h4 gis8
+    <a e'> q q q q q %5
+    <d e> q q <h e> q q
+    <a e'> q q q q q \noBreak
+    d h e a,4 \bar ":|.|:" r8 \noBreak
+    e'4 r8 r4 r8 \noBreak
+    e4 r8 r4 e8 %10
+    e4 r8 e4 r8
+    e e e e e e
+    gis,2.\p
+    a4( cis8) h4( gis8)
+    cis4( a8) h4( gis8) %15
+    e4. r8 r gis\f
+    <a e'> q q q q q
+    <d e> q q <h e> q q
+    <a e'> q q q q q \noBreak
+    d h e a,4\fermata \bar ":|." r8 \noBreak %20
+    a\p a a cis cis cis \noBreak
+    h h h h h h
+    h h h cis cis cis
+    h4( a8) gis4 r8
+    a a a cis cis cis %25
+    h h h h h h
+    h h h cis cis cis
+    h4( a8) gis4 r8
+    <cis e>\f q q q q q
+    <d e> q q <h e> q q %30
+    <a e'> q q q q q \noBreak
+    d h e a,4 \bar ".|:" \key a \minor r8 \noBreak
+    a\p a a a a a \noBreak
+    a a a a a a
+    a4. a' \noBreak %35
+    gis4.( e4) \bar ":|.|:" r8 \noBreak
+    f4. e \noBreak
+    d c
+    f e
+    e4.~ e4 \markDaCapoSASF \bar ":|." \key a \major \tempoBTwelveB cis8\fE \noBreak %40
+    d4.:16 d: \noBreak
+    cis: a':
+    a: e:
+    e: cis:
+    d: <e gis,>: %45
+    <e a,>: a,:
+    d: h:
+    a8 r r a r r
+    fis' r r e r r
+    a, a a a a a %50
+    fis' fis fis e e e
+    e a, a a a a
+    a e'' cis a e cis
+    a a a a a a
+    a e'' cis a e cis %55
+    a a a a a a
+    a e'' cis a e cis
+    a4 r8 a4 r8
+    a4 r8 r4 r8\fermata \bar "|." %59 finis
+  }
+}

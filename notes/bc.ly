@@ -1739,3 +1739,130 @@ BElevenBassFigures = \figuremode {
   r
   r %79 finis
 }
+
+BTwelveBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key a \major \time 6/8 \tempoBTwelve
+    \partial 8 r8 a'\fE a a a a a
+    h h h gis gis gis
+    a a a cis, cis cis
+    d d d e e d
+    cis cis cis cis cis cis %5
+    h h h gis gis gis
+    a a a cis cis cis \noBreak
+    d h e a,4 \bar ":|.|:" r8 \noBreak
+    e'4 r8 r4 r8 \noBreak
+    e4 r8 r4 r8 %10
+    e4 r8 e4 r8
+    e e e e e e
+    e4\p r8 r4 r8
+    e4 r8 r4 r8
+    e4 r8 e4 r8 %15
+    e e e e e d\f
+    cis cis cis cis' cis cis
+    h h h gis gis gis
+    a a a cis, cis cis \noBreak
+    d h e a,4\fermata \bar ":|." r8 \noBreak %20
+    a\p a a a a a \noBreak
+    a a a a a a
+    gis gis gis a a a
+    h4. e,4 r8
+    a a a a a a %25
+    a a a a a a
+    gis gis gis a a a
+    h4. e,4 r8
+    a'8\f a a a a a
+    h h h gis gis gis %30
+    a a a cis, cis cis \noBreak
+    d h e a,4 \bar ".|:" \key a \minor r8 \noBreak
+    a4\p r8 r4 r8 \noBreak
+    a4 r8 r4 r8
+    a4. a' \noBreak %35
+    gis( e4) \bar ":|.|:" r8 \noBreak
+    R2.*2
+    d4. e \noBreak
+    a,~ a4 \markDaCapoSASF \bar ":|." \key a \major \tempoBTwelveB r8 \noBreak %40
+    a'\fE a a a a a\noBreak
+    a a a a a a
+    d, d d e e e
+    a, a a a a a
+    a a a a a a %45
+    a a a a' a a
+    d, d d e e e
+    a r r fis r r
+    d r r e r r
+    a a a fis fis fis %50
+    d d d e e e
+    a,4 r8 r4 r8
+    a e'' cis a e cis
+    a4 r8 r4 r8
+    a e'' cis a e cis %55
+    a4 r8 r4 r8
+    a e'' cis a e cis
+    a4 r8 a4 r8
+    a4 r8 r4 r8\fermata \bar "|." %59 finis
+  }
+}
+
+BTwelveBassFigures = \figuremode {
+  r8 r2.
+  <7>8 <6>4 q4.
+  <9 4>8 <8 3>4 <6>4.
+  q <6 4>8 <5 3> <\t \t>
+  <6>2. %5
+  <7 4>8 <6 \t>4 <6>4.
+  <9 4>8 <8 3>4 <6>4.
+  r2.
+  <7 5>
+  <6 4> %10
+  <\t \t>4. <7 5>
+  <\t \t>4 <6 4>8 <5 3>4 <6 4>8
+  <7 5>2.
+  <6 4>
+  <\t \t>4. <7 5> %15
+  <\t \t>4 <6 4>8 <5 3>4 <\t \t>8
+  <6>2.
+  <7 4>8 <6 \t>4 <6>4.
+  <9 4>8 <8 3>4 <6>4.
+  r2. %20
+  r
+  <4\+ 2>
+  <6>
+  <6 4>4 <7 _+>2
+  r2. %25
+  <4\+ 2>
+  <6>
+  <6 4>4 <7 _+>2
+  r2.
+  <7 4>8 <6 \t>4 <6>4. %30
+  <9 4>8 <8 3>4 <6>4.
+  r2.
+  r
+  r
+  <6>4. <\t>8 <5> <4\+> %35
+  <5\+>4. <_+>
+  r2.
+  r
+  <6>4. <_+>
+  <7\\ 4> <8 3> %40
+  <6 4> <7\\ 2>
+  <8 3>2.
+  r
+  r4. <7!>
+  <6 4> <7\\ 2> %45
+  <8 3>2.
+  r4. <7>
+  r2.
+  <6 5>
+  r %50
+  <6 5>
+  r2.
+  <8 3> \bassFigureExtendersOn
+  q
+  q %55
+  q
+  q
+  q
+  q \bassFigureExtendersOff %59 finis
+}

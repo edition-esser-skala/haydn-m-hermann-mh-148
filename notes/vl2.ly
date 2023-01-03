@@ -923,3 +923,69 @@ BElevenViolinoII = {
     gis2.\fermata \bar "|." %79 finis
   }
 }
+
+BTwelveViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 6/8 \tempoBTwelve
+    \partial 8 e8\fE a cis e a4 a8
+    a( gis) a-! ais( h) d,-!
+    d( cis) d-! dis( e) a,-!
+    h-! d-! h-! \appoggiatura a gis4 e8
+    a cis e a-! a-! a-! %5
+    a( gis) a-! ais( h) d,-!
+    d( cis) d-\parenthesize-! dis( e) a,-\parenthesize-! \noBreak
+    fis d h a4 \bar ":|.|:" cis'8\trill \noBreak
+    d( h) a-! gis( h) d,-! \noBreak
+    cis( e) a,-\parenthesize-! gis( h) d-! %10
+    cis( e) a-! gis( e) h'-!
+    h4( a8) gis4 r8
+    h,2.\p
+    cis4( e8) d4( h8)
+    e4( cis8) d4( h8) %15
+    h4( a8) gis4 e'8\f
+    a cis e a a a
+    a( gis) a-! ais( h) d,-!
+    d( cis) d-! dis( e) a,-! \noBreak
+    fis d h a4\fermata \bar ":|." r8 \noBreak %20
+    e'\p e e e e e \noBreak
+    fis fis fis fis fis fis
+    e e e e e e
+    e( fis) dis-\parenthesize-! e4 r8
+    e e e e e e %25
+    fis fis fis fis fis fis
+    e e e e e e
+    e( fis) dis-! e r e\f
+    a cis e a a a
+    a( gis) a-\parenthesize-! ais( h) d,-! %30
+    d( cis) d-! dis( e) a,-!
+    fis d h a4 \bar ".|:" \key a \minor r8 \noBreak
+    c'8(\p d) c-! c[ r c]
+    c( d) c-! c[ r c]
+    c4 c8 c c c \noBreak %35
+    h4.( gis4) \bar ":|.|:" r8 \noBreak
+    a4. g
+    f e
+    d8-! e-! f-! h,!-! c-! d-! \noBreak
+    d4.( c4) \markDaCapoSASF \bar ":|." \key a \major \tempoBTwelveB e'8\fE \noBreak %40
+    d4.:16 <h e,>: \noBreak
+    cis: cis,:
+    d: h:
+    cis: e'
+    d: h': %45
+    a: cis,:
+    d: d,:
+    cis8 cis' cis cis cis cis
+    h h h h h h
+    cis4.:16 cis: %50
+    h: h:
+    a8 <e cis> q q q q
+    <cis e a>4 r8 q4 r8
+    q8 <e a> q q q q
+    <a, e' a>4 r8 q4 r8 %55
+    q <a' e'> q q q q
+    <e cis' a'>4 r8 q4 r8
+    q4 r8 <cis e a>4 r8
+    q4 r8 r4 r8\fermata \bar "|." %59 finis
+  }
+}

@@ -498,3 +498,58 @@ BElevenCornoII = {
     R2.\fermata \bar "|." %79 finis
   }
 }
+
+BTwelveCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 6/8 \tempoBTwelve
+    \partial 8 r8 e4\fE e8 e e e
+    g4 r8 r4 g8
+    c,4 r8 r4 r8
+    R2.
+    c4 c8 c c c %5
+    g'4 r8 r4 g8
+    c,4 r8 r4 c'8 \noBreak
+    d4 g,8 e4 \bar ":|.|:" r8 \noBreak
+    g,2.~ \noBreak
+    g %10
+    g~
+    g
+    g~\p
+    g
+    g~ %15
+    g
+    c8\fE c c c c c
+    g'4 r8 r4 g8
+    c,4 r8 r4 c'8 \noBreak
+    d4 g,8 e4\fermata \bar ":|." r8 \noBreak %20
+    R2.*8 %28
+    e8\fE e e e e e
+    g4. r8 r g %30
+    c,4. r8 r e' \noBreak
+    d4_\critnote g,8 e4 \bar ".|:" r8 \noBreak
+    R2.*3 \noBreak %35
+    r4 r8 r4 \bar ":|.|:" r8 \noBreak
+    R2.*3 \noBreak
+    r4 r8 r4 \markDaCapoSASF \bar ":|." \tempoBTwelveB r8 \noBreak %40
+    c2.\fE \noBreak
+    c4. r4 r8
+    d'4. g,
+    e r4 r8
+    c c c c c c %45
+    c4. r4 e'8
+    d4. g,
+    e4 r8 c'4 r8
+    d4 r8 g,4 r8
+    e e e c' c c %50
+    d d d g, g g
+    e4 r8 r4 r8
+    c g' e c g' e
+    c4 r8 r4 r8
+    c g' e c g' e %55
+    c4 r8 r4 r8
+    c g' e c g' e
+    c4 r8 c4 r8
+    c4 r8 r4 r8\fermata \bar "|." %59 finis
+  }
+}
