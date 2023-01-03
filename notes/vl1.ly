@@ -834,3 +834,92 @@ BTenViolinoI = {
     g r16\fermata \bar ":|." %16 finis
   }
 }
+
+BElevenViolinoI = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 3/4 \tempoBEleven
+    \repeat volta 2 {
+      h''8-!\fE ais-! h-! fis-! g-! dis-!
+      e dis e fis g a
+      h ais h fis g dis
+      e dis e fis g a
+      h16 h h h g g g g e e e e %5
+      h8 h h16 c h a h8 r
+      h'16 h h h fis fis fis fis dis dis dis dis
+      h8 h h16 c h a h8 r
+      h'16 h h h g g g g e e e e
+      e,8 e e16 fis e dis e8 r %10
+      c' c c16 d c h c8 r
+      a' a a16 h a gis a8 r
+      dis, dis dis16( e dis cis) dis8 r
+      c'! c c16 d! c h c8 r
+      h16 h h h g g g g e e e e %15
+      g g g g e e e e h h h h
+      e e e e c c c c ais ais ais ais
+      g' g g g e e e e ais, ais ais ais
+      h8 h h\p h h h
+      c!(\f h) h\p h h h %20
+      e(\f dis) dis\p dis dis dis
+      g(\f fis) fis\p fis fis ais\f
+      ais2( h8[) r16 ais,]\p
+      ais2( h8) r
+    }
+    \repeat volta 2 {
+      d'-!\f cis-! d-! a-! h-! fis-! %25
+      g fis g a h c
+      d cis d a h fis
+      g fis g a h c
+      d16 d d d h h h h f f f f
+      e8 e e16 d e f e8 r %30
+      e16 e e e c' c c c e, e e e
+      d8 d d16 cis d e d8 r
+      d16 d d d h' h h h d, d d d
+      c!8 c c16 h c d c8 r
+      c16 c c c a' a a a c, c c c %35
+      h8 h' h16 c h a h8 r
+      h,16 h h h h' h h h h, h h h
+      c8 c' c16 d c h c8 r
+      c16 c c c h h h h a a a a
+      g8 g g16 a g fis g8 r %40
+      e e e16 fis e dis e8 r
+      f f f16 g f e f8 r
+      dis dis dis16 e dis cis dis8 r
+      e e e16 fis! e dis e8 r
+      h'(\f e,) e\p e e e %45
+      c'(\f f,) f\p f f f
+      a(\f dis,) dis\p dis dis dis
+      fis!(\f e) e\p e e e
+      e-!\f dis-! e-! h-! c-! a-!
+      h e g e h' g %50
+      e dis e h c a
+      h e g e h' g
+      e dis e h g h
+      e dis e h g h
+      e, dis e h g h %55
+    }
+    \alternative { { e4 r r } { \key e \major e r e\p } }
+    h2( \grace dis16 cis4)
+    h r e
+    dis2( cis4) %60
+    h r h
+    cis8( h cis dis e fis)
+    gis( fis gis a h cis)
+    h2( a4)
+    gis r h, %65
+    cis8( h cis dis e fis)
+    gis( fis gis a h cis)
+    d2.
+    cis
+    h %70
+    a
+    gis
+    fis~
+    fis
+    \appoggiatura { e16[ fis gis] } fis2.\startTrillSpan %75
+    fis
+    e4\stopTrillSpan r h
+    h r h
+    h2.\fermata \bar "|." %9 finis
+  }
+}

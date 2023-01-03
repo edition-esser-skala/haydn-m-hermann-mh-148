@@ -1568,3 +1568,174 @@ BTenBassFigures = \figuremode {
   <6>8.. q32 <6 4>8 <7 3> %15
   r4 r16 %16 finis
 }
+
+BElevenBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key e \minor \time 3/4 \tempoBEleven
+    \repeat volta 2 {
+      e4\fE r r
+      e8-! fis-! g-! a-! g-! fis-!
+      e4 r r
+      e8 fis g a g fis
+      e e e e e e %5
+      e e e e e e
+      fis fis fis fis fis fis
+      fis fis fis fis fis fis
+      g g g g g g
+      gis gis gis gis gis gis %10
+      a a a a a a
+      a a a a a a
+      a a a a a a
+      a a a a a a
+      g g g g g g %15
+      g g g g g g
+      c c c c c c
+      c c c c c c
+      h4 r r
+      h r r %20
+      h r r
+      h r r
+      r8 h h h h h \noBreak
+      h h,\p h h h r
+    }
+    \repeat volta 2 {
+      g4\f r r \noBreak %25
+      g'8-! a-! h-! c-! h-! a-!
+      g4 r r
+      g8 a h c h a
+      g g g g g g
+      c h c gis a e %30
+      fis fis fis fis fis fis
+      h a h fis g d
+      e e e e e e
+      a gis a e fis cis
+      d d d d d d %35
+      d d d d d d
+      d d d d d d
+      dis dis dis dis dis dis
+      dis dis dis dis dis dis
+      e e e e e e %40
+      g g g g g g
+      a a a a a a
+      h h h h h h
+      c c c c c c
+      g4\mf r r %45
+      a r r
+      h r r
+      e, r r
+      e\f e e
+      e r r %50
+      e e e
+      e r r
+      e'8-! dis-! e-! h-! g-! h-!
+      e dis e h g h
+      e, dis e h g h %55
+    }
+    \alternative { { e e d c h a } { \key e \major e'4 e\p e } }
+    e r r
+    e e e
+    e r r %60
+    e e e
+    e r r
+    e r r
+    h cis dis
+    e e e %65
+    e r r
+    e r r
+    e fis gis
+    a fis cis
+    dis! e dis %70
+    cis dis cis
+    his cis gis
+    a cis' h!
+    a cis ais
+    h2. %75
+    h,
+    e,4 r r
+    e r r
+    e2.\fermata \bar "|." %79 finis
+  }
+}
+
+BElevenBassFigures = \figuremode {
+  r2.
+  r
+  r
+  r
+  r %5
+  r
+  <6\\>
+  <\t>
+  <6>
+  <6 5!> %10
+  r
+  r
+  <4\+ _!>
+  <\t \t>
+  <6> %15
+  <\t>
+  <6\\>
+  <\t>
+  <_+>
+  <9! 4>8 <8 _+> r2 %20
+  <6 4>8 <5 _+> r2
+  <6 4>8 <5 _+> r2
+  <7\\ 6 4>2 <8 _+>4
+  <7\\ 6 4>2 <8 _+>4
+  r2. %25
+  r
+  r
+  r
+  r2 <7!>4
+  <8 3>2 \bassFigureExtendersOn q8 q %30
+  <7>2.
+  <8 3>2 q8 q
+  <7>2.
+  <8 3>2 q8 q \bassFigureExtendersOff
+  <7>2. %35
+  <6 4>
+  <\t \t>
+  <7>
+  <7 5>4 <6 4> <5 3>
+  r2. %40
+  <6>
+  <6!>
+  <7 5+ _+>
+  <5>
+  <6> %45
+  <6!>
+  <7 5+ _+>
+  r
+  <5 3>2 <6 4>4
+  <5 3>2. %50
+  r2 <6 4>4
+  <5 3>2.
+  r
+  r
+  r %55
+  r
+  r
+  <5 3>2 <6 4>4
+  <5 3>2.
+  <7 5>2 <6 4>4 %60
+  <5 3>2.
+  <6 4>
+  <5 3>
+  <8 6>4 <7> <6 5>
+  r2. %65
+  <6 4>
+  <5 3>
+  <7!>2 \once \bassFigureExtendersOn q4
+  <9>4 <5> <\t>
+  <6 5>2 <\t>4 %70
+  <6 5> <5 3> <\t \t>
+  <6 5>2 <6>4
+  <6 5>2. \bassFigureExtendersOn
+  q2 q4
+  <5\! 4> <5 3> <5 2> \bassFigureExtendersOff %75
+  <7 3>2.
+  r
+  r
+  r %79 finis
+}

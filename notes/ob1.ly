@@ -593,3 +593,72 @@ BNineOboeI = {
     a4) r r\fermata \bar "|." %16 finis
   }
 }
+
+BElevenOboeI = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 3/4 \tempoBEleven
+    \repeat volta 2 {
+      h''8\fE ais h fis g dis
+      e4 r r
+      h'8 ais h fis g dis
+      e4 r r
+      h2.~ %5
+      h
+      a~
+      a
+      g
+      e' %10
+      c~
+      c
+      dis~
+      dis
+      e~ %15
+      e
+      ais,~
+      ais
+      h4 r r
+      \slurDashed c!8( h) h2\pE %20
+      e8(\fE dis) dis2\pE
+      g8(\fE fis) fis4.\pE e8\fE \slurSolid
+      e2( dis8) r
+      R2.
+    }
+    \repeat volta 2 {
+      d'8\f cis d a h fis %25
+      g fis g a h c
+      d cis d a h fis
+      g fis g a h c
+      d4 d, f
+      e2.~ %30
+      e
+      d~
+      d
+      c~
+      c %35
+      h~
+      h
+      c
+      fis4 g a
+      g2. %40
+      e
+      f
+      dis!
+      e
+      h4\mfE r r %45
+      a r r
+      a r r
+      g r r
+      h\fE h c
+      h r r %50
+      h h c
+      h r r
+      e8 dis e h g h
+      e dis e h g h
+      e, dis e dis e dis %55
+    }
+    \alternative { { e4 r r } { \key e \major e4-\critnote r r } }
+    R2.*21 %78
+    R2.\fermata \bar "|." %79 finis
+  }
+}

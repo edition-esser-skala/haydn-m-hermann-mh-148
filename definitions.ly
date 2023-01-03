@@ -46,6 +46,7 @@ tempoBEight = \tempoMarkup "Maggiore · Allegro non troppo"
   tempoBEightB = \tempoMarkup "Minore"
 tempoBNine = \tempoMarkup "Allegro moderato"
 tempoBTen = \tempoMarkup "Allegretto"
+tempoBEleven = \tempoMarkup "Allegro molto"
 
 
 \include "notes/fl1.ly"

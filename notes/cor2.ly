@@ -445,3 +445,56 @@ BEightCornoII = {
     R2*4 \markMaggioreDaCapo \bar ":|.|:" %24 finis
   }
 }
+
+BElevenCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoBEleven
+    \repeat volta 2 {
+      c'2\fE r4
+      R2.
+      c2 r4
+      R2.
+      c4 c c %5
+      c r r
+      e, e e
+      e r r
+      e r r
+      e' r r %10
+      d r r
+      R2.*7 %18
+      e,2.~\p
+      e~ %20
+      e~
+      e~
+      e4 e e
+      e2 r4
+    }
+    \repeat volta 2 {
+      c2\fE r4 %25
+      c c c
+      c2 r4
+      c c c
+      c2 r4
+      c2 r4 %30
+      R2.*4
+      g'2. %35
+      c4 r r
+      c2.
+      d4 r r
+      r r e,
+      e r r %40
+      R2.*8 %48
+      c'4\fE c d
+      c r r %50
+      c c d
+      c r r
+      c r r
+      c r r
+      e, e e %55
+    }
+    \alternative { { e r r } { e-\critnote r r } }
+    R2.*21 %78
+    R2.\fermata \bar "|." %79 finis
+  }
+}

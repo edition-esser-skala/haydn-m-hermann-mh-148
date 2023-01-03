@@ -834,3 +834,92 @@ BTenViolinoII = {
     g r16\fermata \bar ":|." %16 finis
   }
 }
+
+BElevenViolinoII = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 3/4 \tempoBEleven
+    \repeat volta 2 {
+      h'8-!\fE ais-! h-! fis-! g-! dis-!
+      e dis e fis g a
+      h ais h fis g dis
+      e dis e fis g a
+      h16 h h h h h h h h h h h %5
+      g2.:16
+      a:
+      dis,:
+      e:
+      h': %10
+      e,:
+      c':
+      fis,:
+      dis':
+      e: %15
+      e:
+      ais,:
+      ais2: e4:
+      dis8 dis dis\p dis dis dis
+      e(\f dis) dis\p dis dis dis %20
+      g(\f fis) fis\p fis fis fis
+      e'(\f dis) dis\p dis dis e\f
+      e2( dis8)[ r16 g,]\p
+      g2( fis8) r
+    }
+    \repeat volta 2 {
+      d'-!\f cis-! d-! a-! h-! fis-! %25
+      g fis g a h c
+      d cis d a h fis
+      g fis g a h c
+      d16 d d d d d d d d d d d
+      c8 c c16 h c d c8 r %30
+      c16 c c c e e e e c c c c
+      h8 h h16 a h c h8 r
+      h16 h h h d d d d h h h h
+      a8 a a16 gis a h a8 r
+      a16 a a a c c c c a a a a %35
+      g2.:16
+      g:
+      a:
+      a'16 a a a g g g g fis fis fis fis
+      e2.:16 %40
+      h:
+      c:
+      a:
+      g:
+      e8(\f h') h\p h h h %45
+      a(\f c) c\p c c c
+      fis,!(\f a) a\p a a a
+      a(\f g) g\p g g g
+      e-!\f dis-! e-! h-! c-! a-!
+      h e g e h' g %50
+      e dis e h c a
+      h e g e h' g
+      e' dis e h g h
+      e dis e h g h
+      e, dis e h g h %55
+    }
+    \alternative { { e4 r r } { \key e \major e-\critnote r gis,\pE } }
+    gis2( \grace h16 a4)
+    gis r gis
+    h2( a4) %60
+    gis r gis
+    a8( gis a h cis dis)
+    e( dis e fis gis a)
+    gis2( fis4)
+    e r gis, %65
+    a8( gis a h cis dis)
+    e( dis e fis gis a)
+    h2.~
+    h4 a2~
+    a4 gis2~ %70
+    gis4 fis2~
+    fis4 e2~
+    e4 e2~
+    e4 e2~
+    e4 dis cis %75
+    dis2.\trill
+    e4 r gis,
+    gis r gis
+    gis2.\fermata \bar "|." %79 finis
+  }
+}

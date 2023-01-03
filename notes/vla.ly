@@ -839,3 +839,92 @@ BTenViola = {
     h[ d] g,16 \bar ":|." %16 finis
   }
 }
+
+BElevenViola = {
+  \relative c' {
+    \clef alto
+    \key e \minor \time 3/4 \tempoBEleven
+    \repeat volta 2 {
+      g4\fE r r
+      \parOn g8-\parenthesize-! a-! h-! c-! h-! \parOff a-\parenthesize-!
+      g4 r r
+      g8 a h c h a
+      g16 g' g g g g g g g g g g %5
+      e2.:16
+      dis:
+      a:
+      h:
+      d!: %10
+      c:
+      e:
+      c:
+      fis:
+      h,: %15
+      h:
+      e:
+      e:
+      fis4 r r
+      h, r r %20
+      h r r
+      h'8 h h\p h h g\f
+      g2( fis8)[ r16 e]\p
+      e2( dis8) r
+    }
+    \repeat volta 2 {
+      h4\f r r %25
+      h8-! c-! d!-! e-! d-! c-!
+      h4 r r
+      h8 c d e d c
+      h h g' g h h
+      c h c gis a e %30
+      fis a a a a a
+      h a h fis g d
+      e g g g g g
+      a gis a e fis cis
+      d16 fis fis fis fis fis fis fis fis fis fis fis %35
+      d2.:16
+      d:
+      fis:
+      fis4: h,: h':
+      h2.: %40
+      e,:
+      a:
+      fis!:
+      e:
+      g,4\mfE r r %45
+      a r r
+      h r r
+      h r r
+      g\fE g a
+      g r r %50
+      g g a
+      g r r
+      e''8-! dis-! e-! h-! g-! h-!
+      e dis e h g h
+      e, dis e h g h %55
+    }
+    \alternative { { e e d c h a } { \key e \major e'4 e,\p e } }
+    e e e
+    e e e
+    e e e %60
+    e e e
+    e r r
+    e r r
+    h' cis dis
+    e e, e %65
+    e r r
+    e r r
+    gis fis e
+    a fis' cis
+    dis! e dis %70
+    cis dis cis
+    his cis gis
+    a a h
+    cis a cis
+    h2.
+    a\trill
+    gis4 r e
+    e r e
+    e2.\fermata \bar "|."
+  }
+}

@@ -1045,20 +1045,69 @@
   %     \midi { \tempo 4 = 110 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2·10" "Allegretto"
+  %   \addTocEntry
+  %   \paper {
+  %     system-system-spacing.basic-distance = #30
+  %     system-system-spacing.minimum-distance = #30
+  %     systems-per-page = #2
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { "fl" "[1, 2]" }
+  %           \BTenFlautoIeII
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \BTenViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \BTenViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \BTenViola
+  %         }
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \BTenBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \BTenBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 80 }
+  %   }
+  % }
   \bookpart {
-    \section "2·10" "Allegretto"
+    \section "2·11" "Allegro molto"
     \addTocEntry
-    \paper {
-      system-system-spacing.basic-distance = #30
-      system-system-spacing.minimum-distance = #30
-      systems-per-page = #2
-    }
+    \paper { systems-per-page = #2 }
     \score {
       <<
         \new StaffGroup <<
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { "fl" "[1, 2]" }
-            \BTenFlautoIeII
+            \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+            \partCombine #'(0 . 10) \BElevenOboeI \BElevenOboeII
+          >>
+        >>
+        \new StaffGroup <<
+          \new Staff <<
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "G" "" "1, 2" }
+            % \transpose c g
+            \partCombine #'(0 . 10) \BElevenCornoI \BElevenCornoII
           >>
         >>
         \new StaffGroup <<
@@ -1066,29 +1115,29 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \BTenViolinoI
+              \BElevenViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \BTenViolinoII
+              \BElevenViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \BTenViola
+            \BElevenViola
           }
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \BTenBassoContinuo
+            \BElevenBassoContinuo
           }
         >>
-        \new FiguredBass { \BTenBassFigures }
+        \new FiguredBass { \BElevenBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 80 }
+      \midi { \tempo 4 = 130 }
     }
   }
 }
