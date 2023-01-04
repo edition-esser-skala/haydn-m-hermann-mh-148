@@ -55,6 +55,8 @@ tempoBEleven = \tempoMarkup "Allegro molto"
 tempoBTwelve = \tempoMarkup "Allegro"
   tempoBTwelveB = \tempoMarkup "Coda"
 
+tempoCOne = \tempoMarkup "Moderato"
+
 
 \include "notes/fl1.ly"
 \include "notes/fl2.ly"
@@ -67,4 +69,5 @@ tempoBTwelve = \tempoMarkup "Allegro"
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"
 \include "notes/vla.ly"
+\include "notes/soli.ly"
 \include "notes/bc.ly"
