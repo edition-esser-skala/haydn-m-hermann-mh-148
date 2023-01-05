@@ -994,3 +994,233 @@ BTwelveViola = {
     a4 r8 r4 r8\fermata \bar "|." %59 finis
   }
 }
+
+COneViola = {
+  \relative c' {
+    \clef alto
+    \key d \major \time 4/4 \tempoCOne
+    r8 a\fE a4 r8 a a4
+    r8 \parOn h-\parenthesize-! h-! \parOff h'-\parenthesize-! r a, a a'
+    r g, g g' e-! d-! r4
+    r a a r
+    r a a r %5
+    r2 r4 a\pocoP
+    a r r a
+    a r r2
+    R1*2 %10
+    gis1~\p
+    gis2 r8 e'\f e4
+    r8 e e4 r8 \parOn a-\parenthesize-! e-!\parOff d-\parenthesize-!
+    cis4 r r2
+    R1 %15
+    r4 e\p e r
+    r e e r
+    cis1\fp
+    fis~
+    fis~ %20
+    fis2 g~
+    g1
+    r8 fis\f fis4 r8 fis fis4
+    r8 h-\parenthesize-! fis-! e-! dis4 r
+    r2 r8 g-! e-! cis-! %25
+    ais4 r r2
+    R1
+    r8 \parOn d!-\parenthesize-! fis-! \parOff h-\parenthesize-! d,4 r
+    r h' r cis
+    r gis2.\p \noBreak %30
+    r4 r8 fis\fE fis4 h,8 c \bar "||"
+    \key c \major d1~\p \noBreak
+    d
+    c~
+    c2 d8\f r h c %35
+    d4 r r2
+    e8 r e fis g2\p
+    dis4 r r dis8 cis
+    h1
+    e, %40
+    e'
+    a,8\f r a a a4 r
+    r2 g4 r
+    r2 c4 r
+    \tempoCOneB R1 %45
+    r4 r8 c'-\parenthesize-! g-! e-! c-! g'-!
+    e c g g' e c g g'
+    c, g4 c8 c4 r
+    r r8 g g4 r
+    e'1\p %50
+    fis
+    h,
+    a~
+    a2 d
+    r d~ %55
+    d1
+    a
+    f'~
+    f
+    b,~ %60
+    b
+    b
+    g~
+    g2 c~
+    c1 %65
+    d~
+    d2 d,~
+    d1
+    g2 e'!~
+    e g~ %70
+    g1~
+    g2 d~
+    d d~
+    d1
+    e~ %75
+    e
+    a,2 e'
+    r4 h'\f \after 4 \p a2~
+    a1~
+    a2 g~ %80
+    g g,~
+    g1
+    c
+    d
+    g,~ %85
+    g2 e'~
+    e1
+    c2 d~
+    d r4 \tempoCOneC r8 f\f
+    e g,-! g4-! r8 g g4 %90
+    r8 a-! a-! a'-! r g, g g'
+    r f, f f' d-! c-! r4
+    r g g r
+    r g g r
+    R1 %95
+    r4 r8 c\pocoP c4 d
+    g, r8 c c4 d
+    \tempoCOneD g,8 g-!\pp c-! g-! r g c g
+    r g c g r g c g
+    r g d' g, r g d' g, %100
+    r g d' g, r g d' g,
+    r c e c r c e c
+    r c e c r c e c
+    r h e h r h e h
+    r h e h r h e h %105
+    r c e c r c e c
+    r c e c r c a c
+    r h dis h r h dis h
+    r h dis h r h dis h
+    r h g' e r e g e %110
+    r e g e r e g e
+    r c fis, c' r a c a
+    r a c a r a c a
+    r h d h r h d h
+    r h d h r h d h %115
+    r h h' g r g h g
+    r g h g r g h g
+    r g d h r d g, d'
+    r d g, d' r d g, d'
+    r g, c g r g c g %120
+    r g c g r g c g
+    r a c a r a c a
+    r a f' a, g4 r
+    r r8 g\f c \tuplet 3/2 8 { c'16 d e d[ c h] c h a }
+    gis4 r r2 %125
+    R1*2
+    r2 a,8\fE \tuplet 3/2 8 { c'16 h a e'[ d c] h a g! }
+    fis4 r r2
+    R1*2 %131
+    g,8\fE \tuplet 3/2 8 { h'16 a g fis[ e d] c h a } \kneeBeam g8 \tuplet 3/2 8 {  d''16 c h a[ g fis] e d c }
+    d4 r r2
+    R1*2 %135
+    c4 r r2
+    R1
+    cis4 r r2
+    R1*2 %140
+    d4 r r2
+    d4 r r r8 e
+    f4 r r2
+    R1
+    \tempoCOneE c4\fE r8 c b d f c %145
+    e4 r8 d c e f c
+    c1~\p
+    c
+    c4\f r8 c b d f c
+    e4 r8 d c e f c %150
+    f,1~\p
+    f
+    b2 cis~
+    cis1
+    a4\f r r2 %155
+    a'8( f) a( cis,) a4 r
+    r2 g\pE
+    g4\fE r8 g' c, c c c
+    h4 r8 a g h c g
+    c1~\p %160
+    c2 d~
+    d c~
+    c1
+    f4\fE r8 f es g b f
+    a,4 r8 g f a b f %165
+    b1~\p
+    b~
+    b
+    b4\f r8 b as c es b
+    d f, f f b d es b %170
+    g1~\p
+    g~
+    g2 g'~
+    g r4 r8 d\f
+    d4 r g8 g, g g %175
+    g r g' r g g, g g
+    g1~\p
+    g
+    g4\f r g'8 g, g g
+    e'!1~\p %180
+    e~
+    e2 f~
+    f d~
+    d c
+    fis1 %185
+    g
+    e
+    a
+    fis~
+    fis~ %190
+    fis2 fis
+    cis1
+    cis \noBreak
+    a \bar "||"
+    \key d \major \tempoCOneF r8 a\f a4 r8 a a4 \noBreak %195
+    r8 \parOn h-\parenthesize-! h-! \parOff h'-\parenthesize-! r a, a a'
+    r g, g g' e-! d-! r4
+    r a a r
+    r a a r
+    R1 %200
+    r2 r4 a\p
+    a r r a
+    \tempoCOneG a r d8\pp r cis r
+    d r r4 d8 r cis r
+    d r r4 d8 r r4 %205
+    d8 r r4 d8 r r4
+    dis8 r r4 dis8 r r4
+    e8 r r4 e8 r dis r
+    e8 r r4 e8 r dis r
+    e r r4 e8 r r4 %210
+    e8 r r4 e8 r r4
+    e8 r r4 e8 r r4
+    a,8 r r4 a8 r gis r
+    a r r4 a8 r gis r
+    a r r4 a8 r r4 %215
+    a8 r r4 a8 r r4
+    a8 r r4 a8 r r4
+    d8 r r4 d8 r r4
+    d8 r r4 d8 r r4
+    d8 r r4 d8 r r4 %220
+    d8-\parenthesize-! d'( h g) d r d r
+    d-! d'( h g) d r d r
+    d-! d'( h g) r d'( h g)
+    e4\f r r2
+    a,4 r r2 %225
+    r d4 r
+    R1*2
+    r4 e a, r\fermata \bar "|." %229 finis
+  }
+}

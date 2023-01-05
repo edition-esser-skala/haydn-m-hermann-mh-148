@@ -9,6 +9,9 @@
 mezzaVoce = \markup \remark "mezza voce"
 sempreP = \markup \remark \whiteout \pad-markup #0.5 \concat { "sempre " \bold \fontsize #2 "p" }
 sottoVoce = \markup \remark \whiteout "sotto voce"
+Teutogenes = \markup \remark "Teutogenes"
+Montanus = \markup \remark "Montanus"
+forceClef = \set Staff.forceClef = ##t
 
 markMaggioreDaCapo = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
@@ -56,6 +59,12 @@ tempoBTwelve = \tempoMarkup "Allegro"
   tempoBTwelveB = \tempoMarkup "Coda"
 
 tempoCOne = \tempoMarkup "Moderato"
+  tempoCOneB = \tempoMarkup "Allegretto" %45
+  tempoCOneC = \tempoMarkup "Moderato" %89
+  tempoCOneD = \tempoMarkup "a tempo" %98
+  tempoCOneE = \tempoMarkup "Allegretto" %145
+  tempoCOneF = \tempoMarkup "Moderato" %195
+  tempoCOneG = \tempoMarkup "a tempo" %203
 
 
 \include "notes/fl1.ly"

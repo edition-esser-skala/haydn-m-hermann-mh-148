@@ -989,3 +989,233 @@ BTwelveViolinoI = {
     q4 r8 r4 r8\fermata \bar "|." %59 finis
   }
 }
+
+COneViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoCOne
+    <d d'>4\fE r8 fis'16. d32 <a a'>4 r8 a'
+    fis( g) r g-! eis( fis) r fis
+    dis( e) r16 h'( g e) cis8\trill d r a
+    a4. g8 fis( d) a a'-!
+    a4. g8 fis4 r %5
+    r r8 a\pocoP a4. g8
+    fis( d) a a'-\parenthesize-! a4. g8
+    fis4 r r2
+    R1*2 %10
+    h1~\p
+    h2 a4\f r8 cis16. a32
+    e'4 r8 e16. cis32 a'8 a,-! e-! d-!
+    cis4 r r2
+    r r4 r8 e'\p %15
+    e4. d8 cis( a) e e'-!
+    e4. d8 cis4 r
+    ais1\fp
+    cis~
+    cis~ %20
+    cis2 e~
+    e1
+    h4\f r8 d16. h32 fis'4 r8 fis16. d32
+    h'8 h,-! fis-! e-! dis4 r
+    r2 r8 g-! e-! cis-! %25
+    ais4 r r2
+    R1
+    r8 \parOn d!-\parenthesize-! fis-! \parOff h-\parenthesize-! fis'4 r
+    r e r g
+    r d2.\p \noBreak %30
+    r4 r8 ais\f h \tuplet 3/2 8 { h,16 d h } d'8 c \bar "||"
+    \key c \major h1~\p \noBreak
+    h
+    c~
+    c2 r8 \tuplet 3/2 8 { d,16\f e d } d'8 c %35
+    h4 r r2
+    r8 \tuplet 3/2 8 { c,16 d c } c'8 h ais2\p
+    h4 r r fis'8 ais,
+    h1
+    e %40
+    cis
+    r8 \tuplet 3/2 8 { a,16\f h a } a'8 g fis4 r
+    r2 g'4 r
+    r2 c,4 r
+    \tempoCOneB r r8 g'-! e-! c-! g16( c) e( c) %45
+    g'8 g4 g g e16 c
+    g'8 g4 e16 c c'8 c4 c8
+    b b4 b8 a4 r
+    r r8 h,! c4 r
+    e1\p %50
+    dis
+    e
+    fis~
+    fis2 g
+    r b,~ %55
+    b1
+    f'!
+    d~
+    d
+    as~ %60
+    as
+    g
+    c~
+    c2 a!~
+    a1 %65
+    a'~
+    a2 c,~
+    c1
+    b2 cis~
+    cis e~ %70
+    e1~
+    e2 f~
+    f d~
+    d1
+    c!~ %75
+    c
+    d2 gis,
+    r4 gis'\f \after 4 \p a2~
+    a1~
+    a2 e~ %80
+    e g~
+    g1
+    f
+    h,!
+    c~ %85
+    c2 g'~
+    g1
+    a2 h,!~
+    h r4 \tempoCOneC r8 h\f
+    c4 r8 e16. c32 g'4 r8 g %90
+    e( f) r f dis( e) r e
+    cis( d) r16 a'( f d) h8\trill c r g
+    g4. f8 e( c) g g'-!
+    g4. f8 e4 r
+    R1 %95
+    r4 r8 g\pocoP g4. f8
+    e( c) g g'-! g4. f8
+    \tempoCOneD e( g) r16 g-!\pp e-! g-! c8( e) r16 g,-! e-! g-!
+    c8( e) r16 g,-! e-! g-! c8( e) r16 g,-! e-! g-!
+    d'8( f) r16 h,-! g-! h-! d8( f) r16 h,-! g-! h-! %100
+    d8( f) r16 h,-! g-! h-! d8( f) r16 h,-! g-! d'-!
+    e8( g) r16 c,-! g-! c-! e8( g) r16 c,-! g-! c-!
+    e8( g) r16 c,-! g-! c-! e8( g) r16 c,-! g-! c-!
+    e8( h) r16 gis-! h-! gis-! e'8( h) r16 gis'-! h-! gis-!
+    e8( h) r16 gis-! h-! gis-! e'8( h) r16 gis'-! h-! e,-! %105
+    a8( c) r16 c,-! a-! c-! e8( a) r16 c,-! a-! c-!
+    e8( a) r16 c,-! a-! c-! e8( a) r16 e-! a,-! a'-!
+    a8( dis,) r16 h-! fis'-! dis-! h'8( fis) r16 h,-! fis'-! dis-!
+    h'8( fis) r16 h,-! fis'-! dis-! h'8( fis) r16 h,-! a'-! fis-!
+    g8( h) r16 e,-! h-! e-! g8( h) r16 e,-! h-! e-! %110
+    g8( h) r16 e,-! h-! e-! g8( h) r16 e,-! h-! e-!
+    c8( fis,) r16 a'-! fis-! a-! c8( fis,) r16 a-! fis-! a-!
+    c8( fis,) r16 a-! fis-! a-! c8( fis,) r16 a,-! fis-! a-!
+    h8( d) r16 h-! g-! h-! d8( g) r16 h,-! g-! h-!
+    d8( g) r16 h,-! g-! h-! d8( g) r16 h,-! g-! h-! %115
+    d8( g) r16 g-! d-! g-! h8( d) r16 g,-! d-! g-!
+    h8( d) r16 g,-! d-! g-! h8( d) r16 g,-! d-! g-!
+    h8( d) r16 h-! g-! h-! d8( h) r16 h-! g-! h-!
+    d8( h) r16 h-! g-! h-! d8( h) r16 h,-! g-! h-!
+    c8( e) r16 e-! c-! d-! g8( c) r16 e,-! c-! e-! %120
+    g8( c) r16 e,-! c-! e-! g8( c) r16 e,-! g-! b-!
+    a8( c) r16 f,-! c-! f-! a8( c) r16 f,-! c-! f-!
+    a8( c) r16 f,-! d-! a'-! h,!4 r
+    r r8 <h d, g,>\f <c e, g,> \tuplet 3/2 8 { c16 d e d[ c h] c h a }
+    <e h' e>4 r r2 %125
+    R1*2
+    r2 <e c' a'>8\fE \tuplet 3/2 8 { c'16 h a e'[ d c] h a g! }
+    <d d' a'>4 r r2
+    R1*2 %131
+    <d h' g'>8\fE \tuplet 3/2 8 { h'16 a g fis[ e d] c h a } \kneeBeam g8 \tuplet 3/2 8 { d''16 c h a[ g fis] e d c }
+    <h g'>4 r r2
+    R1*2 %135
+    <g' c e>4 r r2
+    R1
+    <a, e' a>4 r r2
+    R1*2 %140
+    <d a' f'>4 r r2
+    <e h'>4 r r r8 <h' gis'>
+    <a a'>4 r r2
+    R1
+    \tempoCOneE <f a f'>8\fE f f f <f d'>4 <f c'>8 r %145
+    b b, b b b''4 a8 r
+    f,1~\p
+    f
+    <f a f'>8\f f f f <f d'>4 <f c'>8 r
+    b b, b b b''4 a8 r %150
+    a,1~\p
+    a
+    b2 a~
+    a1
+    f'8(\f d) cis( a) a'( d,) cis( a) %155
+    d8. f16 e8. g16 \appoggiatura g8 f4 r
+    r2 h,!\pE
+    c8\f c, c c a'4 g8 r
+    f' f, f f f4\trill e8 r
+    c'1~\p %160
+    c2 h~
+    h g'
+    a,1
+    <d, b' b'>8\fE b' b b <b g'>4 <b f'>8 r
+    es es, es es es4\trill d8 r %165
+    d'1~\p
+    d~
+    d
+    es8\f es, es es <es c'>4 <es b'>8 r
+    as as, as as as''4 g8 r %170
+    g1~\p
+    g~
+    g2 es~
+    es r4 r8 fis\f
+    g <g, g,> q q q r d' r %175
+    es <g, g,> q q q r es' r
+    d1~\p
+    d
+    g8\f <g, g,> q q q r d' r
+    cis1~\p %180
+    cis~
+    cis2 d~
+    d h!~
+    h g
+    d'1 %185
+    h
+    e
+    cis
+    fis~
+    fis~ %190
+    fis2 d
+    cis1
+    a! \noBreak
+    e' \bar "||"
+    \key d \major \tempoCOneF <d d,>4\f r8 fis16. d32 a'4 r8 a \noBreak %195
+    fis( g) r g eis( fis) r fis
+    dis( e) r16 h'( g e) cis8\trill d r a
+    a4. g8 fis( d) a a'-!
+    a4. g8 fis4 r
+    R1 %200
+    r4 r8 a\p a4. g8
+    fis( d) a a'-\parenthesize-! a4. g8
+    \tempoCOneG fis a'(\pp fis d) a r a r
+    a-! a'( fis d) a r a r
+    a-! fis'( d a) r fis'( d a) %205
+    r a'( fis d) r a'( fis d)
+    r c'( a fis) r c'( a fis)
+    g-! h( g e) h r h r
+    h-! h'( g e) h r h r
+    h-! g'( e h) r g'( e h) %210
+    r h'( g e) r h'( g e)
+    r h'( gis d!) r h'( gis d)
+    cis-! e( cis a) e r e r
+    e-! e'( cis a) e r e r
+    e-! cis'( a e) r cis'( a e) %215
+    r e'( cis a) r e'( cis a)
+    r g'!( e cis) r g'( e cis)
+    r fis( d a) r fis'( d a)
+    r a'( fis d) r a'( fis d)
+    r c'( a fis) r c'( a fis) %220
+    g-! d'( h g) d r d r
+    d-! d'( h g) d r d r
+    d-! d'( h g) r d'( h g)
+    <e h e,>4 \f r r2
+    <a cis,!>4 r r2 %225
+    r <fis a, d,>4 r
+    R1*2
+    r4 <gis h, e,> <a cis, e,> r\fermata \bar "|." %229 finis
+  }
+}

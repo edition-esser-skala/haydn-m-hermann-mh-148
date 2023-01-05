@@ -1189,53 +1189,62 @@
   %     \midi { \tempo 4. = 90 }
   %   }
   % }
-  \part "part_three" "3" "Dedicatio"
+  % \part "part_three" "3" "Dedicatio"
   \bookpart {
-    \section "3·1" "Recitativo"
-    % \addTocEntry
-    % \paper { systems-per-page = #2 }
+    \section "3·1" "Accompagnato"
+    \addTocEntry
+    \paper {
+      top-system-spacing.basic-distance = #10
+      top-system-spacing.minimum-distance = #10
+      top-markup-spacing.basic-distance = #0
+      top-markup-spacing.minimum-distance = #0
+      markup-system-spacing.basic-distance = #10
+      markup-system-spacing.minimum-distance = #10
+      systems-per-page = #2
+      indent = 3\cm
+    }
     \score {
       <<
-        \new StaffGroup <<
+        \new StaffGroup \with { \smallGroupDistance } <<
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+            \set Staff.instrumentName = "Oboe I, II"
             \partCombine #'(0 . 10) \COneOboeI \COneOboeII
           >>
         >>
         \new StaffGroup <<
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "D" "" "1, 2" }
+            \set Staff.instrumentName = \transposedName "Corno I, II" "D" ""
             % \transpose c d
             \partCombine #'(0 . 10) \COneCornoI \COneCornoII
           >>
         >>
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "vl"
+            \set GrandStaff.instrumentName = "Violino"
             \new Staff {
-              \set Staff.instrumentName = "1"
+              \set Staff.instrumentName = "I"
               \COneViolinoI
             }
             \new Staff {
-              \set Staff.instrumentName = "2"
+              \set Staff.instrumentName = "II"
               \COneViolinoII
             }
           >>
           \new Staff {
-            \set Staff.instrumentName = "vla"
+            \set Staff.instrumentName = "Viola"
             \COneViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "Montanus, Salzae [Praeses]" "Teutogenus, Danubii Praeses" }
+            \set Staff.instrumentName = \markup \center-column { "Montanus," "Salzae [Praeses]" \vspace #.5 "Teutogenus," "Danubii Praeses" }
             \new Voice = "Soli" { \dynamicUp \COneSoli }
           }
           \new Lyrics \lyricsto Soli \COneSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
-            \set Staff.instrumentName = "bc"
+            \set Staff.instrumentName = \markup \center-column { "Basso" "continuo" }
             % \transpose c c,
             \COneBassoContinuo
           }
@@ -1243,7 +1252,7 @@
         \new FiguredBass { \COneBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4. = 90 }
+      \midi { \tempo 4 = 100 }
     }
   }
 }

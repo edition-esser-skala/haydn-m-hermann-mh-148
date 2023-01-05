@@ -714,3 +714,70 @@ BTwelveOboeII = {
     cis4 r8 r4 r8\fermata \bar "|." %59 finis
   }
 }
+
+COneOboeII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoCOne
+    r8 a'\fE a4 r8 a a4
+    r8 d d4 r8 cis cis4
+    r8 h h e a, a r4
+    r r8 e d( fis) r4
+    r r8 e d4 r %5
+    r2 r4 e\pocoP
+    d r r e
+    d r r2
+    R1*3 %11
+    r2 r8 a'\fE a4
+    r8 a a4 r8 a a gis
+    a4 r r2
+    R1 %15
+    r4 h\p cis r
+    r h a r
+    R1*5 %22
+    r8 h\fE h4 r8 h h4
+    r8 h fis fis fis4 r
+    r2 r8 e g ais %25
+    cis4 r r2
+    R1
+    r8 d,! fis h d,4 r
+    R1*2 \noBreak %30
+    r4 r8 fis\fE fis4 d8 fis \bar "||"
+    g4 r r2 \noBreak
+    R1*162 \bar "||" %194
+    \key d \major \tempoCOneF r8 a\fE a4 r8 a a4 \noBreak %195
+    r8 d d4 r8 cis cis4
+    r8 h h e a, a r4
+    r e d r
+    r e d r
+    R1 %200
+    r2 r4 e\p
+    d r r e
+    \tempoCOneG d r d8\pp r e r
+    d r r4 d8 r e r
+    d r r4 fis8 r r4 %205
+    fis8 r r4 fis8 r r4
+    fis1
+    e8 r r4 e8 r fis r
+    e r r4 e8 r fis r
+    e r r4 g8 r r4 %210
+    g8 r r4 g8 r r4
+    gis1
+    a8 r r4 a8 r h r
+    a r r4 a8 r h r
+    a r r4 cis8 r r4 %215
+    cis8 r r4 cis8 r r4
+    e,1
+    d8 r r4 fis8 r r4
+    fis8 r r4 fis8 r r4
+    a1 %220
+    g8 r r4 g8 r a r
+    g r r4 g8 r a r
+    g r r4 g8 r r4
+    h\f r r2
+    cis!4 r r2 %225
+    r d4 r
+    R1*2
+    r4 h a r\fermata \bar "|." %229 finis
+  }
+}

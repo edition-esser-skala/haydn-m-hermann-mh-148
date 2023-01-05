@@ -553,3 +553,64 @@ BTwelveCornoII = {
     c4 r8 r4 r8\fermata \bar "|." %59 finis
   }
 }
+
+COneCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoCOne
+    c'4\fE r8 c g4 r
+    R1
+    r4 r8 d' g, c, r4
+    r g' c,2
+    r4 g' c,_\critnote r %5
+    r2 r4 g'\pocoP
+    c, r r g'
+    c, r r2
+    R1*3 %11
+    r2 g'4\fE r8 g
+    g4 r8 g g4 r
+    g r r2
+    R1 %15
+    r4 d'\pE g, r
+    r d' g, r
+    R1*5 %22
+    c4\fE r8 c c4 r8 c
+    c4 r e, r
+    R1 %25
+    e4 r r2
+    R1
+    r2 e4 r
+    R1*2 \noBreak %30
+    r4 r8 e\fE e4 r \bar "||"
+    c r r2 \noBreak
+    R1*162 \bar "||" %194
+    \tempoCOneF c4\fE r8 c' g4 r \noBreak %195
+    R1
+    r4 r8 d' g, c, r4
+    r g' c,2
+    r4 g' c, r
+    R1 %200
+    r2 r4 g'\p
+    c, r r g'
+    c, r c8\pp r g' r
+    c, r r4 c8 r g' r
+    c, r r4 r2 %205
+    R1*2
+    d'4 r r2
+    d4 r r2
+    d4 r r2 %210
+    R1*2
+    g,8 r r4 g8 r d' r
+    g, r r4 g8 r d' r
+    g, r r4 r2 %215
+    R1*5 %220
+    c,8 r r4 c8 r c r
+    c r r4 c8 r c r
+    c r r4 r2
+    d'4\f r r2
+    g,4 r r2 %225
+    r c,4 r
+    R1*2
+    r4 d' g, r\fermata \bar "|." %229 finis
+  }
+}
