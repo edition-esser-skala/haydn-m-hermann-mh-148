@@ -614,3 +614,144 @@ COneCornoII = {
     r4 d' g, r\fermata \bar "|." %229 finis
   }
 }
+
+CTwoCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoCTwo
+    c2\fE g'
+    e4 r8 e g4 g
+    e r8 c' g4 g
+    c, r c8 c c c
+    c4 r c'8 c c c %5
+    g4 r r d'
+    c r c8 c c c
+    c2 r
+    c r
+    g r %10
+    c,1
+    c
+    c
+    r2 r4 d'
+    g, r r8 g g g %15
+    g4 r r2
+    r4 r8 g'\f e g c, e
+    g,4 r r2
+    r4 r8 g'\fE d g d g
+    g,4 r r2 %20
+    c,4\fE r8 c' g c e, g
+    c,4 r8 c' g c e, g
+    c,4 r8 c c4 r8 c
+    c4 r r d'
+    c8 c16 c c8 c g g16 g g8 g %25
+    e4 r r2
+    R1*5 %31
+    g4\fE c8 c g4 c8 c
+    g4 c8 e d4 g,
+    e c c r
+    R1*12 %46
+    r2 c'8\fE g e g
+    e4 r r2
+    R1*11 %59
+    r2 d'4\fE d %60
+    d r r2
+    r d4\fE d
+    d r r2
+    r d4\fE d
+    d r r2 %65
+    R1*13 %78
+    g,,1\fE
+    c2 r %80
+    R1
+    r2 r4 g'\fE
+    d' r r2
+    R1*4 %87
+    g,1\fE
+    g2 r
+    R1*6 %95
+    g1\pE
+    g2 r
+    R1*12 %109
+    g2\fE d' %110
+    g,4 r8 g d'4 d
+    g, r8 g d'4 d
+    \after 4 \pE g,1
+    g
+    g4 r g\fE g %115
+    c r r2
+    R1
+    g4 r g g
+    g r g8 g g g
+    g4 r8 d' c4 r8 e %120
+    d4 r d r
+    g, r r d'
+    d g, g r
+    R1*7 %130
+    r2 c4\p c
+    c r r2
+    R1*14 %146
+    r2 g4\f g
+    g r r2
+    c,\pp g'
+    c, r %150
+    R1*4
+    c1\pp %155
+    c
+    g
+    c4 r r2
+    R1
+    r2 c4\fE c %160
+    c r r2
+    R1*6 %167
+    d'1\p
+    d
+    R1*3 %172
+    r2 g,4\f g
+    g r r2
+    r g4\fE g %175
+    g r r2
+    r g4\fE g
+    g r r2
+    R1*13 %191
+    g2~\p g\f
+    c4 r r2
+    c,1
+    c4 r r2 %195
+    R1*2
+    g'1~\p
+    g~
+    g4 r r d' %200
+    c r r c
+    g r r2
+    c,1\f
+    c2 r
+    R1*6 %210
+    c1\pE
+    c2 r
+    R1*6 %218
+    c1\p
+    c %220
+    c
+    c
+    g4 r r2
+    R1*8 %231
+    r4 r8 c'\mfE g c e, g
+    c,4 r8 c' g c e, g
+    c,4 r8 c' g c e, g
+    c,4 c\f c r %235
+    R1
+    c\fE
+    c4 r r2
+    R1
+    c4\p r r2 %240
+    c4 r r2
+    g'4 r r2
+    g4\f g8. g16 g4 g
+    g r r2
+    R1 %245
+    c,8\fE e g r e g c r
+    g c e r r4 c,
+    g'2 r\fermata \bar "||" %248 finis
+    \time 3/8 \tempoCThree c,4 r8
+  }
+}

@@ -781,3 +781,150 @@ COneOboeI = {
     r4 d cis r\fermata \bar "|." %229 finis
   }
 }
+
+CTwoOboeI = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoCTwo
+    fis'2\fE a
+    fis g
+    fis a
+    d,4 r a' a
+    h, r d d %5
+    cis2 g
+    fis d'4 d
+    d1
+    d
+    cis %10
+    d4 r r8 a h cis
+    d4 r r8 a h cis
+    d4 r r2
+    r h'4 d,
+    cis e8 d cis4 r %15
+    a'1~\p
+    a\cresc
+    a~\p
+    a\cresc
+    g2\p e %20
+    fis1\f
+    fis
+    a2 d,
+    h' g
+    fis e %25
+    \pao d4 r r2
+    R1*4 %30
+    h2\fE e
+    cis4 d cis d
+    \pa cis d8 fis e2
+    d4 \pd a a r
+    R1*12 %46
+    r2 fis'4.\fE e8
+    \pao d4 r r2
+    R1
+    a2\p cis %50
+    d4 r r2
+    R1*8 %59
+    r4 h2\fE h4 %60
+    h4 r r2
+    r cis4\fE cis
+    cis r r2
+    r h4\fE h
+    d r r2 %65
+    R1*13 %78
+    g!1\fE
+    fis2 r %80
+    R1
+    r2 r4 cis\fE
+    h r r2
+    R1*4 %87
+    e1\fE
+    fis2 r
+    R1*6 %95
+    e1\pE
+    fis2 r
+    R1*12 %109
+    cis2\fE e %110
+    cis d
+    cis h
+    \pao a4 r r8 e'\p d h
+    cis4 r r8 e h d
+    cis4 e\f g! e %115
+    r fis2 h,4
+    \appoggiatura a8 gis4 h'2 d,4
+    cis2 cis4 cis
+    cis2 cis4 cis
+    cis e fis a, %120
+    gis2 gis'
+    a4 cis, h2
+    \pao a4 a' a r
+    R1*7 %130
+    r4 d,8\mf ais h fis d fis
+    h4 r r2
+    R1*3 %135
+    fis'1\p
+    g
+    e
+    fis
+    R1*7 %146
+    r2 cis8\f e a g
+    fis4 r r2
+    fis,\pp g
+    fis r %150
+    R1*4
+    h1\pp %155
+    a
+    a2 g
+    fis4 r r2
+    R1
+    r2 d'4\fE fis %160
+    g r r2
+    R1*6 %167
+    c,1\p
+    h
+    h2 a %170
+    g4 r r2
+    R1
+    r4 a'2\f a4
+    a r r2
+    r fis4\fE fis %175
+    fis r r2
+    r e4\fE e
+    g r r2
+    R1*13 %191
+    e2~\p e\f
+    fis4 r r2
+    a1
+    g4 r r2 %195
+    R1
+    r2 r4 fis\fE
+    e\pE r r g
+    fis r r fis
+    a1~ %200
+    a~
+    a4 r r2
+    a,1\f
+    h2 r
+    R1*6 %210
+    a1\pE
+    h2 r
+    R1*19 %231
+    fis'1\mfE
+    fis
+    fis
+    fis4 r r2 %235
+    R1
+    c1\fE
+    h4 r r2
+    R1
+    a'1\p %240
+    h
+    fis
+    e\f
+    \pao d4 r r2
+    fis1\p %245
+    fis\f
+    d'
+    fis,2 r\fermata \bar "||" %248 finis
+    \time 3/8 \tempoCThree \pao d4. \bar "|"
+  }
+}

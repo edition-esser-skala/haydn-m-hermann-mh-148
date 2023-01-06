@@ -1224,3 +1224,259 @@ COneViola = {
     r4 e a, r\fermata \bar "|." %229 finis
   }
 }
+
+CTwoViola = {
+  \relative c' {
+    \clef alto
+    \key d \major \time 4/4 \tempoCTwo
+    d8\fE d d d cis cis cis cis
+    d d d d cis cis cis cis
+    d d d d e e e e
+    fis a a a a a a a
+    d, d d d d d d d %5
+    a a a a a a a a
+    d, d d d d d d d
+    a'\fp a a a a' a a a
+    h\fp h h h h h h h
+    g\fp g g g e e e e %10
+    d16\f d d d d d d d d d d d d d d d
+    d d d d d d d d d d d d d d d d
+    d d d d d d d d d d d d d d d d
+    g8 g g g g g gis gis
+    a4 r r8 a e cis %15
+    a4\p r a r
+    a r8 d'16\f a fis8 a16 fis d8 fis16 d
+    a4\p r a r
+    a r8 e''16\f cis a8 cis16 a e8 a16 e
+    cis4\p r a' r %20
+    d,\f r8 fis16 d a8 d16 a fis8 a16 fis
+    d4 r8 fis'16 d a'8 d16 a fis8 a16 fis
+    d8 d d d d d d d
+    g g g g g g g g
+    d d fis fis a a a, a %25
+    d4 r r2
+    R1
+    a~\p
+    a2 cis
+    d8 d d d d d d d %30
+    h\f h h h h h h h
+    e e d d e e d d
+    e e d a' h h g g
+    fis4 a, a r
+    d\p r r a %35
+    d r r a
+    d r r d
+    g r r2
+    e d
+    g,4. h'8 a4 g %40
+    fis r r a
+    d,8 d d d d d d d
+    d d d d d d d d
+    a a a a a a a a
+    d4 r fis r %45
+    e r a, r
+    d r d'8-!\f a-! fis-! a-!
+    d,4\p r r a
+    d r r a
+    d r r g %50
+    fis8 a4 a a a8(
+    h) h4 h8( a) a4 \once \slurDashed a8(
+    fis) fis4 fis8 e e4 e8~
+    e e4 e e e8
+    d d d d d d d d %55
+    a a a a a a a a
+    e e e e e e e e
+    a4 r cis r
+    d r dis r
+    e8 e\f h' gis e' h gis h %60
+    e,4\pE r e r
+    e r8 a16\f e cis8 e16 cis a8 cis16 a
+    e'4\p r e r
+    e r8 d'16\f h gis8 h16 gis e8 gis16 e
+    gis,4\p r gis r %65
+    a r fis' r
+    d r e r
+    a8 a a a a a a a
+    a a a a fis fis fis fis
+    e e e e e e e e %70
+    e e e e e e e e
+    fis fis fis fis fis fis fis fis
+    h, r r4 e8 r gis r
+    e r r4 e8 r e r
+    e r r4 e8 r gis r %75
+    e r r4 e8 r e r
+    e4 r8 e\f d'16 cis h a gis fis e d
+    cis8\p cis cis cis cis cis cis cis
+    cis a4\f a a a8
+    a4\p r r fis %80
+    e8\fp e e e d'\fp d d d
+    cis\fp cis cis cis \appoggiatura h'16 a8\f gis16 fis \appoggiatura gis fis8 e16 dis
+    e8 r r4 h'8\p r gis r
+    a r r4 e8 r e r
+    e r r4 h'8 r gis r %85
+    a r r4 e8 r e r
+    e r r4 e16\f fis d e cis d h cis
+    a4 r r2
+    a'8\p a4 a a a8
+    e4 r r gis %90
+    fis r r a
+    fis2 e
+    d4 r h2
+    e4 r e r
+    e r8 a,\f e'16 fis d e cis d h cis %95
+    a4 r a r
+    d r d r
+    e r gis r
+    fis r r8 fis e d
+    cis cis cis cis cis cis a a %100
+    fis' fis fis fis fis fis d d
+    cis a cis e a4 r
+    a r a r
+    a r8 cis, d d d d
+    e e e e e e e e %105
+    cis cis cis cis cis cis cis cis
+    d d d d d d d d
+    e e e e e e e e
+    e\f e e e e e e e
+    a a a a gis gis gis gis %110
+    a a a a gis gis gis gis
+    a a a a e e e e
+    a,16 a a a a\p a a a a a a a a a a a
+    a a a a a a a a a a a a a a a a
+    a a a a a a a a cis\f cis cis cis cis cis cis cis %115
+    d8 d d d fis fis fis fis
+    h, h gis gis gis gis gis' gis
+    a4 r8 cis16 a e8 a16 e cis8 e16 cis
+    a4 r8 cis'16 a e8 a16 e cis8 e16 cis
+    a8 a cis cis d d fis fis %120
+    h, h h h h h h h
+    e e cis cis fis fis e d
+    cis4 e e r
+    a,1~\p
+    a4 a cis a %125
+    e'1~
+    e4 e e, e'
+    a,8 a a a a a a a
+    ais ais ais ais ais ais ais ais
+    fis4 r ais r %130
+    h8 fis'\mf d' ais h fis d fis
+    h,1~\p
+    h4 h d h
+    fis'1~
+    fis4 fis fis, fis' %135
+    h, r8 h h'4 r8 h,
+    e4 r8 e, e'4 r8 e
+    a,4 r8 a a'4 r8 a,
+    d4 r8 d d'4 r8 d,
+    g,4 h8 h h r h' r %140
+    a r cis, cis cis r cis' r
+    h r h, h a r a r
+    a4 r8 a h4 r8 e
+    e4 r8 e a,4 a
+    a r8 a h4 r8 e %145
+    e4 r8 e a,4 a
+    a8 gis'\f a gis a g fis e
+    d4\p r r a
+    d r r a
+    d r r d %150
+    g r r2
+    e d
+    g,4. h'8 a4 g
+    fis2 a
+    d,8 d d d d d d d %155
+    d d d d d d d d
+    a a a a a a a a
+    d4 r fis r
+    e r a, r
+    d r d'8-!\f c-! h-! a-! %160
+    g4\p r r d
+    g r r d
+    g r r h,
+    e8 g4 g g g8
+    fis fis4 fis fis fis8~ %165
+    fis fis4 fis fis fis8
+    e e4 e e e8
+    e e e e e e e e
+    e e e e e e e e
+    h h h h h h h h %170
+    h4 r fis' r
+    g r g gis
+    r8 a\f e' cis! a e cis e
+    a4\p r a r
+    a r8 d16\f a fis8 a16 fis d8 fis16 d %175
+    a4\p r a r
+    a r8 e''16\f cis a8 cis16 a e8 a16 e
+    cis4\p r cis r
+    d r h' r
+    g r a r %180
+    d,8 d d d d d d d
+    d d d d d d d d
+    d d d d d d d d
+    d d d d d d d d
+    d d d d d d d d %185
+    h h h h h h h h
+    gis gis gis gis gis gis gis gis
+    a r r4 a'8 r cis, r
+    d r r4 a8 r a r
+    a r r4 a'8 r cis, r %190
+    d r r4 a8 r a r
+    a4 r8 a'\f e'16 d cis d cis h a g
+    fis8 fis,\p fis fis fis fis fis fis
+    fis d'4\f d d d8
+    d4 r r h %195
+    a8\fp a a a g'\fp g g g
+    fis\fp fis fis fis \appoggiatura e'16 d8\f cis16 h \appoggiatura cis h8 a16 gis
+    a8\p r r4 e8 r cis r
+    d r r4 a8 r a r
+    a r r4 e'8 r cis r %200
+    d r r4 a8 r a r
+    a r r4 a'16\f h g a fis g e fis
+    d4 r d r
+    d8\p d4 d d d8
+    a4 r r cis %205
+    h r r d
+    h2 a
+    g4 r e'2
+    a,1
+    a4 r8 d\f a'16 h g a fis g e fis %210
+    d4 r d r
+    g, r g' r
+    a r cis, r
+    h r r8 \parOn h'-\parenthesize-! a-! \parOff g-\parenthesize-!
+    fis fis fis fis fis fis fis fis %215
+    fis fis fis fis fis fis fis fis
+    cis cis cis cis cis cis cis cis
+    a a a a a a a a
+    a a a a a a a a
+    a a a a a a a a %220
+    a a a a a a a a
+    a a a a a a a a
+    a4 e'2 d4
+    cis cis'2 d4
+    a, e'2 d4 %225
+    cis g'2 fis4
+    a,1
+    a
+    a8\fp a a a a\fp a a a
+    g\fp g g g h\fp h h h %230
+    a\fp a a a a\fp a a a
+    a4 r8 fis'16\mf d a8 d16 a fis8 a16 fis
+    d4 r8 fis'16 d a'8 d16 a fis8 a16 fis
+    d4 r8 fis16 d a'8 d16 a fis8 a16 fis
+    d4 r r2 %235
+    fis,8\p fis fis fis fis fis fis fis
+    fis d'4\f d d d8
+    d4 r r2
+    R1
+    fis8 fis fis fis fis fis fis fis %240
+    g g g g g g g g
+    a4 r r2
+    a,8\f a a a a a a a
+    d4 r r2
+    R1 %245
+    d,8(\f fis) a r fis( a) d r
+    a( d) fis r gis h d gis,
+    a2 r\fermata \bar "||" %248 finis
+    \time 3/8 \tempoCThree d,4 r8 \bar "|"
+  }
+}

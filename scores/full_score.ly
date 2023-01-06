@@ -1190,8 +1190,73 @@
   %   }
   % }
   % \part "part_three" "3" "Dedicatio"
+  % \bookpart {
+  %   \section "3·1" "Accompagnato: Quid video?"
+  %   \addTocEntry
+  %   \paper {
+  %     top-system-spacing.basic-distance = #10
+  %     top-system-spacing.minimum-distance = #10
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #10
+  %     markup-system-spacing.minimum-distance = #10
+  %     systems-per-page = #2
+  %     indent = 3\cm
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup \with { \smallGroupDistance } <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = "Oboe I, II"
+  %           \partCombine #'(0 . 10) \COneOboeI \COneOboeII
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \transposedName "Corno I, II" "D" ""
+  %           % \transpose c d
+  %           \partCombine #'(0 . 10) \COneCornoI \COneCornoII
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "Violino"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "I"
+  %             \COneViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "II"
+  %             \COneViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Viola"
+  %           \COneViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "Montanus," "Salzae [Praeses]" \vspace #.5 "Teutogenus," "Danubii Praeses" }
+  %           \new Voice = "Soli" { \dynamicUp \COneSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \COneSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "Basso" "continuo" }
+  %           % \transpose c c,
+  %           \COneBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \COneBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 100 }
+  %   }
+  % }
   \bookpart {
-    \section "3·1" "Accompagnato"
+    \section "3·2" "Duetto: Felix Germania"
     \addTocEntry
     \paper {
       top-system-spacing.basic-distance = #10
@@ -1200,59 +1265,67 @@
       top-markup-spacing.minimum-distance = #0
       markup-system-spacing.basic-distance = #10
       markup-system-spacing.minimum-distance = #10
+      system-system-spacing.basic-distance = #17
+      system-system-spacing.minimum-distance = #17
       systems-per-page = #2
-      indent = 3\cm
+      indent = 2\cm
     }
     \score {
       <<
-        \new StaffGroup \with { \smallGroupDistance } <<
+        \new StaffGroup \with { \setGroupDistance #11 #11 } <<
           \new Staff <<
-            \set Staff.instrumentName = "Oboe I, II"
-            \partCombine #'(0 . 10) \COneOboeI \COneOboeII
+            \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+            \partCombine #'(0 . 10) \CTwoOboeI \CTwoOboeII
           >>
         >>
-        \new StaffGroup <<
+        \new StaffGroup \with { \setGroupDistance #11 #11 } <<
           \new Staff <<
-            \set Staff.instrumentName = \transposedName "Corno I, II" "D" ""
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "D" "" "1, 2" }
             % \transpose c d
-            \partCombine #'(0 . 10) \COneCornoI \COneCornoII
+            \partCombine #'(0 . 10) \CTwoCornoI \CTwoCornoII
           >>
         >>
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "Violino"
+        \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+          \new GrandStaff \with { \setGroupDistance #11 #11 } <<
+            \set GrandStaff.instrumentName = "vl"
             \new Staff {
-              \set Staff.instrumentName = "I"
-              \COneViolinoI
+              \set Staff.instrumentName = "1"
+              \CTwoViolinoI
             }
             \new Staff {
-              \set Staff.instrumentName = "II"
-              \COneViolinoII
+              \set Staff.instrumentName = "2"
+              \CTwoViolinoII
             }
           >>
           \new Staff {
-            \set Staff.instrumentName = "Viola"
-            \COneViola
+            \set Staff.instrumentName = "vla"
+            \CTwoViola
           }
         >>
-        \new ChoirStaff <<
+        \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "Montanus," "Salzae [Praeses]" \vspace #.5 "Teutogenus," "Danubii Praeses" }
-            \new Voice = "Soli" { \dynamicUp \COneSoli }
+            \set Staff.instrumentName = "Montanus"
+            \new Voice = "Montanus" { \dynamicUp \CTwoMontanus }
           }
-          \new Lyrics \lyricsto Soli \COneSoliLyrics
+          \new Lyrics \lyricsto Montanus \CTwoMontanusLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "Teutogenus"
+            \new Voice = "Teutogenus" { \dynamicUp \CTwoTeutogenus }
+          }
+          \new Lyrics \lyricsto Teutogenus \CTwoTeutogenusLyrics
         >>
         \new StaffGroup <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "Basso" "continuo" }
+            \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \COneBassoContinuo
+            \CTwoBassoContinuo
           }
         >>
-        \new FiguredBass { \COneBassFigures }
+        \new FiguredBass { \CTwoBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 100 }
+      \midi { \tempo 4 = 120 }
     }
   }
 }

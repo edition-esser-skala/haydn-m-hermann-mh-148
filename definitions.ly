@@ -59,12 +59,14 @@ tempoBTwelve = \tempoMarkup "Allegro"
   tempoBTwelveB = \tempoMarkup "Coda"
 
 tempoCOne = \tempoMarkup "Moderato"
-  tempoCOneB = \tempoMarkup "Allegretto" %45
-  tempoCOneC = \tempoMarkup "Moderato" %89
-  tempoCOneD = \tempoMarkup "a tempo" %98
-  tempoCOneE = \tempoMarkup "Allegretto" %145
-  tempoCOneF = \tempoMarkup "Moderato" %195
-  tempoCOneG = \tempoMarkup "a tempo" %203
+  tempoCOneB = \tempoMarkup "Allegretto"
+  tempoCOneC = \tempoMarkup "Moderato"
+  tempoCOneD = \tempoMarkup "a tempo"
+  tempoCOneE = \tempoMarkup "Allegretto"
+  tempoCOneF = \tempoMarkup "Moderato"
+  tempoCOneG = \tempoMarkup "a tempo"
+tempoCTwo = \tempoMarkup "Allegro con brio"
+tempoCThree = \tempoMarkup "Presto assai"
 
 
 \include "notes/fl1.ly"

@@ -614,3 +614,144 @@ COneCornoI = {
     r4 \pao d d r\fermata \bar "|." %229 finis
   }
 }
+
+CTwoCornoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoCTwo
+    c'2\fE d
+    c4 r8 c d4 d
+    c r8 e d4 d
+    c r c8 c c c
+    c4 r d8 d d d %5
+    d4 r r f
+    e r e8 e e e
+    e2 r
+    d r
+    d r %10
+    c1
+    c
+    c
+    r2 r4 \pao d
+    d r r8 d d d %15
+    d4 r r2
+    r4 r8 g\f e g c, e
+    g,4 r r2
+    r4 r8 g'\fE d g d g
+    g,4 r r2 %20
+    c4\fE r8 c g c e, g
+    c,4 r8 c' g c e, g
+    c4 r8 c c4 r8 c
+    c4 r r f
+    e8 e16 e e8 e d d16 d d8 d %25
+    c4 r r2
+    R1*5 %31
+    d4\fE e8 e d4 e8 e
+    d4 e8 g f4 d
+    c c c r
+    R1*12 %46
+    r2 \pa c8\fE g e g \pd
+    c4 r r2
+    R1*11 %59
+    r2 d4\fE d %60
+    d r r2
+    r d4\fE d
+    d r r2
+    r d4\fE d
+    d r r2 %65
+    R1*13 %78
+    g,1\fE
+    g2 r %80
+    R1
+    r2 r4 g'\fE
+    \pao d r r2
+    R1*4 %87
+    g1\fE
+    g2 r
+    R1*6 %95
+    g1\pE
+    g2 r
+    R1*12 %109
+    g2\fE \pao d %110
+    d4 r8 \pa d d4 d \pd
+    d r8 d \pao d4 fis
+    \after 4 \pE g1
+    g
+    g4 r g\fE g %115
+    g r r2
+    R1
+    d4 r d d
+    d r d8 d d d
+    d4 r8 g e4 r8 g %120
+    \pao d4 r \pao d r
+    d r r fis
+    g d d r
+    R1*7 %130
+    r2 e4\p e
+    e r r2
+    R1*14 %146
+    r2 d4\f d
+    e r r2
+    c2\pp \pao g
+    g r %150
+    R1*4
+    c1\pp %155
+    c
+    g
+    g4 r r2
+    R1
+    r2 c4\fE c %160
+    c r r2
+    R1*6 %167
+    \pa d1\p
+    d \pd
+    R1*3 %172
+    r2 d4\f d
+    d r r2
+    r g,4\fE g %175
+    g r r2
+    r g4\fE g
+    g r r2
+    R1*13 %191
+    g'2~\p g\f
+    \pao c,4 r r2
+    c1
+    c4 r r2 %195
+    R1*2
+    g'1~\p
+    g~
+    g4 r r f %200
+    e r r e
+    d r r2
+    c1\f
+    c2 r
+    R1*6 %210
+    c1\pE
+    c2 r
+    R1*6 %218
+    c1\p
+    c %220
+    c
+    c
+    g4 r r2
+    R1*8 %231
+    r4 r8 c\mfE g c e, g
+    c,4 r8 c' g c e, g
+    c,4 r8 c' g c e, g
+    c,4 c'\f c r %235
+    R1
+    c\fE
+    c4 r r2
+    R1
+    c4\p r r2 %240
+    c4 r r2
+    \pao g4 r r2
+    g'4\f g8. g16 g4 g
+    e r r2
+    R1 %245
+    c,8\fE e g r e g c r
+    g c e r r4 c
+    \pao g2 r\fermata \bar "||" %248 finis
+    \time 3/8 \tempoCThree c4 r8
+  }
+}

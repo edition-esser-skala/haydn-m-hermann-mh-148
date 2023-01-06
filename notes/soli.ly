@@ -444,3 +444,731 @@ COneSoliLyrics = \lyricmode {
   ad -- spi -- ce Her -- man -- num, et
   fa -- ve. %229 finis
 }
+
+CTwoMontanus = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \major \time 4/4 \autoBeamOff \tempoCTwo
+    R1*47 %47
+    d2 a4 a
+    a8. g16 fis4 r2
+    \appoggiatura h'16 a8[ g16 fis] fis4 r a, %50
+    d4. d8 d4 fis
+    fis8. e16 e2 fis4
+    d d d4. e8
+    cis8. cis16 cis4 r a
+    fis1 %55
+    e2 e8([ a)] cis([ e)]
+    e2( d)\trill
+    cis4 r a'2
+    fis4 d h a
+    gis8.([ fis16)] e4 r e %60
+    h'2. d4
+    his8([ cis)] cis4 r e,
+    cis'2. e4
+    cis8([ d)] d4 r2
+    d4. e8 fis4 fis %65
+    e4. d8 cis4 cis
+    d4. cis8 h4 h
+    cis16[ d cis h] cis[ e d fis] e4 r
+    fis16[ gis fis gis] a[ gis a gis] fis[ e fis e] d[ cis d cis]
+    h[ cis h a] h[ d cis e] d8[ h] r h %70
+    cis16[ d cis h] cis[ e d fis] e8[ cis] r cis
+    dis16[ e dis cis] dis[ fis e gis] fis8[ dis fis dis]
+    e1~
+    e~
+    e8 r gis,16[ a gis a] h[ cis h cis] \appoggiatura e d8[ cis16 h] %75
+    cis8 r cis16[ d cis d] \appoggiatura fis e8[ d16 cis] \appoggiatura d cis8[ h16 a]
+    gis8.[ fis16] e4 r2
+    R1
+    g'!4. g8 g4 g
+    fis4 a fis d %80
+    cis2( h)\trill
+    a4 r r2
+    R1*2
+    r2 e'~ %85
+    e a,8([ cis)] e([ a)]
+    gis8. fis16 e4 r2
+    e4 d8 cis e4 d8 cis
+    a'4 fis r fis
+    h,4. cis8 d4 d %90
+    d4. cis8 cis4 cis
+    h h h cis
+    d4. e8 fis4 fis
+    \appoggiatura fis8 e4 d8([ cis)] \appoggiatura e d4 cis8[( h)]
+    cis([ d)] e4 r2 %95
+    e4 d8 cis e4 d8([ cis)]
+    a'4. fis8 fis4 fis
+    h,4. cis8 d4 d
+    d cis r a
+    a8[ h16 cis] d[ e fis gis] a4 r %100
+    a,8[ h16 cis] d[ e fis gis] a4 r
+    a8[ gis16 fis] e[ d cis h] cis8[ a cis e]
+    a8[ gis16 fis] e[ d cis h] cis8[ a cis e]
+    a2 \appoggiatura h16 a8[ gis16 fis] \appoggiatura gis fis8[ e16 d]
+    cis2 h\trill %105
+    e g!
+    fis4. fis8 a[( fis]) fis([ d)]
+    cis1
+    h\trill
+    a4 r r2 %110
+    R1*14 %124
+    r2 r4 e'8([ cis)] %125
+    h4. h8 h ([ gis)] cis([ a)]
+    d4. h8 d4 d
+    cis4. d8 e4 e
+    e4. fis8 g!4 g
+    fis8([ e)] d([ fis)] e([ d)] cis([ e)] %130
+    d([ cis)] h4 r2
+    R1
+    r2 r4 fis'8([ d)]
+    cis4. cis8 cis([ ais)] d([ h)]
+    e4. cis8 e4 e %135
+    d4. e8 fis4 fis
+    g4. a8 h4 d,
+    cis4. d8 e4 e
+    fis4.( g8) a4 c,
+    h e2 d4 %140
+    cis! fis2 e4
+    d4. g8 g4 fis
+    fis e r2
+    r e4 d
+    d cis r e %145
+    \appoggiatura d8 cis4 h8 a g'4 fis
+    fis e r2
+    R1*13 %160
+    g2 d4 d
+    d8. c?16 h4 r2
+    \appoggiatura e16 d8([ c?16 h)] h4 r h
+    e4. e8 e4 g8([ e)]
+    e8. dis16 dis2 e4 %165
+    fis dis h4. a8
+    g8. a16 h4 r e,
+    c'1
+    h2 e4 g
+    h,2( a) %170
+    g4 r h2
+    h'4 g e d!
+    cis!8.([ h16)] a4 r a
+    e'2. g4
+    eis8([ fis)] fis4 r a, %175
+    fis'2. a4
+    fis8([ g)] g4 r2
+    g4. h,8 h4 h
+    a4. g8 fis4 fis'
+    g4. fis8 e4 e %180
+    fis16[ g fis e] fis8[ g] a4 r8 a,
+    h16[ cis h a] h8[ d] cis16[ d cis h] cis8[ e]
+    d16[ e d cis] d8[ fis] a4 r8 a,
+    h16[ cis h a] h8[ d] cis16[ d cis h] cis8[ e]
+    d16[ e d cis] d8[ e] fis([ d)] r d %185
+    d16[ e d cis] d8[ e] fis([ d)] r d
+    d16[ e d cis] d8[ e] fis([ d) fis( d)]
+    a'1~
+    a~
+    a8 r cis,16[ d cis d] e8[-! fis-! g-! g,] %190
+    fis r d'16[ e d e] fis8[ g a d,]
+    cis8.[\trill h16] a4 r2
+    d4. d8 d4 d
+    d1~
+    d4 h g' e %195
+    d2( cis!)\trill
+    d4 r r2
+    R1*2
+    r2 a'~ %200
+    a d,4 fis
+    e8. a,16 a4 r2
+    a4 g8 fis a4 g8 fis
+    d'4 h r d
+    cis4. d8 e4 g, %205
+    g4. fis8 fis4 fis
+    e e e fis
+    g4. a8 h4 h
+    a8([ d)] fis([ a)] \appoggiatura a g4 fis8([ e)]
+    fis([ e)] d4 r2 %210
+    a4 g8 fis a4 g8([ fis)]
+    d'4. h8 h4 d
+    cis4. d8 e4 g,
+    g fis r d'
+    d16[ e d cis] d8[ fis] d4 r %215
+    d16[ e d cis] d8[ fis] a4 r
+    a,16[ h a gis] a8[ cis] e4 r
+    cis16[ d cis h] cis8[ e] g!4 r
+    d, fis8[ a] d[ a fis a]
+    d2 fis8[ d a d] %220
+    fis2 a8[ fis d fis]
+    a2^\critnote d,8[ a d fis]
+    g[ e g e] g4 \appoggiatura g16 fis8[ e16 d]
+    cis2. d4
+    g8[ e g e] g4 \appoggiatura g16 fis8[ e16 d] %225
+    cis2. d4
+    \tuplet 3/2 4 { g8[ a g] fis[ g fis] e[ fis e] d[ e d]
+    cis[ d cis] h[ cis h] a[ h a] g[ a g] }
+    fis2 a'
+    h, g' %230
+    fis e
+    d4 r r a
+    d r r d
+    fis d r d
+    fis d r2 %235
+    R1
+    c4. c8 c4 c
+    h4. g8 g4 e'
+    d2( cis!)
+    d d %240
+    d4. d8 d4 g
+    fis1
+    e\trill
+    d4 r r2
+    R1*2 %246
+    r2 r4 fis
+    fis2\fermata e\trill\fermata \bar "||" %248 finis
+    \time 3/8 \tempoCThree d4 r8 \bar "|"
+  }
+}
+
+CTwoMontanusLyrics = \lyricmode {
+  Fe -- lix Iu -- %48
+  va -- vi -- a,
+  fe -- lix! cui %50
+  nu -- mi -- nis cle --
+  men -- ti -- a haec
+  sors be -- at -- a
+  ob -- ti -- git Sig --
+  mun -- %55
+  dum e -- li --
+  gen --
+  di, Sig --
+  mun -- dum e -- li --
+  gen -- di. In %60
+  Te, o
+  Prin -- ceps, in
+  Te, o
+  Prin -- ceps
+  in -- te -- gra Ger -- %65
+  ma -- ni -- a, Ger --
+  ma -- ni -- a lae --
+  ta -- _ _
+  _ _ _ _
+  _ _ _ _ %70
+  _ _ _ _
+  _ _ _
+  _
+
+  _ _ _ %75
+  _ _ _ _
+  _ tur,
+
+  in -- te -- gra Ger --
+  ma -- ni -- a lae -- %80
+  ta --
+  tur.
+
+  Fe -- %85
+  lix __ Iu --
+  va -- vi -- a,
+  fe -- lix Iu -- va -- vi -- a,
+  fe -- lix! cui
+  Nu -- mi -- nis cle -- %90
+  men -- ti -- a haec
+  sors be -- at -- a
+  ob -- ti -- git Sig --
+  mun -- dum e -- li --
+  gen -- di. %95
+  In Te, o Prin -- ceps,
+  in -- te -- gra Ger --
+  ma -- ni -- a lae --
+  ta -- tur, lae --
+  ta -- _ _ %100
+  _ _ _
+  _ _ _
+  _ _ _
+  _ _ _
+  _ _ %105
+  tur, Ger --
+  ma -- ni -- a __ lae --
+  ta --
+  _
+  tur. %110
+
+  Te %125
+  Prin -- ci -- pem An --
+  ti -- sti -- tem ut
+  so -- lem in -- ter
+  si -- de -- ra sus --
+  pen -- sa __ de -- mi -- %130
+  ra -- tur.
+
+  Te
+  Prin -- ci -- pem An --
+  ti -- sti -- tem ut %135
+  so -- lem in -- ter
+  si -- de -- ra sus --
+  pen -- sa de -- mi --
+  ra -- tur, sus --
+  pen -- _ _ %140
+  _ _ _
+  _ sa de -- mi --
+  ra -- tur,
+  de -- mi --
+  ra -- tur, An -- %145
+  ti -- sti -- tem de -- mi --
+  ra -- tur.
+
+  Fe -- lix Iu -- %161
+  va -- vi -- a,
+  fe -- lix! cui
+  Nu -- mi -- nis cle --
+  men -- ti -- a haec %165
+  sors be -- at -- a
+  ob -- ti -- git Sig --
+  mun --
+  dum e -- li --
+  gen -- %170
+  di, Sig --
+  mun -- dum e -- li --
+  gen -- di. In
+  Te, o
+  Prin -- ceps, in %175
+  Te, o
+  Prin -- ceps!
+  in -- te -- gra Ger --
+  ma -- ni -- a, Ger --
+  ma -- ni -- a lae -- %180
+  ta -- _ _ _
+  _ _ _ _
+  _ _ _ _
+  _ _ _ _
+  _ _ _ _ %185
+  _ _ _ _
+  _ _ _
+  _
+
+  _ _ %190
+  _ _ _
+  _ tur,
+  in -- te -- gra Ger --
+  ma --
+  ni -- a lae -- %195
+  ta --
+  tur.
+
+  Fe -- %200
+  lix Iu --
+  va -- vi -- a,
+  fe -- lix Iu -- va -- vi -- a,
+  fe -- lix! cui
+  Nu -- mi -- nis cle -- %205
+  men -- ti -- a haec
+  sors be -- at -- a
+  ob -- ti -- git Sig --
+  mun -- dum e -- li --
+  gen -- di. %210
+  In Te, o Prin -- ceps,
+  in -- te -- gra Ger --
+  ma -- ni -- a lae --
+  ta -- tur, lae --
+  ta -- _ _ %215
+  _ _ _
+  _ _ _
+  _ _ _
+  _ _ _
+  _ _ %220
+  _ _
+  _ _
+  _ _ _
+  _ _
+  _ _ _ %225
+  _ _
+  _ _ _ _
+  _ _ _ _
+  _ _
+  _ _ %230
+  _ _
+  tur, in
+  Te, o
+  Prin -- ceps, lae --
+  ta -- tur, %235
+
+  in -- te -- gra Ger --
+  ma -- ni -- a lae --
+  ta --
+  tur, Ger -- %240
+  ma -- ni -- a lae --
+  ta --
+  _
+  tur,
+
+  lae -- %247
+  ta -- _
+  tur. %249 finis
+}
+
+CTwoTeutogenus = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \major \time 4/4 \autoBeamOff \tempoCTwo
+    R1*34 %34
+    d2 a4 a %35
+    a8. g16 fis4 r2
+    \appoggiatura h16 a8([ g16 fis)] fis4 r d
+    h'4. h8 h4 g'
+    g8. a,16 a2 fis'4
+    e4. g16([ e)] d4 cis %40
+    d8. d16 d4 r d
+    h1
+    a2 d4 fis
+    a,2( g)\trill
+    fis4 r a'2 %45
+    g4 e cis g
+    fis8.([ e16)] d4 r2
+    R1*12 %59
+    r2 r4 e %60
+    gis2. h4
+    gis8([ a)] a4 r e
+    a2. cis4
+    ais8([ h]) h4 r2
+    h4. cis8 d4 d %65
+    cis4. h8 a4 a
+    h4. a8 gis4 gis
+    a16[ h a gis] a[ cis h d] cis4 r
+    d16[ e d e] fis[ e fis e] d[ cis d cis] h[ a h a]
+    gis[ a gis fis] gis[ h a cis] h8[ gis] r gis %70
+    a16[ h a gis] a[ cis h d] cis8[ a] r a
+    fis16[ gis fis e] fis[ a gis h] a8[ fis a fis]
+    gis8 r gis16[ a gis a] h[ cis h cis] \appoggiatura e d8[ cis16 h]
+    cis8 r cis16[ d cis d] \appoggiatura fis e8[ d16 cis] \appoggiatura d cis8[ h16 a]
+    e'1~ %75
+    e\trill
+    e4 r r2
+    a,4. a8 a4 a
+    a1~
+    a4 fis' d h %80
+    a2( gis)\trill
+    a4 r r2
+    r e'~
+    e a,4 cis
+    h8. e,16 e4 r2 %85
+    R1*2
+    cis'4 h8 a cis4 h8 a
+    fis'4 d r d
+    gis,4. a8 h4 h %90
+    h4. a8 a4 a
+    a a gis a
+    h4. cis8 d4 d
+    \appoggiatura d8 cis4 h8([ a)] \appoggiatura cis h4 a8([ gis)]
+    a([ h)] cis4 r2 %95
+    cis4 h8 a cis4 h8([ a])
+    fis'4. d8 d4 d
+    gis,4. a8 h4 h
+    h a r2
+    r4 a a8[ h16 cis] d[ e fis gis] %100
+    a4 r a,8[ h16 cis] d[ e fis gis]
+    a4 r a8[ gis16 fis] e[ d cis h]
+    cis8[ a cis e] a8[ gis16 fis] e[ d cis h]
+    cis8[ a cis e] \appoggiatura gis16 fis8[ e16 d] \appoggiatura e d8[ cis16 h]
+    a2 gis\trill %105
+    a e'
+    d4. d8 fis([ d)] d([ h)]
+    a1
+    gis
+    a4 r r2 %110
+    R1*12 %122
+    r2 r4 e
+    cis'4. cis8 cis([ a)] d([ h)]
+    e4. cis8 e4 r %125
+    R1
+    r2 r4 h
+    a4. h8 cis4 cis
+    cis4. d8 e4 e
+    d8([ cis)] h([ d)] cis([ h)] ais([ cis)] %130
+    h([ ais)] h4 r fis
+    d'4. d8 d([ h)] e([ cis)]
+    fis4. d8 fis4 r
+    R1
+    r2 r4 cis %135
+    h4. cis8 d4 d
+    e4. fis8 g4 h,
+    a4. h8 cis4 cis
+    d4.( e8) fis4 a,
+    g8.[ fis16] g2 fis4 %140
+    e a2 g4
+    fis h e d
+    d cis r e
+    \appoggiatura d8 cis4 h8 a g'4 fis
+    fis e r2 %145
+    r e4 d
+    d cis r2
+    d a4 a
+    a8. g16 fis4 r2
+    \appoggiatura h16 a8([ g16 fis)] fis4 r d %150
+    h'4. h8 h4 g'
+    g8. a,16 a2 fis'4
+    e4. g16([ e)] d4 cis
+    d8. d16 d4 r d
+    h1 %155
+    a2 d4 fis
+    a,2( g)\trill
+    fis4 r a'2
+    g4 e cis g
+    fis8.([ e16)] d4 r2 %160
+    R1*12 %172
+    r2 r4 a'
+    cis2. e4
+    cis8[( d)] d4 r a %175
+    d2. fis4
+    dis8([ e)] e4 r2
+    e4. g,8 g4 g
+    fis4. e8 d4 d'
+    e4. d8 cis4 cis %180
+    d16[ e d cis] d8[ e] fis4 r8 fis,
+    g16[ a g fis] g8[ fis] e16[ fis e d] e8[ g]
+    fis16[ g fis e] fis8[ d'] fis4 r8 fis,
+    g16[ a g fis] g8[ fis] e16[ fis e d] e8[ g]
+    fis16[ g fis e] fis8[ g] a([ fis)] r fis %185
+    h16[ cis h ais] h8[ cis] d([ h)] r fis
+    h16[ cis h a] h8[ cis] d([ h) d( h)]
+    cis r cis16[ d cis d] e8[-! fis-! g-! g,]
+    fis r d'16[ e fis e] d8[ a fis d]
+    a'1~ %190
+    a\trill
+    a4 r r2
+    R1
+    c4. c8 c4 c
+    h d h g %195
+    fis2( e)\trill
+    d4 r r2
+    r a'~
+    a d4 fis
+    e8. a,16 a4 r2 %200
+    R1*2
+    fis4 e8 d fis4 e8 d
+    h'4 g r h
+    e,4. fis8 g4 e %205
+    e4. d8 d4 d
+    d d cis d
+    e4. fis8 g4 g
+    fis8([ a)] d([ fis)] \appoggiatura fis e4 d8([ cis)]
+    d([ cis)] d4 r2 %210
+    fis,4 e8 d fis4 e8([ d])
+    h'4. g8 g4 h
+    e,4. fis8 g4 e
+    e d r2
+    r4 r8 d' d16[ e d cis] d8[ fis] %215
+    d4 r d16[ e d cis] d8[ fis]
+    e4 r a,16[ h a gis] a8[ cis]
+    e4 r e16[ fis e d] e8[ g!]
+    fis4 r r2
+    d,4 fis8[ a] d[ a fis a] %220
+    d2 fis8[ d a d]
+    fis2 fis8[ a fis d]
+    cis2. d4
+    g8[ e g e] g4 \appoggiatura g16 fis8[ e16 d]
+    cis2. d4 %225
+    g8[ e g e] g4 \appoggiatura g16 fis8[ e16 d]
+    \tuplet 3/2 4 { e8[ fis e] d[ e d] cis[ d cis] h[ cis h]
+    a[ h a] g[ a g] fis[ g fis] e[ fis e] }
+    d2 d'
+    g, e' %230
+    d cis
+    d4 r r a
+    fis r r fis
+    a fis r fis
+    a fis r2 %235
+    d'4. d8 d4 d
+    d1~
+    d4. h8 h4 g'
+    fis2( e)
+    d c %240
+    h4. h8 h4 d
+    d1
+    cis!\trill
+    d4 r r2
+    R1*2 %246
+    r2 r4 d
+    d2\fermata cis\trill\fermata \bar "||" %248 finis
+    \time 3/8 \tempoCThree d4 r8 \bar "|"
+  }
+}
+
+CTwoTeutogenusLyrics = \lyricmode {
+  Fe -- lix Ger -- %35
+  ma -- ni -- a,
+  fe -- lix! cui
+  mi -- ra pro -- vi --
+  den -- ti -- a haec
+  sors be -- a -- ta %40
+  ob -- ti -- git Her --
+  man --
+  num nu -- tri --
+  en --
+  di, Her -- %45
+  man -- num nu -- tri --
+  en -- di.
+
+  In %60
+  Te, o
+  Prin -- ceps, in
+  Te, o
+  Prin -- ceps
+  in -- te -- gra Ger -- %65
+  ma -- ni -- a, Ger --
+  ma -- ni -- a lae --
+  ta -- _ _
+  _ _ _ _
+  _ _ _ _ %70
+  _ _ _ _
+  _ _ _
+  _ _ _ _
+  _ _ _ _
+  _ %75
+
+  tur,
+  in -- te -- gra Ger --
+  ma --
+  ni -- a lae -- %80
+  ta --
+  tur.
+  Fe --
+  lix Ger --
+  ma -- ni -- a, %85
+
+  fe -- lix Ger -- ma -- ni -- a, %88
+  fe -- lix! cui
+  mi -- ra pro -- vi -- %90
+  den -- ti -- a haec
+  sors be -- a -- ta
+  ob -- ti -- git Her --
+  man -- num nu -- tri --
+  en -- di. %95
+  In Te, o Prin -- ceps,
+  in -- te -- gra Ger --
+  ma -- ni -- a lae --
+  ta -- tur,
+  lae -- ta -- _ %100
+  _ _ _
+  _ _ _
+  _ _ _
+  _ _ _
+  _ _ %105
+  tur, Ger --
+  ma -- ni -- a __ lae --
+  ta --
+  _
+  tur. %110
+
+  Hunc %123
+  prin -- ci -- pem bel --
+  li -- du -- cem %125
+
+  ut
+  so -- lem in -- ter
+  si -- de -- ra sus --
+  pen -- sa __ de -- mi -- %130
+  ra -- tur, hunc
+  prin -- ci -- pem bel --
+  li -- du -- cem
+
+  ut %135
+  so -- lem in -- ter
+  si -- de -- ra sus --
+  pen -- sa de -- mi --
+  ra -- tur, sus --
+  pen -- _ _ %140
+  _ _ _
+  _ sa de -- mi --
+  ra -- tur, bel --
+  li -- du -- cem de -- mi --
+  ra -- tur, %145
+  de -- mi --
+  ra -- tur.
+  Fe -- lix Ger --
+  ma -- ni -- a,
+  fe -- lix! cui %150
+  mi -- ra pro -- vi --
+  den -- ti -- a haec
+  sors be -- a -- ta
+  ob -- ti -- git Her --
+  man -- %155
+  num nu -- tri --
+  en --
+  di, Her --
+  man -- num nu -- tri --
+  en -- di. %160
+
+  In %173
+  Te, o
+  Prin -- ceps, in %175
+  Te, o
+  Prin -- ceps!
+  in -- te -- gra Ger --
+  ma -- ni -- a, Ger --
+  ma -- ni -- a lae -- %180
+  ta -- _ _ _
+  _ _ _ _
+  _ _ _ _
+  _ _ _ _
+  _ _ _ _ %185
+  _ _ _ _
+  _ _ _
+  _ _ _
+  _ _ _
+  _ %190
+
+  tur,
+
+  in -- te -- gra Ger --
+  ma -- ni -- a lae -- %195
+  ta --
+  tur.
+  Fe --
+  lix Ger --
+  ma -- ni -- a, %200
+
+  fe -- lix Ger -- ma -- ni -- a, %203
+  fe -- lix! cui
+  mi -- ra pro -- vi -- %205
+  den -- ti -- a haec
+  sors be -- a -- ta
+  ob -- ti -- git Her --
+  man -- num nu -- tri --
+  en -- di. %210
+  In Te, o Prin -- ceps,
+  in -- te -- gra Ger --
+  ma -- ni -- a lae --
+  ta -- tur,
+  lae -- ta -- _ %215
+  _ _ _
+  _ _ _
+  _ _ _
+  _
+  _ _ _ %220
+  _ _
+  _ _
+  _ _
+  _ _ _
+  _ _ %225
+  _ _ _
+  _ _ _ _
+  _ _ _ _
+  _ _
+  _ _ %230
+  _ _
+  tur, in
+  Te, o
+  Prin -- ceps, lae --
+  ta -- tur, %235
+  in -- te -- gra Ger --
+  ma --
+  ni -- a lae --
+  ta --
+  tur, Ger -- %240
+  ma -- ni -- a lae --
+  ta --
+  _
+  tur,
+
+  lae -- %247
+  ta -- _
+  tur. %249 finis
+}
