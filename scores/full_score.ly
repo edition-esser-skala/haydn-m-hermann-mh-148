@@ -1255,77 +1255,126 @@
   %     \midi { \tempo 4 = 100 }
   %   }
   % }
+  % \bookpart {
+  %   \section "3·2" "Duetto: Felix Germania"
+  %   \addTocEntry
+  %   \paper {
+  %     top-system-spacing.basic-distance = #10
+  %     top-system-spacing.minimum-distance = #10
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #10
+  %     markup-system-spacing.minimum-distance = #10
+  %     system-system-spacing.basic-distance = #17
+  %     system-system-spacing.minimum-distance = #17
+  %     systems-per-page = #2
+  %     indent = 2\cm
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+  %           \partCombine #'(0 . 10) \CTwoOboeI \CTwoOboeII
+  %         >>
+  %       >>
+  %       \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "D" "" "1, 2" }
+  %           % \transpose c d
+  %           \partCombine #'(0 . 10) \CTwoCornoI \CTwoCornoII
+  %         >>
+  %       >>
+  %       \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+  %         \new GrandStaff \with { \setGroupDistance #11 #11 } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \CTwoViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \CTwoViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \CTwoViola
+  %         }
+  %       >>
+  %       \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Montanus"
+  %           \new Voice = "Montanus" { \dynamicUp \CTwoMontanus }
+  %         }
+  %         \new Lyrics \lyricsto Montanus \CTwoMontanusLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Teutogenus"
+  %           \new Voice = "Teutogenus" { \dynamicUp \CTwoTeutogenus }
+  %         }
+  %         \new Lyrics \lyricsto Teutogenus \CTwoTeutogenusLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \CTwoBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \CTwoBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 120 }
+  %   }
+  % }
   \bookpart {
-    \section "3·2" "Duetto: Felix Germania"
+    \section "3·3" "Presto assai"
     \addTocEntry
-    \paper {
-      top-system-spacing.basic-distance = #10
-      top-system-spacing.minimum-distance = #10
-      top-markup-spacing.basic-distance = #0
-      top-markup-spacing.minimum-distance = #0
-      markup-system-spacing.basic-distance = #10
-      markup-system-spacing.minimum-distance = #10
-      system-system-spacing.basic-distance = #17
-      system-system-spacing.minimum-distance = #17
-      systems-per-page = #2
-      indent = 2\cm
-    }
+    \paper { systems-per-page = #2 }
     \score {
       <<
-        \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+        \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
-            \partCombine #'(0 . 10) \CTwoOboeI \CTwoOboeII
+            \partCombine #'(0 . 10) \CThreeOboeI \CThreeOboeII
           >>
         >>
-        \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+        \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "D" "" "1, 2" }
             % \transpose c d
-            \partCombine #'(0 . 10) \CTwoCornoI \CTwoCornoII
+            \partCombine #'(0 . 10) \CThreeCornoI \CThreeCornoII
           >>
         >>
-        \new StaffGroup \with { \setGroupDistance #11 #11 } <<
-          \new GrandStaff \with { \setGroupDistance #11 #11 } <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \CTwoViolinoI
+              \CThreeViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \CTwoViolinoII
+              \CThreeViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \CTwoViola
+            \CThreeViola
           }
-        >>
-        \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
-          \new Staff {
-            \set Staff.instrumentName = "Montanus"
-            \new Voice = "Montanus" { \dynamicUp \CTwoMontanus }
-          }
-          \new Lyrics \lyricsto Montanus \CTwoMontanusLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "Teutogenus"
-            \new Voice = "Teutogenus" { \dynamicUp \CTwoTeutogenus }
-          }
-          \new Lyrics \lyricsto Teutogenus \CTwoTeutogenusLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \CTwoBassoContinuo
+            \CThreeBassoContinuo
           }
         >>
-        \new FiguredBass { \CTwoBassFigures }
+        \new FiguredBass { \CThreeBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 120 }
+      \midi { \tempo 4. = 100 }
     }
   }
 }

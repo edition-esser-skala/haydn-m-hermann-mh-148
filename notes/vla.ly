@@ -1480,3 +1480,294 @@ CTwoViola = {
     \time 3/8 \tempoCThree d,4 r8 \bar "|"
   }
 }
+
+CThreeViola = {
+  \relative c' {
+    \clef alto
+    \key d \major \time 3/8 \tempoCThree
+    d4\fE r8
+    d-! d'-! cis-!
+    h-! a-! g-!
+    fis d fis
+    e cis a %5
+    d e fis
+    g, g' e
+    a a, a'
+    d,4 r8
+    d d' cis %10
+    h a g
+    fis d'\p cis
+    h a g
+    fis d'\f cis
+    h a g %15
+    fis e d
+    g a a,
+    d4 r8
+    a'\p r r
+    a r r %20
+    a r r
+    a r r
+    a, r r
+    a r r
+    a r r %25
+    a r r
+    d4\f r8
+    d d' cis
+    h a g
+    fis d fis %30
+    e cis a
+    d e fis
+    g e a
+    d, fis d
+    a'\p r r %35
+    a r r
+    a r r
+    a r r
+    a, r r
+    a r r %40
+    a r r
+    a r r
+    d4\f r8
+    d d' cis
+    h a g %45
+    fis d'\p cis
+    h a g
+    fis d'\f cis
+    h a g
+    fis e d %50
+    g a a,
+    d4 r8
+    d4.~\p
+    d
+    d,~ %55
+    d
+    a'~
+    a~
+    a~
+    a %60
+    d8 r r
+    d fis d
+    h r r
+    h d h
+    g r h %65
+    a r a
+    a r r
+    d fis a
+    d,4 r8
+    R4. %70
+    d4 r8
+    R4.
+    h4.
+    gis
+    a8 a' gis %75
+    a e cis
+    a4 r8
+    R4.
+    a4 r8
+    a cis a %80
+    e'4 r8
+    R4.
+    e4 r8
+    gis, h e
+    e16\f e e e e e %85
+    e4.:16
+    a,:
+    a:
+    fis':
+    e: %90
+    e:
+    e:
+    a,:
+    a:
+    h: %95
+    e:
+    e8 r r
+    a,\p cis a
+    e' r r
+    e gis e %100
+    a r r
+    a, cis a
+    e' r r
+    e gis h
+    e, r r %105
+    cis\f e d
+    cis r r
+    e cis e
+    a, r r
+    fis' dis fis %110
+    e cis' a
+    e gis h
+    e, e' cis
+    e, d' h
+    e, cis' a %115
+    e gis h
+    a, cis e
+    a4 r8
+    a,\p a a
+    a a a %120
+    a a a
+    a a a
+    a a a
+    a a a
+    a a a %125
+    a a a
+    a r r
+    a' a a
+    d, r r
+    d d d %130
+    g\f g g
+    g a h
+    a a gis
+    a a16 g fis e
+    d4 r8 %135
+    R4.
+    d8\p d d
+    d d d
+    d4 r8
+    R4. %140
+    d8 d d
+    d d d
+    g4.(
+    a)
+    h( %145
+    gis)
+    a
+    a,
+    d8 d'\f cis
+    d a fis %150
+    g4.\p(
+    a)
+    h(
+    gis)
+    a %155
+    a,
+    d8 r r
+    r r fis,\ppE
+    e r r
+    fis r r %160
+    e r r
+    r r a
+    cis r r
+    d r r
+    cis r r %165
+    r r fis,
+    e r r
+    r r fis
+    e r r
+    r r a %170
+    e' r r
+    d r r
+    cis r r
+    R4.
+    d4\f r8 %175
+    d-! d'-! cis-!
+    h-! a-! g-!
+    fis d fis
+    cis e cis
+    d e fis %180
+    g, g' e
+    a a, a'
+    d,4 r8
+    d d' cis
+    h a g %185
+    fis d'\p cis
+    h a g
+    fis d'\f cis
+    h a g
+    fis e d %190
+    g a a,
+    d4 r8
+    a'4\p r8
+    R4.
+    a4 r8 %195
+    R4.
+    a,4 r8
+    R4.
+    a4 r8
+    R4. %200
+    d4\f r8
+    d d' cis
+    h a g
+    fis d fis
+    cis e cis %205
+    d e fis
+    g e a
+    d, fis d
+    a'\p r r
+    a r r %210
+    a r r
+    a r r
+    a, r r
+    a r r
+    a r r %215
+    a r r
+    d4\f r8
+    d d' cis
+    h a g
+    fis d'\p cis %220
+    h a g
+    fis d'\f cis
+    h a g
+    fis e d
+    g a a, %225
+    d4 r8
+    d d16 e fis8
+    h, h16 cis d8
+    g, g16 a h8
+    cis, r r %230
+    e' e16 fis g8
+    cis, cis16 d e8
+    a, a16 h cis8
+    d, r r
+    fis' fis16 g a8 %235
+    d, d16 e fis8
+    h, h16 cis d8
+    g, g16 a h8
+    e e16 fis g8
+    cis, cis16 d e8 %240
+    cis r r
+    cis cis16 d e8
+    a, r r
+    d8. e16 d8
+    d e fis %245
+    h8. cis16 h8
+    h cis d
+    g, e g
+    a a, a'
+    d,8. e16 d8 %250
+    d e fis
+    h8. cis16 h8
+    h cis d
+    g, e g
+    a a, a' %255
+    d,4 r8
+    fis\p a fis
+    cis r r
+    cis e cis
+    a r r %260
+    fis' a fis
+    cis r r
+    cis e cis
+    a r r
+    fis'\f a g %265
+    fis r r
+    a fis a
+    d, r r
+    h gis h
+    a fis' d %270
+    a cis e
+    a, fis' d
+    a cis e
+    a, a' fis
+    a, g' e %275
+    <d a d,>4 r8
+    R4.
+    q4 r8
+    R4.
+    q4 r8 %280
+    R4.
+    d,8 d' fis
+    a fis a
+    d4 r8\fermata \bar "|." %284 finis
+  }
+}

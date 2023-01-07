@@ -928,3 +928,224 @@ CTwoOboeI = {
     \time 3/8 \tempoCThree \pao d4. \bar "|"
   }
 }
+
+CThreeOboeI = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/8 \tempoCThree
+    d'4.~\fE
+    d8 e fis
+    g a h
+    \appoggiatura h4 a4.
+    g,4. %5
+    fis8 g a
+    h4 g'8
+    \appoggiatura fis4 e4.
+    d~
+    d8 e fis %10
+    g a h
+    \appoggiatura h4 a4.
+    R4.*2
+    g8\fE a h %15
+    a g fis
+    g fis e
+    \pao d4 r8
+    R4.*8 %26
+    d4.~\fE
+    d8 e fis
+    g a h
+    \appoggiatura h4 a4. %30
+    g,4.
+    fis8 g a
+    \pa h g' e
+    d4 \pd r8
+    R4.*4 %38
+    fis4.\p
+    g %40
+    fis
+    e
+    d~\f
+    d8 e fis
+    g a h %45
+    \appoggiatura h4 a4.
+    R4.*2
+    g8\f a h
+    a g fis %50
+    g fis e
+    \pao d4 r8
+    R4.*16 %68
+    a8.^\solo h16 a8
+    a g fis %70
+    fis( g) a
+    a4.
+    d8. e16 d8
+    fis( e) d
+    d4.( %75
+    cis4) r8
+    e4.~\p
+    e~
+    e~
+    e %80
+    e~
+    e~
+    e~
+    e
+    a,8.\f h16 a8 %85
+    a h cis
+    fis,8. gis16 fis8
+    fis gis a
+    d,4 r8
+    e4 r8 %90
+    a8. h16 a8
+    a h cis
+    fis,8. gis16 fis8
+    fis gis a
+    d,4 r8 %95
+    e4 r8
+    a4 r8
+    R4.*7 %194
+    a'4.~\fE %105
+    a
+    g!~
+    g
+    fis
+    a %110
+    cis,
+    h
+    e
+    d
+    cis %115
+    h
+    cis8 cis cis
+    cis4 r8
+    R4.*2 %120
+    cis8\pE d e
+    e fis g
+    fis r r
+    R4.
+    d8 e fis %125
+    fis g a
+    cis, r r
+    e g e
+    fis r r
+    fis a fis %130
+    h4\fE a8
+    g fis e
+    d4.(
+    cis8) r r
+    R4.*2 %136
+    a'8.\pE h16 a8
+    a g fis
+    fis4.(
+    a8) r r %140
+    a8. h16 a8
+    a g fis
+    h4.
+    a
+    g %145
+    h
+    a
+    cis,
+    d4 r8
+    R4. %150
+    h'
+    a
+    g
+    h
+    a %155
+    cis,
+    d4 r8
+    R4.*17 %174
+    d4.~\f %175
+    d8 e fis
+    g a h
+    \appoggiatura h4 a4.
+    g,4.
+    fis8 g a %180
+    h4 g'8
+    \appoggiatura fis4 e4.
+    d~
+    d8 e fis
+    g a h %185
+    \appoggiatura h4 a4.
+    R4.*2
+    g8\fE a h
+    a g fis %190
+    g fis e
+    \pao d4 r8
+    R4.*4 %196
+    a'4.~\p
+    a~
+    a~
+    a %200
+    d,~\f
+    d8 e fis
+    g a h
+    \appoggiatura h4 a4.
+    g, %205
+    fis8 g a
+    \pa h g' e
+    d4 \pd r8
+    fis4.\p
+    g %210
+    fis
+    e
+    a~
+    a~
+    a~ %215
+    a
+    d,~\f
+    d8 e fis
+    g a h
+    \appoggiatura h4 a4. %220
+    R4.*2
+    g8\fE a h
+    a g fis
+    g fis e %225
+    \pao d4 r8
+    R4.*13 %239
+    g,4.~ %240
+    g
+    g'~
+    g
+    d8. e16 d8
+    d e fis %245
+    h,8. cis16 h8
+    h cis d
+    g,4 r8
+    a4 r8
+    d8. e16 d8 %250
+    d e fis
+    h,8. cis16 h8
+    h cis d
+    g,4.
+    a %255
+    d,4 r8
+    R4.*3
+    fis'4.~\p %260
+    fis
+    g~
+    g
+    fis~\f
+    fis %265
+    c'~
+    c
+    h
+    d
+    fis, %270
+    e
+    a
+    g
+    fis
+    e %275
+    \pa d~
+    d \pd
+    fis~
+    fis
+    a~ %280
+    a
+    \pa fis8 d, fis
+    a fis a
+    d4 \pd r8\fermata \bar "|." %284 finis
+  }
+}

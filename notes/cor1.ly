@@ -755,3 +755,232 @@ CTwoCornoI = {
     \time 3/8 \tempoCThree c4 r8
   }
 }
+
+CThreeCornoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/8 \tempoCThree
+    c'4\fE r8
+    c4 r8
+    c4 r8
+    c4 r8
+    d4. %5
+    c4 r8
+    R4.
+    r8 r d
+    c4 r8
+    c4 r8 %10
+    c4 r8
+    c4 r8
+    c4\p r8
+    c4 r8
+    c4\f r8 %15
+    c4 r8
+    r r d
+    c4 r8
+    R4.*8 %26
+    c4\fE r8
+    c4 r8
+    c4 r8
+    c4 r8 %30
+    d4.
+    c4 r8
+    r r d
+    \pa c e c \pd
+    g'4.~\p %35
+    g~
+    g~
+    g
+    g~
+    g~ %40
+    g~
+    g
+    c,4\f r8
+    c4 r8
+    c4 r8 %45
+    c4 r8
+    c4\p r8
+    c4 r8
+    c4\f r8
+    c4 r8 %50
+    r r d
+    c4 r8
+    g'8.^\solo a16 g8
+    g f e
+    e( f) g %55
+    g4.
+    f8. g16 f8
+    f e d
+    d( e) f
+    f4. %60
+    e8 c c
+    c r r
+    e c c
+    c r r
+    a' g f %65
+    e( f) d
+    c c c
+    c r r
+    R4.*8 %76
+    g'4.~\p
+    g~
+    g~
+    g %80
+    d~
+    d~
+    \once \tieDashed d~
+    d
+    g\f %85
+    R
+    g
+    R4.*3 %90
+    g4.
+    R
+    g
+    R4.*2 %95
+    \pao d4.
+    d4 r8
+    R4.*7 %104
+    g4.~\fE %105
+    g
+    g~
+    g
+    g4\pE r8
+    R4. %110
+    d~
+    d
+    d~
+    d
+    d8 d d %115
+    d d d
+    d4 r8
+    R4.
+    d8.\pE e16 d8
+    d e f %120
+    f4.
+    d8 r r
+    e8. f16 e8
+    e f g
+    g4. %125
+    e8 r r
+    f e d
+    d4.
+    g8 f e
+    e4. %130
+    R4.*4
+    g8.\pE a16 g8 %135
+    g f e
+    e4.(
+    g8) r r
+    g8. a16 g8
+    g f e %140
+    e4.(
+    g8) r r
+    d8. e16 d8 d d d
+    d8. e16 d8
+    d d d %145
+    e f g
+    \pa f e d \pd
+    c4 r8
+    R4.
+    d8. e16 d8 %150
+    d d d
+    d8. e16 d8
+    d d d
+    e f g
+    \pa f e d \pd %155
+    c4 r8
+    R4.*17 %174
+    c4.~\f %175
+    c
+    c~
+    c
+    d
+    c4 r8 %180
+    R4.
+    r8 r d
+    c4 r8
+    c4 r8
+    c4 r8 %185
+    c4 r8
+    c4\p r8
+    c4 r8
+    c4\f r8
+    c4 r8 %190
+    r r d
+    c4 r8
+    g'4.~\p
+    g~
+    g~ %195
+    g
+    R4.*4 %200
+    c,4\f r8
+    c4 r8
+    c4 r8
+    c4 r8
+    d4. %205
+    c4 r8
+    r r d
+    \pa c e c \pd
+    g'4.~\p
+    g~ %210
+    g~
+    g
+    e
+    f
+    e %215
+    d
+    c4\f r8
+    c4 r8
+    c4 r8
+    c4 r8 %220
+    c4\p r8
+    c4 r8
+    c4\fE r8
+    c4 r8
+    r r d %225
+    c4 r8
+    R4.*13 %239
+    g'4.~ %240
+    g
+    g~
+    g
+    g
+    R %245
+    c,
+    R4.*2
+    d4.
+    e %250
+    R
+    c
+    R4.*2
+    d4. %255
+    c4 r8
+    R4.*3
+    g'4.~\p %260
+    g
+    g~
+    g
+    c,8\f c c
+    c c c %265
+    c c c
+    c c c
+    c4 r8
+    R4.
+    g'4.~ %270
+    g
+    g~
+    g
+    g8 g g
+    g g g %275
+    c,4 r8
+    R4.
+    c4 r8
+    R4.
+    c4 r8 %280
+    R4.
+    \pa c,8 c e
+    g e g
+    c4 \pd r8\fermata \bar "|." %284 finis
+  }
+}

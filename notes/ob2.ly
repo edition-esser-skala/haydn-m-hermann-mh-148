@@ -928,3 +928,224 @@ CTwoOboeII = {
     \time 3/8 \tempoCThree d4. \bar "|"
   }
 }
+
+CThreeOboeII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/8 \tempoCThree
+    \once \tieDashed d'4.~\fE
+    d
+    d~
+    d
+    e, %5
+    d
+    g4 e'8
+    \appoggiatura d4 cis4.
+    d~
+    d %10
+    d~
+    d
+    R4.*2
+    d4.\fE %15
+    a
+    h8 d cis
+    d4 r8
+    R4.*8 %26
+    d4.~\fE
+    d
+    d~
+    d %30
+    e,
+    d
+    h'8 e cis
+    d4 r8
+    R4.*4 %38
+    d4.\p
+    e %40
+    d
+    a8 r r
+    d,4.\f~
+    d
+    d'~ %45
+    d
+    R4.*2
+    d4.\f
+    a %50
+    h8 d cis
+    d4 r8
+    R4.*16 %68
+    fis,8.-\solo g16 fis8
+    fis e d %70
+    d( e) fis
+    fis4.
+    gis
+    d'8( cis) h
+    h4.( %75
+    a4) r8
+    e4.~\p
+    e~
+    e~
+    e %80
+    e~
+    e~
+    e~
+    e
+    a8.\f h16 a8 %85
+    a h cis
+    fis,8. gis16 fis8
+    fis gis a
+    d,4 r8
+    e4 r8 %90
+    a8. h16 a8
+    a h cis
+    fis,8. gis16 fis8
+    fis gis a
+    d,4 r8 %95
+    e4 r8
+    a4 r8
+    R4.*7 %104
+    cis4.~\fE %105
+    cis
+    e~
+    e
+    d
+    fis %110
+    a,
+    gis
+    cis
+    h
+    a %115
+    gis
+    a8 a a
+    a4 r8
+    R4.*2 %120
+    a8\pE h cis
+    cis d e
+    d r r
+    R4.
+    a8 cis d %125
+    d e fis
+    a, r r
+    cis e cis
+    d r r
+    d fis d %130
+    d4\fE cis8
+    h a g
+    fis4.(
+    e8) r r
+    R4.*2 %136
+    fis'8.\pE g16 fis8
+    fis e d
+    d4.(
+    fis8) r r %140
+    fis8. g16 fis8
+    fis e d
+    h4.
+    a
+    g %145
+    h
+    a
+    e8 fis g
+    fis4 r8
+    R4. %150
+    h
+    a
+    g
+    h
+    a %155
+    e8 fis g
+    fis4 r8
+    R4.*17 %174
+    d'4.~\f %175
+    d
+    d~
+    d
+    e,
+    d %180
+    g4 e'8
+    \appoggiatura d4 cis4.
+    d~
+    d
+    \once \tieDashed d~ %185
+    d
+    R4.*2
+    d4.\fE
+    a %190
+    h8 d cis
+    d4 r8
+    R4.*4 %196
+    a4.~\p
+    a~
+    a~
+    a %200
+    d,\f~
+    d
+    \once \tieDashed d'~
+    d
+    e, %205
+    d
+    h'8 e cis
+    d4 r8
+    d4.\p
+    e %210
+    d
+    cis
+    a~
+    a~
+    a~ %215
+    a
+    d,~\f
+    d
+    \once \tieDashed d'~
+    d %220
+    R4.*2
+    d4.\fE
+    a
+    h8 d cis %225
+    d4 r8
+    R4.*13 %239
+    e,4.~ %240
+    e
+    e'~
+    e
+    d8. e16 d8
+    d e fis %245
+    h,8. cis16 h8
+    h cis d
+    g,4 r8
+    a4 r8
+    d8. e16 d8 %250
+    d e fis
+    h,8. cis16 h8
+    h cis d
+    g,4.
+    a %255
+    d,4 r8
+    R4.*3
+    d'4.~\p %260
+    d
+    e~
+    e
+    d~\f
+    d %265
+    a'~
+    a
+    g
+    h
+    d, %270
+    cis
+    fis
+    e
+    d
+    cis %275
+    d~
+    d
+    d~
+    d
+    fis~ %280
+    fis
+    d8 d, fis
+    a fis a
+    d4 r8\fermata \bar "|." %284 finis
+  }
+}
