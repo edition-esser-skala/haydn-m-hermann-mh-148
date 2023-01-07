@@ -1472,7 +1472,7 @@ CTwoViolinoII = {
     fis16\f fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis
     fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis
     a,2 r\fermata \bar "||" %248 finis
-    \time 3/8 \tempoCThree d8-! d-! d-!
+    \time 3/8 \tempoCThree d8-! d-! d-! \bar ";"
   }
 }
 
@@ -1480,7 +1480,7 @@ CThreeViolinoII = {
   \relative c' {
     \clef treble
     \key d \major \time 3/8 \tempoCThree
-    d'8-!\fE d-! d-!
+    d'8-!\fE d-! d-! \bar ";" \mark \critnote
     d-! e-! fis-!
     g-! a-! h-!
     \appoggiatura h4 a4.

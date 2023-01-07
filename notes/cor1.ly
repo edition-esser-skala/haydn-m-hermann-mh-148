@@ -752,7 +752,7 @@ CTwoCornoI = {
     c,8\fE e g r e g c r
     g c e r r4 c
     \pao g2 r\fermata \bar "||" %248 finis
-    \time 3/8 \tempoCThree c4 r8
+    \time 3/8 \tempoCThree c4 r8 \bar ";"
   }
 }
 
@@ -760,7 +760,7 @@ CThreeCornoI = {
   \relative c' {
     \clef treble
     \key c \major \time 3/8 \tempoCThree
-    c'4\fE r8
+    c'4\fE r8 \bar ";" \mark \critnote
     c4 r8
     c4 r8
     c4 r8

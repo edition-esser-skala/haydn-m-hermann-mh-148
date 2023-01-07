@@ -623,7 +623,7 @@ CTwoMontanus = {
     R1*2 %246
     r2 r4 fis
     fis2\fermata e\trill\fermata \bar "||" %248 finis
-    \time 3/8 \tempoCThree d4 r8 \bar "|"
+    \time 3/8 \tempoCThree d4 r8 \bar ";"
   }
 }
 
@@ -987,7 +987,7 @@ CTwoTeutogenus = {
     R1*2 %246
     r2 r4 d
     d2\fermata cis\trill\fermata \bar "||" %248 finis
-    \time 3/8 \tempoCThree d4 r8 \bar "|"
+    \time 3/8 \tempoCThree d4 r8 \bar ";"
   }
 }
 

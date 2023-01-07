@@ -925,7 +925,7 @@ CTwoOboeI = {
     fis\f
     d'
     fis,2 r\fermata \bar "||" %248 finis
-    \time 3/8 \tempoCThree \pao d4. \bar "|"
+    \time 3/8 \tempoCThree \pao d4. \bar ";"
   }
 }
 
@@ -933,7 +933,7 @@ CThreeOboeI = {
   \relative c' {
     \clef treble
     \key d \major \time 3/8 \tempoCThree
-    d'4.~\fE
+    d'4.~\fE \bar ";" \mark \critnote
     d8 e fis
     g a h
     \appoggiatura h4 a4.

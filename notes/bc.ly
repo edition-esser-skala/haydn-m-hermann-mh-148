@@ -2567,7 +2567,7 @@ CTwoBassoContinuo = {
     d(\f fis) a r fis( a) d r
     a( d) fis r gis, h d gis,
     a2 a,\fermata \bar "||" %248 finis
-    \time 3/8 \tempoCThree d4 r8 \bar "|"
+    \time 3/8 \tempoCThree d4 r8 \bar ";"
   }
 }
 
@@ -2826,7 +2826,7 @@ CThreeBassoContinuo = {
   \relative c {
     \clef bass
     \key d \major \time 3/8 \tempoCThree
-    d4\fE r8
+    d4\fE r8 \bar ";" \mark \critnote
     d-! d'-! cis-!
     h-! a-! g-!
     fis d fis
