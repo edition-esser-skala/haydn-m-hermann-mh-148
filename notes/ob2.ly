@@ -1221,3 +1221,91 @@ CFourOboeII = {
     h'\f \bar "S-S"
   }
 }
+
+CFiveOboeII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 6/8 \tempoCFive
+    \partial 8 r8 R2.
+    r4 r8 h'\p h h
+    h r r r4 r8
+    r4 r8 h h h
+    c2. %5
+    h
+    a
+    g8 g\f a h c d
+    c2.\p
+    h %10
+    a4. fis
+    g r4 r8
+    R2.*5 %17
+    a4\pE r8 r4 r8
+    R2.
+    a4 r8 r4 r8 %20
+    R2.
+    a4 r8 r4 r8
+    d4 r8 r4 r8
+    d4 r8 r4 r8
+    R2. %25
+    d4\f r8 r4 r8
+    d4\p r8 r4 r8
+    R2.
+    fis\f
+    e4. e, %30
+    a d
+    h e,
+    fis4 fis8 fis4 fis8
+    fis4. r4 r8
+    R2.*9 %43
+    d4\pE r8 r4 r8
+    R2. %45
+    d4 r8 r4 r8
+    R2.
+    d4 r8 r4 r8
+    g4 r8 r4 r8
+    g4 r8 r4 r8 %50
+    R2.
+    h4\f r8 r4 r8
+    h4 r8 r4 r8
+    R2.
+    g4.\fE h %55
+    h4 r8 r4 r8
+    R2.*7 %63
+    d,2.\pE
+    R %65
+    d
+    R
+    d
+    R
+    h' %70
+    c
+    g4. fis
+    g4 r8 r4 r8
+    h2.
+    c %75
+    g4. fis
+    g4 r8 g\f h d
+    g,4 r8 r4 r8
+    r4 r8 h\p h h
+    h r r r4 r8 %80
+    r4 r8 h h h
+    c2.
+    h
+    a
+    g8 g\f a h c d %85
+    c2.\p
+    h
+    a4. fis
+    g h\f
+    c d %90
+    e g
+    c, d
+    h2.
+    c
+    fis, %95
+    g4 r8 r4 r8
+    g4 r8 r4 r8
+    h4 r8 r4 r8
+    h4 r8 r4 r8\fermata \bar "|." %99 finis
+  }
+}

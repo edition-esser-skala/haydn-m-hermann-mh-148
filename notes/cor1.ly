@@ -1058,3 +1058,87 @@ CFourCornoI = {
     c\f \bar "S-S" %87 finis
   }
 }
+
+CFiveCornoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 6/8 \tempoCFive
+    \partial 8 r8 c'4.\p r4 r8
+    c4. c8 c c
+    c4. r4 r8
+    c4. c8 c c
+    c4 r8 r4 r8 %5
+    R2.*2
+    r8 c\f c c c c
+    c4\pE r8 r4 r8
+    R2.*7 %16
+    \pao d4 r8 r4 r8
+    R2.
+    \pao d4 r8 r4 r8
+    R2. %20
+    \pao d4 r8 r4 r8
+    R2.
+    \pao g,4 r8 r4 r8
+    \pao g4 r8 r4 r8
+    R2. %25
+    \pao g4\f r8 r4 r8
+    \pao g4\p r8 r4 r8
+    R2.
+    d'4.\f r4 r8
+    r4 r8 \pa d d d \pd %30
+    d4. r4 r8
+    r4 r8 \pa d d d \pd
+    d4 d8 d4 d8
+    d4. r4 r8
+    R2.*8 %42
+    \pao g,4\pE r8 r4 r8
+    R2.
+    \pao g4 r8 r4 r8 %45
+    R2.
+    \pao g4 r8 r4 r8
+    R2.
+    c4 r8 r4 r8
+    c4 r8 r4 r8 %50
+    R2.
+    c4\f r8 r4 r8
+    c4 r8 r4 r8
+    R2.
+    \pa c,8\fE e g c g e %55
+    c4\pE \pd r8 r4 r8
+    R2.*8 %64
+    d'8 e f e4 r8 %65
+    R2.
+    d8 e f e4 r8
+    R2.
+    d8 e f e4 r8
+    c4. r4 r8 %70
+    c4. r4 r8
+    R2.
+    \pa c8\fE g' e c g e \pd
+    c'4.\pE r4 r8
+    c4. r4 r8 %75
+    R2.
+    r4 r8 \pa c\f g e
+    c4 \pd r8 r4 r8
+    c'4.\p c8 c c
+    c2. %80
+    c4. c8 c c
+    c4 r8 r4 r8
+    R2.*2
+    r8 c\f c c c c %85
+    c4 r8 r4 r8
+    \pao g4\p r8 \pao g4 r8
+    \pao g4 r8 \pa g g g \pd
+    g4 r8 r4 r8
+    R2. %90
+    c4\f r8 r4 r8
+    r4 r8 d4.
+    c2.
+    c
+    c %95
+    c4 r8 r4 r8
+    g4 r8 r4 r8
+    g4 r8 r4 r8
+    g4 r8 r4 r8\fermata \bar "|." %99 finis
+  }
+}

@@ -1360,3 +1360,371 @@ CFourVenusLyrics = \lyricmode {
   Herr -- ſcher zu
   seyn. %87 finis
 }
+
+CFiveBacchus = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \major \time 6/8 \autoBeamOff \tempoCFive
+    \partial 8 g8 g' fis f e d c
+    h c d d4 g,8
+    g' fis! f e d c
+    h c d d4 d8
+    e4.~ e8 g e %5
+    d4.~ d8 h d
+    c4.~ c8 h a
+    h4 r8 r4 d8
+    e4.~ e8 g e
+    d4.~ d8 h d %10
+    c4.~ c8 h a
+    g4 r8 r4 a8
+    a4.~ a8 fis' d
+    d4. cis8 r cis
+    cis4.~ cis8 g' e %15
+    e4.( d8) r d
+    cis h a d e fis
+    e fis g fis r d
+    cis h a d e fis
+    e fis g fis r d %20
+    cis h a d e fis
+    e fis g fis r fis
+    fis4.~ fis8 g fis
+    fis4.~ fis8 g a
+    g4.~ g8 fis e %25
+    d4 r8 r4 r8
+    fis4.~ fis8 g a
+    g4.~ g8 fis e
+    d4 r8 r4 r8
+    R2.*4 %33
+    r4 r8 r4 a8
+    a4.~ a8 h c! %35
+    h([ c d)] d r h
+    a4.~ a8 h c
+    c4.( h4) r8
+    d4 d8 d4 d8
+    d([ e fis)] g([ fis)] e %40
+    d([ c h)] e([ d)] c
+    h4.( a8) r g
+    fis e d g a h
+    a h c h r g
+    fis e d g a h %45
+    a h c h r g
+    fis e d g a h
+    a h c h r h
+    h4.~ h8[ c] h
+    h4.~ h8 c d %50
+    c4.~ c8 h a
+    h4 r8 r4 r8
+    r4 r8 r4 d8
+    c4.~ c8 h a
+    g4 r8 r4 d'8 %55
+    d4.~ d8 h g
+    g4. fis8 r fis
+    fis4.~ fis8 c' a
+    a4.( g8) r g
+    g4.~ g8 d' h %60
+    \appoggiatura h4 a4. a4 a8
+    e'4.~ e8 a, g
+    \appoggiatura g4 fis4. r8 r d'
+    fis e d g d h
+    a h c h r g' %65
+    fis e d g d h
+    a h c h r g'
+    fis e d g d h
+    a h c h r d
+    f4.~ f8[ e] d %70
+    e([ g fis)] e([ d)] c
+    h([ c d)] c([ h)] a
+    g4 r8 r4 d'8
+    f4.~ f8[ e] d
+    e([ g fis)] e([ d)] c %75
+    h([ c d)] c([ h)] a
+    g4 r8 r4 g8
+    g' fis f e d c
+    h c d d4 g,8
+    g' fis! f e d c %80
+    h c d d4 d8
+    e4.~ e8[ g] e
+    d4.~ d8 h d
+    c4.~ c8 h a
+    h4 r8 r4 d8 %85
+    e4.~ e8[ g] e
+    d4.~ d8 h d
+    c4.~ c8 h a
+    g4 r8 h4.
+    c d4 d8 %90
+    e4. g
+    c, d4 d8
+    g,4 r8 r4 r8
+    R2.*5 %98
+    R2.\fermata \bar "|." %99 finis
+  }
+}
+
+CFiveBacchusLyrics = \lyricmode {
+  Es kann al -- ſo Bac -- chus und
+  Ve -- nus al -- lein der
+  mäch -- tig -- ſte Kriegs -- gott der
+  Sterb -- li -- chen ſeyn, der
+  mäch -- tig -- ſte %5
+  Kriegs -- gott der
+  Sterb -- li -- chen
+  ſeyn, der
+  mäch -- tig -- ſte
+  Kriegs -- gott der %10
+  Sterb -- li -- chen
+  ſeyn. Bey
+  un -- ſe -- ren
+  Ga -- ben wird
+  Her -- ku -- les %15
+  ſchwach, __ bey
+  un -- ſe -- ren Ga -- ben wird
+  Her -- ku -- les ſchwach, es
+  ge -- ben auch Ti -- ger und
+  Pan -- ter -- thier nach, es %20
+  ge -- ben auch Ti -- ger und
+  Pan -- ter -- thier nach, es
+  ge -- ben auch
+  Ti -- ger und
+  Pan -- ter -- thier %25
+  nach,
+  Ti -- ger und
+  Pan -- ter -- thier
+  nach.
+
+  Hier %34
+  ſind __ die Be -- %35
+  ſie -- ger vom
+  Schla -- fe be --
+  täubt: __
+  bis ein deüt -- ſcher
+  Krie -- ger die %40
+  Schwa -- chen ent --
+  leibt. __ Hier
+  ſind die Be -- ſie -- ger vom
+  Schla -- fe be -- täubt: bis
+  ein deüt -- ſcher Krie -- ger die %45
+  Schwa -- chen ent -- leibt, bis
+  ein deüt -- ſcher Krie -- ger die
+  Schwa -- chen ent -- leibt, ein
+  deüt -- ſcher
+  Krie -- ger die %50
+  Schwa -- chen ent --
+  leibt,
+  die
+  Schwa -- chen ent --
+  leibt. Es %55
+  kann __ al -- ſo
+  Bac -- chus und
+  Ve -- nus al --
+  lein __ der
+  mäch -- tig -- ſte %60
+  Kriegs -- gott der
+  Sterb -- li -- chen
+  ſeyn. Hier
+  ſind die Be -- ſie -- ger vom
+  Schla -- fe be -- täubt: bis %65
+  ein deüt -- ſcher Krie -- ger die
+  Schwa -- chen ent -- leibt, bis
+  ein deüt -- ſcher Krie -- ger die
+  Schwa -- chen ent -- leibt, ein
+  deüt -- ſcher %70
+  Krie -- ger die
+  Schwa -- chen ent --
+  leibt, ein
+  deüt -- ſcher
+  Krie -- ger die %75
+  Schwa -- chen ent --
+  leibt. Hier
+  ſind die Be -- ſie -- ger vom
+  Schla -- fe be -- täubt: bis
+  ein deüt -- ſcher Krie -- ger die %80
+  Schwa -- chen ent -- leibt, ein
+  deüt -- ſcher
+  Krie -- ger die
+  Schwa -- chen ent --
+  leibt, ein %85
+  deüt -- ſcher
+  Krie -- ger die
+  Schwa -- chen ent --
+  leibt, die
+  Schwa -- chen ent -- %90
+  leibt, die
+  Schwa -- chen ent --
+  leibt. %93 finis
+}
+
+CFiveVenus = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \major \time 6/8 \autoBeamOff \tempoCFive
+    \partial 8 g8 g a h c h a
+    g a h h4 g8
+    g a h c h a
+    g a h h4 h8
+    c4.~ c8 e c %5
+    h4.~ h8 g h
+    a4.~ a8 g fis
+    g4 r8 r4 h8
+    c4.~ c8 e c
+    h4.~ h8 g h %10
+    a4.~ a8 g fis
+    g4 r8 r4 r8
+    R2.*3 %15
+    r4 r8 r4 a8^\critnote
+    a a a a a a
+    a a a a4 a8
+    a a a a a a
+    a a a a4 a8 %20
+    a a a a a a
+    a a a a4 d8
+    d4.~ d8 e d
+    d4.~ d8 e fis
+    e4.~ e8 d cis %25
+    d4 r8 r4 r8
+    d4.~ d8 e fis
+    e4.~ e8 d cis
+    d4 r8 r4 r8
+    R2.*4 %33
+    r4 r8 r4 fis,8
+    fis4.~ fis8 g a %35
+    g([ a h)] h r g
+    fis4.~ fis8 g a
+    a4.( g4) r8
+    h4 c8 h4 c8
+    h([ c d)] e([ d)] c %40
+    h([ a g)] c([ h)] a
+    g4.( fis8) r d
+    d d d d d d
+    d d d d4 d8
+    d d d d d d %45
+    d d d d4 d8
+    d d d d d d
+    d d d d4 g8
+    g4.~ g8[ a] g
+    g4.~ g8 a h %50
+    a4.~ a8 g fis
+    g4 r8 r4 r8
+    r4 r8 r4 h8
+    a4.~ a8 g fis
+    g4 r8 r4 r8 %55
+    R2.*7 %62
+    r4 r8 r4 d'8
+    d d d d d d
+    d d d d4 d8 %65
+    d d d d d d
+    d d d d4 d8
+    d d d d d d
+    d d d d r h
+    d4.~ d8[ c] h %70
+    c([ e d)] c([ h)] a
+    g([ a h)] a8[( g)] fis
+    g4 r8 r4 h8
+    d4.~ d8[ c] h
+    c([ e d)] c([ h)] a %75
+    g([ a h)] a([ g)] fis
+    g4 r8 r4 g8
+    g a h c h a
+    g a h h4 g8
+    g a h c h a %80
+    g a h h4 h8
+    c4.~ c8[ e] c
+    h4.~ h8 g h
+    a4.~ a8 g fis
+    g4 r8 r4 h8 %85
+    c4.~ c8[ e] c
+    h4.~ h8 g h
+    a4.~ a8 g fis
+    g4 r8 h4.
+    c d4 d8 %90
+    e4. g
+    c, d4 d8
+    g,4 r8 r4 r8
+    R2.*5 %98
+    R2.\fermata \bar "|." %99 finis
+  }
+}
+
+CFiveVenusLyrics = \lyricmode {
+  Es kann al -- ſo Bac -- chus und
+  Ve -- nus al -- lein der
+  mäch -- tig -- ſte Kriegs -- gott der
+  Sterb -- li -- chen ſeyn, der
+  mäch -- tig -- ſte %5
+  Kriegs -- gott der
+  Sterb -- li -- chen
+  ſeyn, der
+  mäch -- tig -- ſte
+  Kriegs -- gott der %10
+  Sterb -- li -- chen
+  ſeyn.
+
+  Bey %16
+  un -- ſe -- ren Ga -- ben wird
+  Her -- ku -- les ſchwach, es
+  ge -- ben auch Ti -- ger und
+  Pan -- ter -- thier nach, es %20
+  ge -- ben auch Ti -- ger und
+  Pan -- ter -- thier nach, es
+  ge -- ben auch
+  Ti -- ger und
+  Pan -- ter -- thier %25
+  nach,
+  Ti -- ger und
+  Pan -- ter -- thier
+  nach.
+
+  Hier %34
+  ſind __ die Be -- %35
+  ſie -- ger vom
+  Schla -- fe be --
+  täubt: __
+  bis ein deüt -- ſcher
+  Krie -- ger die %40
+  Schwa -- chen ent --
+  leibt. __ Hier
+  ſind die Be -- ſie -- ger vom
+  Schla -- fe be -- täubt: bis
+  ein deüt -- ſcher Krie -- ger die %45
+  Schwa -- chen ent -- leibt, bis
+  ein deüt -- ſcher Krie -- ger die
+  Schwa -- chen ent -- leibt, ein
+  deüt -- ſcher
+  Krie -- ger die %50
+  Schwa -- chen ent --
+  leibt,
+  die
+  Schwa -- chen ent --
+  leibt. %55
+
+  Hier %63
+  ſind die Be -- ſie -- ger vom
+  Schla -- fe be -- täubt: bis %65
+  ein deüt -- ſcher Krie -- ger die
+  Schwa -- chen ent -- leibt, bis
+  ein deüt -- ſcher Krie -- ger die
+  Schwa -- chen ent -- leibt, ein
+  deüt -- ſcher %70
+  Krie -- ger die
+  Schwa -- chen ent --
+  leibt, ein
+  deüt -- ſcher
+  Krie -- ger die %75
+  Schwa -- chen ent --
+  leibt. Hier
+  ſind die Be -- ſie -- ger vom
+  Schla -- fe be -- täubt: bis
+  ein deüt -- ſcher Krie -- ger die %80
+  Schwa -- chen ent -- leibt, ein
+  deüt -- ſcher
+  Krie -- ger die
+  Schwa -- chen ent --
+  leibt, ein %85
+  deüt -- ſcher
+  Krie -- ger die
+  Schwa -- chen ent --
+  leibt, die
+  Schwa -- chen ent -- %90
+  leibt, die
+  Schwa -- chen ent --
+  leibt. %93 finis
+}

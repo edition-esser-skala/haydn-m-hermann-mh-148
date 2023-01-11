@@ -1860,3 +1860,109 @@ CFourViolinoII = {
     g-!\f h-! g-! d-! h d g d \bar "S-S" %87 finis
   }
 }
+
+CFiveViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 6/8 \tempoCFive
+    \partial 8 g'8\p g-! a-! h-! c-! h-! a-!
+    g a h h4 g8
+    g a h c h a
+    g a h h4 h8
+    c c c c e c %5
+    h h h h g h
+    a a a a g fis
+    g g-!\f a-! h-! c-! d-!
+    c\p c c c e c
+    h h h h g h %10
+    a a a a g fis
+    g g\f fis e d cis
+    d fis\p fis fis fis fis
+    g g g g g g
+    g g g g g g %15
+    a a a a a a
+    a16 a' a, a' a, a' <a a,>4.:16
+    q2.:
+    q:
+    q: %20
+    q:
+    q:
+    d,16 d d d d d d8 e d
+    d16 d d d d d d8 e fis
+    e16 e e e e e e8 d cis %25
+    d16\f d d d d d d8 e d
+    d16\p d d d d d d8 e fis
+    e16 e e e e e e8 d cis
+    d a'16(\f g fis e) d8 fis16( e d cis)
+    h8 h16( a g fis) e8 a16( g fis e) %30
+    d8 a''16-! g-! fis-! e-! d e fis e d cis
+    h a h a g fis e g fis e d cis
+    d4 d8 d4 d8
+    d4.~ d4 a'8\p
+    d fis a d,, r a' %35
+    h d g d, r g'
+    fis d a' d,, r d
+    g, g' fis g h g
+    h4 c8 h4 c8
+    h c d e d c %40
+    h a g c h a
+    g4.( fis8) r r
+    d16 d' d, d' d, d' <d d,>4.:16
+    q2.:
+    q: %45
+    q:
+    q:
+    q:
+    g,16 g g g g g g8 a g
+    g16 g g g g g g8 a h %50
+    a16 a a a a a a8 g fis
+    g16\f g g g g g g8 a g
+    g16 g g g g g g8\p a h
+    a16 a a a a a a8 g fis
+    g,\f h d g h d %55
+    h,\p h h h h h
+    c c c c c c
+    c c c c c c
+    d d d d d d
+    d d d d d d %60
+    e e e e e e
+    e e e e e e
+    d16 h' a g fis e d8 r r
+    d'16 d' d, d' d, d' <d d,>4.:16
+    q2.: %65
+    q:
+    q:
+    q:
+    q:
+    d,8\fp d d d c h %70
+    c\fp e d c h a
+    g\fp a h a g fis
+    g\f d' h g d h
+    d'\fp d d d c h
+    c\fp e d c h a %75
+    g\fp a h a g fis
+    g g\f fis g h d
+    g,\p a h c h a
+    g a h h4 g8
+    g a h c h a %80
+    g a h h4 h8
+    c4.~ c8 e c
+    h4.~ h8 g h
+    a4.~ a8 g fis
+    g g\f-! a-! h-! c-! d-! %85
+    c16\p c c c c c c8 e c
+    h16 h h h h h h8 g h
+    a16 a a a a a a8 g fis
+    g16 g'\f g g g g h, g' g g g g
+    c, g' g g g g d g g g g g %90
+    e g g g g g h, g' g g g g
+    c, g' g g g g d fis fis fis fis fis
+    g8 h,16( c d c h8) h-! d-!
+    c c16( d e d c8) e,-! c'-!
+    fis, fis16( g a g fis8) \parOn a,-\parenthesize-! \parOff c-\parenthesize-! %95
+    h h-! d-! fis( g) d-!
+    h-! g-! d'-! fis( g) d-!
+    h-! g-! d'-! fis( g) d-\parenthesize-!
+    <d h' g'>4 r8 r4 r8\fermata \bar "|." %99 fnis
+  }
+}

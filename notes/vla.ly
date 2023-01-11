@@ -1865,3 +1865,109 @@ CFourViola = {
     d g,\f g g \bar "S-S"
   }
 }
+
+CFiveViola = {
+  \relative c' {
+    \clef alto
+    \key g \major \time 6/8 \tempoCFive
+    \partial 8 r8 h-!\p c-! d-! e4 fis8
+    g4 r8 g, a h
+    h c d e4 fis8
+    g4 r8 g, h g
+    g' g g g4 r8 %5
+    g g g g4 r8
+    e e e d4 r8
+    d d-!\f c-! h-! a-! g-!
+    g'\p g g g4 r8
+    g g g g4 r8 %10
+    e e e d d d
+    d g\f fis e d cis
+    d d\p d d d d
+    e e e e e e
+    e e e e e e %15
+    fis fis fis fis fis fis
+    e fis g fis g a
+    e d cis d a d
+    e d cis fis g a
+    e d cis d a d %20
+    e d cis fis g a
+    e d cis d fis a
+    d d d ais ais ais
+    h h h fis fis fis
+    g g g a a a %25
+    d\f d d ais ais ais
+    h\p h h fis fis fis
+    g g g a a a
+    a r r a\f r r
+    g r r g r r %30
+    fis fis fis fis fis fis
+    g g g a a a
+    d,4 d8 d4 d8
+    d4. r4 r8
+    d'\pE d d d d d %35
+    g,4 r8 g, g' h
+    d d d d d d
+    g, g fis g d' h
+    g4 a8 g4 a8
+    g g g g g g %40
+    g g g e e e
+    d d' cis d4 r8
+    a, h c h c d
+    a g fis g d g
+    a g fis h c d %45
+    a g fis g d g
+    a g fis h c d
+    a g fis g h d
+    g g g dis dis dis
+    e e e h h h %50
+    c c c d d d
+    g\f g g dis dis dis
+    e e e h\p h h
+    c c c d d d
+    g,\f h d g h d %55
+    g,,\p g g g g g
+    a a a a a a
+    a a a a a a
+    h h h h h h
+    h h h h h h %60
+    c c c c c c
+    c c c cis cis cis
+    d d d d r r
+    a h c h g d'
+    a g fis g h d %65
+    c a fis d' h g
+    a g fis g h d
+    c a fis d' h g
+    a g fis g d' h
+    g\fp g' g g4 r8 %70
+    c,\fp c' c c4 r8
+    d,\fp d' d d4 r8
+    g,\f d' h g d h
+    g\fp g' g g4 r8
+    c,\fp c' c c4 r8 %75
+    d,\fp d d d d d
+    g, g'\f fis g g d
+    h\p c d e4 fis8
+    g4 r8 g, a h
+    h c d e4 fis8 %80
+    g4 r8 g, h g
+    g' g g g4 r8
+    d d d d4 r8
+    d d d d4 r8
+    d d-!\f c-! h-! a-! g-! %85
+    g'\p g g g g g
+    d d d d d d
+    d d d d d d
+    d r r h\f r r
+    c r r d r r %90
+    e r r h r r
+    c r r d r r
+    g, g g g g g
+    g g g g g g
+    d' d d d d d %95
+    g,-! h-! d-! fis( g) d-!
+    \parOn h-\parenthesize-! g-! \parOff d'-\parenthesize-! fis( g) d-!
+    \parOn h-\parenthesize-! g-! d'-! fis( g) \parOff d-\parenthesize-!
+    g,4 r8 r4 r8\fermata \bar "|." %99 finis
+  }
+}

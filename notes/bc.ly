@@ -3583,3 +3583,211 @@ CFourBassFigures = \figuremode {
   <8 6>8 <7 5> <6 4> <5 3>
   r2 %87 finis
 }
+
+CFiveBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key g \major \time 6/8 \tempoCFive
+    \partial 8 r8 g'\p g g g g g
+    g g g g g g
+    g g g g g g
+    g g g g g g
+    c,-! e-! g-! c4 r8 %5
+    g, h d g4 r8
+    c, c c d d d
+    g d-!\f c-! h-! a-! g-!
+    c\p e g c4 r8
+    g, h d g4 r8 %10
+    c, c c d d d
+    g, g'\f fis e d cis
+    d r r d\p r r
+    e r r e r r
+    e r r e r r %15
+    fis r r fis d fis
+    a4 r8 r4 d,8
+    cis h a d e fis
+    e fis g fis r d
+    cis h a d e fis %20
+    e fis g fis r d
+    cis h a d fis a
+    d4.^\tenuto ais
+    h fis
+    g a %25
+    d\f ais
+    h\p fis
+    g a
+    d,8 r r fis\f r r
+    g r r a r r %30
+    fis fis fis fis fis fis
+    g g g a a a
+    d,4 d8 d4 d8
+    d4. r4 r8
+    d'\p d d d d d %35
+    g,4 r8 g, g' h
+    d d d d d d
+    g, g fis g d' h
+    g4 fis8 g4 fis8
+    g4 r8 r4 r8 %40
+    g r r c, r r
+    d d' cis d4 r8
+    d,4 r8 r r g
+    fis e d g a h
+    a h c h r g %45
+    fis e d g a h
+    a h c h r g
+    fis e d g h d
+    g,4.^\tenuto dis
+    e h %50
+    c d
+    g\f dis
+    e h\p
+    c d
+    g,8\f h d g d h %55
+    g\p r r g r r
+    a r r a r r
+    a r r a r r
+    h r r h r r
+    h r r h r r %60
+    c r r c r r
+    c r r cis r r
+    d r r d\f fis a
+    d,4\p r8 r4 g8
+    fis e d g d h %65
+    a h c h r g'
+    fis e d g d h
+    a h c h r g'
+    fis e d g d h
+    g\fp g' g g4 r8 %70
+    c,\fp c' c c4 r8
+    d,\fp d' d d4 r8
+    g,\f d' h g d h
+    g\fp g' g g4 r8
+    c,\fp c' c c4 r8 %75
+    d,\fp d d d d d
+    g, g'\f fis g d h
+    g4\pE r8 r4 r8
+    g\fp g' g g g g
+    g4 r8 r4 r8 %80
+    g,\fp g' g g g g
+    c, c c c4 r8
+    d d d d4 r8
+    d d d d4 r8
+    g d-!\f c-! h-! a-! g-! %85
+    c\p c c c c c
+    d d d d d d
+    d d d d d d
+    g, r r h\f r r
+    c r r d r r %90
+    e r r h r r
+    c r r d r r
+    g, g g g g g
+    g g g g g g
+    g g g g g g %95
+    g-! h-!^\unisonoE d-! fis( g) d-!
+    h-! g-! d'-\parenthesize-! fis( g) d-!
+    \parOn h-\parenthesize-! g-! \parOff d'-\parenthesize-! fis( g) d-!
+    g,4 r8 r4 r8\fermata \bar "|." %99 finis
+  }
+}
+
+CFiveBassFigures = \figuremode {
+  r8 <8 3> <7 2> <7! 3> <6 4>4 <7\\ 2>8
+  <8 3>2.
+  <8 3>8 <7 2> <7! 3> <6 4>4 <7\\ 2>8
+  <8 3>2.
+  r %5
+  r
+  <6>4. <7>
+  r r4 <7!>8
+  r2.
+  r %10
+  <6>4. <7>
+  r2.
+  r
+  <7>4. <6\\>
+  <\t>2. %15
+  <7>4. <6>
+  <_+>2.
+  <6 5>2.
+  <6\\>4. <6>
+  <6 5>2. %20
+  <6\\>4. <6>
+  <6 5>2.
+  <8 3>2. \bassFigureExtendersOn
+  q4. q \bassFigureExtendersOff
+  <6> <7 _+>8 <6 4> <5 _+> %25
+  <8 3>2. \bassFigureExtendersOn
+  q4. q \bassFigureExtendersOff
+  <6> <7 _+>8 <6 4> <5 _+>
+  r4. <6>
+  <6> <_+> %30
+  <6>2.
+  r4. <7 _+>
+  r2.
+  r
+  r %35
+  r
+  r
+  <9 4>4 \bassFigureExtendersOn q8 <8 3>4 q8 \bassFigureExtendersOff
+  r4 <6 5>4. q8
+  r2. %40
+  r
+  <6 4>4 \once \bassFigureExtendersOn q8 <5 3>4.
+  r2.
+  <6 5>
+  <6>4. q %45
+  <6 5>2.
+  <6>4. q
+  <6 5>2.
+  <8 3>2. \bassFigureExtendersOn
+  q4. q \bassFigureExtendersOff %50
+  <6> <7 5>8 <6 4> <5 3>
+  <8 3>2. \bassFigureExtendersOn
+  q4. q \bassFigureExtendersOff
+  <6> <7 5>8 <6 4> <5 3>
+  r2. %55
+  r
+  <7>4. <6>
+  <\t>2.
+  <7>4. <6>
+  <\t>2. %60
+  <7>4. <6>
+  <\t> <6 5>
+  <4> <3>
+  r2.
+  <6 5> %65
+  <6>4. q
+  <6 5>2.
+  <6>4. q
+  <6 5>2.
+  <7!> %70
+  r
+  <6 4>4. <5 3>
+  r2.
+  <7!>
+  r %75
+  <6 4>4. <5 3>
+  r2.
+  r
+  r
+  r %80
+  r
+  r
+  <6 4>
+  <7 5>
+  r4. r4 <7!>8 %85
+  r2.
+  <6 4>
+  <7 5>
+  r4. <6>
+  <7> <6 4> %90
+  <5> <6>
+  <6 5>2.
+  r4. r4 <7!>8
+  <6 4>2.
+  <7\\ 2> %95
+  <8 3>2.
+  r
+  r
+  r %99 finis
+}
