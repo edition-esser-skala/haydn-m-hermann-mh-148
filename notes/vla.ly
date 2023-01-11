@@ -1771,3 +1771,97 @@ CThreeViola = {
     d4 r8\fermata \bar "|." %284 finis
   }
 }
+
+CFourViola = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key g \major \time 2/4 \tempoCFour
+    \partial 8 r8 d4\fE r8 g
+    c, d e cis
+    d4 r8 fis,
+    g d' h d \noBreak
+    g, g g g \bar "S-S" %5
+    g4 r8 d' \noBreak
+    g, g g g
+    g4 r8 d'
+    g,4 r8 h
+    c4 r8 e %10
+    c4 r8 c
+    d d' d,4
+    r8 d d e
+    d d' d,4
+    r8 d d e %15
+    d d' d,4
+    r8 a'-!\p g-! d-!
+    r c-! d-! g-!
+    r a g d
+    r c d fis %20
+    g\f d d d
+    d d d d
+    g, e' d d
+    d d, d d
+    d d d d %25
+    d d' e d
+    d r g, r
+    g r g r
+    g g' d h
+    \mark \critnote g4\fermata r %30
+    d'\p r8 d
+    c d e cis
+    d4 r8 fis,
+    g d' h d
+    g, g g g %35
+    g g g g
+    r e' d d
+    d g d h
+    g g g g
+    g g g g %40
+    r e' d d
+    d\f g g, r
+    g\p g' g g
+    g, g' g g
+    g, g' g g %45
+    g4 r8 d
+    e4. fis8
+    g4. d8
+    cis2
+    a8 a4 a8 %50
+    a a a a
+    d d d d
+    g, h a a'
+    h4 a
+    g fis %55
+    g8 g a a
+    d,4\f r8 a
+    a a a a
+    a g16 h a8 a
+    a a a a %60
+    a a a a
+    a a' h g
+    fis r d c!
+    h4\p r8 e
+    e4 e8 e %65
+    d4 r8 d
+    d4 d8 d
+    d d g f
+    e4 r
+    e r8 e %70
+    d d, d' c!
+    h d-! c-! g-!
+    r g-! g-! c-!
+    r e d a
+    r a a d
+    r a' g d
+    r a d g
+    r a g d
+    r a d fis
+    g2
+    g4 r8 g
+    d2
+    d4 r
+    g2
+    g4 r8 g
+    d d d d
+    d g,\f g g \bar "S-S"
+  }
+}

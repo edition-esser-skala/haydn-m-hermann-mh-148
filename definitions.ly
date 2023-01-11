@@ -67,6 +67,7 @@ tempoCOne = \tempoMarkup "Moderato"
   tempoCOneG = \tempoMarkup "a tempo"
 tempoCTwo = \tempoMarkup "Allegro con brio"
 tempoCThree = \tempoMarkup "Presto assai"
+tempoCFour = \tempoMarkup "Andantino"
 
 
 \include "notes/fl1.ly"

@@ -1766,3 +1766,97 @@ CThreeViolinoI = {
     q r r\fermata \bar "|." %284 finis
   }
 }
+
+CFourViolinoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key g \major \time 2/4 \tempoCFour
+    \partial 8 g'8\fE g( d') c-! h-!
+    \appoggiatura h a4 a8 a
+    a( e') d-! c-!
+    \appoggiatura c h4 r8 d \noBreak
+    g( h) g-! d-! \bar "S-S" %5
+    f4( e8) fis\trill \noBreak
+    g( h) g-! d-\parenthesize-!
+    f4( e8) fis\trill
+    g16( h) g( d) g( fis) e( dis)
+    e( g) e( c) e( d) c( h) %10
+    a( c) a( e) e'( c) h( a)
+    \appoggiatura g!8 fis4 r8 a'
+    c,4( h8) a
+    \appoggiatura g fis4 r8 a'
+    c,4( h8) a %15
+    \appoggiatura g fis4 r8 d'\p
+    \appoggiatura e16 d8 r r4
+    \appoggiatura e16 d8 r r d
+    e16( d cis d) cis( d cis d)
+    e( d cis d) cis( d cis d) %20
+    d8\f e16-! fis-! g( a) h-! g-!
+    c4 c,
+    h8\trill c16 a g8( fis)
+    d e16 fis g a h g
+    c4 c, %25
+    h16 d g d a'4\trill
+    g8 d'8.( h16) e( c)
+    d( h) c( a) h( g) a( fis)
+    d8 g16 e d8 d
+    \mark \critnote d4\fermata r8 g %30
+    g( d') c-! h-!
+    \appoggiatura h a4 a8 a
+    a( e') d-! c-!
+    \appoggiatura c h4 r8 g
+    g4 fis8 e %35
+    \appoggiatura e d4 g8 h
+    h( a) g-! fis-!
+    \appoggiatura fis g4 r8 g
+    g16 g g g fis fis e e
+    d d g g h h d d %40
+    d( c) e-! c-! h( d) c-! a-!
+    g(\f d) d-! d-! d8 r
+    d'16\p c h c d h e c
+    d g d c h g c a
+    d c h c d h e c %45
+    d g d c h8 d
+    \appoggiatura d cis4 cis8 d
+    \appoggiatura fis e4 e8 fis
+    g4. g,8
+    fis fis4 fis8 %50
+    fis fis fis fis
+    a' a a a
+    h,( g') fis-! e-!
+    r d'4 cis8~
+    cis h4 ais8 %55
+    h( g) fis-! e-!
+    d16(\f a) h-! cis-! d( e) fis-! d-!
+    g4 g,
+    fis8\trill g16 e d8( cis)
+    a' h16 cis d e fis d %60
+    g4 g,
+    fis16 a d a e'4\trill
+    d8 d, r d'\p
+    f4 e8 d
+    d( c) c c %65
+    c( d16 e) d8 c
+    \appoggiatura c h4 h8 h
+    h4 c8 d
+    e(\fp d) c-! h-!
+    e(\fp d) c-! h-! %70
+    \appoggiatura h a4 r8 d,
+    \appoggiatura a'16 g8 r r4
+    \appoggiatura a16 g8 r r e
+    \appoggiatura h'16 a8 r r4
+    \appoggiatura h16 a8 r r a %75
+    \appoggiatura e'16 d8 r r4
+    \appoggiatura e16 d8 r r d
+    e16( d cis d) cis( d cis d)
+    e( d cis d) cis( d cis d)
+    d8 h c d %80
+    e( fis) g e-!
+    d( c) h-! a-!
+    \appoggiatura a h4 g16\f d h' g
+    d'\p d h h c c d d
+    e e fis fis g g e e %85
+    d d c c h h a a
+    g4 r8 d'\f \bar "S-S" %87 finis
+  }
+}

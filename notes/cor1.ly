@@ -984,3 +984,77 @@ CThreeCornoI = {
     c4 \pd r8\fermata \bar "|." %284 finis
   }
 }
+
+CFourCornoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoCFour
+    \partial 8 r8 c'4\fE r
+    c r8 c
+    \pao g4 r8 \pa g
+    g c g e \pd \noBreak
+    c'2 \bar "S-S" %5
+    c \noBreak
+    c
+    c
+    c4 r
+    R2*2 %11
+    g'2~
+    g4 r
+    g2~
+    g4 r %15
+    r8 \pa g, g4 \pd
+    R2*4 %20
+    c2\fE
+    d
+    e8 f e d
+    c2
+    d %25
+    e4 r8 d
+    c r c r
+    c r c r
+    c4 c8 c
+    \mark \critnote c4\fermata r %30
+    R2*4
+    c2~\p %35
+    c
+    R
+    r8 \pa c, e g \pd
+    c2~
+    c %40
+    R
+    r8 c\f c r
+    c2\p
+    c
+    c %45
+    c4 r
+    R2*3
+    r8 d4 d8 %50
+    d2~
+    d
+    R2*4 %56
+    d2\f
+    \pao d
+    d8 r r4
+    d2 %60
+    \pao d
+    d4 r8 \pao d
+    d4 r
+    R2*9 %72
+    r4 \pao c8\pE r
+    R2
+    r4 \pao d8 r %75
+    R2
+    r4 \pao g,8 r
+    R2
+    r4 \pao g8 r
+    c2 %80
+    c4 r
+    R2
+    r4 c8\f c
+    c2\p
+    c4 r %85
+    R2
+    c\f \bar "S-S" %87 finis
+  }
+}

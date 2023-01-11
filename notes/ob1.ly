@@ -1149,3 +1149,75 @@ CThreeOboeI = {
     d4 \pd r8\fermata \bar "|." %284 finis
   }
 }
+
+CFourOboeI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key g \major \time 2/4 \tempoCFour
+    \partial 8 r8 \pa g'\fE d' c h
+    \appoggiatura h a4 \pd a8 a
+    a4 h8 c
+    \appoggiatura c h4 r8 d \noBreak
+    g2 \bar "S-S" %5
+    d4 e8 fis \noBreak
+    g2
+    d4 e8 fis
+    g4 r
+    R2 %10
+    \pa e4. d16 c \pd
+    \appoggiatura h8 a4 r
+    r8 a h c
+    \appoggiatura h a4 r
+    r8 a h c %15
+    \appoggiatura h a4 r
+    R2*4 %20
+    h2\fE
+    c
+    h8 r r4
+    d2
+    c %25
+    h4 a
+    \pao g8 d'4 e8
+    d c h a
+    g4 g8 g
+    \mark \critnote g4\fermata r %30
+    R2*7 %37
+    r8 \pa g\p h d \pd
+    g2~
+    g %40
+    R
+    r8 g\f g r
+    d4.\p e8
+    d4 h8 c
+    d4. e8 %45
+    d h r4
+    R2*3
+    r8 d4 d8 %50
+    d2~
+    d
+    R2*4 %56
+    fis,2\f
+    g
+    fis8 r r4
+    fis2 %60
+    g
+    fis8 d' e4
+    \pao d r
+    R2*8 %71
+    r4 \pao g,8\pE r
+    R2
+    r4 \pao a8 r
+    R2 %75
+    r4 d8 r
+    R2
+    r4 d8 r
+    R2
+    r8 g fis f %80
+    e4 r
+    R2*2
+    r8 g fis f
+    e4 r
+    R2
+    g\f \bar "S-S"
+  }
+}

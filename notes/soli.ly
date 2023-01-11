@@ -1172,3 +1172,191 @@ CTwoTeutogenusLyrics = \lyricmode {
   ta -- _
   tur. %249 finis
 }
+
+CFourBacchus = {
+  \relative c' {
+    \clef "treble_8"
+    \twofourtime \key g \major \time 2/4 \autoBeamOff \tempoCFour
+    \partial 8 r8 R2*5 \bar "S-S" %5
+    R2*24 %29
+    \mark \critnote R2\fermata %30
+    R2*11 %41
+    r4 r8 g
+    d'4 d16[ (h)] e([ c)]
+    d4 h8 c
+    d4 g16([ d)] e([ c)] %45
+    d4 r8 d
+    \appoggiatura d cis4 cis8 d
+    \appoggiatura fis e4 e8 fis
+    g([ e)] cis g
+    fis4 r8 d %50
+    fis([ a)] d fis
+    a([ fis)] d a
+    h([ e)] d cis
+    d2~
+    d4. cis8 %55
+    << { s h' a } \\ \context Voice = "Bacchus" { h,([ g')] fis } >> cis
+    d4 r
+    R2*5 %62
+    r4 r8 d
+    f4 e8 d
+    d([ c)] c c %65
+    c([ d16 e)] d8 c
+    \appoggiatura c h4 r8 h
+    h4 c8 d
+    e([ d)] c h
+    e([ d)] c h %70
+    \appoggiatura h a4 r
+    g r
+    R2
+    a4 r
+    R2 %75
+    d4 r
+    R2
+    d4 r
+    R2
+    d8 h c d %80
+    e([ fis)] g e
+    d([ c)] h a
+    \appoggiatura a h4 r
+    d8 h c d
+    e([ fis)] g e %85
+    d([ c)] h a
+    g4 r \bar "S-S" %87 finis
+  }
+}
+
+CFourBacchusLyrics = \lyricmode {
+  Die %42
+  ſtrot -- zen -- de
+  Re -- be mit
+  mun -- te -- rem %45
+  Saft giebt
+  Göt -- tern den
+  Nek -- tar und
+  Men -- ſchen die
+  Kraft, giebt %50
+  Göt -- tern den
+  Nek -- tar und
+  Men -- ſchen die
+  Kraft, __
+  und %55
+  Men -- ſchen die
+  Kraft.
+
+  Mars %63
+  ſelbſt wird be --
+  zwun -- gen durch %65
+  Lie -- be und
+  Wein: mir
+  hat es ge --
+  lun -- gen ſein
+  Herr -- ſcher zu %70
+  seyn,
+  mir,
+
+  mir,
+  %75
+  mir,
+
+  mir,
+
+  mir hat es ge -- %80
+  lun -- gen ſein
+  Herr -- ſcher zu
+  seyn,
+  mir hat es ge --
+  lun -- gen ſein %85
+  Herr -- ſcher zu
+  seyn. %87 finis
+}
+
+CFourVenus = {
+  \relative c' {
+    \clef "treble_8"
+    \twofourtime \key g \major \time 2/4 \autoBeamOff \tempoCFour
+    \partial 8 r8 R2*5 \bar "S-S" %5
+    R2*24 %29
+    \mark \critnote r4\fermata r8 g %30
+    g([ d')] c h
+    \appoggiatura h a4 a8 a
+    a([ e')] d c
+    \appoggiatura c h4 r8 g
+    g4 fis8 e %35
+    \appoggiatura e d4 g8 h
+    h([ a)] g fis
+    \appoggiatura fis g4 r8 g
+    g4 fis8 e
+    d([ g)] h d %40
+    d([ c)] h a
+    g4 r
+    R2*20 %62
+    r4 r8 d'
+    d4 c!8 h
+    h([ a)] a a %65
+    a([ h16 c)] h8 a
+    \appoggiatura a g4 r8 g
+    g4 a8 h
+    c([ h)] a g
+    c([ h)] a g %70
+    \appoggiatura g fis!4 r
+    R2
+    g4 r
+    R2
+    a4 r %75
+    R2
+    d4 r
+    R2
+    d4 r
+    h8 g a h %80
+    c([ d)] e c
+    h([ a)] g fis
+    \appoggiatura fis g4 r
+    h8 g a h
+    c([ d)] e c %85
+    h([ a)] g fis
+    g4 r \bar "S-S" %87 finis
+  }
+}
+
+CFourVenusLyrics = \lyricmode {
+  Sein %30
+  rei -- zen -- des
+  We -- ſen, ſein
+  ar -- ti -- ger
+  Blick ſchlägt
+  Ju -- pi -- ters %35
+  raſ -- ſeln -- de
+  Pfei -- le zu --
+  rück, ſchlägt
+  Ju -- pi -- ters
+  raſ -- ſeln -- de %40
+  Pfei -- le zu --
+  rück.
+
+  Mars %63
+  ſelbſt wird be --
+  zwun -- gen durch %65
+  Lie -- be und
+  Wein: mir
+  hat es ge --
+  lun -- gen ſein
+  Herr -- ſcher zu %70
+  seyn,
+
+  mir,
+
+  mir, %75
+
+  mir,
+
+  mir,
+  mir hat es ge -- %80
+  lun -- gen ſein
+  Herr -- ſcher zu
+  seyn,
+  mir hat es ge --
+  lun -- gen ſein %85
+  Herr -- ſcher zu
+  seyn. %87 finis
+}

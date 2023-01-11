@@ -1766,3 +1766,97 @@ CThreeViolinoII = {
     q r r\fermata \bar "|." %284 finis
   }
 }
+
+CFourViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key g \major \time 2/4 \tempoCFour
+    \partial 8 r8 h4\fE r8 d
+    e16-! g-! d-! g-! c, g' e g
+    fis8( c') h-! a-!
+    a16( fis) g-! fis-! g h g d \noBreak
+    h d g d h d g d \bar "S-S" %5
+    h d h d c e a, c \noBreak
+    h d g d h d g d
+    h d h d c e a, c
+    h8 d'16( h) g'( fis) e( dis)
+    e8 c16( e,) c'( h) a( gis) %10
+    a8 e16( c) a8 e'
+    \appoggiatura h a4 r8 c'
+    a4( g8) e
+    \appoggiatura h a4 r8 c'
+    a4( g8) e %15
+    \appoggiatura h a4 r
+    r8 c'-!\p h-! g-!
+    r fis-! g-! h-!
+    r c h g
+    r fis g c %20
+    h16(\f d) e-! fis-! g( a) h-! g-!
+    a4 a,
+    g16 d e c h8( a)
+    d e16 fis g a h g
+    a4 a, %25
+    g8 g'4 fis8
+    g h8.( g16) c( a)
+    h( g) a( fis) g( h,) c( a)
+    h8 h16 c h8 h
+    \mark \critnote h4\fermata r8 h\p %30
+    h4 a8 g
+    e'16 g d g c, g' e g
+    fis8( c') h-! a-!
+    a16( fis) g( fis) g-! h-! g-! d-!
+    h4 d8 c %35
+    \appoggiatura c h4 h8 d
+    d( c) h-! a-!
+    c16( a) h-! d-! g h g d
+    h h h h d d c c
+    h h d d g g h h %40
+    h( a) c-! a-! g( h) a-! fis-!
+    g(\f h,) h-! h-! h8 r
+    h'16\p a g a h g c a
+    h d h a g d a' fis
+    h a g a h g c a %45
+    h d h a g8 a
+    g4. a8
+    a4. d8
+    e4. e,8
+    d d4 d8 %50
+    d d d d
+    fis' fis fis fis
+    h,( e) d-! cis-!
+    r d4 cis8~
+    cis h4 ais8 %55
+    h( e) d-! cis-!
+    d16(\f a) h-! cis! d( e) fis-! d-!
+    e4 e,
+    d16 a' h g fis8( e)
+    a h16 cis d e fis d %60
+    e4 e,
+    d8 d'4 cis8
+    d d, r4
+    d'\p c!8 h
+    h( a) a a %65
+    a( h16 c) h8 a
+    \appoggiatura a g4 g8 g
+    g4 a8 h
+    c(\fp h) a-! g-!
+    c(\fp h) a-! g-! %70
+    \appoggiatura g fis!4 fis16 d a' fis
+    g,8 f'-! e-! c-!
+    r h-! c-! e-!
+    r g-! fis!-! d-!
+    r cis d fis %75
+    r c'! h g
+    r fis g h
+    r c h g
+    r fis g a
+    h g a h %80
+    c( d) e c-!
+    h( a) \parOn g-\parenthesize-! \parOff fis-\parenthesize-!
+    \appoggiatura fis g4 d16\f h g' d
+    h'\p h g g a a h h
+    c c d d e e c c %85
+    h h a a g g fis fis
+    g-!\f h-! g-! d-! h d g d \bar "S-S" %87 finis
+  }
+}

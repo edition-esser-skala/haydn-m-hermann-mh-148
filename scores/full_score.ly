@@ -1328,53 +1328,126 @@
   %     \midi { \tempo 4 = 120 }
   %   }
   % }
+  % \bookpart {
+  %   \section "3·3" "Presto assai"
+  %   \addTocEntry
+  %   \paper { systems-per-page = #2 }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+  %           \partCombine #'(0 . 10) \CThreeOboeI \CThreeOboeII
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "D" "" "1, 2" }
+  %           % \transpose c d
+  %           \partCombine #'(0 . 10) \CThreeCornoI \CThreeCornoII
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \CThreeViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \CThreeViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \CThreeViola
+  %         }
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \CThreeBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \CThreeBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4. = 100 }
+  %   }
+  % }
   \bookpart {
-    \section "3·3" "Presto assai"
+    \section "3·4" "Aria: Sein reizendes Weſen"
     \addTocEntry
-    \paper { systems-per-page = #2 }
+    \paper {
+      top-system-spacing.basic-distance = #10
+      top-system-spacing.minimum-distance = #10
+      top-markup-spacing.basic-distance = #0
+      top-markup-spacing.minimum-distance = #0
+      markup-system-spacing.basic-distance = #10
+      markup-system-spacing.minimum-distance = #10
+      system-system-spacing.basic-distance = #17
+      system-system-spacing.minimum-distance = #17
+      systems-per-page = #2
+      indent = 2\cm
+    }
     \score {
       <<
-        \new StaffGroup <<
+        \new StaffGroup \with { \setGroupDistance #11 #11 } <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
-            \partCombine #'(0 . 10) \CThreeOboeI \CThreeOboeII
+            \partCombine #'(0 . 10) \CFourOboeI \CFourOboeII
           >>
         >>
-        \new StaffGroup <<
+        \new StaffGroup \with { \setGroupDistance #11 #11 } <<
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "D" "" "1, 2" }
-            % \transpose c d
-            \partCombine #'(0 . 10) \CThreeCornoI \CThreeCornoII
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "G" "" "1, 2" }
+            % \transpose c g
+            \partCombine #'(0 . 10) \CFourCornoI \CFourCornoII
           >>
         >>
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
+        \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+          \new GrandStaff \with { \setGroupDistance #11 #11 } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \CThreeViolinoI
+              \CFourViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \CThreeViolinoII
+              \CFourViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \CThreeViola
+            \CFourViola
           }
+        >>
+        \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
+          \new Staff {
+            \set Staff.instrumentName = "Bacchus"
+            \new Voice = "Bacchus" { \dynamicUp \CFourBacchus }
+          }
+          \new Lyrics \lyricsto Bacchus \CFourBacchusLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "Venus"
+            \new Voice = "Venus" { \dynamicUp \CFourVenus }
+          }
+          \new Lyrics \lyricsto Venus \CFourVenusLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \CThreeBassoContinuo
+            \CFourBassoContinuo
           }
         >>
-        \new FiguredBass { \CThreeBassFigures }
+        \new FiguredBass { \CFourBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4. = 100 }
+      \midi { \tempo 4 = 75 }
     }
   }
 }
