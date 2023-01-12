@@ -1143,3 +1143,88 @@ CFiveCornoII = {
     c4 r8 r4 r8\fermata \bar "|." %99 finis
   }
 }
+
+CSixCornoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoCSix
+    R1
+    c2\fE c4 c
+    c r r2
+    c c4 c
+    c r r2 %5
+    r4 c8. c16 c4 c
+    g'2 r4 g
+    c,2 r4 c
+    c r r g'
+    e g e r %10
+    R1*14 %24
+    c2\fE c4 c %25
+    c2 c4 c
+    c r r g'
+    c,2 c4 c
+    c2 r
+    r4 g' g g %30
+    c, c8. c16 c4 c
+    c2 c
+    r4 d' r c
+    r g e g
+    c, c8. c16 c4 c %35
+    c2 c
+    r4 d' r c
+    r g e c
+    g'2 r4 g
+    c,2 r4 c %40
+    c r r g'
+    e2 r
+    R1*12 %54
+    c2\fE c4 c %55
+    c2 c4 c
+    c r r g'
+    c,2 c4 c
+    c2 r
+    r4 g' g g %60
+    c, c8. c16 c4 c
+    c2 c
+    r4 d' r c
+    r g e g
+    c, c8. c16 c4 c %65
+    c2 c
+    r4 d' r c
+    r g e c
+    g' g g g
+    c, c c c %70
+    c r r g'
+    e r r2
+    g,1\p
+    g
+    g %75
+    R1*3
+    r2 d''4\f d
+    g,\pE r r2 %80
+    R1*9 %89
+    c,4\fE c c c %90
+    c c c c
+    c r r g'
+    c, c c c
+    c2 r
+    r4 g' g g %95
+    c, c8. c16 c4 c
+    c c8. c16 c2
+    r4 d' r c
+    r g e8 e g g
+    c,4 c8. c16 c8 c c c %100
+    c4 c8. c16 c2
+    r4 d' r c
+    r g e c8. c16
+    g'8 g g g g g g g
+    c, c c c c c c c %105
+    c4 r8 c' c4 g
+    e8 r e2 g8. d'16
+    c8 r c2 g8. g16
+    e8 r e2 g8. d'16
+    c8 r c2 g8. g16 %110
+    e8 c c c c c c c
+    c4 r r2\fermata \bar "|." %112 finis
+  }
+}

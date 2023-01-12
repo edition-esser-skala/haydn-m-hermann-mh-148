@@ -1450,8 +1450,81 @@
   %     \midi { \tempo 4 = 75 }
   %   }
   % }
+  % \bookpart {
+  %   \section "3·5" "Aria: Es kann alſo Bacchus und Venus allein"
+  %   \addTocEntry
+  %   \paper {
+  %     top-system-spacing.basic-distance = #10
+  %     top-system-spacing.minimum-distance = #10
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #10
+  %     markup-system-spacing.minimum-distance = #10
+  %     system-system-spacing.basic-distance = #17
+  %     system-system-spacing.minimum-distance = #17
+  %     systems-per-page = #2
+  %     indent = 2\cm
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+  %           \partCombine #'(0 . 10) \CFiveOboeI \CFiveOboeII
+  %         >>
+  %       >>
+  %       \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "G" "" "1, 2" }
+  %           % \transpose c g
+  %           \partCombine #'(0 . 10) \CFiveCornoI \CFiveCornoII
+  %         >>
+  %       >>
+  %       \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+  %         \new GrandStaff \with { \setGroupDistance #11 #11 } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \CFiveViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \CFiveViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \CFiveViola
+  %         }
+  %       >>
+  %       \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Bacchus"
+  %           \new Voice = "Bacchus" { \dynamicUp \CFiveBacchus }
+  %         }
+  %         \new Lyrics \lyricsto Bacchus \CFiveBacchusLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Venus"
+  %           \new Voice = "Venus" { \dynamicUp \CFiveVenus }
+  %         }
+  %         \new Lyrics \lyricsto Venus \CFiveVenusLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \CFiveBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \CFiveBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4. = 90 }
+  %   }
+  % }
   \bookpart {
-    \section "3·5" "Aria: Es kann alſo Bacchus und Venus allein"
+    \section "3·6" "Coro: Magne Deus Teutonum"
     \addTocEntry
     \paper {
       top-system-spacing.basic-distance = #10
@@ -1470,14 +1543,14 @@
         \new StaffGroup \with { \setGroupDistance #11 #11 } <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
-            \partCombine #'(0 . 10) \CFiveOboeI \CFiveOboeII
+            \partCombine #'(0 . 10) \CSixOboeI \CSixOboeII
           >>
         >>
         \new StaffGroup \with { \setGroupDistance #11 #11 } <<
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "G" "" "1, 2" }
-            % \transpose c g
-            \partCombine #'(0 . 10) \CFiveCornoI \CFiveCornoII
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "E" "flat" "1, 2" }
+            % \transpose c es
+            \partCombine #'(0 . 10) \CSixCornoI \CSixCornoII
           >>
         >>
         \new StaffGroup \with { \setGroupDistance #11 #11 } <<
@@ -1485,42 +1558,43 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \CFiveViolinoI
+              \CSixViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \CFiveViolinoII
+              \CSixViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \CFiveViola
+            \CSixViola
           }
         >>
         \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
+          \set ChoirStaff.instrumentName = \markup { \rotate #90 \center-column { "Chorus Bardorum" "Chorus Ducum et Militum" } \hspace #10 }
           \new Staff {
-            \set Staff.instrumentName = "Bacchus"
-            \new Voice = "Bacchus" { \dynamicUp \CFiveBacchus }
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \CSixTenore }
           }
-          \new Lyrics \lyricsto Bacchus \CFiveBacchusLyrics
+          \new Lyrics \lyricsto Tenore \CSixTenoreLyrics
 
           \new Staff {
-            \set Staff.instrumentName = "Venus"
-            \new Voice = "Venus" { \dynamicUp \CFiveVenus }
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \CSixBasso }
           }
-          \new Lyrics \lyricsto Venus \CFiveVenusLyrics
+          \new Lyrics \lyricsto Basso \CSixBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \CFiveBassoContinuo
+            \CSixBassoContinuo
           }
         >>
-        \new FiguredBass { \CFiveBassFigures }
+        \new FiguredBass { \CSixBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4. = 90 }
+      \midi { \tempo 2 = 55 }
     }
   }
 }

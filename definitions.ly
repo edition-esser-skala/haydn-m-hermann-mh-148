@@ -11,6 +11,9 @@ sempreP = \markup \remark \whiteout \pad-markup #0.5 \concat { "sempre " \bold \
 sottoVoce = \markup \remark \whiteout "sotto voce"
 Teutogenes = \markup \remark "Teutogenes"
 Montanus = \markup \remark "Montanus"
+ChorusBardorum = \markup \remark "Chorus Bardorum"
+ChorusDucum = \markup \remark "Chorus Ducum et Militum"
+ChorusUterque = \markup \remark "Chorus uterque"
 forceClef = \set Staff.forceClef = ##t
 
 markMaggioreDaCapo = {
@@ -69,6 +72,7 @@ tempoCTwo = \tempoMarkup "Allegro con brio"
 tempoCThree = \tempoMarkup "Presto assai"
 tempoCFour = \tempoMarkup "Andantino"
 tempoCFive = \tempoMarkup "Vivace"
+tempoCSix = \tempoMarkup "Andante"
 
 
 \include "notes/fl1.ly"

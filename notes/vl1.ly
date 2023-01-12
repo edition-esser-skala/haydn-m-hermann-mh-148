@@ -1966,3 +1966,122 @@ CFiveViolinoI = {
     <d h' g'>4 r8 r4 r8\fermata \bar "|." %99 fnis
   }
 }
+
+CSixViolinoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key es \major \time 2/2 \tempoCSix
+    es8(\fE b) es-! f-! g( es) g-! as-!
+    b( g) b( g) b2
+    c8( as) c-! d-! es( c) es( c)
+    b( g) b( g) b2
+    c8( d) es-! c-! b( as) g-! f-! %5
+    \appoggiatura as16 g8 f16 es es4 r g8. g16
+    \appoggiatura b as8 g16 f f4. f8( as) f-!
+    \appoggiatura c'16 b8 as16 g g4. g8( b) g-!
+    \appoggiatura f'16 es8 d16 c es8-! c-! \appoggiatura c16 b8 as16 g \parOn as8-\parenthesize-! \parOff f-\parenthesize-!
+    es4 b g r %10
+    es'8(\p b) es-! f-! g( es) g-! as-!
+    b( g) es'( c) b2
+    b8( as) c-! as-! g( es) as-! f-!
+    g( es) es'( c) b2
+    c8( d) es( c) \slurDashed f,( as) es( g) %15
+    b,( g') g( f) \slurSolid f f(\f b d,)
+    es(\p b') b( c) des-! des( b' des,)
+    des( c) es( c) b-! b( g' b,)
+    b( as) c( as) as( g) b( g)
+    g( f) as( f) es(\f g) b( d,) %20
+    es(\p b') b( c) des-! des( b' des,)
+    des( c) \once \slurDashed es( c) b-! b( g' b,)
+    b( as) c( as) as( g) b( g)
+    g( f) as( f) es( c')\f b( d,)
+    es( b) es-! f-! g( es) g-! as-! %25
+    b( g) es'( c) b( g) as( b)
+    b( as) c-! as-! g( es) as-! f-!
+    g( b) es( c) \slurDashed b( g) as( b) \slurSolid
+    c( d) es( c) f,( as) es( g)
+    b,( g') g( f) f-! f( b d,) %30
+    \slurDashed es( b') b( c) \slurSolid des-! des( b' des,)
+    des( c) es( c) b-! b( g' b,)
+    b( as) c( as) as( g) b( g)
+    g( f) \slurDashed as( f) es( g) b( d,)
+    es( b') b( c) \slurSolid des-\parenthesize-! des( b' des,) %35
+    des( c) es( c) b-! b( g' b,)
+    b( as) c( as) as( g) b( g)
+    g( f) as( f) es4 g8. g16
+    \appoggiatura b as8 g16 f f4. f8( as) f-!
+    \appoggiatura c'16 b8 as16 g g4. g8( b) g-! %40
+    \appoggiatura f'16 es8 d16 c es8-! c-! \appoggiatura c16 b8 as16 g \parOn as8-\parenthesize-! \parOff f-\parenthesize-!
+    es4-! b-! es-! g'8( h,)
+    c g16-!\p as-! g8-! g-! r c-! g'( es)
+    r g,16 as g8 g r d'-! f( d)
+    c g16 as g8 g r c-\parenthesize-! g'( es) %45
+    r g,16 as g8 g r d'-\parenthesize-! f( d)
+    c g'16 as g8 g g g g g
+    g g f f f f f f
+    r es( f) d-! r c( d) h-!
+    r c16\f d c8 c c-! d-! es-! f-! %50
+    g\p g16 as g8 g g g g g
+    g g f f f f f f
+    r es( f) d-! r c( d) h-!
+    c4 c(\f b) d,
+    es8 es16-! f-! es8-! f-! g( b) g( b) %55
+    g \parOn g16-\parenthesize-! as-! g8-! \parOff as-\parenthesize-! b( es) g( b,)
+    b( as) c16( as) c( as) g8( b) f( as)
+    g g'16-! as-! g8-! as-! b( g) es( b)
+    c( d) es16( c) es( c) f,8( as) es( g)
+    b,( g') g( f) f b16-! c-! \parOn b8-\parenthesize-! \parOff d,-\parenthesize-! %60
+    es es'16-! f-! es8 es b'( g) es( des)
+    des( c) es16( c) es( c) b8-! b( g' b,)
+    b( as) \slurDashed c16( as) c( as) \slurSolid as8( g) \slurDashed b16( g) b( g) \slurSolid
+    g8( f) as( f) es b'16-! c-! b8-! d,-!
+    es des'16-! es-! des8 des b'( g) es( des) %65
+    des( c) es16( c) es( c) b8-! b( g' b,)
+    b( as) \slurDashed c16( as) c( as) \slurSolid as8( g) \slurDashed b16( g) b( g) \slurSolid
+    g8( f) \slurDashed as16( f) as( f) \slurSolid es4 g8. g16
+    \appoggiatura b as8 g16 f f4. f8 as16( f) as( f)
+    \appoggiatura c' b8 as16 g g4. g8 b16( g) b( g) %70
+    \appoggiatura f' es8 d16 c es( c) es( c) \appoggiatura c b8 as16 g as( f) as( f)
+    es4 g8 g'4 f a,8
+    b <b d,>\p q q q q q q
+    q q q q q q q q
+    q q q q q q q q %75
+    <b es,> q q q q q q q
+    q q q q <b d,> q q q
+    c c c c c c es es
+    es es d c d\f d a a
+    b\p b a a g g fis fis %80
+    fis fis fis fis g g g g
+    f f f f es' es es es
+    es c d es f f a, a
+    b f' es d c c h h
+    c c c d es es es es %85
+    es es es es a, a a a
+    f' f f f b, b b b
+    g' g b b g g a, a
+    b b\f d, d es es as! as
+    g16 f g as b as g f es f g f es d c b %90
+    es f g as b as g f es f g f es d c b
+    c f as f c' as g f b g f es as f es d
+    es f g as b as g f es f g f es d c b
+    c' es d f es d c b as b c as g as b g
+    b c b c b g f g f g as g f es f d %95
+    es d es f g f g as b c des c des f es des
+    des c b c es c es c b es g f es d? c b
+    b as g as c as c as as g f g b g b g
+    g f es f as f as f es g b g as f es d
+    es des' c des es des c des b' as g as b g es des %100
+    des c b c as' c, as' c, b as' g f es d c b
+    b as g as c as c as as g f g b' g b g
+    g f es f as f as f es g es b es b g b
+    \appoggiatura b as8 g16 f f4. as16( f) as( f) as( f)
+    \appoggiatura c' b8 as16 g g4. b16( g) b( g) b( g) %105
+    \appoggiatura f' es8 d16 c es c es c b g b g as f as f
+    es4 r g \appoggiatura b16 as8 g16 f
+    b4( g8) r g4 \appoggiatura b16 as8 g16 f
+    es4( b8) r g'16 f g es as f as f
+    b4( g8) r g16 f g es as g as f %110
+    es4 g16 b, g' b, <es g,>4 g16 b, g' b,
+    <es g,>4 r r2\fermata \bar "|." %112 finis
+  }
+}

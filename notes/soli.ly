@@ -1728,3 +1728,377 @@ CFiveVenusLyrics = \lyricmode {
   Schwa -- chen ent --
   leibt. %93 finis
 }
+
+CSixTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \twotwotime \key es \major \time 2/2 \autoBeamOff \tempoCSix
+    R1*10 %10
+    es,4.^\ChorusBardorum f8 g4 g
+    g4. as8 b2
+    b8([ as)] c([ as)] g4 f
+    g4. as8 b2
+    c8([ d)] es([ c)] as4 g %15
+    g4. f8 f4 r
+    b4. c8 des4 des
+    des8([ c)] es([ c)] b2
+    b8([ as)] c([ as)] as([ g)] b([ g)]
+    g([ f)] as([ f)] es4 r %20
+    b'4. c8 des4 des
+    des8([ c)] es([ c)] b2
+    b8([ as)] c([ as)] as([ g)] b([ g)]
+    g([ f)] as([ f)] es4 r
+    es4.^\ChorusDucum f8 g4 g %25
+    g4. as8 b2
+    b8([ as)] c([ as)] g4 f
+    g4. as8 b2
+    c8([ d)] es([ c)] as4 g
+    g4. f8 f4 r %30
+    b4. c8 des4 des
+    des8([ c)] es([ c)] b2
+    b8([ as)] c([ as)] as([ g)] b([ g)]
+    g([ f)] as([ f)] es4 r
+    b'4. c8 des4 des %35
+    des8([ c)] es([ c)] b2
+    b8([ as)] c([ as)] as([ g)] b([ g)]
+    g([ f)] as([ f)] es4 r
+    R1*4 %42
+    \once \override TextScript.X-offset = #-3 g4.^\ChorusBardorum g8 \tuplet 3/2 4 { g([ a h)] c[( d es)] }
+    es4. d8 d2
+    g,4 g \tuplet 3/2 4 { g8([ a h)] c[( d es)] } %45
+    es4. d8 d2
+    g4 es c g
+    as4. as8 g4 d'8 f
+    \appoggiatura f es4( f8) d c4( d8) h
+    c4 r r2 %50
+    g'4 es c g
+    as4. as8 g4 d'8 f
+    \appoggiatura f es4( f8) d c4( d8) h
+    c4 r r2
+    es,4.^\ChorusDucum f8 g4 g %55
+    g4. as8 b2
+    b8([ as)] c([ as)] g4 f
+    g4. as8 b2
+    c8([ d)] es([ c)] as4 g
+    g4. f8 f4 r %60
+    b4. c8 des4 des
+    des8([ c)] es([ c)] b2
+    b8([ as)] c([ as)] as([ g)] b([ g)]
+    g([ f)] as([ f)] es4 r
+    b'4. c8 des4 des %65
+    des8([ c)] es([ c)] b2
+    b8([ as)] c([ as)] as([ g)] b([ g)]
+    g([ f)] as([ f)] es4 r
+    R1*4 %72
+    b'2~^\ChorusBardorum b8[ d] f([ d)]
+    b2~ b8[ d] f([ d)]
+    \appoggiatura c b4. f8 f2 %75
+    g4 b b a8([ g)]
+    g4. f8 f4 r
+    c' es es d8([ c)]
+    \appoggiatura c4 d4. c8 b4 r
+    b a g fis %80
+    fis4. g8 g2
+    f4 a c es
+    \appoggiatura es d4. es8 f4 r
+    f es8([ d)] c4 h
+    c4. d8 es4 r %85
+    es2~ es8[ c] c([ a)]
+    f'2~ f8[ d] d([ b)]
+    b2( \grace d8 c4.) b8
+    b2 r
+    es,4.^\ChorusUterque f8 g4 g %90
+    g4. as8 b2
+    b8([ as)] c([ as)] g4 f
+    g4. as8 b2
+    c8([ d)] es([ c)] as4 g
+    g4. f8 f4 r %95
+    b4. c8 des4 des
+    des8([ c)] es([ c)] b2
+    b8([ as)] c([ as)] as([ g)] b([ g)]
+    g([ f)] as([ f)] es4 r
+    b'4. c8 des4 des %100
+    des8([ c)] es([ c)] b2
+    b8([ as)] c([ as)] as([ g)] b([ g)]
+    g([ f)] as([ f)] es4 r
+    R1*8 %111
+    R1\fermata \bar "|." %112 finis
+  }
+}
+
+CSixTenoreLyrics = \lyricmode {
+  Ma -- gne De -- us %11
+  Teu -- to -- num
+  au -- di vo -- ta
+  sub -- pli -- cum,
+  au -- di vo -- ta %15
+  sub -- pli -- cum!
+  Fac ut per vi --
+  cto -- ri -- am
+  li -- be -- re -- mus
+  pa -- tri -- am, %20
+  fac ut per vi --
+  cto -- ri -- am
+  li -- be -- re -- mus
+  pa -- tri -- am.
+  Ma -- gne De -- us %25
+  Teu -- to -- num
+  au -- di vo -- ta
+  sub -- pli -- cum,
+  au -- di vo -- ta
+  sub -- pli -- cum! %30
+  Fac ut per vi --
+  cto -- ri -- am
+  li -- be -- re -- mus
+  pa -- tri -- am,
+  fac ut per vi -- %35
+  cto -- ri -- am
+  li -- be -- re -- mus
+  pa -- tri -- am.
+
+  Per Tu -- i -- sci __ %43
+  me -- ri -- ta
+  da vir -- tu -- tis __ %45
+  prae -- mi -- a,
+  per Go -- me -- ris
+  cly -- pe -- um te -- ge
+  vul -- tus Teu -- to --
+  num, %50
+  per Go -- me -- ris
+  cly -- pe -- um te -- ge
+  vul -- tus Teu -- to --
+  num.
+  Ma -- gne De -- us %55
+  Teu -- to -- num
+  au -- di vo -- ta
+  sub -- pli -- cum,
+  au -- di vo -- ta
+  sub -- pli -- cum! %60
+  Fac ut per vi --
+  cto -- ri -- am
+  li -- be -- re -- mus
+  pa -- tri -- am,
+  fac ut per vi -- %65
+  cto -- ri -- am
+  li -- be -- re -- mus
+  pa -- tri -- am.
+
+  Qui __ di -- %73
+  ta -- sti
+  ma -- xi -- me %75
+  pa -- tres no -- strae
+  pa -- tri -- ae,
+  pa -- tres no -- strae
+  pa -- tri -- ae,
+  da fe -- li -- cem %80
+  ex -- i -- tum
+  post de -- vi -- ctum
+  prae -- li -- um,
+  da fe -- li -- cem
+  ex -- i -- tum %85
+  post __ de --
+  vi -- ctum
+  prae -- li --
+  um.
+  Ma -- gne De -- us %90
+  Teu -- to -- num
+  au -- di vo -- ta
+  sub -- pli -- cum,
+  au -- di vo -- ta
+  sub -- pli -- cum! %95
+  Fac ut per vi --
+  cto -- ri -- am
+  li -- be -- re -- mus
+  pa -- tri -- am,
+  fac ut per vi -- %100
+  cto -- ri -- am
+  li -- be -- re -- mus
+  pa -- tri -- am. %103 finis
+}
+
+CSixBasso = {
+  \relative c {
+    \clef bass
+    \twotwotime \key es \major \time 2/2 \autoBeamOff \tempoCSix
+    R1*10 %10
+    es4.^\ChorusBardorum d8 es4 es
+    es4. f8 g2
+    g8([ f)] as([ f)] es4 d
+    es4. f8 g2
+    as8([ b)] c([ as)] f4 es %15
+    es4. d8 d4 r
+    es4. es8 es4 b'
+    b8([ as)] c([ as)] g2
+    g8([ f)] as([ f)] f([ es)] g([ es)]
+    es([ d)] f([ d)] es4 r %20
+    es4. es8 es4 b'
+    b8([ as)] c([ as)] g2
+    g8([ f)] as([ f)] f([ es)] g([ es)]
+    es([ d)] f([ d)] es4 r
+    es4.^\ChorusDucum d8 es4 es %25
+    es4. f8 g2
+    g8([ f)] as([ f)] es4 d
+    es4. f8 g2
+    as8([ b)] c([ as)] f4 es
+    es4. d8 d4 r %30
+    es4. es8 es4 b'
+    b8([ as)] c([ as)] g2
+    g8([ f)] as([ f)] f([ es)] g([ es)]
+    es([ d)] f([ d)] es4 r
+    es4. es8 es4 b' %35
+    b8([ as)] c([ as)] g2
+    g8([ f)] as([ f)] f([ es)] g([ es)]
+    es([ d)] f([ d)] es4 r
+    R1*4 %42
+    \once \override TextScript.X-offset = #-3 c4.^\ChorusBardorum c8 c4 c'
+    c4. h8 h2
+    c,4 c c c' %45
+    c4. h8 h2
+    c4 g es es
+    f4. d8 h4 h'8 g
+    c4 f, g4. g8
+    c,4 r r2 %50
+    c'4 g es es
+    f4. d8 h4 h'8 g
+    c4 f, g4. g8
+    c,4 r r2
+    es4.^\ChorusDucum d8 es4 es %55
+    es4. f8 g2
+    g8([ f)] as([ f)] es4 d
+    es4. f8 g2
+    as8([ b)] c([ as)] f4 es
+    es4. d8 d4 r %60
+    es4. es8 es4 b'
+    b8([ as)] c([ as)] g2
+    g8([ f)] as([ f)] f([ es)] g([ es)]
+    es([ d)] f([ d)] es4 r
+    es4. es8 es4 b' %65
+    b8([ as)] c([ as)] g2
+    g8([ f)] as([ f)] f([ es)] g([ es)]
+    es([ d)] f([ d)] es4 r
+    R1*4 %72
+    b2.^\ChorusBardorum b4
+    b2. b4
+    b4. b8 b2 %75
+    es4 g g f8([ es)]
+    es4. d8 d4 b'~
+    b b a8([ c)] b([ a)]
+    \appoggiatura a4 b4. a8 b4 r
+    R1 %80
+    es,4 d c b
+    a4. a8 a2
+    b4. b8 b4 c
+    d4. d8 d4 r
+    es d c b! %85
+    a4. c8 f2
+    d4 b d g
+    es( d es) f
+    b,2 r
+    es4.^\ChorusUterque d8 es4 es %90
+    es4. f8 g2
+    g8([ f)] as([ f)] es4 d
+    es4. f8 g2
+    as8([ b)] c([ as)] f4 es
+    es4. d8 d4 r %95
+    es4. es8 es4 b'
+    b8([ as)] c([ as)] g2
+    g8([ f)] as([ f)] f([ es)] g([ es)]
+    es([ d)] f([ d)] es4 r
+    es4. es8 es4 b' %100
+    b8([ as)] c([ as)] g2
+    g8([ f)] as([ f)] f([ es)] g([ es)]
+    es([ d)] f([ d)] es4 r
+    R1*8 %111
+    R1\fermata \bar "|." %112 finis
+  }
+}
+
+CSixBassoLyrics = \lyricmode {
+  Ma -- gne De -- us %11
+  Teu -- to -- num
+  au -- di vo -- ta
+  sub -- pli -- cum,
+  au -- di vo -- ta %15
+  sub -- pli -- cum!
+  Fac ut per vi --
+  cto -- ri -- am
+  li -- be -- re -- mus
+  pa -- tri -- am, %20
+  fac ut per vi --
+  cto -- ri -- am
+  li -- be -- re -- mus
+  pa -- tri -- am.
+  Ma -- gne De -- us %25
+  Teu -- to -- num
+  au -- di vo -- ta
+  sub -- pli -- cum,
+  au -- di vo -- ta
+  sub -- pli -- cum! %30
+  Fac ut per vi --
+  cto -- ri -- am
+  li -- be -- re -- mus
+  pa -- tri -- am,
+  fac ut per vi -- %35
+  cto -- ri -- am
+  li -- be -- re -- mus
+  pa -- tri -- am.
+
+  Per Tu -- i -- sci %43
+  me -- ri -- ta
+  da vir -- tu -- tis %45
+  prae -- mi -- a,
+  per Go -- me -- ris
+  cly -- pe -- um te -- ge
+  vul -- tus Teu -- to --
+  num, %50
+  per Go -- me -- ris
+  cly -- pe -- um te -- ge
+  vul -- tus Teu -- to --
+  num.
+  Ma -- gne De -- us %55
+  Teu -- to -- num
+  au -- di vo -- ta
+  sub -- pli -- cum,
+  au -- di vo -- ta
+  sub -- pli -- cum! %60
+  Fac ut per vi --
+  cto -- ri -- am
+  li -- be -- re -- mus
+  pa -- tri -- am,
+  fac ut per vi -- %65
+  cto -- ri -- am
+  li -- be -- re -- mus
+  pa -- tri -- am.
+
+  Qui di -- %73
+  ta -- sti
+  ma -- xi -- me %75
+  pa -- tres no -- strae
+  pa -- tri -- ae, pa --
+  tres no -- strae
+  pa -- tri -- ae,
+  %80
+  da fe -- li -- cem
+  ex -- i -- tum
+  post de -- vi -- ctum
+  prae -- li -- um,
+  da fe -- li -- cem %85
+  ex -- i -- tum
+  post de -- vi -- ctum
+  prae -- li --
+  um.
+  Ma -- gne De -- us %90
+  Teu -- to -- num
+  au -- di vo -- ta
+  sub -- pli -- cum,
+  au -- di vo -- ta
+  sub -- pli -- cum! %95
+  Fac ut per vi --
+  cto -- ri -- am
+  li -- be -- re -- mus
+  pa -- tri -- am,
+  fac ut per vi -- %100
+  cto -- ri -- am
+  li -- be -- re -- mus
+  pa -- tri -- am. %103 finis
+}

@@ -3791,3 +3791,237 @@ CFiveBassFigures = \figuremode {
   r
   r %99 finis
 }
+
+CSixBassoContinuo = {
+  \relative c {
+    \clef bass
+    \twotwotime \key es \major \time 2/2 \tempoCSix
+    es4\fE r es r
+    es r es es
+    as r as, r
+    es' r es es
+    as, r b r %5
+    es es g es
+    b r b' r
+    es, r es' r
+    as, as b b,
+    es b es, r %10
+    es'\p r es r
+    es r es es
+    as, r b r
+    es r es es
+    as, r as a %15
+    b b\f b' as!
+    g\p g, r g
+    as as' es' es,
+    f d es g,
+    as b es\f f %20
+    g\p g, r g
+    as as' es' es,
+    f d es g,
+    as b es8( as)\f g( f)
+    es4 es es es %25
+    es es es es
+    as, as b b
+    es es es es
+    as, as as a
+    b b b' as! %30
+    g g, r g
+    as as' es' es,
+    f d es g,
+    as b es f
+    g g, r g %35
+    as as' es' es,
+    c d es g,
+    as b es, es'
+    b r b' r
+    es, r es' r %40
+    as, as b b,
+    es r es-! d-!
+    c-! c\pE es c
+    g' g, g' f
+    es g es c %45
+    g' g, g' f
+    es2 r4 es
+    f d h g'
+    c f, g g,
+    as as'\f g f %50
+    es2\p r4 es
+    f d h g'
+    c f, g g,
+    c as'(\f g) f
+    es es r es %55
+    es es r es
+    as, as b b
+    es es r es
+    as, as as a
+    b b b' as! %60
+    g g, r g
+    as as' es' es,
+    f d es g,
+    as b es f
+    g g, r g %65
+    as as' es' es,
+    c d es g,
+    as b es, es'
+    b r b' r
+    es, r es' r %70
+    as, as b b,
+    es es-! d-! c-!
+    b-\parenthesize-! f'-!\p b-! f-!
+    d f b f
+    d f b d, %75
+    es2 r4 es
+    b b d g
+    es c f f,
+    b r b\f c
+    d2\p r4 d %80
+    es d c b
+    a2 r4 a
+    b b' b, c
+    d2 r4 d
+    es d c b! %85
+    a c f es
+    d b d g
+    es d es f
+    b as!-!\f g-! f-!
+    es8 es es es es es es es %90
+    es es es es es es es es
+    as, as as as b b b b
+    es es es es es es es es
+    as, as as as as as a a
+    b b b b b' b as! as %95
+    g g g g g, g g g
+    as as as' as es' es es, es
+    f f d d es es g, g
+    as as b b es es f f
+    g g g g g, g g g %100
+    as as as' as es' es es, es
+    c c d d es es g, g
+    as as b b es b' g es
+    b4 r8. b16 b'4 r8. b16
+    es,4 r8. es16 es'4 r8. es16 %105
+    as,8 as as as b b b, b
+    es es es es es es es es
+    es es es es es es es es
+    es es es es es es es es
+    es es es es es es es es %110
+    es4 r es r
+    es r r2\fermata \bar "|." %112 finis
+  }
+}
+
+CSixBassFigures = \figuremode {
+  r1
+  r
+  r
+  r
+  r2 <6 4>4 <5 3> %5
+  r1
+  <7>2 <\t>
+  r1
+  r2 <6 4>4 <5 3>
+  r1 %10
+  r
+  r
+  <9 7>4 <8 6> <6 4> <5 3>
+  r1
+  r2 <6>4 <7> %15
+  <6 4>2 <5 3>4 <\t \t>
+  <6>2. <6 5->4
+  <9 4-> <8 3>2.
+  r4 <6 5>2 <6>4
+  <6 5> <7>2 <6>4 %20
+  <6>2. <6 5->4
+  <9 4-> <8 3>2.
+  r4 <6 5>2 <6>4
+  <6 5> <7>2 <6>8 q
+  r1 %25
+  r
+  <9 7>4 <8 6> <6 4> <5 3>
+  r1
+  r2 <6>4 <7>
+  <6 4>2 <5 3>4 <\t \t> %30
+  <6>2. <6 5->4
+  <9 4-> <8 3>2.
+  4 <6 5>2 <6>4
+  <6 5> <7>2 <6>4
+  <6>2. <6 5->4 %35
+  <9 4-> <8 3>2.
+  <6 4>4 <6 5>2 <6>4
+  <6 5> <7>2.
+  <7>2 <\t>
+  r1 %40
+  r2 <6 4>4 <5 3>
+  r2. <6!>4
+  r2 <6>
+  <6 4> <5 _!>4 <\t \t>
+  <6>1 %45
+  <6 4>2 <5 _!>4 <\t \t>
+  <6>2. <\t>4
+  <9> <5> <6 5> <7 _!>
+  r <6> <6 4> <5 _!>
+  <5 3>2. \once \bassFigureExtendersOn q4 %50
+  <6>2. <\t>4
+  <9> <5> <6 5> <7 _!>
+  r <6> <6 4> <5 _!>
+  r2 <6 _->4 <6>
+  r1 %55
+  r
+  <9 7>4 <8 6> <6 4> <5 3>
+  r1
+  r2 <6>4 <7>
+  <6 4> <5 3>2 <2>4 %60
+  <6>2. <6 5->4
+  <9 4-> <8 3>2.
+  r4 <6 5>2 <6>4
+  <6 5> <7>2 <6>4
+  <6>2. <6 5->4 %65
+  <9 4-> <8 3>2.
+  <6 4>4 <6 5>2 <6>4
+  <6 5> <7>2.
+  <7>2 <\t>
+  r1 %70
+  r2 <6 4>4 <5 3>
+  r2 <6 4>8 <\t 3> <6 _!>4
+  <5 3>1 \bassFigureExtendersOn
+  q
+  q2. q4 \bassFigureExtendersOff %75
+  r1
+  <6 4>2 <6>4 <5>
+  <6 5> <\t \t> <7 _!>2
+  <\t \t> <5>4 <6!>
+  <6>2. <6 _+>4 %80
+  <\t \t> q <5 3> <6>
+  <6>2. <6 5>4
+  <\t \t> <5>2 <6!>4
+  <6>2. <6! 5->4
+  <6> <6!>2 <\t>4 %85
+  <6 5> <\t \t> <7 _!> <4! 2>
+  <6>2 \once \bassFigureExtendersOn q4 <5>
+  r <6> <6 5> <_!>
+  r <2> <6> <6 _->
+  r1 %90
+  r
+  <9 7>4 <8 6> <6 4> <5 3>
+  r1
+  r2 <6>4 <7>
+  <6 4>2 <5 3>4 <\t \t> %95
+  <6>2 <6 5->
+  <9 4->4 <8 3>2.
+  4 <6 5>2 <6>4
+  <6 5>4 <7>2 <6>4
+  <6>2 <6 5-> %100
+  <9 4->4 <8 3>2.
+  <6 4>4 <6 5>2 <6>4
+  <6 5>4 <7> <5>4. \once \bassFigureExtendersOn q8
+  <7>2... \once \bassFigureExtendersOn q16
+  r1 %105
+  r2 <6 4>4 <5 3>
+  r2. <7 2>4
+  <8 3>2. <7 2>4
+  <8 3>2. <7 2>4
+  <8 3>2. <7 2>4 %110
+  <8 3>1
+  r %112 finis
+}

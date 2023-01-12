@@ -1309,3 +1309,99 @@ CFiveOboeI = {
     g4 r8 r4 r8\fermata \bar "|." %99 finis
   }
 }
+
+CSixOboeI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key es \major \time 2/2 \tempoCSix
+    R1
+    b'2\fE b4 b
+    c4. d8 es4 c
+    b2 b4 b
+    c2 b8 as g f %5
+    r4 g2 g4
+    as2 f
+    b g
+    c b8 g as f
+    \pa es4 b' es, \pd r %10
+    R1*14 %24
+    \pao es4.\fE f8 g4 g %25
+    g4. as8 b2
+    b8 as c as g4 f
+    g4. as8 b2
+    c8 d es c as4 g
+    g4. f8 f2 %30
+    es' des
+    des8 c es c b2
+    b8 as c as as g b g
+    g f as f \pao es4 r
+    es'2 des %35
+    des8 c es c b2
+    b8 as c as as g b g
+    g f as f \pao es4 g
+    as2 f
+    b g %40
+    c b8 g as f
+    \pao es4 r r2
+    g'1~\p
+    g~
+    g~ %45
+    g
+    R1*3
+    r4 es~\f es8 d es d %50
+    \pao c4 r r2
+    R1*2
+    r4 \pa c\fE b! d,
+    es4. \pd f8 g4 g %55
+    g4. as8 b2
+    b8 as c as g4 f
+    g4. as8 b2
+    c8 d es c as4 g
+    g4. f8 f2 %60
+    es' des
+    des8 c es c b2
+    b8 as c as as g b g
+    g f as f \pao es4 r
+    es'2 des %65
+    des8 c es c b2
+    b8 as c as as g b g
+    g f as f \pao es4 g
+    as2 f
+    b g %70
+    c b8 g as f
+    \pao es4 r r2
+    b'1~\p
+    b~
+    b2 r %75
+    R1*3
+    r2 b4\f a
+    b\pE r r2 %80
+    R1*2
+    r2 f'4 a,
+    b r r2
+    R1*5 %89
+    \pao es,4.\fE f8 g4 g %90
+    g4. as8 b2
+    b8 as c as g4 f
+    g4. as8 b2
+    c8 d es c as4 g
+    g4. f8 f2 %95
+    es' des
+    des8 c es c b2
+    b8 as c as as g b g
+    g f as f \pao es4 r
+    b''2 des, %100
+    des8 c es c b2
+    b8 as c as as g b g
+    g f as f \pao es4 g
+    as2 f
+    b g %105
+    c b8 g as f
+    \pao es4 r g as
+    b2 g4 as8 f
+    \pao es4 r g as
+    b2 g4 as8 f %110
+    \pao es4 r \pao es r
+    \pao es r r2\fermata \bar "|." %112 finis
+  }
+}

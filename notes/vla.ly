@@ -1971,3 +1971,122 @@ CFiveViola = {
     g,4 r8 r4 r8\fermata \bar "|." %99 finis
   }
 }
+
+CSixViola = {
+  \relative c' {
+    \clef alto
+    \twotwotime \key es \major \time 2/2 \tempoCSix
+    es4\fE r es r
+    es r es es
+    es r es r
+    es r es es
+    es r b b %5
+    b g b es
+    b r b r
+    b r b r
+    as as b b
+    es b es, r %10
+    es'\p r es r
+    es r es es
+    c r b r
+    b r es es
+    es r as, a %15
+    b b\f b' as!
+    g\p es r es
+    es2 es
+    c4 b b es
+    as, b es\f f %20
+    g\p g, r es'
+    es2 es
+    c4 b b es
+    as, b es, b'8\f as
+    g4 b b b %25
+    es es es es
+    c c b b
+    b es, es es'
+    es as, as a
+    b b b' as! %30
+    g g, r es'
+    es es es es
+    c b b es
+    as, b es f
+    g g, r es' %35
+    es es es es
+    c b b es
+    as, b es, b'
+    b r b r
+    b r b r %40
+    as as b b
+    es, r es'-! d-!
+    c c\p es c
+    g' g, g' f
+    es2. c4 %45
+    g' g, g g'
+    c,2 r4 c
+    c d2 h4
+    g r r g
+    as as'\f g f %50
+    es \pE r r c
+    c d2 h4
+    g r r g
+    c as'(\f g) f
+    es b r b %55
+    b es, r es'
+    c c b b
+    b es, r es'
+    es as, as a
+    b b b' as! %60
+    g g, r es'
+    es es es es
+    c b b es
+    as, b es f
+    g g, r es' %65
+    es es es es
+    c b b es
+    as, b es, b'
+    b b b b
+    b b b es %70
+    as, as b b
+    es, \parOn es'-\parenthesize-! d-! \parOff c-\parenthesize-!
+    b8 b\p b b b b b b
+    b b b b b b b b
+    b b b b b b b b %75
+    es, es es es es es es es
+    b' b b b b b b b
+    g' g g g f f f f
+    f f f f f\f f f f
+    b,\p d, d d d d d d %80
+    es es es es c' c b b
+    a a a a f' f f f
+    f f f f f f es es
+    d d d d as'! as as as
+    g g f f es es g g %85
+    f f f f c c c c
+    b b b b b b b b
+    b b d d c c es es
+    d d\f f f b, b b b
+    b b b b b b b b %90
+    b b b b b b es es
+    c c c c b b b b
+    b b b b b b es es
+    as, as as as c c c c
+    b b b b b b b b %95
+    es, es es es es' es es es
+    es es es es es es es es
+    c c b b b b es es
+    as, as b b es es f f
+    g es es es es es es es %100
+    es es es es es es es es
+    c c b b b b es es
+    as, as b b es, es b' b
+    b b b b b b b b
+    b b b b b b es es %105
+    as, as as as b b b b
+    es, es es es es es es es
+    es es es es es es es es
+    es es es es es es es es
+    es es es es es es es es %110
+    es4 r <es b'> r
+    q r r2\fermata \bar "|." %112 finis
+  }
+}
