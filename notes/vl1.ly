@@ -2085,3 +2085,70 @@ CSixViolinoI = {
     <es g,>4 r r2\fermata \bar "|." %112 finis
   }
 }
+
+CSevenViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoCSeven
+    c'2\fE g4
+    e'2 c4
+    f-! e-! d-!
+    h( c) r
+    f-!\p e-! d-! %5
+    h( c) r
+    g'-!\f g-! g-!
+    g g g
+    e \tuplet 3/2 4 { d8 c h a g fis }
+    g4 g8( a16 h c d e fis %10
+    g4) g g
+    g g g
+    e \tuplet 3/2 4 { d8 c h a g fis } \noBreak
+    g4 r r \bar ":|.|:"
+    g, g' f!\trill \noBreak %15
+    e g'2
+    e,4 g'2
+    f4\trill d r
+    g,, f' e\trill
+    d f'2 %20
+    e4( c') <fis, a,>
+    <g h, d,> r r
+    c,2 g4
+    e'2 c4
+    f-! e-! d-! %25
+    h( c) r
+    f\p e d
+    h( c) r
+    c'\f c c
+    c c c %30
+    a \tuplet 3/2 4 { g8 f e d c h }
+    c4 c8( d16 e f g a h
+    c4) c c
+    c c c
+    a \tuplet 3/2 4 { g8 f e d c h } \noBreak %35
+    c4 r r\fermata \bar ":|.|:"
+    \key f \major \tempoCSevenB c4(-\sempreP a) f' \noBreak
+    e( c) r
+    c( a) f'
+    e( c) r %40
+    c( a) es'
+    d( g,) d'
+    \appoggiatura d8 c4 b8 a g a \noBreak
+    f4 r r \bar ":|.|:"
+    a'8( b) c( d) c( d) \noBreak %45
+    c( g) g2
+    f8( g) a( b) a( b)
+    a( e) e2
+    d8( e) f( g) f( g)
+    f( c) c2 %50
+    \appoggiatura e8 d4 c8 b a g
+    f2( e4)
+    c'( a) f'
+    e( c) r
+    c( a) f' %55
+    e( c) r
+    c( a) es'
+    d( g,) d'
+    \appoggiatura d8 c4 b8 a g a
+    f4 r r \markMenuettoDaCapo \bar ":|." %60 finis
+  }
+}

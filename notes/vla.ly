@@ -2090,3 +2090,70 @@ CSixViola = {
     q r r2\fermata \bar "|." %112 finis
   }
 }
+
+CSevenViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 3/4 \tempoCSeven
+    c'4\fE c, r
+    c' c, r
+    c c a'
+    f( e) r
+    c\p c a' %5
+    f( e) r
+    g\f g c
+    h a g
+    c, d c
+    h g r %10
+    g' g e'
+    d c h
+    c, d d \noBreak
+    g d g, \bar ":|.|:"
+    g' r r \noBreak %15
+    g g g
+    g g g
+    g g g
+    g r r
+    g g g %20
+    g g g
+    g a h
+    c c, r
+    c' c, r
+    c c a' %25
+    f( e) r
+    c\p c a'
+    f( e) r
+    c'\f h a
+    g f e %30
+    f g g
+    g e r
+    c' h a
+    g f e
+    f g g, \noBreak %35
+    c g c\fermata \bar ":|.|:"
+    \key f \major \tempoCSevenB f4-\sempreP r r \noBreak
+    g( c,) b'
+    a( f) r
+    g( c,) b' %40
+    a( f) f,
+    b r b
+    c d e \noBreak
+    f c f, \bar ":|.|:"
+    a'8( b) c( d) c( d) \noBreak %45
+    c( g) g2
+    f8( g) a( b) a( b)
+    a( e) e2
+    d8( e) f( g) f( g)
+    f( c) c2 %50
+    b4 b c8 d
+    c4 c, r
+    f' r r
+    g( c,) b'
+    a( f) r %55
+    g( c,) b'
+    a( f) r
+    b, r b
+    c d e
+    f c f, \markMenuettoDaCapo \bar ":|." %60 finis
+  }
+}

@@ -1405,3 +1405,49 @@ CSixOboeI = {
     \pao es r r2\fermata \bar "|." %112 finis
   }
 }
+
+CSevenOboeI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoCSeven
+    g''2.\fE
+    e
+    f4 e d
+    h( c) r
+    f\p e d %5
+    h( c) r
+    g'\f fis e
+    d c h
+    e h a
+    \pa g g \pd r %10
+    g' fis e
+    d c h
+    e h a \noBreak
+    \pao g r r \bar ":|.|:"
+    R2. \noBreak %15
+    e4 g'2
+    e,4 g'2
+    f4 d d
+    d r r
+    f, f'2 %20
+    e4 c' fis,
+    g r r
+    g2.
+    e
+    f!4 e d %25
+    h( c) r
+    f\p e d
+    h( c) r
+    \pao c\f c c
+    c c c %30
+    c8. f16 e4 d
+    \pa c c \pd r
+    \pao c c c
+    c c c
+    c8. f16 e4 d \noBreak %35
+    \pao c r r\fermata \bar ":|.|:"
+    \key f \major \tempoCSevenB
+      R2.*8 \bar ":|.|:" %44
+    R2.*16 \markMenuettoDaCapo \bar ":|." %60 finis
+  }
+}

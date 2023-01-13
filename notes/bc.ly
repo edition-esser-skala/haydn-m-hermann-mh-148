@@ -4025,3 +4025,133 @@ CSixBassFigures = \figuremode {
   <8 3>1
   r %112 finis
 }
+
+CSevenBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoCSeven
+    c'4\fE c, r
+    c' c, r
+    c' c c
+    c c c,
+    c'\p c c %5
+    c c c,
+    e'\f d c
+    h a g
+    c, d c
+    h g r %10
+    e'' d c
+    h a g
+    c, d d \noBreak
+    g d g, \bar ":|.|:"
+    g' r r \noBreak %15
+    g g g
+    g g g
+    g g g
+    g r r
+    g g g %20
+    g g g
+    g-! a-! h-!
+    c c, r
+    c' c, r
+    c' c c %25
+    c c c,
+    c'\p c c
+    c c c,
+    a'\f g f
+    e d c %30
+    f g f
+    e c r
+    a' g f
+    e d c
+    f g g, \noBreak %35
+    c g c\fermata \bar ":|.|:"
+    \key f \major \tempoCSevenB f4-\sempreP r r \noBreak
+    g( c,) b'
+    a( f) r
+    g( c,) b' %40
+    a( f) f,
+    b r b
+    a b c \noBreak
+    f c f, \bar ":|.|:"
+    f'' f f \noBreak %45
+    e e e
+    d d d
+    c c c
+    b b b
+    a a a %50
+    b b b
+    c c, r
+    f r r
+    g( c,) b'
+    a( f) r %55
+    g( c,) b'
+    a( f) f,
+    b r b
+    a b c
+    f c f, \markMenuettoDaCapo \bar ":|." %60 finis
+  }
+}
+
+CSevenBassFigures = \figuremode {
+  r2.
+  r
+  <6 4>4 <5 3> <4 2>
+  <9 4> <8 3>2
+  <6 4>4 <5 3> <4 2> %5
+  <9 4> <8 3>2
+  <10 _>4 \bassFigureExtendersOn <10 3+> <10 3\!>
+  q q q \bassFigureExtendersOff
+  r <6 4> <6 4\+>
+  <6>2. %10
+  <10 _>4 \bassFigureExtendersOn <10 3+> <10 3\!>
+  q q q \bassFigureExtendersOff
+  r <6 4> <5 _+>
+  r2.
+  r %15
+  <6 4>
+  <\t \t>
+  <7 5>
+  <\t \t>
+  <\t \t> %20
+  <6 4>2 <7\\ 4>4
+  <8 3>2.
+  r
+  r
+  <6 4>4 <5 3> <4 2> %25
+  <9 4> <8 3>2
+  <6 4>4 <5 3> <4 2>
+  <9 4> <8 3>2
+  <10 _>4 \bassFigureExtendersOn <10 3\!> q
+  q q q \bassFigureExtendersOff %30
+  r <6 4> q
+  <6>2.
+  <10 _>4 \bassFigureExtendersOn <10 3\!> q
+  q q q \bassFigureExtendersOff
+  r <6 4> <5 3> %35
+  r2.
+  r
+  <6>2 \once \bassFigureExtendersOn q4
+  q2.
+  q2 \once \bassFigureExtendersOn q4 %40
+  q2 <7->4
+  r2 <6>4
+  q2.
+  r
+  r %45
+  q
+  r
+  q
+  r
+  q %50
+  r
+  <6 4>2 <5 3>4
+  r2.
+  <6>2 \once \bassFigureExtendersOn q4
+  q2. %55
+  q2 \once \bassFigureExtendersOn q4
+  q2 <7->4
+  r2 <6>4
+  q2.
+  r %60 finis
+}

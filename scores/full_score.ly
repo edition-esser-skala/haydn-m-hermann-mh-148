@@ -1523,78 +1523,127 @@
   %     \midi { \tempo 4. = 90 }
   %   }
   % }
+  % \bookpart {
+  %   \section "3·6" "Coro: Magne Deus Teutonum"
+  %   \addTocEntry
+  %   \paper {
+  %     top-system-spacing.basic-distance = #10
+  %     top-system-spacing.minimum-distance = #10
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #10
+  %     markup-system-spacing.minimum-distance = #10
+  %     system-system-spacing.basic-distance = #17
+  %     system-system-spacing.minimum-distance = #17
+  %     systems-per-page = #2
+  %     indent = 2\cm
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+  %           \partCombine #'(0 . 10) \CSixOboeI \CSixOboeII
+  %         >>
+  %       >>
+  %       \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "E" "flat" "1, 2" }
+  %           % \transpose c es
+  %           \partCombine #'(0 . 10) \CSixCornoI \CSixCornoII
+  %         >>
+  %       >>
+  %       \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+  %         \new GrandStaff \with { \setGroupDistance #11 #11 } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \CSixViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \CSixViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \CSixViola
+  %         }
+  %       >>
+  %       \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
+  %         \set ChoirStaff.instrumentName = \markup { \rotate #90 \center-column { "Chorus Bardorum" "Chorus Ducum et Militum" } \hspace #10 }
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \CSixTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \CSixTenoreLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \CSixBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \CSixBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \CSixBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \CSixBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 2 = 55 }
+  %   }
+  % }
   \bookpart {
-    \section "3·6" "Coro: Magne Deus Teutonum"
+    \section "3·7" "Menuetto"
     \addTocEntry
-    \paper {
-      top-system-spacing.basic-distance = #10
-      top-system-spacing.minimum-distance = #10
-      top-markup-spacing.basic-distance = #0
-      top-markup-spacing.minimum-distance = #0
-      markup-system-spacing.basic-distance = #10
-      markup-system-spacing.minimum-distance = #10
-      system-system-spacing.basic-distance = #17
-      system-system-spacing.minimum-distance = #17
-      systems-per-page = #2
-      indent = 2\cm
-    }
+    \paper { systems-per-page = #2 }
     \score {
       <<
-        \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+        \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
-            \partCombine #'(0 . 10) \CSixOboeI \CSixOboeII
+            \partCombine #'(0 . 10) \CSevenOboeI \CSevenOboeII
           >>
         >>
-        \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+        \new StaffGroup <<
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "E" "flat" "1, 2" }
-            % \transpose c es
-            \partCombine #'(0 . 10) \CSixCornoI \CSixCornoII
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "C" "" "1, 2" }
+            % \transpose c c
+            \partCombine #'(0 . 10) \CSevenCornoI \CSevenCornoII
           >>
         >>
-        \new StaffGroup \with { \setGroupDistance #11 #11 } <<
-          \new GrandStaff \with { \setGroupDistance #11 #11 } <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \CSixViolinoI
+              \CSevenViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \CSixViolinoII
+              \CSevenViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \CSixViola
+            \CSevenViola
           }
-        >>
-        \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
-          \set ChoirStaff.instrumentName = \markup { \rotate #90 \center-column { "Chorus Bardorum" "Chorus Ducum et Militum" } \hspace #10 }
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \CSixTenore }
-          }
-          \new Lyrics \lyricsto Tenore \CSixTenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \CSixBasso }
-          }
-          \new Lyrics \lyricsto Basso \CSixBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \CSixBassoContinuo
+            \CSevenBassoContinuo
           }
         >>
-        \new FiguredBass { \CSixBassFigures }
+        \new FiguredBass { \CSevenBassFigures }
       >>
       \layout { }
-      \midi { \tempo 2 = 55 }
+      \midi { \tempo 2. = 60 }
     }
   }
 }

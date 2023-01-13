@@ -1227,3 +1227,58 @@ CSixCornoI = {
     c4 r r2\fermata \bar "|." %112 finis
   }
 }
+
+CSevenCornoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoCSeven
+    c'4\fE r r
+    c r r
+    c c c
+    d( c) r
+    c\p c c %5
+    d( c) r
+    g'\f r r
+    g r r
+    R2.*2 %10
+    g4 g g
+    g2 r4
+    g g fis \noBreak
+    g r r \bar ":|.|:"
+    g g g \noBreak %15
+    g r r
+    g r r
+    g r r
+    g g g
+    g r r %20
+    g r r
+    g \pa g8 f e d \pd
+    c4 r r
+    c r r
+    c c c %25
+    d( c) r
+    R2.
+    d4(\p c) r
+    c\f r r
+    c r r %30
+    r r d
+    e g r
+    c, c c
+    c2 r4
+    c e d \noBreak %35
+    c r r\fermata \bar ":|.|:"
+    \tempoCSevenB c2.~-\sempreP \noBreak
+    c~
+    c~
+    c~ %40
+    c4 r r
+    R2.*3 \bar ":|.|:"
+    R2.*8 %52
+    c2.~
+    c~
+    c~ %55
+    c~
+    c4 r r
+    R2.*3 \markMenuettoDaCapo \bar ":|.|:" %60 finis
+  }
+}

@@ -2085,3 +2085,70 @@ CSixViolinoII = {
     <es g,>4 r r2\fermata \bar "|." %112 finis
   }
 }
+
+CSevenViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoCSeven
+    c'2\fE g4
+    g2 e4
+    a-! g-! f-!
+    d( e) r
+    a-!\p g-! f-!
+    d( e) r
+    g'-!\f g-! g-!
+    g g g
+    e \tuplet 3/2 4 { d8 c h a g fis }
+    g4 g8( a16 h c d e fis %10
+    g4) g g
+    g g g
+    e \tuplet 3/2 4 { d8 c h a g fis } \noBreak
+    g4 r r \bar ":|.|:"
+    g, e' d \noBreak %15
+    c e'2
+    c,4 e'2
+    d4 h r
+    g, d' c
+    h d'2 %20
+    c4( e) <c d,>
+    <h d, g,> r r
+    c2 g4
+    g2 e4
+    \parOn a-\parenthesize-! g-! \parOff f-\parenthesize-! %25
+    d( e) r
+    a\p g f
+    d( e) r
+    c'\f c c
+    c c c %30
+    a' \tuplet 3/2 4 { g8 f e d c h }
+    c4 c,8( d16 e f g a h
+    c4) c c
+    c c c
+    a' \tuplet 3/2 4 { g8 f e d c h } \noBreak %35
+    c4 r r\fermata \bar ":|.|:"
+    \key f \major \tempoCSevenB c,8-\sempreP f a f a f \noBreak
+    b, e g e g e
+    c f a f a f
+    b, e g e g e %40
+    c f a f c a
+    b a b c d e
+    f c' b a g a \noBreak
+    f4 r r \bar ":|.|:"
+    c' a f \noBreak %45
+    g c8.\trill h16 c4
+    a f d
+    e a8.\trill g16 a4
+    f d b
+    c f8.\trill e16 f4 %50
+    \appoggiatura g8 f4 e8 d c b
+    a2( g4)
+    c8 f a f a f
+    b, e g e g e
+    c f a f a f %55
+    b, e g e g e
+    c f a f c a
+    b a b c d e
+    f c' b a g a
+    f4 r r \markMenuettoDaCapo \bar ":|." %60 finis
+  }
+}

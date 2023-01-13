@@ -24,6 +24,10 @@ markDaCapoSASF = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
   \mark \markup \remark \concat { "Da capo sino al segno " \musicglyph "scripts.ufermata" }
 }
+markMenuettoDaCapo = {
+  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \mark \markup \remark "Menuetto da capo"
+}
 
 \layout {
   \set Score.doubleRepeatBarType = #":|.|:"
@@ -73,6 +77,8 @@ tempoCThree = \tempoMarkup "Presto assai"
 tempoCFour = \tempoMarkup "Andantino"
 tempoCFive = \tempoMarkup "Vivace"
 tempoCSix = \tempoMarkup "Andante"
+tempoCSeven = \tempoMarkup "[Allegro]"
+  tempoCSevenB = \tempoMarkup "Trio"
 
 
 \include "notes/fl1.ly"
