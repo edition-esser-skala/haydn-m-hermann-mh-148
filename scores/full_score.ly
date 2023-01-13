@@ -1692,53 +1692,91 @@
   %     \midi { \tempo 4 = 80 }
   %   }
   % }
+  % \bookpart {
+  %   \section "3·9" "Allegro molto"
+  %   \addTocEntry
+  %   \paper { systems-per-page = #2 }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+  %           \partCombine #'(0 . 10) \CNineOboeI \CNineOboeII
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "A" "" "1, 2" }
+  %           % \transpose c a
+  %           \partCombine #'(0 . 10) \CNineCornoI \CNineCornoII
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \CNineViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \CNineViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \CNineViola
+  %         }
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \CNineBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \CNineBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4. = 90 }
+  %   }
+  % }
+  % \part "part_four" "4" "Le Marcie"
   \bookpart {
-    \section "3·9" "Allegro molto"
+    \section "4·1" "[First movement]"
     \addTocEntry
-    \paper { systems-per-page = #2 }
+    \paper {
+      system-system-spacing.basic-distance = #22
+      system-system-spacing.minimum-distance = #22
+      systems-per-page = #3
+      indent = 1.5\cm
+    }
     \score {
       <<
         \new StaffGroup <<
-          \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
-            \partCombine #'(0 . 10) \CNineOboeI \CNineOboeII
-          >>
-        >>
-        \new StaffGroup <<
-          \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "A" "" "1, 2" }
-            % \transpose c a
-            \partCombine #'(0 . 10) \CNineCornoI \CNineCornoII
-          >>
-        >>
-        \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "vl"
+            \set GrandStaff.instrumentName = \transposedNameShort "piff" "C" ""
             \new Staff {
               \set Staff.instrumentName = "1"
-              \CNineViolinoI
+              \DOnePifferoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \CNineViolinoII
+              \DOnePifferoII
             }
           >>
-          \new Staff {
-            \set Staff.instrumentName = "vla"
-            \CNineViola
-          }
         >>
-        \new StaffGroup <<
-          \new Staff {
-            \set Staff.instrumentName = "bc"
-            % \transpose c c,
-            \CNineBassoContinuo
-          }
-        >>
-        \new FiguredBass { \CNineBassFigures }
+        \new Staff \with { \smallStaffDistance } {
+          \set Staff.instrumentName = \transposedNameShort "tr" "C" ""
+          \DOneTromba
+        }
+        \new Staff {
+          \set Staff.instrumentName = \transposedNameShort "tamb" "C" ""
+          \DOneTamburo
+        }
       >>
       \layout { }
-      \midi { \tempo 4. = 90 }
+      \midi { \tempo 2 = 110 }
     }
   }
 }
