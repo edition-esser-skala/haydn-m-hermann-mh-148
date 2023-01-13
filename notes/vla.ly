@@ -2157,3 +2157,72 @@ CSevenViola = {
     f c f, \markMenuettoDaCapo \bar ":|." %60 finis
   }
 }
+
+CEightViola = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key a \major \time 2/4 \tempoCEight
+    a8-!\f e-!\p a-! cis-!
+    h4 r
+    h8\f e,\p h' d
+    cis4 r
+    a'8\f a,\p cis e %5
+    fis fis fis fis
+    fis fis fis fis
+    \appoggiatura cis16 h8 a16 gis gis8 r
+    e'\f e\p e e
+    e e e e %10
+    e\f e\p e e
+    e e e e
+    a,\f a'\p a a
+    a,\f a'\p a a
+    a d, e e %15
+    a e a, r
+    h16\f h h h h8 r
+    a'16 a a a gis8 r
+    e16 e h' h a8 r
+    fis16 fis fis fis h8 h, %20
+    e\p gis e gis
+    fis dis r h
+    e gis e gis
+    fis dis r h
+    e e h h \noBreak %25
+    gis4 r \bar ":|.|:"
+    <gis e'>2~ \noBreak
+    q
+    <a e'>~
+    q %30
+    <h e>
+    <gis e'>
+    <a e'>
+    <e e'>
+    a8\f a\p a a %35
+    a a gis! gis
+    a\f a\p a a
+    a'4(\ppE gis!8) r
+    e,\f e\p e e
+    e e e e %40
+    e\f e\p e e
+    e e e e
+    a\f a'\p a a
+    a,\f a'\p a a
+    a a, d e %45
+    a e a, r
+    e'16\f e e e e8 r
+    a16 a a a a8 r
+    fis16 fis fis fis fis8 r
+    h,16 h h h e8 e, %50
+    a-!\p cis-! a-! cis-!
+    h gis r e
+    a cis a cis
+    h gis r e
+    e' cis e cis %55
+    d fis d fis
+    a a, e' e
+    cis r cis16\f cis cis cis
+    e8 r e16\p e e e
+    e8 r cis16\f cis cis cis %60
+    e8 r e16\p e e d
+    \appoggiatura d4 cis4.^\critnote r8\fermata \bar ":|." %62 finis
+  }
+}

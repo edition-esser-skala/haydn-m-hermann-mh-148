@@ -2152,3 +2152,72 @@ CSevenViolinoI = {
     f4 r r \markMenuettoDaCapo \bar ":|." %60 finis
   }
 }
+
+CEightViolinoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key a \major \time 2/4 \tempoCEight
+    cis'4\f \appoggiatura d16 cis8\p h16 a
+    gis8-! a-! h-! cis-!
+    d4\f \appoggiatura e16 d8\p cis16 h
+    \parOn a8-\parenthesize-! h-! cis-! \parOff d-\parenthesize-!
+    e4\f \appoggiatura fis16 e8\p d16 cis %5
+    \appoggiatura cis h ais h cis \appoggiatura e d cis d e
+    fis e d e d cis h a
+    a( gis) cis( h) h8 r
+    cis4\f \appoggiatura d16 cis8\p h16 a
+    gis8-! a-! h-! cis-! %10
+    d4\f \appoggiatura e16 d8\p cis16 h
+    \parOn a8-\parenthesize-! h-! cis-! \parOff d-\parenthesize-!
+    e4\f \appoggiatura fis16 e8\p d16 cis
+    a'4\f \appoggiatura h16 a8\p gis16 fis
+    \appoggiatura fis e8 fis16 d \appoggiatura d cis8 d16 h %15
+    a8 e cis r
+    e'16\f e e e \appoggiatura e dis8\p cis16 h
+    fis'\f fis fis fis \appoggiatura fis e8\p dis16 e
+    gis\f gis gis gis \appoggiatura gis fis8\p eis16 fis
+    cis'(\f a) fis e \appoggiatura e8 dis4 %20
+    h'8-!\p h-! h-! h-!
+    h16( cis) h a gis fis e dis
+    h'8 h h h
+    \once \slurDashed h16( cis) h a gis fis e dis
+    e h e cis h gis a fis \noBreak %25
+    e8 h e r \bar ":|.|:"
+    h'16-!-\markup "staccato" gis-! e-! gis-! h-! gis-! cis-! a-! \noBreak
+    d! h gis h e, d cis h
+    cis a e' cis a' e cis' a
+    e' cis a' e a e cis a %30
+    gis e a fis h gis cis a
+    d h gis h d h gis d
+    cis e a cis e, a cis e
+    \appoggiatura d cis8 h16 cis h8 r
+    c4\f \appoggiatura d16 c8\p h16 a %35
+    f'( e) e( dis) dis( e) e( d)
+    c4\f \appoggiatura d16 c8\p h16 a
+    dis4(\pp e8) r
+    cis,!4\f \appoggiatura d16 cis8\p h16 a
+    \parOn gis8-\parenthesize-! a-! h-! \parOff cis-\parenthesize-! %40
+    d4\f \appoggiatura e16 d8\pE cis16 h
+    \parOn a8-\parenthesize-! h-! cis-! \parOff d-\parenthesize-!
+    e4\f \appoggiatura fis16 e8\p d16 cis
+    a'4\f \appoggiatura h16 a8\p gis16 fis
+    e( a) cis-! e-! \appoggiatura e d8 cis16 h %45
+    a8 e cis r
+    a''16\f a a a \appoggiatura a gis8\p fis16 e
+    g\f g g g \appoggiatura g fis8\p e16 d
+    e\f e e e \appoggiatura e d8\p cis16 h
+    fis'(\f d) h-! a-! \appoggiatura a8 gis4 %50
+    e'8-!\p e-! e-! e-!
+    e16( fis) e d cis h a gis
+    e'8 e e e
+    \once \slurDashed e16( fis) e d cis h a gis
+    a'8 a a a %55
+    a16( h a gis) a( h a gis)
+    a( e) a-! fis-! e( cis) d-! h-!
+    a8 r a16\f a a a
+    <h e,>8. cis16\p \appoggiatura e d8 cis16 h
+    \appoggiatura h8 cis4 a16\f a a a %60
+    <h e,>8. cis16\p \appoggiatura e d8 cis16 h
+    \appoggiatura h4 a4. r8\fermata \bar ":|." %62 finis
+  }
+}

@@ -1451,3 +1451,56 @@ CSevenOboeI = {
     R2.*16 \markMenuettoDaCapo \bar ":|." %60 finis
   }
 }
+
+CEightOboeI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key a \major \time 2/4 \tempoCEight
+    e'2~\p
+    e
+    e~
+    e
+    cis4 r %5
+    R2*3
+    e2~\pE
+    e %10
+    e~
+    e
+    e
+    fis
+    \appoggiatura fis16 e8 fis16 d \appoggiatura d cis8 d16 h %15
+    \pao a4 r
+    h16\f h h h h8 r
+    dis16 dis dis dis \appoggiatura dis e8 r
+    e16 e gis gis \appoggiatura gis fis8 r
+    fis16 fis fis fis \appoggiatura e8 dis4 %20
+    R2*6 \bar ":|.|:" %26
+    r4 \mvTr h8\pE-\markup \remark "staccato" cis
+    d! r r4
+    r a8 cis
+    e r r4 %30
+    r h8 cis
+    d r r4
+    cis e
+    \appoggiatura d16 cis8 h16 cis h8 r
+    R2*4 %38
+    e2~\pE
+    e %40
+    e~
+    e
+    e
+    fis
+    a8 cis,16 e \appoggiatura e d8 cis16 h %45
+    \pao a4 r
+    e'16\f e e e e8 r
+    e16 e e e d8 r
+    cis16 cis cis cis h8 r
+    h16 h h a! \appoggiatura a8 gis4 %50
+    R2*7 %57
+    r4 \pa a16\fE a a a \pd
+    h8 r r4
+    r \pa a16\fE a a a \pd %60
+    h8 r r4
+    R2\fermata \bar ":|." %62 finis
+  }
+}

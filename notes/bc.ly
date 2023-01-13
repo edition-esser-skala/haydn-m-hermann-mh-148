@@ -4155,3 +4155,137 @@ CSevenBassFigures = \figuremode {
   q2.
   r %60 finis
 }
+
+CEightBassoContinuo = {
+  \relative c {
+    \clef bass
+    \twofourtime \key a \major \time 2/4 \tempoCEight
+    a'8-!\f e-!\p a-! cis-!
+    h4 r
+    h8\f e,\p h' d
+    cis4 r
+    a8\f e\p cis a %5
+    d d d d
+    d d d dis
+    e e gis e
+    a\f e\p a cis
+    h4 r %10
+    h8\f e,\p h' d
+    cis4 r
+    a,8\f a'\p a a
+    a,\f a'\p a a
+    a d, e e %15
+    a e a, r
+    e'16\f e e e fis8 r
+    dis16 dis h h gis'8 r
+    gis16 gis e e a8 r
+    a16 a ais ais h cis h a %20
+    gis8\p e gis e
+    dis fis h, a'
+    gis e gis e
+    dis fis h, a'
+    gis a h h, \noBreak %25
+    e h e, r \bar ":|.|:"
+    e'4 r \noBreak
+    r8 e gis e
+    a4 r
+    r8 a, cis a %30
+    e'4 r
+    r8 e gis e
+    a e cis a
+    e'4 r8 e
+    a\f a\p a a %35
+    a a gis! gis
+    a\f a\p f f
+    e4\ppE r
+    a,8\f e\p a cis!
+    h4 r %40
+    h8\f e,\p h' d
+    cis4 r
+    a8\f a'\p a a
+    a,\f a'\p a a
+    a a, d e %45
+    a e a, r
+    a'16\f a a a h8 r
+    cis16 cis cis cis d8 r
+    ais,16 ais ais ais h8 r
+    d16 d dis dis e fis e d %50
+    cis8\p a'-! cis-! a-!
+    gis h e, d'
+    cis a cis a
+    gis h e, d'
+    cis e cis g %55
+    fis a fis d
+    cis d e e,
+    a r a'16\f a a a
+    e8 r e16\p e e e
+    a,8 r a'16\f a a a %60
+    e8 r e16\p e e e
+    a,8 e' a r\fermata \bar ":|." %62 finis
+  }
+}
+
+CEightBassFigures = \figuremode {
+  <5>4. \once \bassFigureExtendersOn q8
+  <6>2
+  <6>4. \once \bassFigureExtendersOn q8
+  q2
+  <5>4. \once \bassFigureExtendersOn q8 %5
+  <6>2
+  <\t>4. <5>8
+  r2
+  <5>4. \once \bassFigureExtendersOn q8
+  <6>2 %10
+  <6>4. \once \bassFigureExtendersOn q8
+  q2
+  r
+  <6 4>
+  <5 3>8 <6> <6 4> <5 3> %15
+  r2
+  r4 <6\\>
+  <6 5>8 <\t \t> <6>4
+  q q
+  q8 <\t> <6 4> <5 _+> %20
+  <6>4. \once \bassFigureExtendersOn q8
+  <6 5>4. \once \bassFigureExtendersOn q8
+  <6>4. \once \bassFigureExtendersOn q8
+  <6 5>4. \once \bassFigureExtendersOn q8
+  <6>4 <6 4>8 <5 _+> %25
+  r2
+  r
+  r8 <7!>4 \once \bassFigureExtendersOn q8
+  r2
+  r %30
+  r
+  r8 <7>4 \once \bassFigureExtendersOn q8
+  r2
+  <6 4>4 <5 3>
+  <_!>2 %35
+  <\t>4 <6>
+  <_!> <5!>
+  <7\\ 6! 4> <8 5 _+>
+  <_+>4. \once \bassFigureExtendersOn q8
+  <6>2 %40
+  q4. \once \bassFigureExtendersOn q8
+  q2
+  r
+  <6 4>
+  <5 3>4 <6> %45
+  r2
+  r4 <6>
+  <6 5!>2
+  <6 5>
+  <6>8 <\t> <6 4!> <5 3> %50
+  <6>4. \once \bassFigureExtendersOn q8
+  <6 5>4. \once \bassFigureExtendersOn q8
+  <6>4. \once \bassFigureExtendersOn q8
+  <6 5>4. \once \bassFigureExtendersOn q8
+  <6>4. \once \bassFigureExtendersOn q8 %55
+  <6>4. \once \bassFigureExtendersOn q8
+  q4 <6 4>8 <5 _+>
+  r2
+  r4 <5 3>
+  <\t \t>8 <5>4. %60
+  r4 <5 3>
+  <\t \t> <5> %62 finis
+}

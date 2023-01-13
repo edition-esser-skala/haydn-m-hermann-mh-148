@@ -79,6 +79,7 @@ tempoCFive = \tempoMarkup "Vivace"
 tempoCSix = \tempoMarkup "Andante"
 tempoCSeven = \tempoMarkup "[Allegro]"
   tempoCSevenB = \tempoMarkup "Trio"
+tempoCEight = \tempoMarkup "Andante"
 
 
 \include "notes/fl1.ly"
