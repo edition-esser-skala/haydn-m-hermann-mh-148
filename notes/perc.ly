@@ -107,3 +107,35 @@ DTwoTamburoVelato = {
     c r\fermata \bar "|." %29 finis
   }
 }
+
+DThreeTamburino = {
+  \relative c' {
+    \clef percussion
+    \twofourtime \key c \major \time 2/4 \tempoDThree
+    \partial 4 s4^\markup \remark "al suo piacer" s2*15 %15
+    s4 \bar ":|." %16 finis
+  }
+}
+
+DThreeTamburo = {
+  \relative c {
+    \clef bass
+    \twofourtime \key c \major \time 2/4 \tempoDThree
+    \partial 4 c8\fE c c r c c
+    c r c c
+    c r c r
+    c r c c
+    c c16 c c8 c %5
+    c c16 c c8 c
+    c c16 c c8 c16 c \noBreak
+    c8 r \bar ":|.|:" c c \noBreak
+    c r c r \noBreak
+    c r c c %10
+    c r c c
+    c r c c
+    c c c c
+    c r c32 c c c c c c c
+    c8 r c32 c c c c c c c %15
+    c8 r \bar ":|." %16 finis
+  }
+}

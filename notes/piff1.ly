@@ -44,3 +44,26 @@ DTwoPifferoI = {
     h r\fermata \bar "|." %29 finis
   }
 }
+
+DThreePifferoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoDThree
+    \partial 4 c'8-!\fE e-! d( g,) d'-! f-!
+    e( c) e-! g-!
+    \appoggiatura g16 f8 r \appoggiatura f16 e8 r
+    \appoggiatura e16 d8 r g16 f e d
+    c8 r g'16 f e d %5
+    c8 r g'16 f e d
+    c8 c c c \noBreak
+    c r \bar ":|.|:" g'-! c-! \noBreak
+    g4 f \noBreak
+    e8( g) g-! c-! %10
+    g-! g-! f-! f-!
+    e( g) g-! c-!
+    g g g16 a g f
+    e8( g) g16 f e d
+    c8 r g'16 f e d %15
+    c8 r \bar ":|." %16 finis
+  }
+}
