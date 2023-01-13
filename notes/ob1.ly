@@ -1604,3 +1604,35 @@ CNineOboeI = {
     a4 a'8 a r\fermata \bar ":|." %103 finis
   }
 }
+
+DTwoOboeI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key d \major \time 2/2 \tempoDTwo
+    \partial 4 r4 R1*3
+    r2 r4 \bar ":|.|:" r
+    R1*3 %7
+    r2 r4 \bar ":|:" h''4\fE
+    h a2 g4
+    \appoggiatura a8 g4 fis2 d4 %10
+    e g2 cis,4
+    \appoggiatura cis2 d2. h'4
+    h a2 g4
+    \appoggiatura a8 g4 fis2 d4
+    e g2 cis,4 %15
+    \appoggiatura cis2 d2. d4
+    e8 cis e cis d4 fis
+    g8 e g e fis4 a
+    g8 a h g e fis g e
+    e2( d4) d %20
+    e8 cis e cis d4 fis
+    g8 e g e fis4 a
+    g8 a h g e fis g e
+    d4 a' a2~
+    a8 fis a fis g e g e %25
+    fis4 a a2~
+    a8 fis a fis g e g e
+    d4 a fis a
+    d,2 r\fermata \bar "|." %29 finis
+  }
+}

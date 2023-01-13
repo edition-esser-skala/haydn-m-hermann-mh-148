@@ -34,6 +34,13 @@ DTwoPifferoI = {
     d4 \tuplet 3/2 4 { f8 g f } e4 a %5
     g4.\trill f8 e4 e
     f4.\trill e8 f4 d
-    e2 r4\fermata \bar ":|." %8 finis
+    e2 r4 \bar ":|." r
+    R1*15 %23
+    r2 r4 g
+    d2 c' %25
+    h r4 g
+    d2 c'
+    h h
+    h r\fermata \bar "|." %29 finis
   }
 }

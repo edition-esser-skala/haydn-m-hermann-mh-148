@@ -78,3 +78,35 @@ BTenFlautoIeII = {
     g r16\fermata \bar ":|." %16 finis
   }
 }
+
+DTwoFlautoIeII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key d \major \time 2/2 \tempoDTwo
+    \partial 4 r4 R1*3
+    r2 r4 \bar ":|.|:" r
+    R1*3 %7
+    r2 r4 \bar ":|:" r
+    r a''2\fE a4~
+    a d2 d4
+    h2 a8 g fis e
+    \appoggiatura e2 d2. r4
+    r a'2 a4~
+    a d2 d4
+    h2 a8 g fis e
+    \appoggiatura e2 d2. r4
+    a'1
+    a\trill
+    h2 a4 g
+    g2( fis4) r
+    a1
+    a\trill
+    h2 a4 g
+    fis2 r
+    a1
+    a2 r
+    a1
+    a4 a d a
+    d2 r\fermata \bar "|."
+  }
+}

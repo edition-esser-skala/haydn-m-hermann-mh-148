@@ -1782,35 +1782,64 @@
   \bookpart {
     \section "4·2" "[Second movement]"
     \addTocEntry
-    \paper {
-      systems-per-page = #1
-      indent = 1.5\cm
-    }
+    \paper { indent = 1.5\cm }
     \score {
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
+          \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = \transposedNameShort "piff" "G" ""
             \new Staff {
               \set Staff.instrumentName = "1"
+              % \transpose c g
               \DTwoPifferoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
+              % \transpose c g
               \DTwoPifferoII
             }
           >>
+          \new Staff \with { \smallStaffDistance } {
+            \set Staff.instrumentName = "fl"
+            \DTwoFlautoIeII
+          }
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "ob"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \DTwoOboeI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \DTwoOboeII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "fag"
+            \DTwoFagotto
+          }
         >>
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "G" "" "1, 2" }
-              \partCombine \DTwoCornoI \DTwoCornoII
+            % \transpose c g
+            \partCombine \DTwoCornoI \DTwoCornoII
           >>
         >>
-        \new Staff {
-          \set Staff.instrumentName = "tamb"
-          \DTwoTamburo
-        }
+        \new StaffGroup <<
+          \new Staff {
+            \set Staff.instrumentName = "tri"
+            \DTwoTriangolo
+          }
+          \new Staff {
+            \set Staff.instrumentName = "tamb"
+            \DTwoTamburo
+          }
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "tamb" "velato" }
+            \DTwoTamburoVelato
+          }
+        >>
       >>
       \layout { }
       \midi { \tempo 2 = 110 }

@@ -28,3 +28,35 @@ ATwelveFagotto = {
     << { \oneVoice c\breve*1/2\fermata } \\ { \override Hairpin.minimum-length = #10 s4\ff\> s s s\pp } >> \bar "|." %30 finis
   }
 }
+
+DTwoFagotto = {
+  \relative c {
+    \clef bass
+    \twotwotime \key d \major \time 2/2 \tempoDTwo
+    \partial 4 r4 R1*3
+    r2 r4 \bar ":|.|:" r
+    R1*3 %7
+    r2 r4 \bar ":|:" g\fE
+    a2 cis
+    d h' %10
+    g a
+    d,4 d, r g
+    a2 cis
+    d h'
+    g a %15
+    d,4 d, r fis
+    g g' fis d
+    a a' d d,
+    g g a a
+    d, d, r fis %20
+    g g' fis d
+    a a' d d,
+    g g a a
+    d,2 r4 d
+    a' a a a %25
+    d2 r4 d,
+    a' a a, a
+    d a fis a
+    d,2 r\fermata \bar "|." %29 finis
+  }
+}

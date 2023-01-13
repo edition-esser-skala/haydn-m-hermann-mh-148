@@ -1394,6 +1394,13 @@ DTwoCornoI = {
     \pao g r \pao g r %5
     \pa g g g g
     g g g g \pd
-    c c8 c c4\fermata \bar ":|." %8 finis
+    c c8 c c4 \bar ":|." r
+    R1*15 %23
+    r2 r4 d
+    \pa d d8 d d4 d \pd %25
+    d2 r4 d
+    \pa d d8 d d4 d \pd
+    d2 d4 d
+    d2 r\fermata \bar "|." %29 finis
   }
 }

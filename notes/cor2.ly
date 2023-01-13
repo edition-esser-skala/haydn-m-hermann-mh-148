@@ -1396,6 +1396,13 @@ DTwoCornoII = {
     g' r g r %5
     g g g g
     g g g g
-    c, c8 c c4\fermata \bar ":|." %8 finis
+    c, c8 c c4 \bar ":|." r
+    R1*15 %23
+    r2 r4 g'
+    d' d8 d d4 d %25
+    g,2 r4 g
+    d' d8 d d4 d
+    g,2 g4 g
+    g2 r\fermata \bar "|." %29 finis
   }
 }
