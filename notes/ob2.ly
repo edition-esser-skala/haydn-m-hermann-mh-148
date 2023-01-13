@@ -1504,3 +1504,103 @@ CEightOboeII = {
     R2\fermata \bar ":|." %62 finis
   }
 }
+
+CNineOboeII = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 6/8 \tempoCNine
+    \partial 8 r8 a'2.\fE
+    h
+    a
+    h
+    a4. cis %5
+    a dis
+    e8 r r h r r
+    a r r e r r
+    e r r dis r r
+    h'4. e %10
+    cis e
+    e dis
+    e4 r8 r4 r8
+    R2.*6 %19
+    h2.~\p %20
+    h4 r8 e\f e e
+    e( cis) a-\parenthesize-! cis cis cis
+    cis( a) fis-\parenthesize-! a a a
+    a( fis) dis-! a'( fis) dis-!
+    dis'2. %25
+    e
+    cis4. a
+    gis4 r8 gis gis gis
+    gis r r gis gis gis
+    gis r r e' e e %30
+    e[ r e] a, fis h
+    e,[ r gis] a fis h
+    e,[ r gis] a fis h \noBreak
+    e,_\critnote gis gis gis r \bar ":|.|:" r \noBreak
+    gis2. \noBreak %35
+    gis
+    a
+    h4. h'
+    a2.
+    e8( cis) a-! e'( cis) a-! %40
+    a'2.
+    cis,8( a) fis-! cis'( a) fis-!
+    fis'2.
+    c8( a) dis,-! c'( a) dis,-!
+    e'2. %45
+    h8( gis) d-\parenthesize-! h'( gis) d-\parenthesize-!
+    e'2.
+    e8( cis) a-\parenthesize-! e'( cis) a-\parenthesize-!
+    d2.
+    cis %50
+    h4. gis
+    a a
+    a fis
+    e e'
+    d a %55
+    gis2.
+    gis
+    a4. a8 a a
+    h4. h8 h h
+    a4. a8 a a %60
+    h4. h8 h h
+    a4. e'8 e e
+    d4. fis
+    e2.
+    d %65
+    cis
+    h
+    a8 r r a r r
+    d r r d r r
+    cis r r h r r %70
+    a2.
+    a4. d
+    cis h
+    a4 r8 r4 r8
+    R2.*6 %80
+    e2.~\p
+    e4 r8 a\f a a
+    a( fis) d-\parenthesize-! fis' fis fis
+    fis( d) h-\parenthesize-! d d d
+    d( h) gis-\parenthesize-! d'( h) gis-\parenthesize-! %85
+    e'2.
+    e
+    d4. gis,
+    a4 r8 a a a
+    a r r a a a %90
+    a r r a a a
+    a4 r8 r4 r8
+    r4 r8 cis cis cis
+    cis r r cis cis cis
+    cis r r cis cis cis %95
+    cis[ r cis] d h e_\critnote
+    a,[ r cis] d h e
+    a,[ r cis] d h e
+    a,4 r8 cis4.
+    cis a8 a a %100
+    a4 r8 a4.
+    a e8 e e
+    e4 cis'8 cis r\fermata \bar ":|." %103 finis
+  }
+}

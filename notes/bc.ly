@@ -4289,3 +4289,219 @@ CEightBassFigures = \figuremode {
   r4 <5 3>
   <\t \t> <5> %62 finis
 }
+
+CNineBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key a \major \time 6/8 \tempoCNine
+    \partial 8 r8 a'\fE a a a a a
+    gis gis gis gis gis gis
+    a a a a a a
+    gis gis gis gis gis gis
+    a a a fis fis fis %5
+    dis dis dis h h h
+    e r r gis r r
+    a r r cis r r
+    h r r h[ r a]
+    gis gis gis gis gis gis %10
+    a a a cis cis cis
+    h h h h, h h
+    e4 r8 gis4.(\p^\tenuto
+    fis h,
+    e) gis8 gis gis %15
+    fis r r e e e
+    h r r \once \slurDashed g'4.(
+    fis h,
+    e) g8 g g
+    fis r r e e e %20
+    h r r e'\f^\unisonoE e e
+    e( cis) a-! cis cis cis
+    cis( a) fis-! a a a
+    a( fis) dis-! a'( fis) dis-!
+    h4 r8 a4 r8 %25
+    gis!4 r8 gis gis gis
+    a a a h h h
+    e r r e e e
+    e r r e e e
+    e r r e e e %30
+    e[ r gis] a fis h
+    gis[ r gis] a fis h
+    gis[ r gis] a fis h \noBreak
+    e e, e e r \bar ":|.|:" r \noBreak
+    e e e e e e \noBreak %35
+    d! d d d d d
+    cis cis cis cis cis cis
+    gis gis gis gis gis gis
+    a cis16 a e' cis a'8 r a
+    e'( cis) a-! e'( cis) a-! %40
+    fis a16 fis cis' a fis'8 r fis,
+    cis'( a) fis-! cis'( a) fis-!
+    dis fis16 dis a' fis c'8 r dis,
+    c'( a) dis,-! c'( a) dis,-!
+    d gis16 e h' gis d'8 r d, %45
+    h'( gis) d h'( gis) d
+    cis! e16 cis a' e cis'8 r cis,
+    a'( e) cis-! a'( e) cis-!
+    d fis16 d a' fis d'8 r d,
+    a cis16 a e' cis a'8 r a, %50
+    e' gis16 e h' gis e'8 r e,
+    a a a cis, cis cis
+    d d d dis dis dis
+    e e e cis cis cis
+    d d d dis dis dis %55
+    e4 r8 r4 r8
+    e4 r8 r4 e8
+    a a a a a a
+    gis gis gis gis gis gis
+    a a a a a a %60
+    gis gis gis gis gis gis
+    a a a cis cis cis
+    d d d h h h
+    gis gis gis a a a
+    fis fis fis gis gis gis %65
+    eis eis eis fis fis fis
+    d d d e e e
+    cis r r cis r r
+    d r r fis r r
+    e r r e[ r d] %70
+    cis cis cis cis cis cis
+    d d d fis fis fis
+    e e e e e e
+    a,4 r8 cis'4.(\p
+    h e, %75
+    a) cis8 cis cis
+    h r r a a a
+    e r r \once \slurDashed c'4.(
+    h e,
+    a) c8 c c %80
+    h r r a a a
+    e r r a\f^\unisonoE a a
+    a( fis) d-\parenthesize-! fis' fis fis
+    fis( d) h-\parenthesize-! d d d
+    d( h) gis-\parenthesize-! d'( h) gis-\parenthesize-! %85
+    e4 r8 d4 r8
+    cis4 r8 cis cis cis
+    d d d e e e
+    a,4 r8 a a a
+    a r r a a a %90
+    a r r a a a
+    a[ r cis] d-! h-! e-!
+    a,4 r8 a' a a
+    a r r a a a
+    a r r a a a %95
+    a[ r cis] \parOn d-\parenthesize-! h-! \parOff e-\parenthesize-!
+    cis[ r cis] d h e
+    cis[ r cis] d h e
+    a, r r a, r r
+    a a' a a a a %100
+    a r r a, r r
+    a a' a a a a
+    a a, a a r\fermata \bar ":|." %103 finis
+  }
+}
+
+CNineBassFigures = \figuremode {
+  r8 r2.
+  <6 5>
+  r
+  q
+  r %5
+  <6 5>4. <7 _+>
+  r <6>
+  r q
+  <6 4> <5 _+>4 <\t \t>8
+  <6>2. %10
+  r4. q
+  <6 4> <5 _+>
+  r <6>
+  <7>8 <6\\>4 <7 _+>4.
+  <\t \t>8 <5>4 <6>4. %15
+  <6\\>2.
+  <_+>4. <6>
+  <7>8 <6\\>4 <7 _+>4.
+  <\t \t>8 <_!>4 <6>4.
+  <6\\> <_!> %20
+  <_+>2.
+  r
+  r
+  r
+  <5 _+>4. <\t \t> %25
+  <6> <\t>
+  <6> <_+>
+  r2.
+  r
+  r %30
+  r4 <6>4. <_+>8
+  <6>4. r4 <_+>8
+  <6>4. r4 <_+>8
+  r2.
+  r %35
+  <4 2>
+  <6>
+  <6 5!>
+  <8 3>2. \bassFigureExtendersOn
+  q %40
+  q
+  q2 q8 q
+  <7!>2.
+  q2 q8 q
+  <4+ 2>2. %45
+  q2 q8 q
+  <6 5!>2.
+  q2 q8 q
+  <5>2 q8 q
+  <5\!>2 <5>8 q %50
+  <8>4 q8 <7>4 q8 \bassFigureExtendersOff
+  r4. <6>
+  q <5>
+  r <6>
+  q <5> %55
+  r2.
+  r
+  r
+  <6 5>
+  r %60
+  q
+  r4. <6>
+  r2.
+  <6 5>
+  q %65
+  q
+  q
+  <6>
+  r4. q
+  <6 4> <5 3>4 <\t \t>8 %70
+  <6>2.
+  r4. q
+  <6 4> <5 3>
+  r <6>
+  <7>8 <6>4 <7>4. %75
+  <\t>8 <5>4 <6>4.
+  q2.
+  r4. <6>
+  <7>8 <6>4 <7>4.
+  <\t>8 <_!>4 <6>4. %80
+  q <_!>
+  r2.
+  r
+  r
+  r %85
+  <5 3>4. <\t \t>
+  <6>2.
+  <6 5>
+  r
+  r %90
+  r
+  r
+  r
+  r
+  r %95
+  r
+  <6>
+  q
+  r
+  r %100
+  r
+  r
+  r4. r4 %103 finis
+}

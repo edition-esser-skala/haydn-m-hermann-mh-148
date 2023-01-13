@@ -2221,3 +2221,113 @@ CEightViolinoI = {
     \appoggiatura h4 a4. r8\fermata \bar ":|." %62 finis
   }
 }
+
+CNineViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 6/8 \tempoCNine
+    \partial 8 e8\fE a cis16 a e' cis a'8 r e,
+    e d' d d e16 d cis h
+    a8 cis16 a e' cis a'8 r e,
+    e d' d d e16 d cis h
+    a8 cis16 a e' cis a'8 r cis, %5
+    h dis16 h fis' h, a'8 r a
+    gis h16 gis h gis e8 gis16 e gis e
+    cis8 e16 cis e cis a8 cis16 a cis a
+    gis8 h e fis, h dis
+    e16 gis h gis h gis e fis gis e gis e %10
+    cis dis e cis e cis a h cis a cis a
+    gis gis h h e e fis, fis h h dis dis
+    <e h e,>4 r8 h(\p gis) e-\parenthesize-!
+    e( dis) dis-\parenthesize-! \once \slurDashed dis( fis) a-\parenthesize-!
+    a( gis) gis-! e e e %15
+    a r r gis gis gis
+    fis r r h( g) e-\parenthesize-!
+    e( dis) dis-! dis( fis) a-\parenthesize-!
+    a( g) g-\parenthesize-! e e e
+    a r r g g g %20
+    fis r r e'\f e e
+    e( cis) a-! cis cis cis
+    cis( a) fis-! a a a
+    a( fis) dis-! a'( fis) dis-!
+    fis'16 fis dis dis h h fis' fis dis dis h h %25
+    h' h gis! gis e e h' h gis gis e e
+    cis cis fis fis a a fis, fis h h dis dis
+    e8( h) gis-! e' e e
+    h'( gis) e-! e e e
+    h'( gis) e-! e e e %30
+    h'( gis) e-! a,-! fis-! h-!
+    e-! e-! gis, a fis h
+    e e gis, a fis h \noBreak
+    e, e' e e r \bar ":|.|:" e, \noBreak
+    h' e16 h gis' e h'8 r gis, \noBreak %35
+    h e16 h gis' e h'8 r gis,
+    a cis16 a e' cis a'8 r e
+    e gis16 e h' e, d'!8 r d
+    <cis a,>2.:16
+    q: %40
+    q:
+    q:
+    <c a,>2.:
+    q4.: <a c,>:
+    <gis h,>2.: %45
+    q:
+    <g a,>:
+    q:
+    <fis a,>:
+    <e a,>: %50
+    <e h>4.: <d e,>:
+    cis8 e16 cis e cis a'8 r cis,
+    h d16 h d h fis'8 r a,
+    gis gis'16 e gis e a8 r cis,
+    h d16 h d h fis'8 r a, %55
+    gis16 fis e fis gis a h a gis a h cis
+    d cis h a gis fis e fis e d cis h
+    a8 cis'16 a e' cis a'8 r e,
+    e d' d d e16 d cis h
+    a8 cis16 a e' cis a'8 r e, %60
+    e d' d d e16 d cis h
+    a8 cis16 a e' cis a'8 r e
+    fis a16 fis a fis d'8 r fis,
+    e d'16 h d h cis8 r e,
+    d cis'16 a cis a h8 r d, %65
+    cis h'16 gis h gis a8 r cis,
+    h d16 h d h gis8 h16 gis h gis
+    a8 e'16 cis e cis a8 cis16 a cis a
+    fis8 a'16 fis a fis d8 fis16 d fis d
+    cis8-! e-! a-! h,-! e-! gis-! %70
+    a,16 cis e cis e cis a h cis a cis a
+    fis' gis a fis a fis d e fis d fis d
+    cis cis e e a a h, h e e gis gis
+    <a a,>4 r8 e(\p cis) a-\parenthesize-!
+    a( gis) gis-\parenthesize-! gis( h) d-! %75
+    d( cis) cis-! a a a
+    d r r cis cis cis
+    h r r e( c) a-!
+    a( gis) gis-! gis( h) d-\parenthesize-!
+    d( c) c-\parenthesize-! a a a %80
+    d r r c c c
+    h r r a\f a a
+    a( fis) d-\parenthesize-! fis' fis fis
+    fis( d) h-\parenthesize-! d d d
+    d( h) gis-\parenthesize-! d'( h) gis-\parenthesize-! %85
+    h'16 h gis gis e e h' h gis gis e e
+    a a e e cis cis a' a e e cis cis
+    h h fis' fis a a h, h e e gis gis
+    a,8( e) cis-! a' a a
+    e'( cis) a a a a %90
+    e'( cis) a a a a
+    e'( cis) a d,-! h-! e-!
+    \once \slurDashed a'( e) cis a' a a
+    e'( cis) a a a a
+    e'( cis) a a a a %95
+    e'( cis) a d,-! h-! e-!
+    <a a,> q cis, d h e
+    <a a,> q cis, d h e
+    a, a' a a e e
+    e cis cis cis cis cis %100
+    cis e e e cis cis
+    cis a a a a a
+    a a' a a r\fermata \bar ":|." %103 finis
+  }
+}

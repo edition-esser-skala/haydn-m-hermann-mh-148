@@ -1504,3 +1504,103 @@ CEightOboeI = {
     R2\fermata \bar ":|." %62 finis
   }
 }
+
+CNineOboeI = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 6/8 \tempoCNine
+    \partial 8 r8 cis'2.\fE
+    d
+    cis
+    d
+    cis4. a' %5
+    dis, a'
+    gis8 r r e r r
+    cis r r a r r
+    gis r r fis r r
+    e'4. h' %10
+    e, a
+    gis fis
+    \pao e4 r8 r4 r8
+    R2.*6 %19
+    h'2.\p~ %20
+    h4 r8 e,\f e e
+    e( cis) a-\parenthesize-! cis cis cis
+    cis( a) fis-\parenthesize-! a a a
+    a( fis) dis-! a'( fis) dis-!
+    fis'2. %25
+    h
+    a4. dis,
+    e4 r8 e e e
+    e r r e e e
+    e r r gis gis gis %30
+    \pa gis[ \once \pd r e] a, fis h
+    e[ \once \pd r gis,] a fis h
+    e[ \once \pd r gis,] a fis h \noBreak
+    e,^\critnote e' e \pd e r \bar ":|.|:" r \noBreak
+    h2. \noBreak %35
+    h
+    cis
+    d4. d'
+    cis2.
+    e,8( cis) a-! e'( cis) a-! %40
+    cis'2.
+    cis,8( a) fis-! cis'( a) fis-!
+    a'2.
+    c,8( a) dis,-! c'( a) dis,-!
+    gis'2. %45
+    h,8( gis) d-\parenthesize-! h'( gis) d-\parenthesize-!
+    g'2.
+    e8( cis) a-\parenthesize-! e'( cis) a-\parenthesize-!
+    fis'2.
+    e %50
+    e4. d
+    cis e
+    fis a,
+    gis a'
+    fis h, %55
+    h2.
+    h
+    cis4. cis8 cis cis
+    d4. d8 d d
+    cis4. cis8 cis cis %60
+    d4. d8 d d
+    cis4. a'8 a a
+    fis4. d'~
+    d cis~
+    cis h~ %65
+    h a~
+    a gis
+    e8 r r e r r
+    fis r r a r r
+    a r r gis r r %70
+    e2.
+    fis4. a
+    a gis
+    a4 r8 r4 r8
+    R2.*6 %80
+    e2.~\p
+    e4 r8 a,\f a a
+    a( fis) d-\parenthesize-! fis' fis fis
+    fis( d) h-\parenthesize-! d d d
+    d( h) gis-\parenthesize-! d'( h) gis-\parenthesize-! %85
+    gis'2.
+    a
+    fis4. h,
+    \pao a4 r8 cis cis cis
+    cis r r cis cis cis %90
+    cis r r cis cis cis
+    cis4 r8 r4 r8
+    r4 r8 a' a a
+    a r r a a a
+    a r r a a a %95
+    \pa a[ \once \pd r cis,] d h e^\critnote
+    a[ \once \pd r cis,] d h e
+    a[ \once \pd r cis,] d h e
+    a,4 \pd r8 e'4.
+    e cis8 cis cis %100
+    cis4 r8 cis4.
+    cis a8 a a
+    a4 a'8 a r\fermata \bar ":|." %103 finis
+  }
+}

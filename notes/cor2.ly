@@ -1283,3 +1283,104 @@ CSevenCornoII = {
     R2.*3 \markMenuettoDaCapo \bar ":|.|:" %60 finis
   }
 }
+
+CNineCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 6/8 \tempoCNine
+    \partial 8 r8 c2.\fE
+    g'
+    c,
+    g'
+    c, %5
+    c'
+    g8 r r g r r
+    g r r g r r
+    d' r r d r r
+    g, g g g g g %10
+    g g g g g g
+    d' d d d d d
+    g,4 r8 r4 r8
+    R2.*2 %15
+    d'2.~\p
+    d4 r8 r4 r8
+    R2.*3 %20
+    r4 r8 g,\f g g
+    g4 r8 e e e
+    e4 r8 c c c
+    c4 r8 c4 r8
+    d'4 r8 d4 r8 %25
+    g,2.
+    R2.
+    r4 r8 g g g
+    g r r g g g
+    g r r g g g %30
+    g r r r4 r8
+    g4 r8 r4 r8
+    g4 r8 r4 r8 \noBreak
+    g g g g r \bar ":|.|:" r \noBreak
+    g4. g8 g g \noBreak %35
+    g4. g8 g g
+    g4. g8 g g
+    g4. g8 g g
+    c, c c c4 r8
+    R2. %40
+    c8 c c c4 r8
+    R2.
+    c8 c c c4 r8
+    R2.
+    g'8 g g g4 r8 %45
+    R2.
+    c,8 c c c4 r8
+    R2.
+    c8 c c c4 r8
+    c8 c c c4 r8 %50
+    g'8 g g g4 r8
+    c, c c c4 r8
+    R2.
+    g'4 r8 r4 r8
+    R2. %55
+    g
+    g
+    c,8 c c c c c
+    g' g g g g g
+    c, c c c c c %60
+    g' g g g g g
+    c, c c c c c
+    c4 r8 r4 r8
+    R2.*4 %67
+    c8 r r c r r
+    c r r c r r
+    g' r r g r r %70
+    c, c c c c c
+    c c c c c c
+    g' g g g g g
+    c,4 r8 r4 r8
+    R2.*2 %76
+    g'2.~\p
+    g4 r8 r4 r8
+    R2.*3 %81
+    r4 r8 c,\f c c
+    c4 r8 r4 r8
+    R2.
+    g'4 r8 g4 r8 %85
+    g2.
+    c,
+    r4 r8 g'4 g8
+    e4 r8 c c c
+    c r r c c c %90
+    c r r c c c
+    c4 r8 r4 r8
+    r4 r8 c c c
+    c r r c c c
+    c r r c c c %95
+    c4 r8 r4 r8
+    c4 r8 r4 r8
+    c4 r8 r4 r8
+    c r r c r r
+    c c' c c c c %100
+    c r r c, r r
+    c c' c c c c
+    c c, c c r\fermata \bar ":|." %103 finis
+  }
+}

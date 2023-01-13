@@ -2221,3 +2221,113 @@ CEightViolinoII = {
     \appoggiatura gis4 a4. r8\fermata \bar ":|." %62 finis
   }
 }
+
+CNineViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 6/8 \tempoCNine
+    \partial 8 e8\fE a cis16 a e' cis a'8 r e,
+    e h' h h e16 d cis h
+    a8 cis16 a e' cis a'8 r e,
+    e h' h h e16 d cis h
+    a a a a a a cis cis cis cis cis cis %5
+    h h h h h h dis dis dis dis dis dis
+    e8 h'16 gis h gis e8 gis16 e gis e
+    cis8 e16 cis e cis a8 cis16 a cis a
+    gis8 h e fis, h dis
+    e16 gis h gis h gis e fis gis e gis e %10
+    cis dis e cis e cis a h cis a cis a
+    gis gis h h e e fis, fis h h dis dis
+    <e h e,>4 r8 h,4.\p
+    a a8( dis) fis-!
+    fis( e) e-! h h h %15
+    dis r r e e e
+    dis r r h4.
+    a a8( dis) fis-!
+    fis( e) e-! h h h
+    dis r r e e e %20
+    dis r r e'\f e e
+    e( cis) a-! cis cis cis
+    cis( a) fis-! a a a
+    a( fis) dis-! a'( fis) dis-!
+    fis'16 fis dis dis h h fis' fis dis dis h h %25
+    h' h gis! gis e e h' h gis gis e e
+    cis cis fis fis a a fis, fis h h dis dis
+    e8 r r <h gis>4.:16
+    q2.:
+    q: %30
+    q4.: \parOn a8-\parenthesize-! fis-! \parOff h-\parenthesize-!
+    e-! e-! gis, a fis h
+    e e gis, a fis h \noBreak
+    e, <gis h> q q r \bar ":|.|:" r \noBreak
+    r r h, e gis16 e h' gis %35
+    e'8 r h e gis16 e h' e,
+    a8 r e, e a16 e cis' a
+    d!8 r d h e16 h h' e,
+    a2.:16
+    a: %40
+    a:
+    a:
+    a:
+    a4.: fis:
+    e2.: %45
+    e:
+    e:
+    e:
+    d:
+    cis: %50
+    <h gis>:
+    a8 e'16 cis e cis a'8 r a,
+    fis h16 fis h fis fis'8 r fis,
+    e gis'16 e gis e a8 r a,
+    fis d'16 h d h fis'8 r fis, %55
+    <e h' e>4 r8 r4 r8
+    q4 r8 r4 e8
+    <e cis'>2.:16
+    <e h'>:
+    <e cis'>: %60
+    <e h'>:
+    <e cis'>4.: e':
+    fis,8 r fis fis fis'16 d fis d
+    h8 r e, e e'16 cis e cis
+    a8 r d, d d'16 h d h %65
+    gis8 r cis, cis cis'16 a cis a
+    h8 d16 h d h gis8 h16 gis h gis
+    a8 e'16 cis e cis a8 cis16 a cis a
+    fis8 a'16 fis a fis d8 fis16 d fis d
+    cis8-! e-! a-! h,-! e-! gis-! %70
+    a,16 cis e cis e cis a h cis a cis a
+    fis' gis a fis a fis d e fis d fis d
+    cis cis e e a a h, h e e gis gis
+    <a a,>4 r8 e,4.\p
+    d d8( gis) h-! %75
+    h( a) a-! e e e
+    gis r r a a a
+    gis r r e4.
+    d d8( gis) h-!
+    h( a) a-! e e e %80
+    gis r r a a a
+    gis r r a\f a a
+    a( fis) d-\parenthesize-! fis' fis fis
+    fis( d) h-\parenthesize-! d d d
+    d( h) gis-\parenthesize-! d'( h) gis-\parenthesize-! %85
+    h'16 h gis gis e e h' h gis gis e e
+    a a e e cis cis a' a e e cis cis
+    h h fis' fis a a h, h e e gis gis
+    a,4 r8 <e cis>4.:16
+    q2.: %90
+    q:
+    q4.: d8-! h-! e-!
+    a,4 r8 <cis' e>4.:16
+    q2.:
+    q: %95
+    q4.: d8-! h-! e-!
+    <a a,> q cis, d h e
+    <a a,> q cis, d h e
+    a, e' e e cis cis
+    cis a a a a a %100
+    a cis cis cis a a
+    a cis, cis cis cis cis
+    cis <cis e> q q r\fermata \bar ":|." %103 finis
+  }
+}

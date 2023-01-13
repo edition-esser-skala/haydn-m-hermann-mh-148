@@ -2226,3 +2226,113 @@ CEightViola = {
     \appoggiatura d4 cis4.^\critnote r8\fermata \bar ":|." %62 finis
   }
 }
+
+CNineViola = {
+  \relative c' {
+    \clef alto
+    \key a \major \time 6/8 \tempoCNine
+    \partial 8 r8 cis\fE cis cis cis cis cis
+    e e e e e e
+    cis cis cis cis cis cis
+    e e e e e e
+    cis16 cis cis cis cis cis fis^\critnote fis fis fis fis fis %5
+    fis fis fis fis fis fis fis fis fis fis fis fis
+    e8 r r h r r
+    a r r e' r r
+    h r r h'[ r a]
+    gis gis gis h h h %10
+    e, e e e e e
+    h' h h h, h h
+    e4 r8 e,4.\p
+    h'2.
+    h4. e,8 e e %15
+    h' r r h h h
+    h r r e,4.
+    h'2.
+    h4. e,8 e e
+    h' r r h h h %20
+    h r r e'\f e e
+    e( cis) a-! cis cis cis
+    cis( a) fis-! a a a
+    a( fis) dis-! a'( fis) dis-!
+    h4 r8 h4 r8 %25
+    e4 r8 gis,! gis gis
+    a a a h h h
+    e, r r e' e e
+    h'( gis) e-! e e e
+    h'( gis) e-! e e e %30
+    h'( gis) e-! a-! fis-! h-!
+    h[ r gis] a fis h
+    h[ r gis] a fis h \noBreak
+    e, e e e r \bar ":|.|:" r \noBreak
+    e e e e e e \noBreak %35
+    d! d d d d d
+    cis cis cis cis cis cis
+    gis gis gis gis gis gis
+    a cis16 a e' cis a'8 r a
+    e'( cis) a-! e'( cis) a-! %40
+    fis a16 fis cis' a fis'8 r fis,
+    cis'( a) fis-! cis'( a) fis-!
+    dis fis16 dis a' fis c'8 r dis,
+    c'( a) dis,-! c'( a) dis,-!
+    d gis16 e h' gis d'8 r d, %45
+    h'( gis) d h'( gis) d
+    cis! e16 cis a' e cis'8 r cis,
+    a'( e) cis-! a'( e) cis-!
+    d fis16 d a' fis d'8 r d,
+    a cis16 a e' cis a'8 r a, %50
+    e' gis16 e h' gis e'8 r e,
+    a a a e e e
+    d d d h h h
+    h h h e e e
+    d d d h h h %55
+    h4 r8 r4 r8
+    e4 r8 r4 e8
+    a a a a a a
+    gis gis gis gis gis gis
+    a a a a a a %60
+    gis gis gis gis gis gis
+    a a a cis cis cis
+    d d d h h h
+    gis gis gis a a a
+    fis fis fis gis gis gis %65
+    eis eis eis fis fis fis
+    d d d e e e
+    cis8 r r e r r
+    d r r a' r r
+    e r r e[ r d] %70
+    cis cis cis e e e
+    a, a a a a a
+    e' e e e e e
+    cis4 r8 a4.\p
+    e'2. %75
+    e4. a,8 a a
+    e' r r e e e
+    e r r a,4.
+    e'2.
+    e4. a,8 a a %80
+    e' r r e e e
+    e r r a\f a a
+    a( fis) d-\parenthesize-! fis fis fis
+    fis( d) h-\parenthesize-! d' d d
+    d( h) gis-\parenthesize-! d'( h) gis-\parenthesize-! %85
+    e4 r8 d4 r8
+    cis4 r8 cis cis cis
+    d d d e e e
+    a,4 r8 a a a
+    e'( cis) a a a a %90
+    e'( cis) a a a a
+    e'( cis) a d-! h-! e-!
+    a,4 r8 a' a a
+    e'( cis) a a a a
+    e'( cis) a a a a %95
+    e'( cis) a d-! h-! e-!
+    e,[ r cis'] d h e
+    e,[ r cis'] d h e
+    a, cis cis cis a a
+    a e e e e e %100
+    e a a a e e
+    e e e e e e
+    e a, a a r\fermata \bar ":|." %103 finis
+  }
+}
