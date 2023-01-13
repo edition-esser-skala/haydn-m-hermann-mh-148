@@ -1383,3 +1383,17 @@ CNineCornoI = {
     c c, c c r\fermata \bar ":|." %103 finis
   }
 }
+
+DTwoCornoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoDTwo
+    \partial 4 r4 c'2\fE r c r
+    \pa g4 g g g \pd
+    c c8 c c4 \bar ":|.|:" c
+    \pao g r \pao g r %5
+    \pa g g g g
+    g g g g \pd
+    c c8 c c4\fermata \bar ":|." %8 finis
+  }
+}

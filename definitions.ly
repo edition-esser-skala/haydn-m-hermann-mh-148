@@ -82,6 +82,7 @@ tempoCSeven = \tempoMarkup "[Allegro]"
 tempoCEight = \tempoMarkup "Andante"
 tempoCNine = \tempoMarkup "Allegro molto"
 tempoDOne = \tempoMarkup "[Tempo deest]"
+tempoDTwo = \tempoMarkup "[Tempo deest]"
 
 
 \include "notes/fl1.ly"

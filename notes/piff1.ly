@@ -22,3 +22,18 @@ DOnePifferoI = {
     c2 r4\fermata \bar ":|." %16 finis
   }
 }
+
+DTwoPifferoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoDTwo
+    \partial 4 g''4\fE c-! h-! a-! g-!
+    c h a g
+    f4.\trill e8 f4 d
+    e2 r4 \bar ":|.|:" \tuplet 3/2 4 { e8 f e }
+    d4 \tuplet 3/2 4 { f8 g f } e4 a %5
+    g4.\trill f8 e4 e
+    f4.\trill e8 f4 d
+    e2 r4\fermata \bar ":|." %8 finis
+  }
+}

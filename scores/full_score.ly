@@ -1742,37 +1742,74 @@
   %   }
   % }
   % \part "part_four" "4" "Le Marcie"
+  % \bookpart {
+  %   \section "4·1" "[First movement]"
+  %   \addTocEntry
+  %   \paper {
+  %     system-system-spacing.basic-distance = #22
+  %     system-system-spacing.minimum-distance = #22
+  %     systems-per-page = #3
+  %     indent = 1.5\cm
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = \transposedNameShort "piff" "C" ""
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \DOnePifferoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \DOnePifferoII
+  %           }
+  %         >>
+  %       >>
+  %       \new Staff \with { \smallStaffDistance } {
+  %         \set Staff.instrumentName = \transposedNameShort "tr" "C" ""
+  %         \DOneTromba
+  %       }
+  %       \new Staff {
+  %         \set Staff.instrumentName = "tamb"
+  %         \DOneTamburo
+  %       }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 2 = 110 }
+  %   }
+  % }
   \bookpart {
-    \section "4·1" "[First movement]"
+    \section "4·2" "[Second movement]"
     \addTocEntry
     \paper {
-      system-system-spacing.basic-distance = #22
-      system-system-spacing.minimum-distance = #22
-      systems-per-page = #3
+      systems-per-page = #1
       indent = 1.5\cm
     }
     \score {
       <<
         \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = \transposedNameShort "piff" "C" ""
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = \transposedNameShort "piff" "G" ""
             \new Staff {
               \set Staff.instrumentName = "1"
-              \DOnePifferoI
+              \DTwoPifferoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \DOnePifferoII
+              \DTwoPifferoII
             }
           >>
         >>
-        \new Staff \with { \smallStaffDistance } {
-          \set Staff.instrumentName = \transposedNameShort "tr" "C" ""
-          \DOneTromba
-        }
+        \new StaffGroup <<
+          \new Staff <<
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "G" "" "1, 2" }
+              \partCombine \DTwoCornoI \DTwoCornoII
+          >>
+        >>
         \new Staff {
-          \set Staff.instrumentName = \transposedNameShort "tamb" "C" ""
-          \DOneTamburo
+          \set Staff.instrumentName = "tamb"
+          \DTwoTamburo
         }
       >>
       \layout { }
