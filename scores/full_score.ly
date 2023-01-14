@@ -1057,7 +1057,7 @@
       <<
         \new StaffGroup <<
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { "fl" "[1, 2]" }
+            \set Staff.instrumentName = "fl"
             \BTenFlautoIeII
           >>
         >>
@@ -1871,7 +1871,7 @@
         >>
         \new StaffGroup <<
           \new Staff {
-            \set Staff.instrumentName = "tamburino"
+            \set Staff.instrumentName = "tmbo"
             \DThreeTamburino
           }
           \new Staff {

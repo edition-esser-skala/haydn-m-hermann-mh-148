@@ -692,7 +692,7 @@ BTwelveOboeI = {
     R2.*3 \noBreak %35
     r4 r8 r4 \bar ":|.|:" r8 \noBreak
     R2.*3 \noBreak
-    r4 r8 r4 \markDaCapoSASF \bar ":|." \key a \major \tempoBTwelveB g'8\fE \noBreak %40
+    r4 r8 r4 \markDaCapoSASF \bar ":|." \noBreak \key a \major \tempoBTwelveB g'8\fE \noBreak %40
     fis4. gis \noBreak
     a e
     fis h,

@@ -1,7 +1,7 @@
 \version "2.24.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "vl 1")
+#(define option-instrument-name "org")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,9 +12,10 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Violino I"
-          \AOneViolinoI
+          \set Staff.instrumentName = "Organo"
+          \AOneBassoContinuo
         }
+        \new FiguredBass { \AOneBassFigures }
       >>
     }
   }
@@ -23,7 +24,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \ATwoViolinoI }
+        \new Staff { \ATwoBassoContinuo }
+        \new FiguredBass { \ATwoBassFigures }
       >>
     }
   }
@@ -33,7 +35,8 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \AThreeViolinoI }
+        \new Staff { \AThreeBassoContinuo }
+        \new FiguredBass { \AThreeBassFigures }
       >>
     }
   }
@@ -43,17 +46,19 @@
     \paper { systems-per-page = #5 }
     \score {
       <<
-        \new Staff { \AFourViolinoI }
+        \new Staff { \AFourBassoContinuo }
+        \new FiguredBass { \AFourBassFigures }
       >>
     }
   }
   \bookpart {
     \section "1·5" "Andante"
     \addTocEntry
-    \paper { systems-per-page = #6 }
+    \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \AFiveViolinoI }
+        \new Staff { \AFiveBassoContinuo }
+        \new FiguredBass { \AFiveBassFigures }
       >>
     }
   }
@@ -63,17 +68,19 @@
     \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \ASixViolinoI }
+        \new Staff { \ASixBassoContinuo }
+        \new FiguredBass { \ASixBassFigures }
       >>
     }
   }
   \bookpart {
     \section "1·7" "Andantino"
     \addTocEntry
-    \paper { systems-per-page = #3 }
+    \paper { systems-per-page = #2 }
     \score {
       <<
-        \new Staff { \ASevenViolinoI }
+        \new Staff { \ASevenBassoContinuo }
+        \new FiguredBass { \ASevenBassFigures }
       >>
     }
   }
@@ -83,17 +90,19 @@
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \AEightViolinoI }
+        \new Staff { \AEightBassoContinuo }
+        \new FiguredBass { \AEightBassFigures }
       >>
     }
   }
   \bookpart {
     \section "1·9" "Andante"
     \addTocEntry
-    \paper { systems-per-page = #3 }
+    \paper { systems-per-page = #2 }
     \score {
       <<
-        \new Staff { \ANineViolinoI }
+        \new Staff { \ANineBassoContinuo }
+        \new FiguredBass { \ANineBassFigures }
       >>
     }
   }
@@ -103,27 +112,30 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \ATenViolinoI }
+        \new Staff { \ATenBassoContinuo }
+        \new FiguredBass { \ATenBassFigures }
       >>
     }
   }
   \bookpart {
     \section "1·11" "Un poco adagio"
     \addTocEntry
-    \paper { systems-per-page = #4 }
+    \paper { systems-per-page = #2 }
     \score {
       <<
-        \new Staff { \AElevenViolinoI }
+        \new Staff { \AElevenBassoContinuo }
+        \new FiguredBass { \AElevenBassFigures }
       >>
     }
   }
   \bookpart {
     \section "1·12" "Larghetto"
     \addTocEntry
-    \paper { systems-per-page = #7 }
+    \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \ATwelveViolinoI }
+        \new Staff { \ATwelveBassoContinuo }
+        \new FiguredBass { \ATwelveBassFigures }
       >>
     }
   }
@@ -132,17 +144,19 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \BZeroViolinoI }
+        \new Staff { \BZeroBassoContinuo }
+        \new FiguredBass { \BZeroBassFigures }
       >>
     }
   }
   \bookpart {
     \section "2·1" "Andante commodo"
     \addTocEntry
-    \paper { systems-per-page = #4 }
+    \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \BOneViolinoI }
+        \new Staff { \BOneBassoContinuo }
+        \new FiguredBass { \BOneBassFigures }
       >>
     }
   }
@@ -152,7 +166,8 @@
     \paper { systems-per-page = #2 }
     \score {
       <<
-        \new Staff { \BTwoViolinoI }
+        \new Staff { \BTwoBassoContinuo }
+        \new FiguredBass { \BTwoBassFigures }
       >>
     }
   }
@@ -162,7 +177,8 @@
     \paper { systems-per-page = #2 }
     \score {
       <<
-        \new Staff { \BThreeViolinoI }
+        \new Staff { \BThreeBassoContinuo }
+        \new FiguredBass { \BThreeBassFigures }
       >>
     }
   }
@@ -172,7 +188,8 @@
     \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \BFourViolinoI }
+        \new Staff { \BFourBassoContinuo }
+        \new FiguredBass { \BFourBassFigures }
       >>
     }
   }
@@ -182,7 +199,8 @@
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \BFiveViolinoI }
+        \new Staff { \BFiveBassoContinuo }
+        \new FiguredBass { \BFiveBassFigures }
       >>
     }
   }
@@ -192,7 +210,8 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \BSixViolinoI }
+        \new Staff { \BSixBassoContinuo }
+        \new FiguredBass { \BSixBassFigures }
       >>
     }
   }
@@ -202,7 +221,8 @@
     \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \BSevenViolinoI }
+        \new Staff { \BSevenBassoContinuo }
+        \new FiguredBass { \BSevenBassFigures }
       >>
     }
   }
@@ -212,7 +232,8 @@
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \BEightViolinoI }
+        \new Staff { \BEightBassoContinuo }
+        \new FiguredBass { \BEightBassFigures }
       >>
     }
   }
@@ -222,7 +243,8 @@
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \BNineViolinoI }
+        \new Staff { \BNineBassoContinuo }
+        \new FiguredBass { \BNineBassFigures }
       >>
     }
   }
@@ -232,7 +254,8 @@
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \BTenViolinoI }
+        \new Staff { \BTenBassoContinuo }
+        \new FiguredBass { \BTenBassFigures }
       >>
     }
   }
@@ -241,7 +264,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \BElevenViolinoI }
+        \new Staff { \BElevenBassoContinuo }
+        \new FiguredBass { \BElevenBassFigures }
       >>
     }
   }
@@ -250,7 +274,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \BTwelveViolinoI }
+        \new Staff { \BTwelveBassoContinuo }
+        \new FiguredBass { \BTwelveBassFigures }
       >>
     }
   }
@@ -270,7 +295,8 @@
           }
           \new Lyrics \lyricsto Soli \COneSoliLyrics
         >>
-        \new Staff { \COneViolinoI }
+        \new Staff { \COneBassoContinuo }
+        \new FiguredBass { \COneBassFigures }
       >>
     }
   }
@@ -279,7 +305,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \CTwoViolinoI }
+        \new Staff { \CTwoBassoContinuo }
+        \new FiguredBass { \CTwoBassFigures }
       >>
     }
   }
@@ -288,7 +315,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \CThreeViolinoI }
+        \new Staff { \CThreeBassoContinuo }
+        \new FiguredBass { \CThreeBassFigures }
       >>
     }
   }
@@ -297,7 +325,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \CFourViolinoI }
+        \new Staff { \CFourBassoContinuo }
+        \new FiguredBass { \CFourBassFigures }
       >>
     }
   }
@@ -306,7 +335,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \CFiveViolinoI }
+        \new Staff { \CFiveBassoContinuo }
+        \new FiguredBass { \CFiveBassFigures }
       >>
     }
   }
@@ -315,7 +345,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \CSixViolinoI }
+        \new Staff { \CSixBassoContinuo }
+        \new FiguredBass { \CSixBassFigures }
       >>
     }
   }
@@ -324,17 +355,18 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \CSevenViolinoI }
+        \new Staff { \CSevenBassoContinuo }
+        \new FiguredBass { \CSevenBassFigures }
       >>
     }
   }
   \bookpart {
     \section "3·8" "Andante"
     \addTocEntry
-    \paper { page-count = #1 }
     \score {
       <<
-        \new Staff { \CEightViolinoI }
+        \new Staff { \CEightBassoContinuo }
+        \new FiguredBass { \CEightBassFigures }
       >>
     }
   }
@@ -343,7 +375,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \CNineViolinoI }
+        \new Staff { \CNineBassoContinuo }
+        \new FiguredBass { \CNineBassFigures }
       >>
     }
   }
@@ -353,7 +386,8 @@
     \paper { systems-per-page = #2 }
     \score {
       <<
-        \new Staff { \DFourViolinoI }
+        \new Staff { \DFourBassoContinuo }
+        \new FiguredBass { \DFourBassFigures }
       >>
     }
   }
@@ -363,7 +397,8 @@
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \DFiveViolinoI }
+        \new Staff { \DFiveBassoContinuo }
+        \new FiguredBass { \DFiveBassFigures }
       >>
     }
   }

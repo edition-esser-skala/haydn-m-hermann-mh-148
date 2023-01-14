@@ -17,18 +17,21 @@ sources:
     license: custom (free for non-commercial purposes)
     principal: true
     notes: authentic copy by Werigand Rettensteiner, with corrections in Haydn’s hand
-imslp:
+imslp: Hermann,_MH_148_(Haydn,_Michael)
 parts:
+  fl: Flauto I, II
   piff1: Piffero I in C/D/G
   piff2: Piffero II in C/D/G
-  tr: Tromba in C/D
   cor12: Corno I, II in \flat B/C/D/\flat E/E/F/G/A
+  tr: Tromba in C/D
+  percussioni: Triangolo\\Tamburino\\Tamburo\\Tamburo velato\\Instrumento d’acciaio (D)
+  man: Manicordo
 extra_abbreviations:
   piff: piffero
   tri: triangolo
-  tamb: tamburo
   tmbo: tamburino
+  tamb: tamburo
   ida: instrumento d’acciaio
   man: manicordo
-  tr: Tromba
+  tr: tromba
   b:

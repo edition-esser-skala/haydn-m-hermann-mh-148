@@ -17,14 +17,17 @@ forceClef = \set Staff.forceClef = ##t
 
 markMaggioreDaCapo = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \once \override Score.RehearsalMark.break-visibility = #'begin-of-line-invisible
   \mark \markup \remark "Maggiore da capo"
 }
 markDaCapoSASF = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \once \override Score.RehearsalMark.break-visibility = #'begin-of-line-invisible
   \mark \markup \remark \concat { "Da capo sino al segno " \musicglyph "scripts.ufermata" }
 }
 markMenuettoDaCapo = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \once \override Score.RehearsalMark.break-visibility = #'begin-of-line-invisible
   \mark \markup \remark "Menuetto da capo"
 }
 

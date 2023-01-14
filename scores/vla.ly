@@ -1,7 +1,7 @@
 \version "2.24.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "vl 1")
+#(define option-instrument-name "vla")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,8 +12,8 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Violino I"
-          \AOneViolinoI
+          \set Staff.instrumentName = "Viola"
+          \AOneViola
         }
       >>
     }
@@ -23,7 +23,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \ATwoViolinoI }
+        \new Staff { \ATwoViola }
       >>
     }
   }
@@ -33,7 +33,7 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \AThreeViolinoI }
+        \new Staff { \AThreeViola }
       >>
     }
   }
@@ -43,7 +43,7 @@
     \paper { systems-per-page = #5 }
     \score {
       <<
-        \new Staff { \AFourViolinoI }
+        \new Staff { \AFourViola }
       >>
     }
   }
@@ -53,7 +53,7 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \AFiveViolinoI }
+        \new Staff { \AFiveViola }
       >>
     }
   }
@@ -63,17 +63,17 @@
     \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \ASixViolinoI }
+        \new Staff { \ASixViola }
       >>
     }
   }
   \bookpart {
     \section "1·7" "Andantino"
     \addTocEntry
-    \paper { systems-per-page = #3 }
+    \paper { systems-per-page = #2 }
     \score {
       <<
-        \new Staff { \ASevenViolinoI }
+        \new Staff { \ASevenViola }
       >>
     }
   }
@@ -83,17 +83,17 @@
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \AEightViolinoI }
+        \new Staff { \AEightViola }
       >>
     }
   }
   \bookpart {
     \section "1·9" "Andante"
     \addTocEntry
-    \paper { systems-per-page = #3 }
+    \paper { systems-per-page = #2 }
     \score {
       <<
-        \new Staff { \ANineViolinoI }
+        \new Staff { \ANineViola }
       >>
     }
   }
@@ -103,27 +103,27 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \ATenViolinoI }
+        \new Staff { \ATenViola }
       >>
     }
   }
   \bookpart {
     \section "1·11" "Un poco adagio"
     \addTocEntry
-    \paper { systems-per-page = #4 }
+    \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \AElevenViolinoI }
+        \new Staff { \AElevenViola }
       >>
     }
   }
   \bookpart {
     \section "1·12" "Larghetto"
     \addTocEntry
-    \paper { systems-per-page = #7 }
+    \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \ATwelveViolinoI }
+        \new Staff { \ATwelveViola }
       >>
     }
   }
@@ -132,17 +132,17 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \BZeroViolinoI }
+        \new Staff { \BZeroViola }
       >>
     }
   }
   \bookpart {
     \section "2·1" "Andante commodo"
     \addTocEntry
-    \paper { systems-per-page = #4 }
+    \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \BOneViolinoI }
+        \new Staff { \BOneViola }
       >>
     }
   }
@@ -152,7 +152,7 @@
     \paper { systems-per-page = #2 }
     \score {
       <<
-        \new Staff { \BTwoViolinoI }
+        \new Staff { \BTwoViola }
       >>
     }
   }
@@ -162,7 +162,7 @@
     \paper { systems-per-page = #2 }
     \score {
       <<
-        \new Staff { \BThreeViolinoI }
+        \new Staff { \BThreeViola }
       >>
     }
   }
@@ -172,7 +172,7 @@
     \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \BFourViolinoI }
+        \new Staff { \BFourViola }
       >>
     }
   }
@@ -182,7 +182,7 @@
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \BFiveViolinoI }
+        \new Staff { \BFiveViola }
       >>
     }
   }
@@ -192,17 +192,17 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \BSixViolinoI }
+        \new Staff { \BSixViola }
       >>
     }
   }
   \bookpart {
     \section "2·7" "Larghetto"
     \addTocEntry
-    \paper { systems-per-page = #3 }
+    \paper { systems-per-page = #2 }
     \score {
       <<
-        \new Staff { \BSevenViolinoI }
+        \new Staff { \BSevenViola }
       >>
     }
   }
@@ -212,7 +212,7 @@
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \BEightViolinoI }
+        \new Staff { \BEightViola }
       >>
     }
   }
@@ -222,7 +222,7 @@
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \BNineViolinoI }
+        \new Staff { \BNineViola }
       >>
     }
   }
@@ -232,7 +232,7 @@
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \BTenViolinoI }
+        \new Staff { \BTenViola }
       >>
     }
   }
@@ -241,7 +241,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \BElevenViolinoI }
+        \new Staff { \BElevenViola }
       >>
     }
   }
@@ -250,7 +250,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \BTwelveViolinoI }
+        \new Staff { \BTwelveViola }
       >>
     }
   }
@@ -270,7 +270,7 @@
           }
           \new Lyrics \lyricsto Soli \COneSoliLyrics
         >>
-        \new Staff { \COneViolinoI }
+        \new Staff { \COneViola }
       >>
     }
   }
@@ -279,7 +279,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \CTwoViolinoI }
+        \new Staff { \CTwoViola }
       >>
     }
   }
@@ -288,7 +288,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \CThreeViolinoI }
+        \new Staff { \CThreeViola }
       >>
     }
   }
@@ -297,7 +297,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \CFourViolinoI }
+        \new Staff { \CFourViola }
       >>
     }
   }
@@ -306,7 +306,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \CFiveViolinoI }
+        \new Staff { \CFiveViola }
       >>
     }
   }
@@ -315,7 +315,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \CSixViolinoI }
+        \new Staff { \CSixViola }
       >>
     }
   }
@@ -324,17 +324,16 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \CSevenViolinoI }
+        \new Staff { \CSevenViola }
       >>
     }
   }
   \bookpart {
     \section "3·8" "Andante"
     \addTocEntry
-    \paper { page-count = #1 }
     \score {
       <<
-        \new Staff { \CEightViolinoI }
+        \new Staff { \CEightViola }
       >>
     }
   }
@@ -343,7 +342,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \CNineViolinoI }
+        \new Staff { \CNineViola }
       >>
     }
   }
@@ -353,7 +352,7 @@
     \paper { systems-per-page = #2 }
     \score {
       <<
-        \new Staff { \DFourViolinoI }
+        \new Staff { \DFourViola }
       >>
     }
   }
@@ -363,7 +362,7 @@
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \DFiveViolinoI }
+        \new Staff { \DFiveViola }
       >>
     }
   }
