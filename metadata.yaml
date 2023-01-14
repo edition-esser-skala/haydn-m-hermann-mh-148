@@ -5,7 +5,7 @@ title: Hermann
 subtitle: Ballet pantomime in four parts
 id: MH 148
 genre: ballet
-scoring: 4 T (solo), T, B (coro), 2 fl, 2 piff (C/D/G), 2 ob, fag, 2 cor (\flat B/C/D/\flat E/E/F/G/A), tr (C/D), tri, tamburino, tamb, tamb velato, instrumento d’acciaio (D), 2 vl, vla, manicordo, b
+scoring: 4 T (solo), T, B (coro), 2 fl, 2 piff (C/D/G), 2 ob, fag,\\2 cor (\flat B/C/D/\flat E/E/F/G/A), tr (C/D), tri, tmbo, 2 tamb, ida (D),\\2 vl, vla, man, bc
 license: cc-by-nc-sa-4.0
 sources:
   B1:
@@ -19,8 +19,16 @@ sources:
     notes: authentic copy by Werigand Rettensteiner, with corrections in Haydn’s hand
 imslp:
 parts:
+  piff1: Piffero I in C/D/G
+  piff2: Piffero II in C/D/G
+  tr: Tromba in C/D
   cor12: Corno I, II in \flat B/C/D/\flat E/E/F/G/A
 extra_abbreviations:
-  piff: Piffero
-  tri: Triangolo
-  tamb: Tamburo
+  piff: piffero
+  tri: triangolo
+  tamb: tamburo
+  tmbo: tamburino
+  ida: instrumento d’acciaio
+  man: manicordo
+  tr: Tromba
+  b:

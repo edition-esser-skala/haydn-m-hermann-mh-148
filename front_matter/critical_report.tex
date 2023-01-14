@@ -1,5 +1,18 @@
 \documentclass{ees}
 
+\newlist{lyrics}{description}{1}
+\setlist[lyrics]{
+  partopsep=0pt,
+  labelindent=0em,
+  labelwidth=6em,
+  leftmargin=6em,
+  labelsep=0pt,
+  first=\ltseries,
+  font=\normalfont\itshape\ltseries,
+  style=multiline
+}
+
+
 \begin{document}
 
 \eesTitlePage
@@ -8,17 +21,20 @@
   –    & –   & bc    & Bass figures only appear in movement 4·4.
                        All other bass figures have been added
                        by the editor. \\
+  \midrule
   1·12 & 27f & vla   & each 1st \halfNote\ in \B1: c+c′4–\crotchetRest \\
-       & –   & –     & \B1 contains the following directive below
+       & 30  & –     & \B1 contains the following directive below
                        the final staff, relating to the final bar:
-                       “NB l’ultima Nota \breveNote\fermata\ col arco
+                       “NB l’ultima Nota [brevis with fermata] col arco
                        fortissimo e decrescendo in pianissimo”. \\
+  \midrule
   2·7  & 7   & vla   & 1st \quarterNote\ in \B1: g′4 \\
   2·8  & 10  & bc    & grace note missing in \B1 \\
        & 24  & vla   & 1st \quarterNote\ in \B1: g4 \\
   2·11 & 57  & ob, cor & bar in \B1: \wholeNoteRest \\
        & 57  & vl 2  & bar in \B1: 2 × \crotchetRest \\
   2·12 & 32  & cor 2 & bar missing in \B1 \\
+  \midrule
   3·1  & 5   & cor   & rhythm of 2nd \halfNote\ in \B1: \halfNote \\
        & 39  & soli  & 3rd \eighthNote\ in \B1: b16–b16 \\
   3·2  & 53  & vl 2  & 1st \eighthNote\ in \B1: \sharp c″8 \\
@@ -35,245 +51,245 @@
   3·9  & 5   & vla   & 7th to 12th \sixteenthNote\ in \B1: 6 × e′16 \\
        & 34  & ob    & bar missing in \B1 \\
        & 96  & ob    & last \eighthNote\ in \B1: d″8 \\
+  \midrule
   4·2  & –   & –     & In \B1, this movement is split into two movements:
                        The first one comprises piff, cor, and tamb,
                        while the second one comprises the remaining
                        instruments. In addition, the directive
                        “NB voce umana cogli Pifferi”
                        appears above the movement. \\
-  4·4  & 16  & manicordo & 4th \sixteenthNote\ in \B1: \sharp f′16 \\
-  4·5  & –   & –     & A separate staff for the instrumento d’acciaio
+  4·4  & 16  & man   & 4th \sixteenthNote\ in \B1: \sharp f′16 \\
+  4·5  & –   & ida   & A separate staff for this instrument
                        has been added by the editor. \\
 }
 
-\eesToc{}
+\eesToc{
+\clearpage
+\textsb{Lyrics}\\[2ex]
+3.1~Accompagnato
+\begin{lyrics}
+  \item[Teutogenus]
+  Quid video?\\
+  Quae me terra, quae regio bonis opibusque\\
+  condecorata naturae optimis,\\
+  quae pulcra, quae fecunda me tellus habet?\\
+  Temporibus his unde venit adflictis decor?\\
+  Quis providus adest pastor,\\
+  et custos loci, qui didicit,\\
+  inter temporum et rerum arduas patriam procellas tegere,\\
+  ut antiqui nihil splendoris illa perdat? –\\
+  An vivit novus Pompilius?\\
+  An Saturnus in terram aurea saecula reduxit?\\
+  Iste Thessaliam meis oculis adumbrat fertilem et pulcram locus.\\
+  Adeste, quisquis nobiles colitis plagas,\\
+  nomenque me docete felicis soli.
+
+  \item[Montanus]
+  Quis novus hic hospes?\\
+  Nosse quis Salzam cupit?
+
+  \item[Teutogenus]
+  Amice!
+
+  \item[Montanus]
+  Quid Teutogene! quid montes petis,\\
+  qui plana lambis littora,\\
+  et valles amas.
+
+  \item[Teutogenus]
+  Descende! nil morare, nil metuas mali!
+
+  \item[Montanus]
+  Parebo votis.\\
+  Promptus en jussa exsequor: –\\
+  Adsum. Petitam numquid annonam advehis?
+
+  \item[Teutogenus]
+  Inanis ad te venio; nam Cereris nihil huc\\
+  adtulisse Marte tam dubio licet.
+
+  \item[Montanus]
+  Heu me! Peribit subditus, segetes nisi propitius\\
+  hac multiplicet in terra Deus.
+
+  \item[Teutogenus]
+  Hem! quid lacessis astra?\\
+  Quid numen pium querulis fatigas precibus,\\
+  et metuis famen, dum vix beatior exstat in terris locus,\\
+  ac iste, cui natura materna manu videtur indidisse divitias simul,\\
+  quas arctiore dextera multis declit?\\
+  Amice!\\
+  Si fortasse te miserum auctumas alias\\
+  revise lumine attento plagas:\\
+  et tunc videbis, quanta tibi coelum bona contulevit.\\
+  Arctus undique est panis:\\
+  tibi natura subministrat insolitas opes.
+
+  \item[Montanus]
+  Id ego paterna Principis curae optimi adscribo,\\
+  qui pro subditi vigilat bono,\\
+  teneroque nos prosequitur affectu.
+
+  \item[Teutogenus]
+  Istius mihi pande nomen Principis,\\
+  ut illum colam.
+
+  \item[Montanus]
+  Videbis ex hoc monte percusso iubar,\\
+  quod exhibebit Principis nostri decus,\\
+  scutumque tectum crinibus perspicuae aquae.
+
+  \item[Teutogenus]
+  Quae mira nobis decora de saxo elicis.\\
+  Novi fluentes rivuli nitidas aquas,\\
+  quae puritatem Principis vestri notant.\\
+  Novi micantis igneas Aellae faces\\
+  quibus indicatur fervidus in omnes amor:\\
+  Novi virentes ramuli teneras comas,\\
+  queis firma spes in optimum innuitur Deum:\\
+  Novi coruscam clypei et in medio crucem,\\
+  qua viva designatur in superos fides:\\
+  Novi patentes Patris in patriam manus,\\
+  qui sublevare subditos opibus cupit,\\
+  et liberali dextera miseros iuvat.\\
+  Novi Leonis vigilis impavidam indolem. –
+
+  \item[Montanus]
+  Exasse iam te Principem nosse optimum intelligo.\\
+  Ecce! Sicut e saxo decus gentile fulget Principis,\\
+  sic et meo in corde nomen ipsius scriptum nitet.\\
+  Quod serus, et venturus aliquando nepos\\
+  post plura per me saecula extolli audiet.\\
+  En! musa nostra cogitat gratam sui amoris obtulisse tesseram,\\
+  sed tam pio quid obtulisse Principi acceptum queat?
+
+  \item[Teutogenus]
+  Tu convenire magna scis magnis:\\
+  mea hinc si sequare consilia,\\
+  magna elige, et tunc placebit musa,\\
+  ne dubites, tua.
+
+  \item[Montanus]
+  Magna petis, at magna simul,\\
+  ut placeam edoce.
+
+  \item[Teutogenus]
+  Primatis Archipraesul in nostris tuus nomen habetoris.\\
+  Sede ab hac prima fides divina luxit Teutoni,\\
+  qui se prius vinclis ligatum daemonis doluit miser.\\
+  Hinc musa pro Primate Primatem canet!\\
+  Vis nosse, Primas iste quis fuerit?\\
+  Pius Hermannus est, Teutonia quem merito colit.\\
+  Hic triste primus omnium excussit iugum,\\
+  quo Roma capti Teutonis pressit caput.\\
+  Nobilius invenisse vix aliud queas exemplar,\\
+  in Primate Primatem colens.
+
+  \item[Montanus]
+  Amice!
+  Tua consilia praeprimis placent.\\
+  Tuas cruore soepius caesi suo,\\
+  varia quirites strage tinxerunt aquas:\\
+  musam ergo nostram facta, quae nosti edoce.
+
+  \item[Teutogenus]
+  A fratre Rheno plurima edoctus scio:\\
+  Hinc longiores nectere haud opus est moras.\\
+  Accede carum Principem, et patriae patrem,\\
+  Teutonia quem submissa Primatem dolit.\\
+  Accinge digno strenuas operi manus,\\
+  meamque spera rebus in dubiis opem. –
+
+  \item[Montanus]
+  Excelse Princeps! Columen et patriae decus!\\
+  En musa tibi devota, quae Salzam bibit,\\
+  hodie laboris citius abrepti quidem,\\
+  dedisse specimen gestit.\\
+  Hermanni impigros pro patria atque subditis,\\
+  quod tu facis, hodie labores breviter in scenam dabit.\\
+  Ignosce Princeps nostra si forsan lyra,\\
+  non in cothurni purpura, et versu gravi incedat;\\
+  ornamenta nam nimium breve surripuit\\
+  ista tempus et praeceps labor.\\
+  Hinc si canentis sermo displiceat,\\
+  bona placeat voluntas:\\
+  Musa, quod potuit, agit.\\
+  Sigmunde! Clemens adspice Hermannum, et fave.
+\end{lyrics}
+
+3.2 Duetto
+\begin{lyrics}
+  \item[Teutogenes]
+  Felix Germania, felix!\\
+  cui mira providentia\\
+  haec sors beata obtigit\\
+  Hermannum nutriendi.
+
+  \item[Montanus]
+  Felix Iuvavia, felix!\\
+  cui Numinis clementia\\
+  haec sors beata obtigit\\
+  Sigmundum eligendi.
+
+  \item[both]
+  In Te, o Princeps! integra\\
+  Germania laetatur.
+  \clearpage
+  \item[Teutogenes]
+  Hunc principem belliducem
+
+  \item[Montanus]
+  Te Principem Antistitem
+
+  \item[both]
+  ut solem inter sidera\\
+  suspensa demiratur.
+\end{lyrics}
+
+3.4 Aria
+\begin{lyrics}
+  \item[Venus]
+  Sein reizendes Weſen, ſein artiger Blick\\
+  ſchlägt Jupiters raſſelnde Pfeile zurück.
+
+  \item[Bacchus]
+  Die ſtrotzende Rebe mit munterem Saft\\
+  giebt Göttern den Nektar und Menſchen die Kraft.
+
+  \item[both]
+  Mars ſelbſt wird bezwungen durch Liebe und Wein:\\
+  mir hat es gelungen ſein Herrſcher zu seyn.
+\end{lyrics}
+
+3.5 Aria
+\begin{lyrics}
+  \item[Venus and Bacchus]
+  Es kann alſo Bacchus und Venus allein\\
+  der mächtigſte Kriegsgott der Sterblichen ſeyn.\\
+  Bey unſeren Gaben wird Herkules ſchwach,\\
+  es geben auch Tiger und Panterthier nach.\\
+  Hier ſind die Beſieger vom Schlafe betäubt:\\
+  bis ein deütſcher Krieger die Schwachen entleibt.
+\end{lyrics}
+
+3.6 Chorus
+\begin{lyrics}
+  \item[Chorus Bardorum, Chorus Ducum et Militum]
+  Magne Deus Teutonum\\
+  audi vota subplicum!\\
+  Fac ut per victoriam\\
+  liberemus patriam.\\[1ex]
+  Per Tuisci merita\\
+  da virtutis praemia,\\
+  per Gomeris clypeum\\
+  tege vultus Teutonum.\\[1ex]
+  Qui ditasti maxime\\
+  patres nostrae patriae,\\
+  da felicem exitum\\
+  post devictum praelium.
+\end{lyrics}
+}
 
 \eesScore
 
 \end{document}
-
-3.1
-
-Teutogenus
-Quid video?
-Quae me terra, quae regio bonis opibusque
-condecorata naturae optimis,
-quae pulcra, quae fecunda me tellus habet?
-Temporibus his unde venit adflictis decor?
-Quis providus adest pastor,
-et custos loci, qui didicit,
-inter temporum et rerum arduas patriam procellas tegere,
-ut antiqui nihil splendoris illa perdat? –
-An vivit novus Pompilius?
-An Saturnus in terram aurea saecula reduxit?
-Iste Thessaliam meis oculis adumbrat fertilem et pulcram locus.
-Adeste, quisquis nobiles colitis plagas,
-nomenque me docete felicis soli.
-
-Montanus
-Quis novus hic hospes?
-Nosse quis Salzam cupit?
-
-Teutogenes
-Amice!
-
-Montanus
-Quid Teutogene! quid montes petis,
-qui plana lambis littora,
-et valles amas.
-
-Teutogenes
-Descende! nil morare, nil metuas mali!
-
-Montanus
-Parebo votis.
-Promptus en jussa exsequor: –
-Adsum. Petitam numquid annonam advehis?
-
-Teutogenes
-Inanis ad te venio; nam Cereris nihil huc
-adtulisse Marte tam dubio licet.
-
-Montanus
-Heu me! Peribit subditus, segetes nisi propitius
-hac multiplicet in terra Deus.
-
-Teutogenes
-Hem! quid lacessis astra?
-Quid numen pium querulis fatigas precibus,
-et metuis famen, dum vix beatior exstat in terris locus,
-ac iste, cui natura materna manu videtur indidisse divitias simul,
-quas arctiore dextera multis declit?
-Amice!
-Si fortasse te miserum auctumas alias
-revise lumine attento plagas:
-et tunc videbis, quanta tibi coelum bona contulevit.
-Arctus undique est panis:
-tibi natura subministrat insolitas opes.
-
-Montanus
-Id ego paterna Principis curae optimi adscribo,
-qui pro subditi vigilat bono,
-teneroque nos prosequitur affectu.
-
-Teutogenes
-Istius mihi pande nomen Principis,
-ut illum colam.
-
-Montanus
-Videbis ex hoc monte percusso iubar,
-quod exhibebit Principis nostri decus,
-scutumque tectum crinibus perspicuae aquae.
-
-Teutogenes
-Quae mira nobis decora de saxo elicis.
-Novi fluentes rivuli nitidas aquas,
-quae puritatem Principis vestri notant.
-Novi micantis igneas Aellae faces
-quibus indicatur fervidus in omnes amor:
-Novi virentes ramuli teneras comas,
-queis firma spes in optimum innuitur Deum:
-Novi coruscam clypei et in medio crucem,
-qua viva designatur in superos fides:
-Novi patentes Patris in patriam manus,
-qui sublevare subditos opibus cupit,
-et liberali dextera miseros iuvat.
-Novi Leonis vigilis impavidam indolem. –
-
-Montanus
-Exasse iam te Principem nosse optimum intelligo.
-Ecce! Sicut e saxo decus gentile fulget Principis,
-sic et meo in corde nomen ipsius scriptum nitet.
-Quod serus, et venturus aliquando nepos
-post plura per me saecula extolli audiet.
-En! musa nostra cogitat gratam sui amoris obtulisse tesseram,
-sed tam pio quid obtulisse Principi acceptum queat?
-
-Teutogenes
-Tu convenire magna scis magnis:
-mea hinc si sequare consilia,
-magna elige, et tunc placebit musa,
-ne dubites, tua.
-
-Montanus
-Magna petis, at magna simul,
-ut placeam edoce.
-
-Teutogenes
-Primatis Archipraesul in nostris tuus nomen habetoris.
-Sede ab hac prima fides divina luxit Teutoni,
-qui se prius vinclis ligatum daemonis doluit miser.
-Hinc musa pro Primate Primatem canet!
-Vis nosse, Primas iste quis fuerit?
-Pius Hermannus est, Teutonia quem merito colit.
-Hic triste primus omnium excussit iugum,
-quo Roma capti Teutonis pressit caput.
-Nobilius invenisse vix aliud queas exemplar,
-in Primate Primatem colens.
-
-Montanus
-Amice!
-Tua consilia praeprimis placent.
-Tuas cruore soepius caesi suo,
-varia quirites strage tinxerunt aquas:
-musam ergo nostram facta, quae nosti edoce.
-
-Teutogenes
-A fratre Rheno plurima edoctus scio:
-Hinc longiores nectere haud opus est moras.
-Accede carum Principem, et patriae patrem,
-Teutonia quem submissa Primatem dolit.
-Accinge digno strenuas operi manus,
-meamque spera rebus in dubiis opem. –
-
-Montanus
-Excelse Princeps! Columen et patriae decus!
-En musa tibi devota, quae Salzam bibit,
-hodie laboris citius abrepti quidem,
-dedisse specimen gestit.
-Hermanni impigros pro patria atque subditis,
-quod tu facis, hodie labores breviter in scenam dabit.
-Ignosce Princeps nostra si forsan lyra,
-non in cothurni purpura, et versu gravi incedat;
-ornamenta nam nimium breve surripuit
-ista tempus et praeceps labor.
-Hinc si canentis sermo displiceat,
-bona placeat voluntas:
-Musa, quod potuit, agit.
-Sigmunde! Clemens adspice Hermannum, et fave.
-
-
-3.2
-
-Teutogenes
-Felix Germania, felix!
-cui mira providentia
-haec sors beata obtigit
-Hermannum nutriendi.
-
-Montanus
-Felix Iuvavia, felix!
-cui Numinis clementia
-haec sors beata obtigit
-Sigmundum eligendi.
-
-both
-In Te, o Princeps! integra
-Germania laetatur.
-
-Teutogenes
-Hunc principem belliducem
-
-Montanus
-Te Principem Antistitem
-
-both
-ut solem inter sidera
-suspensa demiratur.
-
-
-3.4
-
-Venus
-Sein reizendes Weſen, ſein artiger Blick
-ſchlägt Jupiters raſſelnde Pfeile zurück.
-
-Bacchus
-
-Die ſtrotzende Rebe mit munterem Saft
-giebt Göttern den Nektar und Menſchen die Kraft.
-
-both
-Mars ſelbſt wird bezwungen durch Liebe und Wein:
-mir hat es gelungen ſein Herrſcher zu seyn.
-
-
-
-3.5
-
-both
-Es kann alſo Bacchus und Venus allein
-der mächtigſte Kriegsgott der Sterblichen ſeyn.
-Bey unſeren Gaben wird Herkules ſchwach,
-es geben auch Tiger und Panterthier nach.
-Hier ſind die Beſieger vom Schlafe betäubt:
-bis ein deütſcher Krieger die Schwachen entleibt.
-
-
-3·6
-
-Chorus Bardorum, Chorus Ducum et Militum
-Magne Deus Teutonum
-audi vota subplicum!
-Fac ut per victoriam
-liberemus patriam.
-
-Per Tuisci merita
-da virtutis praemia,
-per Gomeris clypeum
-tege vultus Teutonum.
-
-Qui ditasti maxime
-patres nostrae patriae,
-da felicem exitum
-post devictum praelium.
