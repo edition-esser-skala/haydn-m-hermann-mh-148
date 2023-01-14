@@ -4505,3 +4505,73 @@ CNineBassFigures = \figuremode {
   r
   r4. r4 %103 finis
 }
+
+DFourManicordo = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key d \major \time 2/4 \tempoDFour
+    d8\fE fis16 a d8 d
+    d16 a fis' a, d a fis d
+    << {
+      a'8. h16 a8 g
+      fis4\trill e\trill
+    } \\ {
+      fis8. g16 fis8 e
+      d4 a
+    } >>
+    \clef bass d,16 fis a d fis, a d fis %5
+    \clef treble a, d fis a d, fis a d
+    a fis g e fis d e cis \noBreak
+    \clef bass d fis, a d d,4 \bar ":|.|:"
+    \clef treble a''16 d fis8 \clef bass a,,, a \noBreak
+    \clef treble g''16 cis e8 \clef bass a,,, a %10
+    \clef treble fis''16 a d8 \clef bass a,, a
+    \clef treble e'''16 cis a8 \clef bass a,, a
+    \clef treble d16 fis a d fis, a d fis
+    a, d fis a d, fis a d
+    a fis g e fis d e cis %15
+    \clef bass d fis, a d^\critnote d,4\fermata \bar ":|." %16 finis
+  }
+}
+
+DFourBassoContinuo = {
+  \relative c {
+    \clef bass
+    \twofourtime \key d \major \time 2/4 \tempoDFour
+    \mvTr d4\fE-\pizz r
+    d r
+    d8 d fis a
+    d d, a' a,
+    d4 r8 d %5
+    d4 r8 d
+    d g a a, \noBreak
+    d d' d, r \bar ":|.|:"
+    a4 r \noBreak
+    a r %10
+    a r
+    a r
+    d r8 d
+    d4 r8 d
+    d g a a, %15
+    d4 r\fermata \bar ":|." %16 finis
+  }
+}
+
+DFourBassFigures = \figuremode {
+  r2
+  r
+  r4 \bo <[6]>8 \bc <[7]>
+  r2
+  r %5
+  r
+  r8 <6> <6 4> <[5] 3>
+  r2
+  <6 4>2
+  <7 [5]> %10
+  <6 4>
+  <5 [3]>
+  r
+  r
+  r8 <6> <6 4> <[5] 3> %15
+  r2 %16 finis
+}

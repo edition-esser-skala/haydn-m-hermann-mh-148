@@ -2331,3 +2331,26 @@ CNineViolinoII = {
     cis <cis e> q q r\fermata \bar ":|." %103 finis
   }
 }
+
+DFourViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key d \major \time 2/4 \tempoDFour
+    \mvTr <d a'>4\fE-\pizz r
+    q r
+    fis8 d' fis, e
+    d fis cis e
+    d4 r8 fis %5
+    fis4 r8 fis
+    fis' e d cis \noBreak
+    d <a fis> q r \bar ":|.|:"
+    a4 fis'8 fis \noBreak
+    a,4 e'8 e %10
+    a,4 d8 d
+    a4 cis8 cis
+    d4 r8 fis,
+    fis4 r8 fis
+    fis' e d cis %15
+    d <a fis> q r\fermata \bar ":|." %16 finis
+  }
+}

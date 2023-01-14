@@ -1406,3 +1406,26 @@ DTwoCornoII = {
     g2 r\fermata \bar "|." %29 finis
   }
 }
+
+DFourCornoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoDFour
+    c4\fE r
+    c r
+    R2
+    r8 c' d g,
+    e4 r8 e %5
+    e4 r8 e
+    e' d c g \noBreak
+    e c c r \bar ":|.|:"
+    g4 r \noBreak
+    g r %10
+    g r
+    g r
+    e' r8 e
+    e4 r8 e
+    e' d c g %15
+    e c c r\fermata \bar ":|." %16 finis
+  }
+}

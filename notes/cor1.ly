@@ -1404,3 +1404,26 @@ DTwoCornoI = {
     d2 r\fermata \bar "|." %29 finis
   }
 }
+
+DFourCornoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoDFour
+    c'4\fE r
+    c r
+    R2
+    r8 e f d
+    c4 r8 c %5
+    c4 r8 c
+    g' f e d \noBreak
+    c c c r \bar ":|.|:"
+    g4 r \noBreak
+    g r %10
+    g r
+    g r
+    c r8 c
+    c4 r8 c
+    g' f e d %15
+    c c c r\fermata \bar ":|." %16 finis
+  }
+}

@@ -2336,3 +2336,26 @@ CNineViola = {
     e a, a a r\fermata \bar ":|." %103 finis
   }
 }
+
+DFourViola = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key d \major \time 2/4 \tempoDFour
+    \mvTr d,4\fE-\pizz r
+    d r
+    d'8 a r cis
+    d a a a
+    a4 r8 a %5
+    a4 r8 a
+    d h' a g \noBreak
+    fis d d r \bar ":|.|:"
+    a4 r \noBreak
+    a r %10
+    a r
+    a r
+    a r8 a
+    a4 r8 a
+    d h' a g %15
+    fis d d r\fermata \bar ":|." %16 finis
+  }
+}

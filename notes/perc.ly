@@ -139,3 +139,26 @@ DThreeTamburo = {
     c8 r \bar ":|." %16 finis
   }
 }
+
+DFourAcciaio = {
+  \relative c {
+    \clef bass
+    \twofourtime \key c \major \time 2/4 \tempoDFour
+    c4\fE r
+    c r
+    c r8 g
+    c16 d e f g f e d
+    c8 r c r %5
+    c r c r
+    c f g g, \noBreak
+    c4 r \bar ":|.|:"
+    g r \noBreak
+    g r %10
+    g r
+    g r
+    c8 r c r
+    c r c r
+    c f g g, %15
+    c4 r\fermata \bar ":|." %16 finis
+  }
+}
