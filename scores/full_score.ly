@@ -1884,60 +1884,154 @@
   %     \midi { \tempo 2 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \section "4·4" "[Fourth movement]"
+  %   \addTocEntry
+  %   \paper {
+  %     indent = 2\cm
+  %     systems-per-page = #2
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup \with { \smallGroupDistance } <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "D" "" "1, 2" }
+  %           % \transpose c d
+  %           \partCombine #'(0 . 10) \DFourCornoI \DFourCornoII
+  %         >>
+  %       >>
+  %       \new Staff \with { \smallStaffDistance } {
+  %         \set Staff.instrumentName = \markup \center-column { "instrumento" "d’acciaio (D)" }
+  %         % \transpose c d
+  %         \DFourAcciaio
+  %       }
+  %       \new StaffGroup \with { \smallGroupDistance } <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \DFourViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \DFourViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \DFourViola
+  %         }
+  %       >>
+  %       \new PianoStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "manicordo"
+  %           \DFourManicordo
+  %         }
+  %         \new Staff {
+  %           \set Staff.instrumentName = "b"
+  %           % \transpose c c,
+  %           \DFourBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \DFourBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 120 }
+  %   }
+  %   \markup \null
+  % }
   \bookpart {
-    \section "4·4" "[Fourth movement]"
+    \section "4·5" "[Fifth movement]"
     \addTocEntry
-    \paper {
-      indent = 2\cm
-      systems-per-page = #2
-    }
+    \paper { indent = 2\cm }
     \score {
       <<
-        \new StaffGroup \with { \smallGroupDistance } <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = \transposedNameShort "piff" "D" ""
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              % \transpose c d
+              \DFivePifferoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              % \transpose c d
+              \DFivePifferoII
+            }
+          >>
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "ob"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \DFiveOboeI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \DFiveOboeII
+            }
+          >>
+        >>
+        \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "D" "" "1, 2" }
             % \transpose c d
-            \partCombine #'(0 . 10) \DFourCornoI \DFourCornoII
+            \partCombine #'(0 . 10) \DFiveCornoI \DFiveCornoII
           >>
+          \new Staff {
+            \set Staff.instrumentName = \transposedNameShort "tr" "D" ""
+            % \transpose c d
+            \DFiveTromba
+          }
         >>
-        \new Staff \with { \smallStaffDistance } {
-          \set Staff.instrumentName = \markup \center-column { "instrumento" "d’acciaio" "in D" }
+        \new StaffGroup <<
+          \new Staff {
+            \set Staff.instrumentName = "tri"
+            \DFiveTriangolo
+          }
+          \new Staff {
+            \set Staff.instrumentName = "tamb"
+            % \transpose c d
+            \DFiveTamburo
+          }
+        >>
+        \new Staff {
+          \set Staff.instrumentName = \markup \center-column { "instrumento" "d’acciaio (D)" }
           % \transpose c d
-          \DFourAcciaio
+          \DFiveAcciaio
         }
-        \new StaffGroup \with { \smallGroupDistance } <<
+        \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \DFourViolinoI
+              \DFiveViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \DFourViolinoII
+              \DFiveViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \DFourViola
+            \DFiveViola
           }
         >>
         \new PianoStaff <<
           \new Staff {
             \set Staff.instrumentName = "manicordo"
-            \DFourManicordo
+            \DFiveManicordo
           }
           \new Staff {
             \set Staff.instrumentName = "b"
             % \transpose c c,
-            \DFourBassoContinuo
+            \DFiveBassoContinuo
           }
         >>
-        \new FiguredBass { \DFourBassFigures }
+        \new FiguredBass { \DFiveBassFigures }
       >>
-      \layout { }
-      \midi { \tempo 4 = 120 }
+      \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8) }
+      \midi { \tempo 4 = 110 }
     }
-    \markup \null
   }
 }

@@ -1636,3 +1636,38 @@ DTwoOboeII = {
     d,2 r\fermata \bar "|." %29 finis
   }
 }
+
+DFiveOboeII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key d \major \time 2/2 \tempoDFive
+    \repeat volta 2 {
+      \partial 4 r4 d2\fE e
+      fis4 e d r
+      d d e e
+      fis e d r
+      a'1 %5
+      a
+      a2 r4 e'8 cis
+      d2 r4
+    }
+    \repeat volta 2 {
+      r
+      r2 r4 a
+      d8 a fis d a'4 r %10
+      r2 r4 a
+      d8 a fis d a'4 r
+      a1
+      a
+      a2 r4 e'8 cis %15
+    }
+    \alternative {
+      { \set Timing.measureLength = #(ly:make-moment 3/4) d2 r4 }
+      { \set Timing.measureLength = #(ly:make-moment 4/4) d2. cis4 }
+    }
+    d2. cis4
+    d2. cis4
+    d2 d, %20
+    d r\fermata \bar "|." %21 finis
+  }
+}

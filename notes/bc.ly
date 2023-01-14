@@ -4575,3 +4575,107 @@ DFourBassFigures = \figuremode {
   r8 <6> <6 4> <[5] 3> %15
   r2 %16 finis
 }
+
+DFiveManicordo = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key d \major \time 2/2 \tempoDFive
+    \repeat volta 2 {
+      \partial 4 d8\fE fis
+      << {
+        a2 a
+        fis4 g a \oneVoice fis'8 d
+        \voiceOne a4 a \oneVoice a8 h a g
+        \voiceOne fis4 g a \oneVoice r
+        \voiceOne d,2 \oneVoice \appoggiatura fis8 e4 cis8 a %5
+        \voiceOne fis'2
+      } \\ {
+        fis2 fis
+        d4 e fis s
+        fis fis s2
+        d4 e fis s
+        fis,2 s %5
+        d'
+      } >> \appoggiatura a'8 g4 e8 cis
+      a' d a h a fis g e
+      d a d fis \clef bass d,4
+    }
+    \repeat volta 2 {
+      \clef treble << { d''4 } \\ { fis, } >>
+      cis'8 a h g a fis g e
+      \clef bass d, \clef treble a' d fis << { e4 d' } \\ { a, fis' } >> %10
+      cis'8 a h g a fis g e
+      \clef bass d, \clef treble a' d fis << { e4 } \\ { a, } >> a
+      << { d2 } \\ { fis, } >> \appoggiatura fis'8 e4 cis8 a
+      << { fis'2 } \\ { d } >> \appoggiatura a'8 g4 e8 cis
+      a' d a h a fis g e %15
+    }
+    \alternative {
+      { \set Timing.measureLength = #(ly:make-moment 3/4) \clef bass d a d fis d,4 }
+      { \set Timing.measureLength = #(ly:make-moment 4/4) d'4 d8 a d4 a }
+    }
+    d d8 a d4 a
+    d d8 a d4 a
+    d d8 a d a fis a %20
+    d,2 r\fermata \bar "|." %21 finis
+  }
+}
+
+DFiveBassoContinuo = {
+  \relative c {
+    \clef bass
+    \twotwotime \key d \major \time 2/2 \tempoDFive
+    \repeat volta 2 {
+      \partial 4 r4 d\fE fis cis a
+      d2 r4 d
+      d fis cis a
+      d2 r8 d fis a
+      d4 d, r a' %5
+      d d, r a'
+      fis d a' a, \noBreak
+      d a d,
+    }
+    \repeat volta 2 {
+      d' \noBreak
+      a'2 r4 a \noBreak
+      d d, a' r %10
+      a,2 r4 cis'
+      d d, a'8 g fis e
+      d2 r
+      d r
+      d'4 d, a' a, %15
+    }
+    \alternative {
+      { \set Timing.measureLength = #(ly:make-moment 3/4) d a d, }
+      { \set Timing.measureLength = #(ly:make-moment 4/4) d' d'8 a d4 a }
+    }
+    d d8 a d4 a
+    d d8 a d4 a
+    d d8 a d a fis a %20
+    d,2 r\fermata \bar "|." %21 finis
+  }
+}
+
+DFiveBassFigures = \figuremode {
+  r4 r <6> q2
+  r1
+  r4 <6> <6 5> <\t \t>
+  r1
+  r2. <7>4 %5
+  r2. <7>4
+  <6>2 <6 4>4 <5 >
+  r1
+  <7>
+  <9 4>4 <8 3>2. %10
+  <7>1
+  <9 4>4 <8 3>2.
+  r1
+  r
+  r2 <6 4>4 <5 3> %15
+  r2.
+  r1
+  r
+  r
+  r %20
+  r %21 finis
+}

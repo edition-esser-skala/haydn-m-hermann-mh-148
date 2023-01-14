@@ -1427,3 +1427,38 @@ DFourCornoI = {
     c c c r\fermata \bar ":|." %16 finis
   }
 }
+
+DFiveCornoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoDFive
+    \repeat volta 2 {
+      \partial 4 r4 c'2\fE d
+      c r4 e
+      e2 f
+      e r4 c
+      c2 r4 d %5
+      c2 r4 d
+      c4 g'8 a g e f d
+      c4 c c
+    }
+    \repeat volta 2 {
+      r
+      g'1~
+      g %10
+      g~
+      g
+      r4 e d f
+      r g d f
+      e g8 a g e f d %15
+    }
+    \alternative {
+      { \set Timing.measureLength = #(ly:make-moment 3/4) c4 c c }
+      { \set Timing.measureLength = #(ly:make-moment 4/4) c4 c8 g c4 g }
+    }
+    c c8 g c4 g
+    c c8 g c4 g
+    c c8 g c g e g
+    c,2 r\fermata \bar "|." %21 finis
+  }
+}

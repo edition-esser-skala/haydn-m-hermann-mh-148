@@ -86,6 +86,7 @@ tempoDOne = \tempoMarkup "[Tempo deest]"
 tempoDTwo = \tempoMarkup "[Tempo deest]"
 tempoDThree = \tempoMarkup "Allegretto"
 tempoDFour = \tempoMarkup "[Tempo deest]"
+tempoDFive = \tempoMarkup "[Tempo deest]"
 
 
 \include "notes/fl1.ly"

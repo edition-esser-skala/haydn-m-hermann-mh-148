@@ -2354,3 +2354,38 @@ DFourViolinoII = {
     d <a fis> q r\fermata \bar ":|." %16 finis
   }
 }
+
+DFiveViolinoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key d \major \time 2/2 \tempoDFive
+    \repeat volta 2 {
+      \partial 4 r4 fis8\fE a, d a e' a, cis a
+      d a e' a, fis' d fis a
+      fis a, d a e' a, cis a
+      d a e' a, fis' a, d fis
+      a fis d fis a g e g %5
+      d fis a d ,cis e g e
+      d a fis' g fis d e cis
+      d a' fis a d4
+    }
+    \repeat volta 2 {
+      fis,8 a,
+      e' a, g' a, fis' a, e' a,
+      e' a, d a cis a fis' a, %10
+      e' a, g' a, fis' a, e' a,
+      e' a, d a cis e a g
+      fis a, d fis g cis, e g
+      a d, fis a g cis, e g
+      fis d fis g fis d e cis %15
+    }
+    \alternative {
+      { \set Timing.measureLength = #(ly:make-moment 3/4) d a' fis a d4 }
+      { \set Timing.measureLength = #(ly:make-moment 4/4) d,8 d' a fis d4 <a' a'> }
+    }
+    <fis' a, d,>2 r4 <a a,>
+    <fis a, d,>2 r4 <a a,>
+    <fis a, d,>2 q4 q %20
+    q2 r\fermata \bar "|." %21 finis
+  }
+}

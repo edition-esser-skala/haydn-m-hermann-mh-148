@@ -67,3 +67,38 @@ DThreePifferoII = {
     c8 r \bar ":|." %16 finis
   }
 }
+
+DFivePifferoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoDFive
+    \repeat volta 2 {
+      \partial 4 c'4\fE e c d h
+      c d e r
+      e c d h
+      c d e r
+      e,2 g4 d'8 h %5
+      c2 \appoggiatura e8 d4 h8 g
+      c4 e8 f e c d h
+      c2 r4
+    }
+    \repeat volta 2 {
+      e
+      d-! f-! e-! d-!
+      \appoggiatura d c2 h4 e %10
+      d f e d
+      \appoggiatura d c2 h4 g
+      e2 g4 d'8 h
+      c2 \appoggiatura e8 d4 h8 g
+      e'4. f8 e c d h %15
+    }
+    \alternative {
+      { \set Timing.measureLength = #(ly:make-moment 3/4) c2 r4}
+      { \set Timing.measureLength = #(ly:make-moment 4/4) c4 c2 d8 h }
+    }
+    c4 c2 d8 h
+    c4 c2 d8 h
+    c4 e e e %20
+    e2 r\fermata \bar "|." %21 finis
+  }
+}
